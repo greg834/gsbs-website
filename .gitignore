@@ -41,4 +41,4 @@ next-env.d.ts
 /screenshots/
 /test-results/
 *.png
-\!public/**/*.png
+!public/**/*.png

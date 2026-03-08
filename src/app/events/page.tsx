@@ -436,17 +436,13 @@ export default function EventsPage() {
                 </a>
               </div>
 
-              {/* Right — Photo placeholder */}
-              <div className="lg:col-span-2 flex items-center">
-                <div className="w-full aspect-[4/3] rounded bg-gradient-to-br from-amber-700/40 to-amber-900/40 border border-white/10 flex flex-col items-center justify-center text-center p-6">
-                  <Star className="text-amber-400/60 mb-2" size={32} />
-                  <span className="text-white/80 font-medium">
-                    Annual Show Photo
-                  </span>
-                  <span className="text-white/40 text-sm mt-1">
-                    Placeholder &mdash; replace with show photo
-                  </span>
-                </div>
+              {/* Right — Show Card */}
+              <div className="lg:col-span-2 flex items-center justify-center">
+                <img
+                  src="/images/annual-show-card.png"
+                  alt="GSBS Annual Bonsai Show — Saturday June 6, 2026, 11 AM to 3 PM at Garibaldi Hall, Roseland NJ. Experience the Living Art."
+                  className="w-full max-w-sm rounded"
+                />
               </div>
             </div>
           </div>
