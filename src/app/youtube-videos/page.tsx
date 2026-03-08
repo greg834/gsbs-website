@@ -52,28 +52,24 @@ export default function YoutubeVideosPage() {
   return (
     <>
       {/* Page Header */}
-      <section className="relative bg-gsbs-navy text-white py-16 sm:py-20 overflow-hidden">
+      <section className="relative bg-gsbs-navy text-white py-12 sm:py-16 overflow-hidden">
         <div className="absolute inset-0" style={{ backgroundImage: 'url(/images/bonsai-3.png)', backgroundSize: 'cover', backgroundPosition: 'center' }} />
         <div className="absolute inset-0 bg-black/65" />
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <p className="text-gsbs-teal text-sm font-medium uppercase tracking-wider mb-3">
-            Videos
-          </p>
-          <h1 className="text-4xl sm:text-5xl font-serif font-bold">
+          <h1 className="text-3xl sm:text-4xl font-serif font-bold">
             GSBS on YouTube
           </h1>
-          <p className="mt-4 text-lg text-gray-300 max-w-2xl mx-auto">
-            Watch bonsai demonstrations, meeting highlights, and collecting
-            expeditions from Great Swamp Bonsai Society members.
+          <p className="mt-4 text-gray-300 max-w-2xl mx-auto">
+            Bonsai demonstrations, meeting highlights, and collecting expeditions from GSBS members.
           </p>
         </div>
       </section>
 
       {/* Channel Embed */}
-      <section className="py-16 sm:py-20">
+      <section className="py-12 sm:py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl mx-auto">
-            <div className="rounded-2xl overflow-hidden shadow-lg aspect-video bg-gray-900">
+            <div className="rounded overflow-hidden aspect-video bg-gray-900">
               <iframe
                 src="https://www.youtube.com/embed?listType=user_uploads&list=greatswampbonsaisociety5552"
                 width="100%"
@@ -90,7 +86,7 @@ export default function YoutubeVideosPage() {
                 href="https://www.youtube.com/@greatswampbonsaisociety5552"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 px-6 py-3 bg-red-600 text-white hover:bg-red-700 font-semibold rounded-lg transition-colors duration-200"
+                className="inline-flex items-center gap-2 px-6 py-3 bg-red-600 text-white hover:bg-red-700 font-semibold rounded transition-colors duration-200"
               >
                 <Youtube size={20} />
                 Subscribe on YouTube
@@ -102,7 +98,7 @@ export default function YoutubeVideosPage() {
       </section>
 
       {/* Video Thumbnails Grid */}
-      <section className="py-16 sm:py-20 bg-gray-50">
+      <section className="py-12 sm:py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl sm:text-4xl font-serif font-bold text-gray-900">
@@ -118,7 +114,7 @@ export default function YoutubeVideosPage() {
             {placeholderVideos.map((video) => (
               <div
                 key={video.title}
-                className="bg-white rounded-2xl overflow-hidden border border-gray-200 shadow-sm"
+                className="bg-white rounded overflow-hidden border border-gray-200"
               >
                 {/* Thumbnail placeholder */}
                 <div

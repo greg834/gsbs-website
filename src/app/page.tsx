@@ -32,18 +32,14 @@ export default function Home() {
       <MeetingCallout />
 
       {/* 3. Who We Are */}
-      <section className="py-16 sm:py-20">
+      <section className="py-12 sm:py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            {/* Text */}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
             <div>
-              <p className="text-gsbs-teal text-sm font-medium uppercase tracking-wider mb-2">
-                About Us
-              </p>
-              <h2 className="text-3xl sm:text-4xl font-serif font-bold text-gray-900 leading-tight">
-                A 50-Year Tradition of Bonsai Excellence
+              <h2 className="text-2xl sm:text-3xl font-serif font-bold text-gray-900">
+                About the Club
               </h2>
-              <p className="mt-5 text-gray-600 leading-relaxed">
+              <p className="mt-4 text-gray-600 leading-relaxed">
                 The Great Swamp Bonsai Society was founded in 1976 and is named
                 after the Great Swamp National Wildlife Refuge in Morris County,
                 New Jersey. For its first several decades, the club met at the
@@ -53,7 +49,7 @@ export default function Home() {
                 Environmental Center in Roseland, NJ, where it continues to
                 grow.
               </p>
-              <p className="mt-4 text-gray-600 leading-relaxed">
+              <p className="mt-3 text-gray-600 leading-relaxed">
                 Today, GSBS draws members from eight New Jersey counties and
                 Eastern Pennsylvania, and stands as one of the longest-running
                 bonsai clubs in the region. Whether you&apos;re a beginner or an
@@ -61,21 +57,15 @@ export default function Home() {
               </p>
               <Link
                 href="/about"
-                className="inline-flex items-center gap-2 mt-6 text-gsbs-teal hover:text-gsbs-teal-dark font-medium transition-colors duration-200"
+                className="inline-flex items-center gap-1 mt-4 text-gsbs-teal hover:text-gsbs-teal-dark text-sm font-medium transition-colors"
               >
-                Learn More
-                <ArrowRight size={18} />
+                Learn more about GSBS
+                <ArrowRight size={16} />
               </Link>
             </div>
 
-            {/* Photo placeholder */}
-            <div className="relative">
-              <div className="rounded-2xl overflow-hidden aspect-[4/3] shadow-xl">
-                <img src="/images/bonsai-4.png" alt="Bonsai tree on display at Great Swamp Bonsai Society meeting" className="w-full h-full object-cover" />
-              </div>
-              {/* Decorative accent */}
-              <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-gsbs-teal/10 rounded-2xl -z-10 hidden lg:block" />
-              <div className="absolute -top-4 -left-4 w-16 h-16 bg-gsbs-teal/5 rounded-xl -z-10 hidden lg:block" />
+            <div className="overflow-hidden aspect-[4/3]">
+              <img src="/images/bonsai-4.png" alt="Bonsai tree on display at Great Swamp Bonsai Society meeting" className="w-full h-full object-cover" />
             </div>
           </div>
         </div>

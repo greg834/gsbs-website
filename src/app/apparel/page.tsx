@@ -19,27 +19,24 @@ export default function ApparelPage() {
   return (
     <>
       {/* Page Header */}
-      <section className="relative bg-gsbs-navy text-white py-16 sm:py-20 overflow-hidden">
+      <section className="relative bg-gsbs-navy text-white py-12 sm:py-16 overflow-hidden">
         <div className="absolute inset-0" style={{ backgroundImage: 'url(/images/bonsai-3.png)', backgroundSize: 'cover', backgroundPosition: 'center' }} />
         <div className="absolute inset-0 bg-black/65" />
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <p className="text-gsbs-teal text-sm font-medium uppercase tracking-wider mb-3">
-            Merchandise
-          </p>
-          <h1 className="text-4xl sm:text-5xl font-serif font-bold">
+          <h1 className="text-3xl sm:text-4xl font-serif font-bold">
             GSBS Apparel
           </h1>
-          <p className="mt-4 text-lg text-gray-300 max-w-2xl mx-auto">
+          <p className="mt-4 text-gray-300 max-w-2xl mx-auto">
             Show your love for bonsai and the Great Swamp Bonsai Society.
           </p>
         </div>
       </section>
 
       {/* Coming Soon */}
-      <section className="py-24 sm:py-32">
+      <section className="py-12 sm:py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-2xl mx-auto text-center">
-            <div className="w-20 h-20 bg-gsbs-teal/10 rounded-2xl flex items-center justify-center mx-auto mb-8">
+            <div className="flex items-center justify-center mx-auto mb-8">
               <Shirt size={40} className="text-gsbs-teal" />
             </div>
             <h2 className="text-3xl sm:text-4xl font-serif font-bold text-gray-900">
@@ -57,7 +54,7 @@ export default function ApparelPage() {
             <div className="mt-10">
               <a
                 href="mailto:great.swampbonsai@gmail.com?subject=Apparel Inquiry"
-                className="inline-flex items-center gap-2 px-8 py-3.5 bg-gsbs-teal text-white hover:bg-gsbs-teal-dark font-semibold rounded-lg transition-colors duration-200 text-base"
+                className="inline-flex items-center gap-2 px-6 py-2.5 bg-gsbs-teal text-white hover:bg-gsbs-teal-dark font-semibold rounded transition-colors duration-200 text-base"
               >
                 <Mail size={18} />
                 Contact Us for Details

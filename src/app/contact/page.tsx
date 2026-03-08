@@ -27,25 +27,21 @@ export default function ContactPage() {
   return (
     <>
       {/* Page Header */}
-      <section className="relative bg-gsbs-navy text-white py-16 sm:py-20 overflow-hidden">
+      <section className="relative bg-gsbs-navy text-white py-12 sm:py-16 overflow-hidden">
         <div className="absolute inset-0" style={{ backgroundImage: 'url(/images/bonsai-3.png)', backgroundSize: 'cover', backgroundPosition: 'center' }} />
         <div className="absolute inset-0 bg-black/65" />
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <p className="text-gsbs-teal text-sm font-medium uppercase tracking-wider mb-3">
-            Get in Touch
-          </p>
-          <h1 className="text-4xl sm:text-5xl font-serif font-bold">
+          <h1 className="text-3xl sm:text-4xl font-serif font-bold">
             Contact Us
           </h1>
-          <p className="mt-4 text-lg text-gray-300 max-w-2xl mx-auto">
-            Have a question about bonsai, our meetings, or membership? We&apos;d
-            love to hear from you.
+          <p className="mt-4 text-gray-300 max-w-2xl mx-auto">
+            Have a question about bonsai, our meetings, or membership? We&apos;d love to hear from you.
           </p>
         </div>
       </section>
 
       {/* Form + Contact Info */}
-      <section className="py-16 sm:py-20">
+      <section className="py-12 sm:py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-5 gap-12 lg:gap-16">
             {/* Contact Form — takes 3 of 5 columns */}
@@ -62,14 +58,14 @@ export default function ContactPage() {
 
             {/* Contact Info Sidebar — takes 2 of 5 columns */}
             <div className="lg:col-span-2">
-              <div className="bg-gray-50 rounded-2xl p-8 space-y-8">
+              <div className="bg-gray-50 rounded p-8 space-y-8">
                 <h3 className="text-xl font-serif font-bold text-gray-900">
                   Contact Information
                 </h3>
 
                 {/* Email */}
                 <div className="flex items-start gap-4">
-                  <div className="w-10 h-10 bg-gsbs-teal/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <div className="w-10 h-10 flex items-center justify-center flex-shrink-0">
                     <Mail size={20} className="text-gsbs-teal" />
                   </div>
                   <div>
@@ -85,7 +81,7 @@ export default function ContactPage() {
 
                 {/* Phone */}
                 <div className="flex items-start gap-4">
-                  <div className="w-10 h-10 bg-gsbs-teal/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <div className="w-10 h-10 flex items-center justify-center flex-shrink-0">
                     <Phone size={20} className="text-gsbs-teal" />
                   </div>
                   <div>
@@ -104,7 +100,7 @@ export default function ContactPage() {
 
                 {/* Address */}
                 <div className="flex items-start gap-4">
-                  <div className="w-10 h-10 bg-gsbs-teal/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <div className="w-10 h-10 flex items-center justify-center flex-shrink-0">
                     <MapPin size={20} className="text-gsbs-teal" />
                   </div>
                   <div>
@@ -121,7 +117,7 @@ export default function ContactPage() {
 
                 {/* Meeting Times */}
                 <div className="flex items-start gap-4">
-                  <div className="w-10 h-10 bg-gsbs-teal/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <div className="w-10 h-10 flex items-center justify-center flex-shrink-0">
                     <Clock size={20} className="text-gsbs-teal" />
                   </div>
                   <div>
@@ -172,7 +168,7 @@ export default function ContactPage() {
       </section>
 
       {/* Google Map */}
-      <section className="pb-16 sm:pb-20">
+      <section className="pb-12 sm:pb-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl sm:text-3xl font-serif font-bold text-gray-900 mb-2">
             Find Us
@@ -182,7 +178,7 @@ export default function ContactPage() {
             From I-280, take Exit 4A &rarr; Eisenhower Parkway South &rarr;
             first right onto Eagle Rock Rd &rarr; half mile on left.
           </p>
-          <div className="rounded-2xl overflow-hidden shadow-lg">
+          <div className="rounded overflow-hidden">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.8!2d-74.318!3d40.822!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c3aa4b1e6a0001%3A0x1c2e0e7e2a5e4e0!2sEssex%20County%20Environmental%20Center!5e0!3m2!1sen!2sus!4v1700000000000!5m2!1sen!2sus"
               width="100%"

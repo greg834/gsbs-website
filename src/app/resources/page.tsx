@@ -170,7 +170,7 @@ function ExternalLinkCard({ link }: { link: ResourceLink }) {
       href={link.url}
       target="_blank"
       rel="noopener noreferrer"
-      className="group flex items-start gap-4 p-4 rounded-xl hover:bg-gray-50 transition-colors"
+      className="group flex items-start gap-4 p-4 rounded hover:bg-gray-50 transition-colors"
     >
       <div className="flex-1 min-w-0">
         <p className="font-medium text-gray-900 group-hover:text-gsbs-teal transition-colors">
@@ -192,38 +192,34 @@ export default function ResourcesPage() {
   return (
     <>
       {/* Page Header */}
-      <section className="relative bg-gsbs-navy text-white py-16 sm:py-20 overflow-hidden">
+      <section className="relative bg-gsbs-navy text-white py-12 sm:py-16 overflow-hidden">
         <div className="absolute inset-0" style={{ backgroundImage: 'url(/images/bonsai-3.png)', backgroundSize: 'cover', backgroundPosition: 'center' }} />
         <div className="absolute inset-0 bg-black/65" />
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <p className="text-gsbs-teal text-sm font-medium uppercase tracking-wider mb-3">
-            Resources
-          </p>
-          <h1 className="text-4xl sm:text-5xl font-serif font-bold">
+          <h1 className="text-3xl sm:text-4xl font-serif font-bold">
             Bonsai Resources &amp; Links
           </h1>
-          <p className="mt-4 text-lg text-gray-300 max-w-2xl mx-auto">
-            Supplies, learning materials, videos, and links to the broader
-            bonsai community &mdash; curated by GSBS members.
+          <p className="mt-4 text-gray-300 max-w-2xl mx-auto">
+            Supplies, learning materials, videos, and links curated by GSBS members.
           </p>
         </div>
       </section>
 
       {/* Supplies */}
-      <section className="py-16 sm:py-20">
+      <section className="py-12 sm:py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16">
             {/* Supplies */}
             <div>
               <div className="flex items-center gap-3 mb-6">
-                <div className="w-10 h-10 bg-gsbs-teal/10 rounded-lg flex items-center justify-center">
+                <div className="w-10 h-10 flex items-center justify-center">
                   <ShoppingBag size={20} className="text-gsbs-teal" />
                 </div>
                 <h2 className="text-2xl font-serif font-bold text-gray-900">
                   Bonsai Supplies
                 </h2>
               </div>
-              <div className="bg-white border border-gray-200 rounded-2xl divide-y divide-gray-100 overflow-hidden">
+              <div className="bg-white border border-gray-200 rounded divide-y divide-gray-100 overflow-hidden">
                 {supplies.map((link) => (
                   <ExternalLinkCard key={link.name} link={link} />
                 ))}
@@ -233,14 +229,14 @@ export default function ResourcesPage() {
             {/* Learning */}
             <div>
               <div className="flex items-center gap-3 mb-6">
-                <div className="w-10 h-10 bg-gsbs-teal/10 rounded-lg flex items-center justify-center">
+                <div className="w-10 h-10 flex items-center justify-center">
                   <BookOpen size={20} className="text-gsbs-teal" />
                 </div>
                 <h2 className="text-2xl font-serif font-bold text-gray-900">
                   Learning Resources
                 </h2>
               </div>
-              <div className="bg-white border border-gray-200 rounded-2xl divide-y divide-gray-100 overflow-hidden">
+              <div className="bg-white border border-gray-200 rounded divide-y divide-gray-100 overflow-hidden">
                 {learning.map((link) => (
                   <ExternalLinkCard key={link.name} link={link} />
                 ))}
@@ -251,10 +247,10 @@ export default function ResourcesPage() {
       </section>
 
       {/* YouTube Videos */}
-      <section className="py-16 sm:py-20 bg-gray-50">
+      <section className="py-12 sm:py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-10">
-            <div className="w-12 h-12 bg-red-100 rounded-xl flex items-center justify-center mx-auto mb-4">
+            <div className="flex items-center justify-center mx-auto mb-4">
               <Youtube size={24} className="text-red-600" />
             </div>
             <h2 className="text-3xl sm:text-4xl font-serif font-bold text-gray-900">
@@ -266,7 +262,7 @@ export default function ResourcesPage() {
             </p>
           </div>
           <div className="max-w-3xl mx-auto">
-            <div className="rounded-2xl overflow-hidden shadow-lg aspect-video bg-gray-900">
+            <div className="rounded overflow-hidden aspect-video bg-gray-900">
               <iframe
                 src="https://www.youtube.com/embed?listType=user_uploads&list=greatswampbonsaisociety5552"
                 width="100%"
@@ -294,11 +290,11 @@ export default function ResourcesPage() {
       </section>
 
       {/* Recommended Reading */}
-      <section className="py-16 sm:py-20">
+      <section className="py-12 sm:py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto">
             <div className="flex items-center gap-3 mb-6">
-              <div className="w-10 h-10 bg-gsbs-teal/10 rounded-lg flex items-center justify-center">
+              <div className="w-10 h-10 flex items-center justify-center">
                 <BookOpen size={20} className="text-gsbs-teal" />
               </div>
               <h2 className="text-2xl sm:text-3xl font-serif font-bold text-gray-900">
@@ -308,7 +304,7 @@ export default function ResourcesPage() {
             <p className="text-gray-600 mb-6">
               Books by people connected to GSBS and our community.
             </p>
-            <div className="bg-white border border-gray-200 rounded-2xl divide-y divide-gray-100 overflow-hidden">
+            <div className="bg-white border border-gray-200 rounded divide-y divide-gray-100 overflow-hidden">
               {reading.map((link) => (
                 <ExternalLinkCard key={link.name} link={link} />
               ))}
@@ -318,7 +314,7 @@ export default function ResourcesPage() {
       </section>
 
       {/* External Links */}
-      <section className="py-16 sm:py-20 bg-gray-50">
+      <section className="py-12 sm:py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-14">
             <h2 className="text-3xl sm:text-4xl font-serif font-bold text-gray-900">
@@ -333,10 +329,10 @@ export default function ResourcesPage() {
             {linkCategories.map((category) => (
               <div
                 key={category.title}
-                className="bg-white border border-gray-200 rounded-2xl overflow-hidden"
+                className="bg-white border border-gray-200 rounded overflow-hidden"
               >
                 <div className="flex items-center gap-3 px-6 py-5 border-b border-gray-100">
-                  <div className="w-9 h-9 bg-gsbs-teal/10 rounded-lg flex items-center justify-center">
+                  <div className="w-9 h-9 flex items-center justify-center">
                     <category.icon size={18} className="text-gsbs-teal" />
                   </div>
                   <h3 className="text-lg font-serif font-bold text-gray-900">
@@ -356,7 +352,7 @@ export default function ResourcesPage() {
 
       {/* CTA */}
       <section className="bg-gsbs-teal">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="text-3xl sm:text-4xl font-serif font-bold text-white">
               Know a Resource We Should Add?
@@ -368,7 +364,7 @@ export default function ResourcesPage() {
             <div className="mt-10">
               <Link
                 href="/contact"
-                className="inline-flex items-center gap-2 px-8 py-3.5 bg-white text-gsbs-teal-dark hover:bg-gray-100 font-semibold rounded-lg transition-colors duration-200 text-base shadow-lg shadow-black/10"
+                className="inline-flex items-center gap-2 px-6 py-2.5 bg-white text-gsbs-teal-dark hover:bg-gray-100 font-semibold rounded transition-colors duration-200 text-base"
               >
                 Suggest a Resource
                 <ArrowRight size={18} />

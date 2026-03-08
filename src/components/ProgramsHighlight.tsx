@@ -36,26 +36,22 @@ const programs = [
 
 export default function ProgramsHighlight() {
   return (
-    <section className="py-16 sm:py-20 bg-white">
+    <section className="py-12 sm:py-16 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="max-w-2xl mb-12">
-          <h2 className="text-3xl sm:text-4xl font-serif font-bold text-gray-900">
-            More Than a Club
-          </h2>
-          <p className="mt-3 text-gray-600 leading-relaxed">
-            GSBS is one of the few community bonsai clubs in the country with a
-            formal Artist in Residence program, annual guest artist workshops,
-            and a 50-year legacy of education and community.
-          </p>
-        </div>
+        <h2 className="text-2xl sm:text-3xl font-serif font-bold text-gray-900 mb-2">
+          What We Offer
+        </h2>
+        <p className="text-gray-600 mb-8 max-w-2xl">
+          GSBS is one of the few community bonsai clubs in the country with a
+          formal Artist in Residence program, annual guest artist workshops,
+          and a 50-year legacy of education and community.
+        </p>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {programs.map((program) => (
-            <div key={program.title} className="group">
-              <div className="w-12 h-12 rounded-xl bg-gsbs-teal/10 flex items-center justify-center mb-4 group-hover:bg-gsbs-teal/20 transition-colors duration-200">
-                <program.icon className="text-gsbs-teal" size={24} />
-              </div>
-              <h3 className="font-serif font-semibold text-gray-900 text-lg mb-2">
+            <div key={program.title}>
+              <program.icon className="text-gsbs-teal mb-2" size={22} />
+              <h3 className="font-semibold text-gray-900 mb-1">
                 {program.title}
               </h3>
               <p className="text-gray-600 text-sm leading-relaxed">
@@ -65,13 +61,13 @@ export default function ProgramsHighlight() {
           ))}
         </div>
 
-        <div className="mt-10">
+        <div className="mt-8">
           <Link
             href="/about"
-            className="inline-flex items-center gap-2 text-gsbs-teal hover:text-gsbs-teal-dark font-medium transition-colors duration-200"
+            className="inline-flex items-center gap-1 text-gsbs-teal hover:text-gsbs-teal-dark text-sm font-medium transition-colors"
           >
-            Learn More About Our Programs
-            <ArrowRight size={18} />
+            Learn more about our programs
+            <ArrowRight size={16} />
           </Link>
         </div>
       </div>

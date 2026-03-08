@@ -345,19 +345,15 @@ export default function EventsPage() {
       />
 
       {/* Page Header */}
-      <section className="relative bg-gsbs-navy text-white py-16 sm:py-20 overflow-hidden">
+      <section className="relative bg-gsbs-navy text-white py-12 sm:py-16 overflow-hidden">
         <div className="absolute inset-0" style={{ backgroundImage: 'url(/images/bonsai-6.png)', backgroundSize: 'cover', backgroundPosition: 'center' }} />
         <div className="absolute inset-0 bg-black/65" />
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <p className="text-gsbs-teal-light text-sm font-medium uppercase tracking-wider mb-3">
-            2026 Season
-          </p>
-          <h1 className="text-4xl sm:text-5xl font-serif font-bold text-white leading-tight">
+          <h1 className="text-3xl sm:text-4xl font-serif font-bold text-white leading-tight">
             Events &amp; Calendar
           </h1>
-          <p className="mt-4 text-gray-400 text-lg max-w-2xl mx-auto">
-            Workshops, shows, community events, and free monthly meetings
-            &mdash; there&apos;s always something happening at GSBS.
+          <p className="mt-4 text-gray-300 max-w-2xl mx-auto">
+            Workshops, shows, community events, and free monthly meetings.
           </p>
         </div>
       </section>
@@ -365,7 +361,7 @@ export default function EventsPage() {
       {/* Featured Event — Annual Bonsai Show */}
       <section className="py-12 sm:py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="relative overflow-hidden rounded-2xl bg-gradient-to-br from-gsbs-navy via-gsbs-navy to-gsbs-teal-dark shadow-2xl">
+          <div className="relative overflow-hidden rounded bg-gradient-to-br from-gsbs-navy via-gsbs-navy to-gsbs-teal-dark">
             {/* Decorative circles */}
             <div className="absolute top-0 right-0 w-64 h-64 bg-gsbs-teal/10 rounded-full -translate-y-1/2 translate-x-1/3" />
             <div className="absolute bottom-0 left-0 w-48 h-48 bg-gsbs-teal/5 rounded-full translate-y-1/2 -translate-x-1/4" />
@@ -433,7 +429,7 @@ export default function EventsPage() {
                   href="https://www.google.com/maps/dir/?api=1&destination=621+Eagle+Rock+Ave+Roseland+NJ+07068"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 mt-6 px-6 py-3 bg-gsbs-teal hover:bg-gsbs-teal-dark text-white font-medium rounded-lg transition-colors duration-200 text-sm"
+                  className="inline-flex items-center gap-2 mt-6 px-6 py-3 bg-gsbs-teal hover:bg-gsbs-teal-dark text-white font-medium rounded transition-colors duration-200 text-sm"
                 >
                   <MapPin size={16} />
                   Get Directions
@@ -442,7 +438,7 @@ export default function EventsPage() {
 
               {/* Right — Photo placeholder */}
               <div className="lg:col-span-2 flex items-center">
-                <div className="w-full aspect-[4/3] rounded-xl bg-gradient-to-br from-amber-700/40 to-amber-900/40 border border-white/10 flex flex-col items-center justify-center text-center p-6">
+                <div className="w-full aspect-[4/3] rounded bg-gradient-to-br from-amber-700/40 to-amber-900/40 border border-white/10 flex flex-col items-center justify-center text-center p-6">
                   <Star className="text-amber-400/60 mb-2" size={32} />
                   <span className="text-white/80 font-medium">
                     Annual Show Photo
@@ -460,7 +456,7 @@ export default function EventsPage() {
       {/* Jonas Dupuich Workshop Callout */}
       <section className="pb-8 sm:pb-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="bg-purple-50 border border-purple-200 rounded-2xl p-6 sm:p-8">
+          <div className="bg-purple-50 border border-purple-200 rounded p-6 sm:p-8">
             <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-6">
               <div>
                 <div className="flex items-center gap-2 mb-2">
@@ -497,7 +493,7 @@ export default function EventsPage() {
               <div className="shrink-0">
                 <a
                   href="mailto:great.swampbonsai@gmail.com?subject=Jonas%20Dupuich%20Workshop%20Registration"
-                  className="inline-flex items-center gap-2 px-6 py-3 bg-purple-700 hover:bg-purple-800 text-white font-medium rounded-lg transition-colors duration-200 text-sm"
+                  className="inline-flex items-center gap-2 px-6 py-3 bg-purple-700 hover:bg-purple-800 text-white font-medium rounded transition-colors duration-200 text-sm"
                 >
                   <Mail size={16} />
                   Register via Email
@@ -511,7 +507,7 @@ export default function EventsPage() {
       {/* MABS Spring Festival Callout */}
       <section className="pb-12 sm:pb-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="bg-gsbs-teal/5 border border-gsbs-teal/20 rounded-2xl p-6 sm:p-8">
+          <div className="bg-gsbs-teal/5 border border-gsbs-teal/20 rounded p-6 sm:p-8">
             <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-6">
               <div>
                 <div className="flex items-center gap-2 mb-2">
@@ -548,7 +544,7 @@ export default function EventsPage() {
                   href="https://www.midatlanticbonsai.org"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 px-6 py-3 bg-gsbs-teal hover:bg-gsbs-teal-dark text-white font-medium rounded-lg transition-colors duration-200 text-sm"
+                  className="inline-flex items-center gap-2 px-6 py-3 bg-gsbs-teal hover:bg-gsbs-teal-dark text-white font-medium rounded transition-colors duration-200 text-sm"
                 >
                   MABS Website
                   <ExternalLink size={14} />
@@ -560,7 +556,7 @@ export default function EventsPage() {
       </section>
 
       {/* Full 2026 Calendar */}
-      <section className="py-16 sm:py-20 bg-gray-50">
+      <section className="py-12 sm:py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl sm:text-4xl font-serif font-bold text-gray-900">
@@ -576,7 +572,7 @@ export default function EventsPage() {
             {calendarEvents.map((event, i) => (
               <div
                 key={`${event.dateSort}-${i}`}
-                className={`bg-white rounded-xl border p-5 sm:p-6 transition-shadow duration-200 hover:shadow-md ${
+                className={`bg-white rounded border p-5 sm:p-6 ${
                   event.past
                     ? "border-gray-100 opacity-50"
                     : event.highlight
@@ -588,7 +584,7 @@ export default function EventsPage() {
                   {/* Date column */}
                   <div className="flex items-center sm:items-start gap-3 sm:w-32 shrink-0">
                     <div
-                      className={`w-9 h-9 rounded-lg flex items-center justify-center shrink-0 ${
+                      className={`w-9 h-9 rounded flex items-center justify-center shrink-0 ${
                         event.highlight
                           ? "bg-gsbs-teal text-white"
                           : event.past
@@ -678,7 +674,7 @@ export default function EventsPage() {
       </section>
 
       {/* CTA */}
-      <section className="py-16 sm:py-20 bg-gsbs-teal">
+      <section className="py-12 sm:py-16 bg-gsbs-teal">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl sm:text-4xl font-serif font-bold text-white">
             Don&apos;t Miss a Meeting
@@ -692,13 +688,13 @@ export default function EventsPage() {
               href="https://www.facebook.com/groups/296001945128377"
               target="_blank"
               rel="noopener noreferrer"
-              className="px-8 py-3.5 bg-white text-gsbs-teal-dark hover:bg-gray-100 font-semibold rounded-lg transition-colors duration-200"
+              className="px-6 py-2.5 bg-white text-gsbs-teal-dark hover:bg-gray-100 font-semibold rounded transition-colors duration-200"
             >
               Join Our Facebook Group
             </a>
             <Link
               href="/contact"
-              className="px-8 py-3.5 border-2 border-white/40 hover:border-white text-white font-semibold rounded-lg transition-all duration-200"
+              className="px-6 py-2.5 border-2 border-white/40 hover:border-white text-white font-semibold rounded transition-all duration-200"
             >
               Contact Us
             </Link>

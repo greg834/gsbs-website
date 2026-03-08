@@ -101,26 +101,21 @@ export default function MembershipPage() {
   return (
     <>
       {/* Page Header */}
-      <section className="relative bg-gsbs-navy text-white py-16 sm:py-20 overflow-hidden">
+      <section className="relative bg-gsbs-navy text-white py-12 sm:py-16 overflow-hidden">
         <div className="absolute inset-0" style={{ backgroundImage: 'url(/images/bonsai-3.png)', backgroundSize: 'cover', backgroundPosition: 'center' }} />
         <div className="absolute inset-0 bg-black/65" />
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <p className="text-gsbs-teal text-sm font-medium uppercase tracking-wider mb-3">
-            Membership
-          </p>
-          <h1 className="text-4xl sm:text-5xl font-serif font-bold">
+          <h1 className="text-3xl sm:text-4xl font-serif font-bold">
             Join Our Community
           </h1>
-          <p className="mt-4 text-lg text-gray-300 max-w-2xl mx-auto">
-            Whether you&apos;re a complete beginner or an experienced bonsai
-            artist, there&apos;s a place for you at the Great Swamp Bonsai
-            Society.
+          <p className="mt-4 text-gray-300 max-w-2xl mx-auto">
+            Whether you&apos;re a beginner or experienced, there&apos;s a place for you at GSBS.
           </p>
         </div>
       </section>
 
       {/* How to Join */}
-      <section className="py-16 sm:py-20">
+      <section className="py-12 sm:py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto text-center mb-16">
             <h2 className="text-3xl sm:text-4xl font-serif font-bold text-gray-900">
@@ -134,7 +129,7 @@ export default function MembershipPage() {
           <div className="max-w-4xl mx-auto">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               {/* Step 1 */}
-              <div className="relative bg-white border border-gray-200 rounded-2xl p-8">
+              <div className="relative bg-white border border-gray-200 rounded p-8">
                 <div className="w-12 h-12 bg-gsbs-teal text-white rounded-full flex items-center justify-center text-xl font-bold mb-5">
                   1
                 </div>
@@ -150,7 +145,7 @@ export default function MembershipPage() {
               </div>
 
               {/* Step 2 */}
-              <div className="relative bg-white border border-gray-200 rounded-2xl p-8">
+              <div className="relative bg-white border border-gray-200 rounded p-8">
                 <div className="w-12 h-12 bg-gsbs-teal text-white rounded-full flex items-center justify-center text-xl font-bold mb-5">
                   2
                 </div>
@@ -175,7 +170,7 @@ export default function MembershipPage() {
       </section>
 
       {/* Benefits */}
-      <section className="py-16 sm:py-20 bg-gray-50">
+      <section className="py-12 sm:py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-14">
             <p className="text-gsbs-teal text-sm font-medium uppercase tracking-wider mb-2">
@@ -190,9 +185,9 @@ export default function MembershipPage() {
             {benefits.map((benefit) => (
               <div
                 key={benefit.title}
-                className="bg-white rounded-2xl p-8 shadow-sm border border-gray-100"
+                className="bg-white rounded p-8 border border-gray-100"
               >
-                <div className="w-12 h-12 bg-gsbs-teal/10 rounded-xl flex items-center justify-center mb-5">
+                <div className="flex items-center justify-center mb-5">
                   <benefit.icon size={24} className="text-gsbs-teal" />
                 </div>
                 <h3 className="text-lg font-serif font-bold text-gray-900 mb-2">
@@ -208,7 +203,7 @@ export default function MembershipPage() {
       </section>
 
       {/* FAQ */}
-      <section className="py-16 sm:py-20">
+      <section className="py-12 sm:py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto">
             <div className="text-center mb-12">
@@ -226,7 +221,7 @@ export default function MembershipPage() {
 
       {/* CTA */}
       <section className="bg-gsbs-teal">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="text-3xl sm:text-4xl font-serif font-bold text-white">
               Ready to Join?
@@ -238,14 +233,14 @@ export default function MembershipPage() {
             <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
               <Link
                 href="/contact"
-                className="inline-flex items-center gap-2 px-8 py-3.5 bg-white text-gsbs-teal-dark hover:bg-gray-100 font-semibold rounded-lg transition-colors duration-200 text-base shadow-lg shadow-black/10"
+                className="inline-flex items-center gap-2 px-6 py-2.5 bg-white text-gsbs-teal-dark hover:bg-gray-100 font-semibold rounded transition-colors duration-200 text-base"
               >
                 Contact Us
                 <ArrowRight size={18} />
               </Link>
               <Link
                 href="/meetings"
-                className="px-8 py-3.5 border-2 border-white/40 hover:border-white text-white font-semibold rounded-lg transition-all duration-200 text-base"
+                className="px-6 py-2.5 border-2 border-white/40 hover:border-white text-white font-semibold rounded transition-all duration-200 text-base"
               >
                 View Meeting Details
               </Link>

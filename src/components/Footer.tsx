@@ -30,24 +30,10 @@ export default function Footer() {
           {/* Left — Name & Address */}
           <div>
             <div className="flex items-center gap-3 mb-4">
-              <div className="w-10 h-10 rounded-full border-2 border-gsbs-teal flex items-center justify-center bg-gsbs-teal/10">
-                <div className="text-center leading-none">
-                  <span className="block text-gsbs-teal font-serif font-bold text-xs">
-                    GSBS
-                  </span>
-                  <span className="block text-gsbs-teal/70 text-[7px] tracking-wide">
-                    EST. 1976
-                  </span>
-                </div>
-              </div>
-              <div>
-                <span className="block text-white font-serif font-semibold text-lg leading-tight">
-                  Great Swamp
-                </span>
-                <span className="block text-gray-400 text-xs tracking-wider uppercase">
-                  Bonsai Society
-                </span>
-              </div>
+              <img src="/images/gsbs-logo.png" alt="GSBS logo" className="h-10 w-auto" />
+              <span className="text-white font-serif font-semibold text-base leading-tight">
+                Great Swamp<br />Bonsai Society
+              </span>
             </div>
             <address className="not-italic text-sm text-gray-400 leading-relaxed">
               Essex County Environmental Center
@@ -112,7 +98,7 @@ export default function Footer() {
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label={`Visit our ${social.label} page`}
-                  className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center text-gray-400 hover:bg-gsbs-teal hover:text-white transition-all duration-200"
+                  className="text-gray-400 hover:text-gsbs-teal-light transition-colors"
                 >
                   <social.icon size={20} />
                 </a>

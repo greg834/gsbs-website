@@ -20,19 +20,15 @@ export default function GalleryPage() {
   return (
     <>
       {/* Page Header */}
-      <section className="relative bg-gsbs-navy text-white py-16 sm:py-20 overflow-hidden">
+      <section className="relative bg-gsbs-navy text-white py-12 sm:py-16 overflow-hidden">
         <div className="absolute inset-0" style={{ backgroundImage: 'url(/images/bonsai-2.png)', backgroundSize: 'cover', backgroundPosition: 'center' }} />
         <div className="absolute inset-0 bg-black/65" />
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <p className="text-gsbs-teal text-sm font-medium uppercase tracking-wider mb-3">
-            Gallery
-          </p>
-          <h1 className="text-4xl sm:text-5xl font-serif font-bold">
+          <h1 className="text-3xl sm:text-4xl font-serif font-bold">
             Bonsai Gallery
           </h1>
-          <p className="mt-4 text-lg text-gray-300 max-w-2xl mx-auto">
-            Member trees, annual show exhibits, meeting highlights, and workshop
-            creations from the Great Swamp Bonsai Society.
+          <p className="mt-4 text-gray-300 max-w-2xl mx-auto">
+            Member trees, show exhibits, and meeting highlights from GSBS.
           </p>
         </div>
       </section>
@@ -51,7 +47,7 @@ export default function GalleryPage() {
       </section>
 
       {/* Gallery Grid with Filter */}
-      <section className="py-16 sm:py-20">
+      <section className="py-12 sm:py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <GalleryGrid />
         </div>
@@ -59,7 +55,7 @@ export default function GalleryPage() {
 
       {/* Submit Photos CTA */}
       <section className="bg-gsbs-teal">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="text-3xl sm:text-4xl font-serif font-bold text-white">
               Share Your Bonsai Photos
@@ -72,7 +68,7 @@ export default function GalleryPage() {
             <div className="mt-10">
               <a
                 href="mailto:great.swampbonsai@gmail.com?subject=Gallery Photo Submission"
-                className="inline-flex items-center gap-2 px-8 py-3.5 bg-white text-gsbs-teal-dark hover:bg-gray-100 font-semibold rounded-lg transition-colors duration-200 text-base shadow-lg shadow-black/10"
+                className="inline-flex items-center gap-2 px-6 py-2.5 bg-white text-gsbs-teal-dark hover:bg-gray-100 font-semibold rounded transition-colors duration-200 text-base"
               >
                 <Mail size={18} />
                 Submit Photos

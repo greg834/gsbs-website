@@ -40,24 +40,21 @@ export default function MeetingsPage() {
   return (
     <>
       {/* Page Header */}
-      <section className="relative bg-gsbs-navy text-white py-16 sm:py-20 overflow-hidden">
+      <section className="relative bg-gsbs-navy text-white py-12 sm:py-16 overflow-hidden">
         <div className="absolute inset-0" style={{ backgroundImage: 'url(/images/bonsai-7.png)', backgroundSize: 'cover', backgroundPosition: 'center' }} />
         <div className="absolute inset-0 bg-black/65" />
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <p className="text-gsbs-teal-light text-sm font-medium uppercase tracking-wider mb-3">
-            Meetings
-          </p>
-          <h1 className="text-4xl sm:text-5xl font-serif font-bold text-white leading-tight">
+          <h1 className="text-3xl sm:text-4xl font-serif font-bold text-white leading-tight">
             Monthly Bonsai Meetings
           </h1>
-          <p className="mt-4 text-gray-400 text-lg max-w-2xl mx-auto">
+          <p className="mt-4 text-gray-300 max-w-2xl mx-auto">
             Free, open to the public, and always welcoming to newcomers.
           </p>
         </div>
       </section>
 
       {/* Schedule Overview */}
-      <section className="py-16 sm:py-20">
+      <section className="py-12 sm:py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             {/* Left — Schedule details */}
@@ -68,7 +65,7 @@ export default function MeetingsPage() {
 
               <div className="space-y-5">
                 <div className="flex items-start gap-4">
-                  <div className="w-11 h-11 rounded-xl bg-gsbs-teal/10 flex items-center justify-center shrink-0 mt-0.5">
+                  <div className="w-11 h-11 flex items-center justify-center shrink-0 mt-0.5">
                     <Calendar className="text-gsbs-teal" size={20} />
                   </div>
                   <div>
@@ -82,7 +79,7 @@ export default function MeetingsPage() {
                 </div>
 
                 <div className="flex items-start gap-4">
-                  <div className="w-11 h-11 rounded-xl bg-gsbs-teal/10 flex items-center justify-center shrink-0 mt-0.5">
+                  <div className="w-11 h-11 flex items-center justify-center shrink-0 mt-0.5">
                     <Clock className="text-gsbs-teal" size={20} />
                   </div>
                   <div>
@@ -97,7 +94,7 @@ export default function MeetingsPage() {
                 </div>
 
                 <div className="flex items-start gap-4">
-                  <div className="w-11 h-11 rounded-xl bg-gsbs-teal/10 flex items-center justify-center shrink-0 mt-0.5">
+                  <div className="w-11 h-11 flex items-center justify-center shrink-0 mt-0.5">
                     <MapPin className="text-gsbs-teal" size={20} />
                   </div>
                   <div>
@@ -113,7 +110,7 @@ export default function MeetingsPage() {
                 </div>
 
                 <div className="flex items-start gap-4">
-                  <div className="w-11 h-11 rounded-xl bg-gsbs-teal/10 flex items-center justify-center shrink-0 mt-0.5">
+                  <div className="w-11 h-11 flex items-center justify-center shrink-0 mt-0.5">
                     <Users className="text-gsbs-teal" size={20} />
                   </div>
                   <div>
@@ -130,7 +127,7 @@ export default function MeetingsPage() {
             </div>
 
             {/* Right — Summary card */}
-            <div className="bg-gsbs-navy rounded-2xl p-8 text-white shadow-xl self-start">
+            <div className="bg-gsbs-navy rounded p-8 text-white self-start">
               <h3 className="font-serif font-bold text-xl mb-5">
                 At a Glance
               </h3>
@@ -164,7 +161,7 @@ export default function MeetingsPage() {
                 href={GOOGLE_MAPS_DIRECTIONS}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="block w-full text-center mt-6 px-6 py-3 bg-gsbs-teal hover:bg-gsbs-teal-dark font-medium rounded-lg transition-colors duration-200 text-sm"
+                className="block w-full text-center mt-6 px-6 py-3 bg-gsbs-teal hover:bg-gsbs-teal-dark font-medium rounded transition-colors duration-200 text-sm"
               >
                 Get Directions
               </a>
@@ -174,7 +171,7 @@ export default function MeetingsPage() {
       </section>
 
       {/* What to Expect */}
-      <section className="py-16 sm:py-20 bg-gray-50">
+      <section className="py-12 sm:py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-serif font-bold text-gray-900 mb-4">
             What to Expect
@@ -186,9 +183,9 @@ export default function MeetingsPage() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {/* Informal Session */}
-            <div className="bg-white rounded-xl border border-gray-200 p-8">
+            <div className="bg-white rounded border border-gray-200 p-8">
               <div className="flex items-center gap-3 mb-4">
-                <div className="w-10 h-10 rounded-lg bg-gsbs-teal/10 flex items-center justify-center">
+                <div className="w-10 h-10 flex items-center justify-center">
                   <MessageCircle className="text-gsbs-teal" size={20} />
                 </div>
                 <div>
@@ -209,9 +206,9 @@ export default function MeetingsPage() {
             </div>
 
             {/* Formal Program */}
-            <div className="bg-white rounded-xl border border-gray-200 p-8">
+            <div className="bg-white rounded border border-gray-200 p-8">
               <div className="flex items-center gap-3 mb-4">
-                <div className="w-10 h-10 rounded-lg bg-gsbs-teal/10 flex items-center justify-center">
+                <div className="w-10 h-10 flex items-center justify-center">
                   <TreePine className="text-gsbs-teal" size={20} />
                 </div>
                 <div>
@@ -241,7 +238,7 @@ export default function MeetingsPage() {
               {topicExamples.map((topic) => (
                 <div
                   key={topic.label}
-                  className="flex items-center gap-3 bg-white rounded-lg border border-gray-200 px-4 py-3"
+                  className="flex items-center gap-3 bg-white rounded border border-gray-200 px-4 py-3"
                 >
                   <topic.icon
                     className="text-gsbs-teal shrink-0"
@@ -256,7 +253,7 @@ export default function MeetingsPage() {
       </section>
 
       {/* First Visit */}
-      <section className="py-16 sm:py-20 bg-gsbs-teal text-white">
+      <section className="py-12 sm:py-16 bg-gsbs-teal text-white">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl sm:text-4xl font-serif font-bold">
             First Time?
@@ -271,7 +268,7 @@ export default function MeetingsPage() {
           </p>
           <Link
             href="/contact"
-            className="inline-block mt-8 px-8 py-3.5 bg-white text-gsbs-teal-dark hover:bg-gray-100 font-semibold rounded-lg transition-colors duration-200"
+            className="inline-block mt-8 px-6 py-2.5 bg-white text-gsbs-teal-dark hover:bg-gray-100 font-semibold rounded transition-colors duration-200"
           >
             Have a Question? Contact Us
           </Link>
@@ -279,7 +276,7 @@ export default function MeetingsPage() {
       </section>
 
       {/* Location & Map */}
-      <section className="py-16 sm:py-20">
+      <section className="py-12 sm:py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
             {/* Directions */}
@@ -290,7 +287,7 @@ export default function MeetingsPage() {
 
               <div className="space-y-5">
                 <div className="flex items-start gap-4">
-                  <div className="w-10 h-10 rounded-lg bg-gsbs-teal/10 flex items-center justify-center shrink-0 mt-0.5">
+                  <div className="w-10 h-10 flex items-center justify-center shrink-0 mt-0.5">
                     <MapPin className="text-gsbs-teal" size={18} />
                   </div>
                   <div>
@@ -308,7 +305,7 @@ export default function MeetingsPage() {
                 </div>
 
                 <div className="flex items-start gap-4">
-                  <div className="w-10 h-10 rounded-lg bg-gsbs-teal/10 flex items-center justify-center shrink-0 mt-0.5">
+                  <div className="w-10 h-10 flex items-center justify-center shrink-0 mt-0.5">
                     <Car className="text-gsbs-teal" size={18} />
                   </div>
                   <div>
@@ -324,7 +321,7 @@ export default function MeetingsPage() {
                 </div>
 
                 <div className="flex items-start gap-4">
-                  <div className="w-10 h-10 rounded-lg bg-gsbs-teal/10 flex items-center justify-center shrink-0 mt-0.5">
+                  <div className="w-10 h-10 flex items-center justify-center shrink-0 mt-0.5">
                     <Clock className="text-gsbs-teal" size={18} />
                   </div>
                   <div>
@@ -347,14 +344,14 @@ export default function MeetingsPage() {
                 href={GOOGLE_MAPS_DIRECTIONS}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-block mt-6 px-6 py-2.5 bg-gsbs-teal hover:bg-gsbs-teal-dark text-white text-sm font-medium rounded-lg transition-colors duration-200"
+                className="inline-block mt-6 px-6 py-2.5 bg-gsbs-teal hover:bg-gsbs-teal-dark text-white text-sm font-medium rounded transition-colors duration-200"
               >
                 Open in Google Maps
               </a>
             </div>
 
             {/* Map */}
-            <div className="rounded-xl overflow-hidden shadow-lg aspect-[4/3]">
+            <div className="rounded overflow-hidden aspect-[4/3]">
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.0!2d-74.3038!3d40.8204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c3aa2f86e4d3c1%3A0x5f3c0e8a4a8e8f0a!2sEssex%20County%20Environmental%20Center!5e0!3m2!1sen!2sus!4v1709900000000!5m2!1sen!2sus"
                 width="100%"
@@ -372,7 +369,7 @@ export default function MeetingsPage() {
       </section>
 
       {/* What to Bring */}
-      <section className="py-16 sm:py-20 bg-gray-50">
+      <section className="py-12 sm:py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="text-3xl font-serif font-bold text-gray-900 mb-4">
@@ -386,8 +383,8 @@ export default function MeetingsPage() {
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-3xl mx-auto">
-            <div className="bg-white rounded-xl border border-gray-200 p-6 text-center">
-              <div className="w-12 h-12 rounded-full bg-gsbs-teal/10 flex items-center justify-center mx-auto mb-3">
+            <div className="bg-white rounded border border-gray-200 p-6 text-center">
+              <div className="flex items-center justify-center mx-auto mb-3">
                 <TreePine className="text-gsbs-teal" size={22} />
               </div>
               <h3 className="font-serif font-semibold text-gray-900 mb-1">
@@ -398,8 +395,8 @@ export default function MeetingsPage() {
                 problem-solving.
               </p>
             </div>
-            <div className="bg-white rounded-xl border border-gray-200 p-6 text-center">
-              <div className="w-12 h-12 rounded-full bg-gsbs-teal/10 flex items-center justify-center mx-auto mb-3">
+            <div className="bg-white rounded border border-gray-200 p-6 text-center">
+              <div className="flex items-center justify-center mx-auto mb-3">
                 <Scissors className="text-gsbs-teal" size={22} />
               </div>
               <h3 className="font-serif font-semibold text-gray-900 mb-1">
@@ -410,8 +407,8 @@ export default function MeetingsPage() {
                 there&apos;s often hands-on work.
               </p>
             </div>
-            <div className="bg-white rounded-xl border border-gray-200 p-6 text-center">
-              <div className="w-12 h-12 rounded-full bg-gsbs-teal/10 flex items-center justify-center mx-auto mb-3">
+            <div className="bg-white rounded border border-gray-200 p-6 text-center">
+              <div className="flex items-center justify-center mx-auto mb-3">
                 <MapPin className="text-gsbs-teal" size={22} />
               </div>
               <h3 className="font-serif font-semibold text-gray-900 mb-1">
@@ -427,7 +424,7 @@ export default function MeetingsPage() {
       </section>
 
       {/* CTA */}
-      <section className="py-16 sm:py-20 bg-white">
+      <section className="py-12 sm:py-16 bg-white">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-serif font-bold text-gray-900">
             See You on Tuesday
@@ -439,14 +436,14 @@ export default function MeetingsPage() {
           <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link
               href="/events"
-              className="inline-flex items-center gap-2 px-8 py-3.5 bg-gsbs-teal hover:bg-gsbs-teal-dark text-white font-semibold rounded-lg transition-colors duration-200"
+              className="inline-flex items-center gap-2 px-6 py-2.5 bg-gsbs-teal hover:bg-gsbs-teal-dark text-white font-semibold rounded transition-colors duration-200"
             >
               View Full Calendar
               <ArrowRight size={18} />
             </Link>
             <Link
               href="/contact"
-              className="px-8 py-3.5 border border-gray-300 hover:border-gsbs-teal text-gray-700 hover:text-gsbs-teal font-medium rounded-lg transition-all duration-200"
+              className="px-6 py-2.5 border border-gray-300 hover:border-gsbs-teal text-gray-700 hover:text-gsbs-teal font-medium rounded transition-all duration-200"
             >
               Contact Us
             </Link>

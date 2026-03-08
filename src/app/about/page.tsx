@@ -3,8 +3,6 @@ import Link from "next/link";
 import {
   Award,
   Palette,
-  Users,
-  Globe,
   ExternalLink,
   ArrowRight,
 } from "lucide-react";
@@ -60,26 +58,21 @@ export default function AboutPage() {
   return (
     <>
       {/* Page Header */}
-      <section className="relative bg-gsbs-navy text-white py-16 sm:py-20 overflow-hidden">
+      <section className="relative bg-gsbs-navy text-white py-12 sm:py-16 overflow-hidden">
         <div className="absolute inset-0" style={{ backgroundImage: 'url(/images/bonsai-3.png)', backgroundSize: 'cover', backgroundPosition: 'center' }} />
-        <div className="absolute inset-0 bg-black/65" />
+        <div className="absolute inset-0 bg-black/60" />
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <p className="text-gsbs-teal-light text-sm font-medium uppercase tracking-wider mb-3">
-            About Us
-          </p>
-          <h1 className="text-4xl sm:text-5xl font-serif font-bold text-white leading-tight">
-            Northern New Jersey&apos;s Premier
-            <br className="hidden sm:block" /> Bonsai Club
+          <h1 className="text-3xl sm:text-4xl font-serif font-bold text-white">
+            About GSBS
           </h1>
-          <p className="mt-4 text-gray-400 text-lg max-w-2xl mx-auto">
-            Founded in 1976 &mdash; celebrating 50 years of bonsai education,
-            artistry, and community.
+          <p className="mt-2 text-gray-300 max-w-2xl mx-auto">
+            Northern New Jersey&apos;s premier bonsai club since 1976.
           </p>
         </div>
       </section>
 
       {/* History */}
-      <section className="py-16 sm:py-20">
+      <section className="py-12 sm:py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
@@ -140,7 +133,7 @@ export default function AboutPage() {
             </div>
 
             {/* Photo placeholder */}
-            <div className="rounded-2xl overflow-hidden aspect-[4/3] shadow-xl relative">
+            <div className="overflow-hidden aspect-[4/3]">
               <img src="/images/bonsai-7.png" alt="Bonsai trees on display at Great Swamp Bonsai Society" className="w-full h-full object-cover" />
             </div>
           </div>
@@ -148,7 +141,7 @@ export default function AboutPage() {
       </section>
 
       {/* Mission / Welcome */}
-      <section className="py-16 sm:py-20 bg-gray-50">
+      <section className="py-12 sm:py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="text-3xl font-serif font-bold text-gray-900 mb-6">
@@ -179,7 +172,7 @@ export default function AboutPage() {
       </section>
 
       {/* Officers & Leadership */}
-      <section className="py-16 sm:py-20">
+      <section className="py-12 sm:py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-serif font-bold text-gray-900">
@@ -195,13 +188,9 @@ export default function AboutPage() {
             {officers.map((officer) => (
               <div
                 key={officer.name}
-                className="bg-white border border-gray-200 rounded-xl p-6 hover:shadow-md transition-shadow duration-200"
+                className="border border-gray-200 p-5"
               >
-                {/* Avatar placeholder */}
-                <div className="w-14 h-14 rounded-full bg-gsbs-teal/10 flex items-center justify-center mb-4">
-                  <Users className="text-gsbs-teal" size={24} />
-                </div>
-                <h3 className="font-serif font-semibold text-gray-900 text-lg">
+                <h3 className="font-semibold text-gray-900">
                   {officer.name}
                 </h3>
                 <p className="text-gsbs-teal text-sm font-medium mt-1">
@@ -219,11 +208,11 @@ export default function AboutPage() {
       </section>
 
       {/* Artist in Residence — Sergio Cuan */}
-      <section className="py-16 sm:py-20 bg-gsbs-navy text-white">
+      <section className="py-12 sm:py-16 bg-gsbs-navy text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Photo placeholder */}
-            <div className="order-2 lg:order-1 rounded-2xl overflow-hidden aspect-[4/3] relative shadow-2xl">
+            <div className="order-2 lg:order-1 overflow-hidden aspect-[4/3]">
               <img src="/images/bonsai-1.png" alt="Bonsai artist working on a juniper tree at GSBS meeting" className="w-full h-full object-cover" />
             </div>
 
@@ -333,7 +322,7 @@ export default function AboutPage() {
       </section>
 
       {/* Potter in Residence — Fred Aufshlager */}
-      <section className="py-16 sm:py-20">
+      <section className="py-12 sm:py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Bio */}
@@ -366,7 +355,7 @@ export default function AboutPage() {
             </div>
 
             {/* Photo placeholder */}
-            <div className="rounded-2xl overflow-hidden aspect-[4/3] relative shadow-xl">
+            <div className="overflow-hidden aspect-[4/3]">
               <img src="/images/bonsai-6.png" alt="Bonsai in handcrafted ceramic pot at GSBS" className="w-full h-full object-cover" />
             </div>
           </div>
@@ -374,7 +363,7 @@ export default function AboutPage() {
       </section>
 
       {/* Affiliations */}
-      <section className="py-16 sm:py-20 bg-gray-50">
+      <section className="py-12 sm:py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-serif font-bold text-gray-900">
@@ -388,11 +377,8 @@ export default function AboutPage() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             {/* MABS */}
-            <div className="bg-white rounded-xl border border-gray-200 p-8 hover:shadow-md transition-shadow duration-200">
-              <div className="w-12 h-12 rounded-xl bg-gsbs-teal/10 flex items-center justify-center mb-4">
-                <Globe className="text-gsbs-teal" size={24} />
-              </div>
-              <h3 className="font-serif font-semibold text-gray-900 text-xl mb-3">
+            <div className="border border-gray-200 p-6">
+              <h3 className="font-semibold text-gray-900 text-lg mb-2">
                 Mid-Atlantic Bonsai Societies
               </h3>
               <p className="text-gray-600 text-sm leading-relaxed mb-4">
@@ -420,11 +406,8 @@ export default function AboutPage() {
             </div>
 
             {/* NJBS */}
-            <div className="bg-white rounded-xl border border-gray-200 p-8 hover:shadow-md transition-shadow duration-200">
-              <div className="w-12 h-12 rounded-xl bg-gsbs-teal/10 flex items-center justify-center mb-4">
-                <Users className="text-gsbs-teal" size={24} />
-              </div>
-              <h3 className="font-serif font-semibold text-gray-900 text-xl mb-3">
+            <div className="border border-gray-200 p-6">
+              <h3 className="font-semibold text-gray-900 text-lg mb-2">
                 NJ Bonsai Societies
               </h3>
               <p className="text-gray-600 text-sm leading-relaxed mb-4">
@@ -460,25 +443,25 @@ export default function AboutPage() {
       </section>
 
       {/* CTA */}
-      <section className="bg-gsbs-teal py-16 sm:py-20">
+      <section className="bg-gsbs-teal py-12 sm:py-16">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl sm:text-4xl font-serif font-bold text-white">
+          <h2 className="text-2xl sm:text-3xl font-serif font-bold text-white">
             Come See for Yourself
           </h2>
           <p className="mt-4 text-lg text-white/85 leading-relaxed">
             The best way to learn about GSBS is to attend a meeting. No
             experience needed &mdash; just curiosity and a love of trees.
           </p>
-          <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4">
+          <div className="mt-6 flex flex-col sm:flex-row items-center justify-center gap-3">
             <Link
               href="/meetings"
-              className="px-8 py-3.5 bg-white text-gsbs-teal-dark hover:bg-gray-100 font-semibold rounded-lg transition-colors duration-200"
+              className="px-6 py-2.5 bg-white text-gsbs-teal-dark hover:bg-gray-100 font-semibold rounded text-sm transition-colors"
             >
               View Meeting Details
             </Link>
             <Link
               href="/contact"
-              className="px-8 py-3.5 border-2 border-white/40 hover:border-white text-white font-semibold rounded-lg transition-all duration-200"
+              className="px-6 py-2.5 border border-white/50 hover:border-white text-white font-semibold rounded text-sm transition-colors"
             >
               Contact Us
             </Link>
