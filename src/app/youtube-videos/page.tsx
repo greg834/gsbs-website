@@ -19,32 +19,26 @@ const placeholderVideos = [
   {
     title: "Spring Repotting Demonstration",
     description: "Step-by-step repotting of a Japanese maple at GSBS",
-    gradient: "from-red-700 to-red-500",
   },
   {
     title: "Sergio Cuan — Artist in Residence",
     description: "Styling a collected American larch",
-    gradient: "from-purple-700 to-purple-500",
   },
   {
     title: "Annual Bonsai Show 2025 Highlights",
     description: "A walkthrough of exhibits at Garibaldi Hall",
-    gradient: "from-amber-700 to-amber-500",
   },
   {
     title: "Juniper Wiring Basics",
     description: "Beginner-friendly wiring techniques for juniper bonsai",
-    gradient: "from-emerald-700 to-emerald-500",
   },
   {
     title: "Collecting Expedition — NJ Pines",
     description: "Members collecting native pitch pines in the Pine Barrens",
-    gradient: "from-teal-700 to-teal-500",
   },
   {
     title: "Air Layering Workshop",
     description: "Creating new trees from established branches",
-    gradient: "from-indigo-700 to-indigo-500",
   },
 ];
 
@@ -118,10 +112,10 @@ export default function YoutubeVideosPage() {
               >
                 {/* Thumbnail placeholder */}
                 <div
-                  className={`bg-gradient-to-br ${video.gradient} aspect-video relative flex items-center justify-center`}
+                  className="bg-gray-200 aspect-video relative flex items-center justify-center"
                 >
-                  <div className="w-14 h-14 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center">
-                    <Play size={28} className="text-white ml-1" />
+                  <div className="w-14 h-14 bg-gray-400/50 rounded-full flex items-center justify-center">
+                    <Play size={28} className="text-gray-600 ml-1" />
                   </div>
                 </div>
                 {/* Info */}

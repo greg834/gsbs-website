@@ -130,10 +130,8 @@ export default function MembershipPage() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               {/* Step 1 */}
               <div className="relative bg-white border border-gray-200 rounded p-8">
-                <div className="w-12 h-12 bg-gsbs-teal text-white rounded-full flex items-center justify-center text-xl font-bold mb-5">
-                  1
-                </div>
-                <h3 className="text-xl font-serif font-bold text-gray-900 mb-3">
+                <span className="text-gsbs-teal font-bold text-lg">Step 1</span>
+                <h3 className="text-xl font-serif font-bold text-gray-900 mt-1 mb-3">
                   Visit as a Guest
                 </h3>
                 <p className="text-gray-600 leading-relaxed">
@@ -146,10 +144,8 @@ export default function MembershipPage() {
 
               {/* Step 2 */}
               <div className="relative bg-white border border-gray-200 rounded p-8">
-                <div className="w-12 h-12 bg-gsbs-teal text-white rounded-full flex items-center justify-center text-xl font-bold mb-5">
-                  2
-                </div>
-                <h3 className="text-xl font-serif font-bold text-gray-900 mb-3">
+                <span className="text-gsbs-teal font-bold text-lg">Step 2</span>
+                <h3 className="text-xl font-serif font-bold text-gray-900 mt-1 mb-3">
                   Become a Member
                 </h3>
                 <p className="text-gray-600 leading-relaxed">
@@ -173,9 +169,6 @@ export default function MembershipPage() {
       <section className="py-12 sm:py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-14">
-            <p className="text-gsbs-teal text-sm font-medium uppercase tracking-wider mb-2">
-              Why Join
-            </p>
             <h2 className="text-3xl sm:text-4xl font-serif font-bold text-gray-900">
               Member Benefits
             </h2>
@@ -187,12 +180,12 @@ export default function MembershipPage() {
                 key={benefit.title}
                 className="bg-white rounded p-8 border border-gray-100"
               >
-                <div className="flex items-center justify-center mb-5">
-                  <benefit.icon size={24} className="text-gsbs-teal" />
+                <div className="flex items-center gap-2 mb-2">
+                  <benefit.icon size={20} className="text-gsbs-teal shrink-0" />
+                  <h3 className="text-lg font-serif font-bold text-gray-900">
+                    {benefit.title}
+                  </h3>
                 </div>
-                <h3 className="text-lg font-serif font-bold text-gray-900 mb-2">
-                  {benefit.title}
-                </h3>
                 <p className="text-gray-600 leading-relaxed">
                   {benefit.description}
                 </p>
@@ -207,9 +200,6 @@ export default function MembershipPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto">
             <div className="text-center mb-12">
-              <p className="text-gsbs-teal text-sm font-medium uppercase tracking-wider mb-2">
-                FAQ
-              </p>
               <h2 className="text-3xl sm:text-4xl font-serif font-bold text-gray-900">
                 Frequently Asked Questions
               </h2>

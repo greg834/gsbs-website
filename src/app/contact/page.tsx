@@ -140,24 +140,24 @@ export default function ContactPage() {
                 {/* Social Links */}
                 <div>
                   <p className="font-medium text-gray-900 mb-4">Follow Us</p>
-                  <div className="flex gap-3">
+                  <div className="flex gap-4">
                     <a
                       href="https://www.facebook.com/groups/296001945128377"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="w-11 h-11 bg-gsbs-teal text-white rounded-full flex items-center justify-center hover:bg-gsbs-teal-dark transition-colors"
+                      className="text-gsbs-teal hover:text-gsbs-teal-dark transition-colors"
                       aria-label="Facebook Group"
                     >
-                      <Facebook size={20} />
+                      <Facebook size={22} />
                     </a>
                     <a
                       href="https://www.youtube.com/@greatswampbonsaisociety5552"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="w-11 h-11 bg-gsbs-teal text-white rounded-full flex items-center justify-center hover:bg-gsbs-teal-dark transition-colors"
+                      className="text-gsbs-teal hover:text-gsbs-teal-dark transition-colors"
                       aria-label="YouTube Channel"
                     >
-                      <Youtube size={20} />
+                      <Youtube size={22} />
                     </a>
                   </div>
                 </div>
