@@ -1,32 +1,32 @@
 const photos = [
   {
-    label: "Member Bonsai Display",
-    color: "from-gsbs-teal-dark to-gsbs-teal",
+    src: "/images/bonsai-1.png",
+    alt: "Hands carefully wiring and styling a juniper bonsai during a GSBS workshop",
     span: "col-span-1 row-span-1",
   },
   {
-    label: "Annual Show — Garibaldi Hall",
-    color: "from-emerald-800 to-emerald-600",
+    src: "/images/bonsai-2.png",
+    alt: "Bonsai artist styling a tree with precision tools at a club demonstration",
     span: "col-span-1 row-span-1 md:col-span-1 md:row-span-2",
   },
   {
-    label: "Workshop Demo",
-    color: "from-gsbs-navy to-gsbs-teal-dark",
+    src: "/images/bonsai-3.png",
+    alt: "Mature bonsai tree with refined branch structure on display",
     span: "col-span-1 row-span-1",
   },
   {
-    label: "Japanese Maple Bonsai",
-    color: "from-amber-800 to-amber-600",
+    src: "/images/bonsai-4.png",
+    alt: "Bonsai exhibit at the GSBS Annual Show at Garibaldi Hall",
     span: "col-span-1 row-span-1",
   },
   {
-    label: "Meeting Night",
-    color: "from-gsbs-teal to-gsbs-teal-light",
+    src: "/images/bonsai-5.png",
+    alt: "Elegant bonsai composition displayed on a traditional wooden stand",
     span: "col-span-1 row-span-1",
   },
   {
-    label: "Sergio Cuan — Artist in Residence",
-    color: "from-slate-700 to-slate-500",
+    src: "/images/bonsai-6.png",
+    alt: "Collection of member bonsai trees showcased at a Great Swamp Bonsai Society meeting",
     span: "col-span-1 row-span-1",
   },
 ];
@@ -48,26 +48,18 @@ export default function PhotoGrid() {
         <div className="grid grid-cols-2 md:grid-cols-3 gap-3 sm:gap-4">
           {photos.map((photo) => (
             <div
-              key={photo.label}
+              key={photo.src}
               className={`${photo.span} relative group rounded-xl overflow-hidden aspect-[4/3] ${
                 photo.span.includes("row-span-2") ? "md:aspect-auto" : ""
               }`}
             >
-              {/* Placeholder gradient — replace with <Image> */}
-              <div
-                className={`absolute inset-0 bg-gradient-to-br ${photo.color}`}
+              <img
+                src={photo.src}
+                alt={photo.alt}
+                className="w-full h-full object-cover"
               />
               {/* Hover overlay */}
               <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors duration-300" />
-              {/* Label */}
-              <div className="absolute inset-0 flex flex-col items-center justify-center p-4 text-center">
-                <span className="text-white/90 font-medium text-sm sm:text-base">
-                  {photo.label}
-                </span>
-                <span className="text-white/50 text-xs mt-1">
-                  Placeholder — replace with photo
-                </span>
-              </div>
             </div>
           ))}
         </div>

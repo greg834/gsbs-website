@@ -345,8 +345,10 @@ export default function EventsPage() {
       />
 
       {/* Page Header */}
-      <section className="bg-gsbs-navy py-16 sm:py-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <section className="relative bg-gsbs-navy text-white py-16 sm:py-20 overflow-hidden">
+        <div className="absolute inset-0" style={{ backgroundImage: 'url(/images/bonsai-6.png)', backgroundSize: 'cover', backgroundPosition: 'center' }} />
+        <div className="absolute inset-0 bg-black/65" />
+        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <p className="text-gsbs-teal-light text-sm font-medium uppercase tracking-wider mb-3">
             2026 Season
           </p>

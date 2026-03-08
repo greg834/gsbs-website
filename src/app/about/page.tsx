@@ -60,8 +60,10 @@ export default function AboutPage() {
   return (
     <>
       {/* Page Header */}
-      <section className="bg-gsbs-navy py-16 sm:py-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <section className="relative bg-gsbs-navy text-white py-16 sm:py-20 overflow-hidden">
+        <div className="absolute inset-0" style={{ backgroundImage: 'url(/images/bonsai-3.png)', backgroundSize: 'cover', backgroundPosition: 'center' }} />
+        <div className="absolute inset-0 bg-black/65" />
+        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <p className="text-gsbs-teal-light text-sm font-medium uppercase tracking-wider mb-3">
             About Us
           </p>
@@ -138,15 +140,8 @@ export default function AboutPage() {
             </div>
 
             {/* Photo placeholder */}
-            <div className="rounded-2xl overflow-hidden aspect-[4/3] bg-gradient-to-br from-gsbs-teal-dark to-gsbs-teal shadow-xl relative">
-              <div className="absolute inset-0 flex flex-col items-center justify-center text-center p-6">
-                <span className="text-white/90 font-medium text-lg">
-                  Historical Club Photo
-                </span>
-                <span className="text-white/50 text-sm mt-1">
-                  Placeholder &mdash; replace with archival photo
-                </span>
-              </div>
+            <div className="rounded-2xl overflow-hidden aspect-[4/3] shadow-xl relative">
+              <img src="/images/bonsai-7.png" alt="Bonsai trees on display at Great Swamp Bonsai Society" className="w-full h-full object-cover" />
             </div>
           </div>
         </div>
@@ -228,15 +223,8 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Photo placeholder */}
-            <div className="order-2 lg:order-1 rounded-2xl overflow-hidden aspect-[4/3] bg-gradient-to-br from-slate-700 to-slate-500 relative shadow-2xl">
-              <div className="absolute inset-0 flex flex-col items-center justify-center text-center p-6">
-                <span className="text-white/90 font-medium text-lg">
-                  Sergio Cuan
-                </span>
-                <span className="text-white/50 text-sm mt-1">
-                  Placeholder &mdash; replace with artist photo
-                </span>
-              </div>
+            <div className="order-2 lg:order-1 rounded-2xl overflow-hidden aspect-[4/3] relative shadow-2xl">
+              <img src="/images/bonsai-1.png" alt="Bonsai artist working on a juniper tree at GSBS meeting" className="w-full h-full object-cover" />
             </div>
 
             {/* Bio */}
@@ -378,15 +366,8 @@ export default function AboutPage() {
             </div>
 
             {/* Photo placeholder */}
-            <div className="rounded-2xl overflow-hidden aspect-[4/3] bg-gradient-to-br from-amber-800 to-amber-600 relative shadow-xl">
-              <div className="absolute inset-0 flex flex-col items-center justify-center text-center p-6">
-                <span className="text-white/90 font-medium text-lg">
-                  Fred Aufshlager &mdash; Pottery
-                </span>
-                <span className="text-white/50 text-sm mt-1">
-                  Placeholder &mdash; replace with pottery photo
-                </span>
-              </div>
+            <div className="rounded-2xl overflow-hidden aspect-[4/3] relative shadow-xl">
+              <img src="/images/bonsai-6.png" alt="Bonsai in handcrafted ceramic pot at GSBS" className="w-full h-full object-cover" />
             </div>
           </div>
         </div>

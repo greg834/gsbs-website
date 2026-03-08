@@ -5,23 +5,18 @@ import { motion } from "framer-motion";
 
 export default function HeroSection() {
   return (
-    <section className="relative min-h-[600px] sm:min-h-[650px] lg:min-h-[700px] flex items-center overflow-hidden">
-      {/* Background placeholder image — replace with real hero photo */}
-      <div className="absolute inset-0 bg-gsbs-navy">
-        <div
-          className="absolute inset-0 opacity-30"
-          style={{
-            backgroundImage:
-              "linear-gradient(135deg, #1a5674 25%, #226E93 50%, #1a2332 75%)",
-          }}
-        />
-        {/* Subtle texture overlay */}
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_40%,rgba(45,138,184,0.15),transparent_60%)]" />
-      </div>
+    <section
+      className="relative min-h-[600px] sm:min-h-[650px] lg:min-h-[700px] flex items-center overflow-hidden"
+      style={{
+        backgroundImage: "url(/images/bonsai-5.png)",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+      }}
+    >
       {/* Dark overlay for text readability */}
-      <div className="absolute inset-0 bg-gradient-to-t from-gsbs-navy via-gsbs-navy/70 to-gsbs-navy/50" />
+      <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/50 to-black/70" />
 
-      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 text-center w-full">
+      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 text-center w-full">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}

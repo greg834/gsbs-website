@@ -56,24 +56,10 @@ export default function Header() {
         <div className="flex items-center justify-between h-16 sm:h-20">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-3 shrink-0">
-            <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-full border-2 border-gsbs-teal flex items-center justify-center bg-gsbs-teal/10">
-              <div className="text-center leading-none">
-                <span className="block text-gsbs-teal font-serif font-bold text-xs sm:text-sm">
-                  GSBS
-                </span>
-                <span className="block text-gsbs-teal/70 text-[7px] sm:text-[8px] tracking-wide">
-                  EST. 1976
-                </span>
-              </div>
-            </div>
-            <div className="hidden sm:block">
-              <span className="block text-white font-serif font-semibold text-lg leading-tight">
-                Great Swamp
-              </span>
-              <span className="block text-gray-400 text-xs tracking-wider uppercase">
-                Bonsai Society
-              </span>
-            </div>
+            <img src="/images/gsbs-logo.png" alt="Great Swamp Bonsai Society logo" className="h-11 w-auto" />
+            <span className="hidden sm:block text-white font-serif font-bold text-lg leading-tight">
+              Great Swamp<br />Bonsai Society
+            </span>
           </Link>
 
           {/* Desktop Navigation */}

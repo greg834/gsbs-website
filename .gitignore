@@ -34,3 +34,11 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+.vercel
+
+# screenshots & test artifacts
+/screenshots/
+/test-results/
+*.png
+\!public/**/*.png

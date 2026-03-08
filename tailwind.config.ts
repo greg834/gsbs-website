@@ -14,7 +14,17 @@ const config: Config = {
           dark: "#1a5674",
           light: "#2d8ab8",
         },
-        "gsbs-navy": "#1a2332",
+        "gsbs-green": {
+          DEFAULT: "#3a7d44",
+          dark: "#2d6235",
+          light: "#4a9956",
+        },
+        "gsbs-earth": {
+          DEFAULT: "#8B6914",
+          dark: "#6d5310",
+          light: "#a67d1a",
+        },
+        "gsbs-navy": "#1a2a2e",
       },
       fontFamily: {
         serif: ["var(--font-lora)", "Georgia", "serif"],

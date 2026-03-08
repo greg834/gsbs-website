@@ -70,15 +70,8 @@ export default function Home() {
 
             {/* Photo placeholder */}
             <div className="relative">
-              <div className="rounded-2xl overflow-hidden aspect-[4/3] bg-gradient-to-br from-gsbs-teal-dark to-gsbs-teal shadow-xl">
-                <div className="absolute inset-0 flex flex-col items-center justify-center text-center p-6">
-                  <span className="text-white/90 font-medium text-lg">
-                    Club Photo
-                  </span>
-                  <span className="text-white/50 text-sm mt-1">
-                    Placeholder &mdash; replace with group photo
-                  </span>
-                </div>
+              <div className="rounded-2xl overflow-hidden aspect-[4/3] shadow-xl">
+                <img src="/images/bonsai-4.png" alt="Bonsai tree on display at Great Swamp Bonsai Society meeting" className="w-full h-full object-cover" />
               </div>
               {/* Decorative accent */}
               <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-gsbs-teal/10 rounded-2xl -z-10 hidden lg:block" />
