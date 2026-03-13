@@ -28,7 +28,7 @@ const items: ApparelItem[] = [
     name: "GSBS Cap",
     price: "$30",
     note: "Available now",
-    image: "/images/apparel/gsbs-cap.jpg",
+    image: "/images/apparel/gsbs-cap.png",
     alt: "Navy blue GSBS cap with embroidered Great Swamp Bonsai Society logo patch",
   },
   {
@@ -36,14 +36,14 @@ const items: ApparelItem[] = [
     price: "$80",
     note: "Made to order — pictured without tag in front",
     image: "/images/apparel/gsbs-polo-underarmour.jpg",
-    alt: "Gray Under Armour polo shirt with embroidered GSBS logo",
+    alt: "Black Under Armour polo shirt with embroidered GSBS bonsai tree logo",
   },
   {
     name: 'GSBS "No Name" Polo Shirt',
     price: "$50",
     note: "Made to order — pictured with tag",
     image: "/images/apparel/gsbs-polo-noname.jpg",
-    alt: "Dark polo shirt with GSBS logo and visible brand tag",
+    alt: "Dark navy Maelreg polo shirt with embroidered GSBS bonsai tree logo",
   },
   {
     name: "GSBS T-Shirt (Tan)",
