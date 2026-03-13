@@ -253,6 +253,13 @@ const timelineEvents: TimelineEvent[] = [
   },
   {
     year: "2011",
+    title: "Jim Gavigan Grafting Demo",
+    description:
+      "GSBS member Jim Gavigan leads a grafting demonstration at the February meeting, showcasing internal talent and the club's commitment to hands-on skill-sharing among members. Annual dues increase from $30 to $40.",
+    type: "milestone",
+  },
+  {
+    year: "2011",
     title: "Bloomfest Participation",
     description:
       "GSBS participates in Bloomfest, a community horticultural festival, bringing bonsai displays and education to a wider public audience.",
@@ -277,6 +284,13 @@ const timelineEvents: TimelineEvent[] = [
     title: "Randolph Library Lecture & Demonstration",
     description:
       "GSBS presents a bonsai lecture and live demonstration at the Randolph Library, bringing public bonsai education to the local community.",
+    type: "milestone",
+  },
+  {
+    year: "2012",
+    title: "Joan Greentree Memorial",
+    description:
+      "GSBS remembers Joan Greentree, a beloved member whose bonsai were displayed at the Boonton Historical Society in October 2012. Her dedication to the art and the club is honored by fellow members.",
     type: "milestone",
   },
   {
@@ -312,6 +326,13 @@ const timelineEvents: TimelineEvent[] = [
     title: "Suthin Sukosolvisit Workshop",
     description:
       "Thai-born bonsai master Suthin Sukosolvisit — involved with bonsai since 1970 and operator of the Royal Bonsai Garden in Stoughton, MA — headlines MABS 2014 at the Ramada Inn on Route 10, East Hanover, NJ, alongside Corin Tomlinson and Takashi Iura. Suthin visits GSBS for a $50 bring-your-own-tree workshop and evening presentation, sharing his expertise in tropical and temperate species.",
+    type: "artist",
+  },
+  {
+    year: "2015",
+    title: "Budi Sulistyo from Indonesia",
+    description:
+      "Internationally acclaimed Indonesian bonsai master Budi Sulistyo headlines MABS 2015 and presents at GSBS with a workshop and evening demonstration, expanding the club's exposure to tropical bonsai techniques from Southeast Asia.",
     type: "artist",
   },
   {

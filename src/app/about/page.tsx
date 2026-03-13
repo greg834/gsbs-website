@@ -515,6 +515,7 @@ export default function AboutPage() {
               { name: "Will Baddeley", origin: "UK", years: "2022", note: "Deadwood carving specialist; specializes in natural deadwood on deciduous trees using power tools and scalpels; workshop at Fred Aufschlager's home in Bernardsville" },
               { name: "David Knittle", origin: "Vermont", years: "2017", note: "Specialist in collected bonsai from New England; Red Spruce, Larch, and Balsam Fir from power line cuts and state lands" },
               { name: "Koji Hiramatsu", origin: "Japan", years: "2018", note: "Multi-generational bonsai business; pine specialist; styled wild-collected Pitch Pine at GSBS evening demo" },
+              { name: "Budi Sulistyo", origin: "Indonesia", years: "2015", note: "Internationally acclaimed Indonesian bonsai master; MABS 2015 headliner; workshop and demonstration at GSBS" },
               { name: "Jonas Dupuich", origin: "California", years: "2026", note: "Bonsai Tonight author; 50th anniversary guest artist" },
             ].map((artist) => (
               <div
