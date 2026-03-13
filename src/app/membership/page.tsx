@@ -88,7 +88,7 @@ const faqs = [
   {
     question: "How much are annual dues?",
     answer:
-      "Please contact us at great.swampbonsai@gmail.com for current membership rates. Dues help support guest artist programs, show materials, and club operations.",
+      "Annual dues are $40 per year. Dues help support guest artist programs, show materials, and club operations. Contact us at great.swampbonsai@gmail.com with any questions.",
   },
   {
     question: "Can I bring my kids?",

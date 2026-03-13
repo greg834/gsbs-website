@@ -13,6 +13,7 @@ import {
   Calendar,
   FileText,
 } from "lucide-react";
+import NewsletterArchive from "@/components/NewsletterArchive";
 
 export const metadata: Metadata = {
   title: "Bonsai Resources & Links · Great Swamp Bonsai Society",
@@ -66,6 +67,18 @@ const learning: ResourceLink[] = [
     description:
       "Comprehensive beginner-to-advanced guides, species profiles, and care calendars",
   },
+  {
+    name: "Art of Bonsai Project",
+    url: "https://www.artofbonsai.org",
+    description:
+      "Community resource with galleries, articles, and forums for bonsai enthusiasts",
+  },
+  {
+    name: "International Bonsai Magazine",
+    url: "https://www.internationalbonsai.com",
+    description:
+      "Long-running bonsai publication featuring artists, techniques, and exhibitions worldwide",
+  },
 ];
 
 const reading: ResourceLink[] = [
@@ -115,6 +128,12 @@ const linkCategories: LinkCategory[] = [
         url: "https://www.njbonsai.org",
         description:
           "501(c)(3) co-sponsored by Bergen, Deep Cut, GSBS, and PA Bonsai Society",
+      },
+      {
+        name: "Bonsai Clubs International (BCI)",
+        url: "https://www.bonsai-bci.com",
+        description:
+          "Global bonsai organization connecting clubs and enthusiasts worldwide",
       },
     ],
   },
@@ -346,18 +365,20 @@ export default function ResourcesPage() {
             </p>
           </div>
           <div className="max-w-3xl mx-auto">
-            <div className="rounded overflow-hidden aspect-video bg-gray-900">
-              <iframe
-                src="https://www.youtube.com/embed?listType=user_uploads&list=greatswampbonsaisociety5552"
-                width="100%"
-                height="100%"
-                style={{ border: 0 }}
-                allowFullScreen
-                loading="lazy"
-                title="Great Swamp Bonsai Society YouTube Channel"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              />
-            </div>
+            <a
+              href="https://www.youtube.com/@greatswampbonsaisociety5552"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block bg-gray-900 rounded overflow-hidden aspect-video relative group"
+            >
+              <div className="absolute inset-0 flex flex-col items-center justify-center text-white">
+                <div className="w-16 h-16 bg-red-600 rounded-full flex items-center justify-center mb-4 group-hover:bg-red-700 transition-colors">
+                  <Youtube size={32} className="ml-1" />
+                </div>
+                <p className="text-lg font-medium">Great Swamp Bonsai Society</p>
+                <p className="text-sm text-gray-400 mt-1">Watch on YouTube</p>
+              </div>
+            </a>
             <div className="text-center mt-6">
               <a
                 href="https://www.youtube.com/@greatswampbonsaisociety5552"
@@ -437,42 +458,174 @@ export default function ResourcesPage() {
       {/* Newsletter Archive */}
       <section className="py-12 sm:py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="max-w-3xl mx-auto text-center">
-            <div className="flex items-center justify-center mx-auto mb-4">
-              <FileText size={24} className="text-gsbs-teal" />
+          <div className="max-w-3xl mx-auto">
+            <div className="text-center mb-8">
+              <div className="flex items-center justify-center mx-auto mb-4">
+                <FileText size={24} className="text-gsbs-teal" />
+              </div>
+              <h2 className="text-3xl sm:text-4xl font-serif font-bold text-gray-900">
+                Newsletter Archive (2005&ndash;2022)
+              </h2>
+              <p className="mt-3 text-gray-600 max-w-2xl mx-auto">
+                Over 170 issues covering meeting recaps, bonsai care tips, guest
+                artist features, and club history. Click any year to browse and
+                download individual issues.
+              </p>
             </div>
-            <h2 className="text-3xl sm:text-4xl font-serif font-bold text-gray-900">
-              Newsletter Archive (2005&ndash;2022)
-            </h2>
-            <p className="mt-3 text-gray-600 max-w-2xl mx-auto">
-              Our newsletter archive spans 2005&ndash;2022, with over 170 issues
-              covering meeting recaps, bonsai care tips, guest artist features,
-              and club history. Contact us to request specific issues.
-            </p>
-            <div className="mt-8 grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-3">
-              {[2022, 2021, 2020, 2019, 2018, 2017, 2016, 2015, 2014, 2013, 2012, 2011, 2010, 2009, 2008, 2007, 2006, 2005].map(
-                (year) => (
-                  <div
-                    key={year}
-                    className="bg-gray-50 border border-gray-200 rounded p-3 text-center"
-                  >
-                    <span className="font-serif font-bold text-gray-900">
-                      {year}
-                    </span>
-                  </div>
-                )
-              )}
+            <NewsletterArchive />
+          </div>
+        </div>
+      </section>
+
+      {/* Historical Documents */}
+      <section className="py-12 sm:py-16 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="max-w-3xl mx-auto">
+            <div className="text-center mb-8">
+              <h2 className="text-2xl sm:text-3xl font-serif font-bold text-gray-900">
+                Historical Documents
+              </h2>
+              <p className="mt-3 text-gray-600">
+                Club calendars, show programs, and educational materials from the
+                GSBS archives.
+              </p>
             </div>
-            <p className="mt-6 text-sm text-gray-500">
-              PDF downloads available on request. Email{" "}
+            <div className="bg-white border border-gray-200 rounded divide-y divide-gray-100 overflow-hidden">
               <a
-                href="mailto:great.swampbonsai@gmail.com"
-                className="text-gsbs-teal hover:text-gsbs-teal-dark underline transition-colors"
+                href="/documents/bonsai-containers-ceramic-art.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group flex items-start gap-4 p-4 hover:bg-gray-50 transition-colors"
               >
-                great.swampbonsai@gmail.com
-              </a>{" "}
-              to request specific newsletter issues.
-            </p>
+                <div className="flex-1 min-w-0">
+                  <p className="font-medium text-gray-900 group-hover:text-gsbs-teal transition-colors">
+                    Bonsai Containers as Ceramic Art
+                  </p>
+                  <p className="text-sm text-gray-500 mt-0.5">
+                    Scholarly essay by Fred Aufschlager, GSBS Potter in Residence
+                  </p>
+                </div>
+                <FileText
+                  size={16}
+                  className="text-gray-300 group-hover:text-gsbs-teal flex-shrink-0 mt-1 transition-colors"
+                />
+              </a>
+              <a
+                href="/documents/annual-show-flyer-2013.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group flex items-start gap-4 p-4 hover:bg-gray-50 transition-colors"
+              >
+                <div className="flex-1 min-w-0">
+                  <p className="font-medium text-gray-900 group-hover:text-gsbs-teal transition-colors">
+                    Annual Bonsai Show Flyer, 2013
+                  </p>
+                  <p className="text-sm text-gray-500 mt-0.5">
+                    Historical show flyer from the annual exhibition
+                  </p>
+                </div>
+                <FileText
+                  size={16}
+                  className="text-gray-300 group-hover:text-gsbs-teal flex-shrink-0 mt-1 transition-colors"
+                />
+              </a>
+              <a
+                href="/documents/mabs-festival-2010.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group flex items-start gap-4 p-4 hover:bg-gray-50 transition-colors"
+              >
+                <div className="flex-1 min-w-0">
+                  <p className="font-medium text-gray-900 group-hover:text-gsbs-teal transition-colors">
+                    27th Annual MABS Spring Festival, 2010
+                  </p>
+                  <p className="text-sm text-gray-500 mt-0.5">
+                    Mid-Atlantic Bonsai Societies festival program
+                  </p>
+                </div>
+                <FileText
+                  size={16}
+                  className="text-gray-300 group-hover:text-gsbs-teal flex-shrink-0 mt-1 transition-colors"
+                />
+              </a>
+              <a
+                href="/documents/mabs-festival-2011.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group flex items-start gap-4 p-4 hover:bg-gray-50 transition-colors"
+              >
+                <div className="flex-1 min-w-0">
+                  <p className="font-medium text-gray-900 group-hover:text-gsbs-teal transition-colors">
+                    28th Annual MABS Spring Festival, 2011
+                  </p>
+                  <p className="text-sm text-gray-500 mt-0.5">
+                    Mid-Atlantic Bonsai Societies festival program
+                  </p>
+                </div>
+                <FileText
+                  size={16}
+                  className="text-gray-300 group-hover:text-gsbs-teal flex-shrink-0 mt-1 transition-colors"
+                />
+              </a>
+              <a
+                href="/documents/gsbs-calendar-2013-2014.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group flex items-start gap-4 p-4 hover:bg-gray-50 transition-colors"
+              >
+                <div className="flex-1 min-w-0">
+                  <p className="font-medium text-gray-900 group-hover:text-gsbs-teal transition-colors">
+                    GSBS Calendar, 2013&ndash;2014
+                  </p>
+                  <p className="text-sm text-gray-500 mt-0.5">
+                    Historical club calendar and meeting schedule
+                  </p>
+                </div>
+                <FileText
+                  size={16}
+                  className="text-gray-300 group-hover:text-gsbs-teal flex-shrink-0 mt-1 transition-colors"
+                />
+              </a>
+              <a
+                href="/documents/gsbs-calendar-2012-2013.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group flex items-start gap-4 p-4 hover:bg-gray-50 transition-colors"
+              >
+                <div className="flex-1 min-w-0">
+                  <p className="font-medium text-gray-900 group-hover:text-gsbs-teal transition-colors">
+                    GSBS Calendar, 2012&ndash;2013
+                  </p>
+                  <p className="text-sm text-gray-500 mt-0.5">
+                    Historical club calendar and meeting schedule
+                  </p>
+                </div>
+                <FileText
+                  size={16}
+                  className="text-gray-300 group-hover:text-gsbs-teal flex-shrink-0 mt-1 transition-colors"
+                />
+              </a>
+              <a
+                href="/documents/stone-appreciation-symposium.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group flex items-start gap-4 p-4 hover:bg-gray-50 transition-colors"
+              >
+                <div className="flex-1 min-w-0">
+                  <p className="font-medium text-gray-900 group-hover:text-gsbs-teal transition-colors">
+                    International Stone Appreciation Symposium
+                  </p>
+                  <p className="text-sm text-gray-500 mt-0.5">
+                    Suiseki and viewing stone appreciation — a companion art to
+                    bonsai
+                  </p>
+                </div>
+                <FileText
+                  size={16}
+                  className="text-gray-300 group-hover:text-gsbs-teal flex-shrink-0 mt-1 transition-colors"
+                />
+              </a>
+            </div>
           </div>
         </div>
       </section>

@@ -108,7 +108,7 @@ export default function AboutPage() {
                 </div>
                 <div>
                   <p className="text-sm font-semibold text-gsbs-teal">
-                    1976 &ndash; 2015
+                    1976 &ndash; 2022
                   </p>
                   <p className="text-sm text-gray-600">
                     Met at the Frelinghuysen Arboretum, Morristown, NJ
@@ -116,7 +116,7 @@ export default function AboutPage() {
                 </div>
                 <div>
                   <p className="text-sm font-semibold text-gsbs-teal">
-                    ~2015 &ndash; Present
+                    ~2022 &ndash; Present
                   </p>
                   <p className="text-sm text-gray-600">
                     Relocated to the Essex County Environmental Center,
@@ -164,6 +164,22 @@ export default function AboutPage() {
                     <span>
                       <strong>Michael Markoff</strong> was First Runner-up in
                       the Joshua Roth New Talent Competition at MABS 2010
+                    </span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-gsbs-teal mt-0.5 shrink-0">&bull;</span>
+                    <span>
+                      <strong>Martin Schmalenberg</strong> hosts workshops at
+                      his Stillwater Studio and has demonstrated styling
+                      techniques at numerous GSBS meetings
+                    </span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-gsbs-teal mt-0.5 shrink-0">&bull;</span>
+                    <span>
+                      <strong>David Yedwab</strong> is a club specialist in
+                      tropical bonsai care, root trimming, and indoor bonsai
+                      techniques
                     </span>
                   </li>
                 </ul>
