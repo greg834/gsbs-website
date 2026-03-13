@@ -332,7 +332,7 @@ const timelineEvents: TimelineEvent[] = [
     year: "2019",
     title: "Marc Noelanders from Belgium",
     description:
-      "Belgian bonsai master Marc Noelanders — one of Europe's most celebrated bonsai artists — presents at GSBS with a $50 bring-your-own-tree workshop (1-4 PM) and evening lecture/demo. Meeting time transitions from 6:30-9:30 PM to the current 6:00-9:00 PM around this period.",
+      "Belgian bonsai master Marc Noelanders — President of the European Bonsai Association and Director of the WBFF for Europe — presents at GSBS with a $50 bring-your-own-tree workshop (noon-4 PM) and evening lecture/demo. Noelanders studied with Masahiko Kimura, Saburo Kato, and John Naka, and founded the Noelanders Trophy, Europe's largest bonsai show. MABS 2019 headliners: Taiga Urushibata (Japan), Marc Noelanders (Europe), Jennifer Price (USA).",
     type: "artist",
   },
   {
@@ -346,7 +346,7 @@ const timelineEvents: TimelineEvent[] = [
     year: "2020\u20132021",
     title: "Pandemic Adaptations",
     description:
-      "When COVID-19 closes the Frelinghuysen Arboretum and public venues, GSBS adapts by holding outdoor meetings at members' homes and gardens throughout the summer months. The club suspends dues and maintains community through its Facebook group and newsletter. Members host each other at homes across northern NJ, from Stillwater to Port Murray to River Edge.",
+      "When COVID-19 prompts the Morris County Parks Commission to close all indoor facilities including the Haggerty Education Center, GSBS adapts by holding outdoor meetings at members' homes and gardens. Mark & Sheila Schmuck host in Rockaway, Rick & Leslie Myers in Succasunna, Doug Siedenburg in Port Murray, and others across northern NJ. The club suspends dues, cancels its MABS entry and planned Suthin Sukosolvisit workshop, and maintains community through its Facebook group, YouTube channel, and newsletter. President John Michalski proposes a 'virtual Open House' of member tree photos.",
     type: "milestone",
   },
   {
