@@ -483,6 +483,7 @@ export default function AboutPage() {
               { name: "Horst Krekeler", origin: "Germany", years: "2003, 2005", note: "Renowned lecturer, teacher, and author from Heidelberg; German bonsai master bringing European techniques BYOT workshops with evening lecture-demos" },
               { name: "Colin Lewis", origin: "Maine", years: "2004", note: "Internationally renowned author of several bonsai books and magazine articles; lecture-demo at GSBS" },
               { name: "Arthur Skolnik", origin: "International", years: "2004", note: "Renowned bonsai artist and teacher" },
+              { name: "Walter Pall", origin: "Germany", years: "2005", note: "European bonsai pioneer; lectured on European vs. American bonsai and non-traditional design thinking" },
               { name: "Andy Smith (Golden Arrow Bonsai)", origin: "South Dakota", years: "2005", note: "Lecture-demo on a wild collected Rocky Mountain Juniper" },
               { name: "Roy Nagatoshi", origin: "California", years: "2005, 2009", note: "President of the California Bonsai Society; known for work on the Karate Kid films; BYOT workshops with evening lecture-demos" },
               { name: "Min Hsuan Lo", origin: "Taiwan", years: "2006, 2008", note: "Internationally renowned Taiwanese master; demonstrated cascade styling on San Jose Juniper" },

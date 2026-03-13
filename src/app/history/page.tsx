@@ -601,10 +601,11 @@ export default function HistoryPage() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto">
             <div className="bg-white border border-gray-200 rounded-lg p-6">
               <h3 className="font-serif font-bold text-gray-900">Peter Michienzi</h3>
-              <p className="text-gsbs-teal text-sm font-medium mt-1">Rosade Award Winner</p>
+              <p className="text-gsbs-teal text-sm font-medium mt-1">Rosade Award &amp; BCI President&apos;s Award</p>
               <p className="text-gray-600 text-sm mt-3 leading-relaxed">
-                Won the Rosade Award for Design Excellence at MABS 2005 — one of the
-                most prestigious bonsai awards in the Mid-Atlantic region.
+                Won the Rosade Award for Design Excellence at MABS 2005 and the
+                BCI President&apos;s Award at MABS 2006. One of the club&apos;s most
+                accomplished exhibitors.
               </p>
             </div>
             <div className="bg-white border border-gray-200 rounded-lg p-6">
