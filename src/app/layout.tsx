@@ -42,6 +42,21 @@ export const metadata: Metadata = {
     siteName: "Great Swamp Bonsai Society",
     locale: "en_US",
     type: "website",
+    images: [
+      {
+        url: "https://www.greatswampbonsai.com/images/gsbs-logo.png",
+        width: 500,
+        height: 500,
+        alt: "Great Swamp Bonsai Society Logo",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary",
+    title: "Great Swamp Bonsai Society · NJ Bonsai Club Since 1976",
+    description:
+      "New Jersey's premier bonsai club since 1976. Free monthly meetings in Roseland, NJ. Beginners welcome.",
+    images: ["https://www.greatswampbonsai.com/images/gsbs-logo.png"],
   },
   metadataBase: new URL("https://www.greatswampbonsai.com"),
   alternates: {
@@ -50,7 +65,61 @@ export const metadata: Metadata = {
   robots: {
     index: true,
     follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
   },
+  other: {
+    "google-site-verification": "REPLACE_WITH_GSC_VERIFICATION_CODE",
+  },
+};
+
+const localBusinessSchema = {
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "@id": "https://www.greatswampbonsai.com/#localbusiness",
+  name: "Great Swamp Bonsai Society",
+  alternateName: "GSBS",
+  description:
+    "New Jersey's premier bonsai club since 1976. Free monthly meetings, workshops, and annual show in Roseland, NJ. Open to beginners and experts.",
+  url: "https://www.greatswampbonsai.com",
+  email: "great.swampbonsai@gmail.com",
+  telephone: "(973) 228-8776",
+  foundingDate: "1976",
+  image: "https://www.greatswampbonsai.com/images/gsbs-logo.png",
+  address: {
+    "@type": "PostalAddress",
+    streetAddress: "621-B Eagle Rock Ave",
+    addressLocality: "Roseland",
+    addressRegion: "NJ",
+    postalCode: "07068",
+    addressCountry: "US",
+  },
+  geo: {
+    "@type": "GeoCoordinates",
+    latitude: 40.8218,
+    longitude: -74.3046,
+  },
+  openingHoursSpecification: {
+    "@type": "OpeningHoursSpecification",
+    dayOfWeek: "Tuesday",
+    opens: "18:00",
+    closes: "21:00",
+    description: "2nd Tuesday of each month (no December meeting)",
+  },
+  priceRange: "Free meetings, $40/year membership",
+  areaServed: {
+    "@type": "State",
+    name: "New Jersey",
+  },
+  sameAs: [
+    "https://www.facebook.com/groups/296001945128377",
+    "https://www.youtube.com/@greatswampbonsaisociety5552",
+  ],
 };
 
 const organizationSchema = {
@@ -115,10 +184,16 @@ export default function RootLayout({
             __html: JSON.stringify(organizationSchema),
           }}
         />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(localBusinessSchema),
+          }}
+        />
       </head>
       <body className="flex flex-col min-h-screen">
         <Header />
-        <main className="flex-1">{children}</main>
+        <main id="main-content" className="flex-1">{children}</main>
         <Footer />
 
         {/* Google Analytics */}

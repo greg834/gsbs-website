@@ -20,4 +20,46 @@
   .text-balance {
     text-wrap: balance;
   }
+
+  /* Hide scrollbar for month selector */
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+/* Focus indicators for accessibility */
+:focus-visible {
+  outline: 2px solid #226E93;
+  outline-offset: 2px;
+}
+
+/* Print styles */
+@media print {
+  header, footer, .no-print {
+    display: none !important;
+  }
+
+  main {
+    padding: 0 !important;
+  }
+
+  section {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  body {
+    font-size: 12pt;
+    line-height: 1.5;
+    color: #000;
+    background: #fff;
+  }
+
+  img {
+    max-width: 100% !important;
+  }
 }

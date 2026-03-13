@@ -1,5 +1,5 @@
 import { Metadata } from "next";
-import { Camera, Mail } from "lucide-react";
+import { Mail } from "lucide-react";
 import GalleryGrid from "../../components/GalleryGrid";
 
 export const metadata: Metadata = {
@@ -28,21 +28,8 @@ export default function GalleryPage() {
             Bonsai Gallery
           </h1>
           <p className="mt-4 text-gray-300 max-w-2xl mx-auto">
-            Member trees, show exhibits, and meeting highlights from GSBS.
+            Member trees, show exhibits, and meeting highlights from GSBS — spanning two decades of bonsai artistry.
           </p>
-        </div>
-      </section>
-
-      {/* Coming Soon Banner */}
-      <section className="bg-amber-50 border-b border-amber-200">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
-          <div className="flex items-center justify-center gap-3 text-center">
-            <Camera size={20} className="text-amber-600 flex-shrink-0" />
-            <p className="text-amber-800 text-sm sm:text-base">
-              <span className="font-medium">Gallery coming soon</span> —
-              photos will be added as they are submitted by members.
-            </p>
-          </div>
         </div>
       </section>
 
@@ -77,6 +64,24 @@ export default function GalleryPage() {
           </div>
         </div>
       </section>
+
+      {/* ImageGallery Schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "ImageGallery",
+            name: "GSBS Bonsai Gallery",
+            description: "Photos of bonsai trees, shows, meetings, and workshops from the Great Swamp Bonsai Society.",
+            url: "https://www.greatswampbonsai.com/gallery",
+            publisher: {
+              "@type": "Organization",
+              name: "Great Swamp Bonsai Society",
+            },
+          }),
+        }}
+      />
     </>
   );
 }

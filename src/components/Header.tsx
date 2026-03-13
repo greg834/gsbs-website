@@ -16,6 +16,13 @@ const navLinks = [
   { href: "/contact", label: "Contact" },
 ];
 
+const mobileExtraLinks = [
+  { href: "/apparel", label: "Apparel" },
+  { href: "/beginners", label: "Beginner's Guide" },
+  { href: "/care-guide", label: "Care Guide" },
+  { href: "/history", label: "Club History" },
+];
+
 export default function Header() {
   const pathname = usePathname();
   const [mobileOpen, setMobileOpen] = useState(false);
@@ -39,6 +46,15 @@ export default function Header() {
   };
 
   return (
+    <>
+      {/* Skip to content — a11y */}
+      <a
+        href="#main-content"
+        className="sr-only focus:not-sr-only focus:absolute focus:top-0 focus:left-0 focus:z-[60] focus:bg-gsbs-teal focus:text-white focus:px-4 focus:py-2 focus:text-sm"
+      >
+        Skip to content
+      </a>
+
     <header className="sticky top-0 z-50 bg-gsbs-navy border-b border-white/10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-14 sm:h-16">
@@ -51,7 +67,7 @@ export default function Header() {
           </Link>
 
           {/* Desktop Navigation */}
-          <nav className="hidden lg:flex items-center gap-0.5">
+          <nav className="hidden lg:flex items-center gap-0.5" aria-label="Main navigation">
             {navLinks.map((link) => (
               <Link
                 key={link.href}
@@ -86,7 +102,7 @@ export default function Header() {
             className="fixed inset-0 top-14 sm:top-16 bg-black/50 z-40 lg:hidden"
             onClick={() => setMobileOpen(false)}
           />
-          <nav className="fixed top-14 sm:top-16 right-0 bottom-0 w-64 bg-gsbs-navy z-50 lg:hidden border-l border-white/10 overflow-y-auto">
+          <nav className="fixed top-14 sm:top-16 right-0 bottom-0 w-64 bg-gsbs-navy z-50 lg:hidden border-l border-white/10 overflow-y-auto" aria-label="Mobile navigation">
             <div className="py-2 px-2">
               {navLinks.map((link) => (
                 <Link
@@ -101,10 +117,29 @@ export default function Header() {
                   {link.label}
                 </Link>
               ))}
+
+              {/* Divider */}
+              <div className="border-t border-white/10 my-2 mx-4" />
+
+              {/* Extra pages */}
+              {mobileExtraLinks.map((link) => (
+                <Link
+                  key={link.href}
+                  href={link.href}
+                  className={`block px-4 py-2.5 text-sm ${
+                    isActive(link.href)
+                      ? "text-gsbs-teal-light font-medium"
+                      : "text-gray-400 hover:text-white"
+                  }`}
+                >
+                  {link.label}
+                </Link>
+              ))}
             </div>
           </nav>
         </>
       )}
     </header>
+    </>
   );
 }

@@ -1,11 +1,22 @@
 import Link from "next/link";
 import { Facebook, Youtube } from "lucide-react";
+import NewsletterSignup from "./NewsletterSignup";
 
 const quickLinks = [
   { href: "/about", label: "About" },
   { href: "/meetings", label: "Meetings" },
   { href: "/events", label: "Events" },
+  { href: "/gallery", label: "Gallery" },
+  { href: "/membership", label: "Membership" },
+  { href: "/resources", label: "Resources" },
   { href: "/contact", label: "Contact" },
+];
+
+const moreLinks = [
+  { href: "/apparel", label: "Apparel" },
+  { href: "/beginners", label: "Beginner's Guide" },
+  { href: "/care-guide", label: "Monthly Care Guide" },
+  { href: "/history", label: "Club History" },
 ];
 
 const socialLinks = [
@@ -26,7 +37,7 @@ export default function Footer() {
     <footer className="bg-gsbs-navy text-gray-300">
       {/* Main Footer */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
           {/* Left — Name & Address */}
           <div>
             <div className="flex items-center gap-3 mb-4">
@@ -48,9 +59,24 @@ export default function Footer() {
             >
               great.swampbonsai@gmail.com
             </a>
+            {/* Social icons */}
+            <div className="flex items-center gap-4 mt-4">
+              {socialLinks.map((social) => (
+                <a
+                  key={social.label}
+                  href={social.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label={`Visit our ${social.label} page`}
+                  className="text-gray-400 hover:text-gsbs-teal-light transition-colors"
+                >
+                  <social.icon size={20} />
+                </a>
+              ))}
+            </div>
           </div>
 
-          {/* Center — Quick Links */}
+          {/* Quick Links */}
           <div>
             <h3 className="text-white font-serif font-semibold text-base mb-4">
               Quick Links
@@ -66,47 +92,31 @@ export default function Footer() {
                   </Link>
                 </li>
               ))}
-              <li>
-                <Link
-                  href="/membership"
-                  className="text-sm text-gray-400 hover:text-gsbs-teal-light transition-colors duration-200"
-                >
-                  Membership
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/gallery"
-                  className="text-sm text-gray-400 hover:text-gsbs-teal-light transition-colors duration-200"
-                >
-                  Gallery
-                </Link>
-              </li>
             </ul>
           </div>
 
-          {/* Right — Social */}
+          {/* Explore */}
           <div>
             <h3 className="text-white font-serif font-semibold text-base mb-4">
-              Connect With Us
+              Explore
             </h3>
-            <div className="flex items-center gap-4">
-              {socialLinks.map((social) => (
-                <a
-                  key={social.label}
-                  href={social.href}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label={`Visit our ${social.label} page`}
-                  className="text-gray-400 hover:text-gsbs-teal-light transition-colors"
-                >
-                  <social.icon size={20} />
-                </a>
+            <ul className="space-y-2">
+              {moreLinks.map((link) => (
+                <li key={link.href}>
+                  <Link
+                    href={link.href}
+                    className="text-sm text-gray-400 hover:text-gsbs-teal-light transition-colors duration-200"
+                  >
+                    {link.label}
+                  </Link>
+                </li>
               ))}
-            </div>
-            <p className="mt-4 text-sm text-gray-400 leading-relaxed">
-              Join our Facebook group for meeting updates and bonsai discussion.
-            </p>
+            </ul>
+          </div>
+
+          {/* Newsletter Signup */}
+          <div>
+            <NewsletterSignup variant="footer" />
           </div>
         </div>
       </div>

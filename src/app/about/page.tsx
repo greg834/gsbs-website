@@ -131,6 +131,14 @@ export default function AboutPage() {
                 </div>
               </div>
 
+              <Link
+                href="/history"
+                className="inline-flex items-center gap-1 mt-6 text-gsbs-teal hover:text-gsbs-teal-dark text-sm font-medium transition-colors"
+              >
+                View Full Timeline
+                <ArrowRight size={16} />
+              </Link>
+
               {/* Member Accomplishments */}
               <div className="mt-10">
                 <h3 className="text-lg font-serif font-bold text-gray-900 mb-4">
