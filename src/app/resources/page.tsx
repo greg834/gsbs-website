@@ -10,6 +10,8 @@ import {
   Globe,
   TreePine,
   ArrowRight,
+  Calendar,
+  FileText,
 } from "lucide-react";
 
 export const metadata: Metadata = {
@@ -75,9 +77,9 @@ const reading: ResourceLink[] = [
   },
   {
     name: "Bonsai Containers as Ceramic Art",
-    url: "https://www.amazon.com/s?k=bonsai+containers+ceramic+art",
+    url: "/documents/bonsai-containers-ceramic-art.pdf",
     description:
-      "By GSBS Potter in Residence Fred Aufshlager — the art and craft of bonsai pottery",
+      "By GSBS Potter in Residence Fred Aufschlager — a scholarly essay on bonsai container history and ceramic art traditions. Free PDF download.",
   },
 ];
 
@@ -246,8 +248,90 @@ export default function ResourcesPage() {
         </div>
       </section>
 
-      {/* YouTube Videos */}
+      {/* Monthly Bonsai Care Guide */}
       <section className="py-12 sm:py-16 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-10">
+            <div className="flex items-center justify-center mx-auto mb-4">
+              <Calendar size={24} className="text-gsbs-teal" />
+            </div>
+            <h2 className="text-3xl sm:text-4xl font-serif font-bold text-gray-900">
+              Monthly Bonsai Care Guide
+            </h2>
+            <p className="mt-3 text-gray-600 max-w-2xl mx-auto">
+              Month-by-month care tips for the Northeast US climate, adapted from
+              17 years of GSBS newsletters and member experience.
+            </p>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {[
+              {
+                month: "January",
+                tips: "Protect trees from extreme cold and check that soil hasn't dried out. Winter is excellent for heavy pruning, new design, carving, and needle plucking on pines. Plan your spring repotting schedule.",
+              },
+              {
+                month: "February",
+                tips: "Prepare bonsai compost (peat, garden compost, sand/grit with slow-release fertilizer). In mild spells, repot and wire deciduous trees. Branch pruning can be done on most trees except Japanese maples and pines.",
+              },
+              {
+                month: "March",
+                tips: "Perfect time to repot and root-prune. Gradually bring trees out of winter shelter. Spray for fungus and insects on warm days. Good month for collecting from the wild.",
+              },
+              {
+                month: "April",
+                tips: "Begin feeding, pinching, watering, and pruning in earnest. Still a decent month for root-pruning and collecting trees. Be mindful of cold snaps.",
+              },
+              {
+                month: "May",
+                tips: "Daily watering begins. Take cuttings and continue air-layering. Watch wired branches carefully — deciduous trees expand quickly in May and June.",
+              },
+              {
+                month: "June",
+                tips: "Pinch terminal buds on deciduous trees, leaving one pair of leaves. Candle-pinching for evergreens winding down. Watch closely for insect pests.",
+              },
+              {
+                month: "July",
+                tips: "Feeding, pinching, and pruning in full swing. Keep plucking terminal buds off junipers and cedars. Spray in shade if using chemicals.",
+              },
+              {
+                month: "August",
+                tips: "Water every day, possibly twice. Reduce nitrogen and increase potassium and phosphorus. Loosen wire that's biting into branches. Begin hardening trees for fall.",
+              },
+              {
+                month: "September",
+                tips: "Begin hardening-off for winter. Apply low-nitrogen fertilizer after leaves fall but before November. Take hardwood cuttings and plan winter protection.",
+              },
+              {
+                month: "October",
+                tips: "Growth drawing to a close — stop fertilizing. Heavy branch pruning on pines. Prepare winter storage area. Many evergreens can be wire-trained in autumn.",
+              },
+              {
+                month: "November",
+                tips: "Trees can remain outdoors until month's end. Check for insects and spray before winter storage. Remove dead leaves and branches. Tropicals should already be indoors.",
+              },
+              {
+                month: "December",
+                tips: "Assess deciduous tree design while bare. Wire evergreens (not deciduous — too brittle). Plan repotting schedule, mix soil, and clean tools. Prevent soil freeze-thaw and wind dehydration.",
+              },
+            ].map((item) => (
+              <div
+                key={item.month}
+                className="bg-white border border-gray-200 rounded p-5"
+              >
+                <h3 className="font-serif font-bold text-gray-900 mb-2">
+                  {item.month}
+                </h3>
+                <p className="text-sm text-gray-600 leading-relaxed">
+                  {item.tips}
+                </p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* YouTube Videos */}
+      <section className="py-12 sm:py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-10">
             <div className="flex items-center justify-center mx-auto mb-4">
@@ -346,6 +430,49 @@ export default function ResourcesPage() {
                 </div>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Newsletter Archive */}
+      <section className="py-12 sm:py-16">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="max-w-3xl mx-auto text-center">
+            <div className="flex items-center justify-center mx-auto mb-4">
+              <FileText size={24} className="text-gsbs-teal" />
+            </div>
+            <h2 className="text-3xl sm:text-4xl font-serif font-bold text-gray-900">
+              Newsletter Archive (2005&ndash;2022)
+            </h2>
+            <p className="mt-3 text-gray-600 max-w-2xl mx-auto">
+              Our newsletter archive spans 2005&ndash;2022, with over 170 issues
+              covering meeting recaps, bonsai care tips, guest artist features,
+              and club history. Contact us to request specific issues.
+            </p>
+            <div className="mt-8 grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-3">
+              {[2022, 2021, 2020, 2019, 2018, 2017, 2016, 2015, 2014, 2013, 2012, 2011, 2010, 2009, 2008, 2007, 2006, 2005].map(
+                (year) => (
+                  <div
+                    key={year}
+                    className="bg-gray-50 border border-gray-200 rounded p-3 text-center"
+                  >
+                    <span className="font-serif font-bold text-gray-900">
+                      {year}
+                    </span>
+                  </div>
+                )
+              )}
+            </div>
+            <p className="mt-6 text-sm text-gray-500">
+              PDF downloads available on request. Email{" "}
+              <a
+                href="mailto:great.swampbonsai@gmail.com"
+                className="text-gsbs-teal hover:text-gsbs-teal-dark underline transition-colors"
+              >
+                great.swampbonsai@gmail.com
+              </a>{" "}
+              to request specific newsletter issues.
+            </p>
           </div>
         </div>
       </section>

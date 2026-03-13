@@ -37,6 +37,10 @@ next-env.d.ts
 
 .vercel
 
+# old site archive (thumb drive backup)
+/old-site-files/
+/Annual Bonsai Show Card.pdf
+
 # screenshots & test artifacts
 /screenshots/
 /test-results/

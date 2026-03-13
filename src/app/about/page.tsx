@@ -130,6 +130,44 @@ export default function AboutPage() {
                   </p>
                 </div>
               </div>
+
+              {/* Member Accomplishments */}
+              <div className="mt-10">
+                <h3 className="text-lg font-serif font-bold text-gray-900 mb-4">
+                  Member Accomplishments
+                </h3>
+                <ul className="space-y-3 text-sm text-gray-600 leading-relaxed">
+                  <li className="flex items-start gap-2">
+                    <span className="text-gsbs-teal mt-0.5 shrink-0">&bull;</span>
+                    <span>
+                      <strong>Peter Michienzi</strong> won the Rosade Award for
+                      Design Excellence at MABS 2005
+                    </span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-gsbs-teal mt-0.5 shrink-0">&bull;</span>
+                    <span>
+                      <strong>Bart Thomas</strong> was selected as Curator of
+                      the Bonsai Collection at Duke Farms, Hillsborough, NJ
+                    </span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-gsbs-teal mt-0.5 shrink-0">&bull;</span>
+                    <span>
+                      <strong>Martin Schmalenberg</strong> published a two-part
+                      article on Pinus Rigida (Pitch Pine) styling in{" "}
+                      <em>International Bonsai</em> magazine
+                    </span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-gsbs-teal mt-0.5 shrink-0">&bull;</span>
+                    <span>
+                      <strong>Michael Markoff</strong> was First Runner-up in
+                      the Joshua Roth New Talent Competition at MABS 2010
+                    </span>
+                  </li>
+                </ul>
+              </div>
             </div>
 
             {/* Photo placeholder */}
@@ -358,6 +396,51 @@ export default function AboutPage() {
             <div className="overflow-hidden aspect-[4/3]">
               <img src="/images/bonsai-6.png" alt="Bonsai in handcrafted ceramic pot at GSBS" className="w-full h-full object-cover" />
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Guest Artists Over the Years */}
+      <section className="py-12 sm:py-16 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-serif font-bold text-gray-900">
+              Guest Artists Over the Years
+            </h2>
+            <p className="mt-3 text-gray-600 max-w-2xl mx-auto">
+              For over two decades, GSBS has hosted internationally acclaimed
+              bonsai artists.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 max-w-5xl mx-auto">
+            {[
+              { name: "Colin Lewis", origin: "International", years: "2004" },
+              { name: "Arthur Skolnik", origin: "International", years: "2004" },
+              { name: "Boon Manakitivipart", origin: "California", years: "2003, 2011" },
+              { name: "Andy Smith (Golden Arrow Bonsai)", origin: "South Dakota", years: "2005" },
+              { name: "Horst Krekeler", origin: "Germany", years: "2003, 2005" },
+              { name: "Roy Nagatoshi", origin: "California", years: "2005" },
+              { name: "Kathy Shaner", origin: "California", years: "2011" },
+              { name: "Peter Warren", origin: "UK", years: "2012" },
+              { name: "Chase Rosade", origin: "Pennsylvania", years: "2012" },
+              { name: "Minoru Akiyama", origin: "Japan", years: "2013" },
+              { name: "Suthin Sukosolvisit", origin: "Thailand/USA", years: "2013\u20132014" },
+              { name: "Bjorn Bjornholm", origin: "\u2014", years: "2016" },
+              { name: "Marc Noelanders", origin: "Belgium", years: "2019" },
+              { name: "Will Baddeley", origin: "UK", years: "2022" },
+              { name: "Jonas Dupuich", origin: "California", years: "2026" },
+            ].map((artist) => (
+              <div
+                key={artist.name}
+                className="border border-gray-200 bg-white p-4"
+              >
+                <p className="font-semibold text-gray-900">{artist.name}</p>
+                <p className="text-sm text-gray-500 mt-1">
+                  {artist.origin} &middot; {artist.years}
+                </p>
+              </div>
+            ))}
           </div>
         </div>
       </section>

@@ -1,8 +1,6 @@
 "use client";
 
 import { useState } from "react";
-import { ImageIcon } from "lucide-react";
-
 type Category = "All" | "Member Trees" | "Annual Show" | "Meetings" | "Workshops";
 
 interface GalleryItem {
@@ -10,6 +8,8 @@ interface GalleryItem {
   title: string;
   caption: string;
   category: Exclude<Category, "All">;
+  image: string;
+  alt: string;
   tall?: boolean;
 }
 
@@ -24,78 +24,119 @@ const categories: Category[] = [
 const items: GalleryItem[] = [
   {
     id: 1,
-    title: "Japanese Maple — Informal Upright",
-    caption: "Member collection, styled over 12 years",
+    title: "Cedar Elm — Winter Silhouette",
+    caption: "Member tree",
     category: "Member Trees",
-    tall: true,
+    image: "/images/gallery/cedar-elm.jpg",
+    alt: "Cedar Elm — Winter Silhouette",
   },
   {
     id: 2,
-    title: "Annual Show 2025 Display",
-    caption: "Best in Show — Garibaldi Hall",
-    category: "Annual Show",
-  },
-  {
-    id: 3,
-    title: "Juniper — Cascade Style",
-    caption: "Rocky Mountain Juniper on carved deadwood",
+    title: "Hornbeam Forest Planting",
+    caption: "Member tree",
     category: "Member Trees",
-  },
-  {
-    id: 4,
-    title: "Sergio Cuan Demonstration",
-    caption: "Artist in Residence — Fall 2025 session",
-    category: "Workshops",
-  },
-  {
-    id: 5,
-    title: "Monthly Meeting — Repotting Night",
-    caption: "Members working on spring repotting",
-    category: "Meetings",
+    image: "/images/gallery/hornbeam-forest.jpg",
+    alt: "Hornbeam Forest Planting",
     tall: true,
   },
   {
-    id: 6,
-    title: "Trident Maple — Broom Style",
-    caption: "20-year-old specimen from seed",
+    id: 3,
+    title: "American Larch — Informal Upright",
+    caption: "Member tree — Martin Schmalenberg",
     category: "Member Trees",
+    image: "/images/gallery/american-larch.jpg",
+    alt: "American Larch — Informal Upright by Martin Schmalenberg",
+  },
+  {
+    id: 4,
+    title: "Cascade Juniper",
+    caption: "Member tree",
+    category: "Member Trees",
+    image: "/images/gallery/cascade-juniper.jpg",
+    alt: "Cascade Juniper",
+  },
+  {
+    id: 5,
+    title: "Rain Tree — Formal Upright",
+    caption: "Member tree",
+    category: "Member Trees",
+    image: "/images/gallery/rain-tree.jpg",
+    alt: "Rain Tree — Formal Upright",
+  },
+  {
+    id: 6,
+    title: "Pete's Juniper — Deadwood Style",
+    caption: "Member tree — Peter Michienzi",
+    category: "Member Trees",
+    image: "/images/gallery/petes-juniper.jpg",
+    alt: "Pete's Juniper — Deadwood Style by Peter Michienzi",
   },
   {
     id: 7,
-    title: "Annual Show — Vendor Tables",
-    caption: "Tools, pots, and trees for sale",
-    category: "Annual Show",
+    title: "Japanese Maple — Multi-trunk",
+    caption: "Member tree",
+    category: "Member Trees",
+    image: "/images/gallery/japanese-maple.jpg",
+    alt: "Japanese Maple — Multi-trunk",
   },
   {
     id: 8,
-    title: "Jonas Dupuich Workshop",
-    caption: "Guest artist workshop — April 2026",
-    category: "Workshops",
+    title: "Pine Rock Planting",
+    caption: "Member tree",
+    category: "Member Trees",
+    image: "/images/gallery/pine-planting.jpg",
+    alt: "Pine Rock Planting",
   },
   {
     id: 9,
-    title: "Chinese Elm — Literati",
-    caption: "Collected tree, styled by member",
+    title: "Collected Yamadori",
+    caption: "Member tree",
     category: "Member Trees",
+    image: "/images/gallery/collected-yamadori.jpg",
+    alt: "Collected Yamadori",
+    tall: true,
   },
   {
     id: 10,
-    title: "Earth Day Booth Display",
-    caption: "GSBS community outreach — April 2025",
+    title: "Many Hands Make Light Work",
+    caption: "Members working together at a meeting",
     category: "Meetings",
+    image: "/images/gallery/members-working.jpg",
+    alt: "Many Hands Make Light Work",
     tall: true,
   },
   {
     id: 11,
-    title: "Annual Show — Demo in Progress",
-    caption: "Live styling demonstration for visitors",
+    title: "Annual Show Vendor Area",
+    caption: "Vendors at the annual bonsai show",
     category: "Annual Show",
+    image: "/images/gallery/show-vendors.jpg",
+    alt: "Annual Show Vendor Area",
   },
   {
     id: 12,
-    title: "Fred Aufshlager Pottery",
-    caption: "Potter in Residence — handmade bonsai containers",
+    title: "GSBS Members at MABS Festival",
+    caption: "Members representing GSBS at the MABS Festival",
+    category: "Meetings",
+    image: "/images/gallery/members-at-mabs.jpg",
+    alt: "GSBS Members at MABS Festival",
+  },
+  {
+    id: 13,
+    title: "Cascade Blue Atlas Cedar — Annual Show 2006",
+    caption: "Exhibited at the annual show, 2006",
+    category: "Annual Show",
+    image: "/images/gallery/cascade-atlas-cedar.jpg",
+    alt: "Cascade Blue Atlas Cedar — Annual Show 2006",
+    tall: true,
+  },
+  {
+    id: 14,
+    title: "Boon Manakitivipart Workshop, 2003",
+    caption: "Workshop with renowned bonsai artist Boon Manakitivipart",
     category: "Workshops",
+    image: "/images/gallery/boon-workshop-2003.jpg",
+    alt: "Boon Manakitivipart Workshop, 2003",
   },
 ];
 
@@ -131,17 +172,12 @@ export default function GalleryGrid() {
             key={item.id}
             className="break-inside-avoid overflow-hidden border border-gray-200 bg-white"
           >
-            {/* Placeholder image block */}
-            <div
-              className={`bg-gray-200 relative flex flex-col items-center justify-center text-center p-6 ${
-                item.tall ? "aspect-[3/4]" : "aspect-[4/3]"
-              }`}
-            >
-              <ImageIcon size={28} className="text-gray-400 mb-1" />
-              <span className="text-gray-500 text-xs">
-                Photo placeholder
-              </span>
-            </div>
+            <img
+              src={item.image}
+              alt={item.alt}
+              className={`w-full object-cover ${item.tall ? "aspect-[3/4]" : "aspect-[4/3]"}`}
+              loading="lazy"
+            />
 
             {/* Info */}
             <div className="p-4">
