@@ -67,4 +67,4 @@ Interactive month-by-month care guide for the Northeast US climate, distilled fr
 
 ## Presidential History
 
-Mark Schmuck (~2005), John Michalski (~2007-2010, 2020-2022), Diego Pablos (~2010-2019), Diego Garnica (2024-present)
+Mark Schmuck (~2005), John Michalski (2007-2009, ~2020-2022), Diego Pablos (2009-~2019), Diego Garnica (2024-present)

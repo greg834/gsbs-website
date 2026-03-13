@@ -204,6 +204,23 @@ export default function AboutPage() {
                   <li className="flex items-start gap-2">
                     <span className="text-gsbs-teal mt-0.5 shrink-0">&bull;</span>
                     <span>
+                      <strong>Juan Calderon</strong> &mdash; expert stylist whose
+                      literati Eastern Red Cedar was praised by President Michalski
+                      as entering &ldquo;the realm of the masterpiece bonsai&rdquo;;
+                      co-led collecting expeditions to Nova Scotia and Maine
+                    </span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-gsbs-teal mt-0.5 shrink-0">&bull;</span>
+                    <span>
+                      <strong>Jim Gillespie</strong> (Sho-Fu-En Bonsai) won Best
+                      Display at the first U.S. National Bonsai Show in Saratoga
+                      (2008)
+                    </span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-gsbs-teal mt-0.5 shrink-0">&bull;</span>
+                    <span>
                       <strong>David Yedwab</strong> is a club specialist in
                       tropical bonsai care, root trimming, and indoor bonsai
                       techniques
@@ -467,16 +484,16 @@ export default function AboutPage() {
               { name: "Colin Lewis", origin: "Maine", years: "2004", note: "Internationally renowned author of several bonsai books and magazine articles; lecture-demo at GSBS" },
               { name: "Arthur Skolnik", origin: "International", years: "2004", note: "Renowned bonsai artist and teacher" },
               { name: "Andy Smith (Golden Arrow Bonsai)", origin: "South Dakota", years: "2005", note: "Lecture-demo on a wild collected Rocky Mountain Juniper" },
-              { name: "Roy Nagatoshi", origin: "California", years: "2005", note: "Known for work on the Karate Kid films; Known for work on the Karate Kid films; workshop at GSBS BYOT workshop with evening lecture-demo and raffle tree" },
-              { name: "Min Hsuan Lo", origin: "Taiwan", years: "2006, 2008", note: "Internationally renowned Taiwanese juniper specialist" },
+              { name: "Roy Nagatoshi", origin: "California", years: "2005, 2009", note: "President of the California Bonsai Society; known for work on the Karate Kid films; BYOT workshops with evening lecture-demos" },
+              { name: "Min Hsuan Lo", origin: "Taiwan", years: "2006, 2008", note: "Internationally renowned Taiwanese master; demonstrated cascade styling on San Jose Juniper" },
               { name: "Ted Matson", origin: "California", years: "2006", note: "Founded the California Shohin Society; shohin specialist" },
               { name: "Bill Valavanis", origin: "New York", years: "2006", note: "Publisher, International Bonsai magazine; lectured on The Genesis of Classical Bonsai" },
               { name: "George LeBolt", origin: "New Jersey", years: "2005, 2006", note: "Past President of MABS; President of Bergen Bonsai Society for 16 years; tropical bonsai specialist; Portulacaria (Dwarf Jade) workshop. His trees are in the Montreal Botanical Gardens bonsai collection" },
               { name: "Tony Tickle", origin: "UK", years: "2007", note: "British bonsai artist; demonstrated copper wire techniques at GSBS" },
               { name: "Pedro Morales", origin: "Puerto Rico", years: "2009, 2019", note: "Styled San Jose Junipers at GSBS; hosted at Fred Aufschlager's home" },
               { name: "Julian Adams", origin: "\u2014", years: "2009", note: "Scots Pine specialist; lectured on Pinus Silvestris" },
-              { name: "Jim Barrett", origin: "New Jersey", years: "2008", note: "Bonsai potter and artist; demonstrated pottery techniques for bonsai containers" },
-              { name: "Sean Smith", origin: "New Jersey", years: "2009", note: "GSBS member; presented on bonsai display techniques including formal setup, accent plants, and scrolls" },
+              { name: "Jim Barrett", origin: "California", years: "2008", note: "Founding member Golden State Bonsai Federation; presented on matching deciduous trees to pots" },
+              { name: "Sean Smith", origin: "Pennsylvania", years: "2009", note: "Custom Oriental Woodcraft, Marysville PA; presented on bonsai display stands, Tokonoma, daiza, and shoji screens" },
               { name: "Charles Ceronio", origin: "South Africa", years: "2010", note: "South African bonsai master; guest speaker at GSBS after MABS 2010" },
               { name: "Michel Phaneuf", origin: "Canada", years: "2010", note: "MABS 2010 featured artist" },
               { name: "Michele Andolfo", origin: "Italy", years: "2010", note: "MABS 2010 featured artist" },
@@ -488,7 +505,7 @@ export default function AboutPage() {
               { name: "Isao Omachi", origin: "Japan", years: "2012", note: "MABS 2012: Pine and Juniper demonstrations" },
               { name: "John Thompson", origin: "\u2014", years: "2012", note: "MABS 2012: Coastal Oak and Boxwood demonstrations" },
               { name: "Minoru Akiyama", origin: "Japan", years: "2013", note: "Youngest winner of the Prime Minister's Award at Sakafu; apprenticed under Kunio Kobayashi at Shunkaen" },
-              { name: "David Easterbrook", origin: "Canada", years: "2009, 2013", note: "Curator, Montreal Botanical Garden bonsai collection; multiple GSBS visits" },
+              { name: "David Easterbrook", origin: "Canada", years: "2008, 2009, 2013", note: "Curator, Montreal Botanical Garden bonsai collection; called GSBS 'one of the more active and vital clubs' in North America" },
               { name: "Ron Lang", origin: "\u2014", years: "2013", note: "Bonsai potter; presented The Gestalt of Tree/Container Selection" },
               { name: "Suthin Sukosolvisit", origin: "Thailand/USA", years: "2014", note: "Royal Bonsai Garden, Stoughton MA; involved with bonsai since 1970; MABS 2014 headliner; tropical and temperate species expert" },
               { name: "Bjorn Bjornholm", origin: "Tennessee", years: "2016, 2022", note: "Owner of Bjorvala Bonsai Studio; trained 6 years in Japan under Keiichi Fujikawa; certified by Japanese Bonsai Association" },

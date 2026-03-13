@@ -80,7 +80,7 @@ const timelineEvents: TimelineEvent[] = [
     year: "2005",
     title: "Roy Nagatoshi & Andy Smith Visit",
     description:
-      "California bonsai master Roy Nagatoshi — known for his work on the Karate Kid films — and Andy Smith of Golden Arrow Bonsai in South Dakota present at GSBS. Smith demonstrates on a wild collected Rocky Mountain Juniper.",
+      "California bonsai master Roy Nagatoshi — President of the California Bonsai Society, known for his work on the Karate Kid films — and Andy Smith of Golden Arrow Bonsai in South Dakota present at GSBS. Smith demonstrates on a wild collected Rocky Mountain Juniper. Nagatoshi returns in 2009 for a $50 juniper-focused workshop.",
     type: "artist",
   },
   {
@@ -171,7 +171,7 @@ const timelineEvents: TimelineEvent[] = [
     year: "2008",
     title: "Jim Barrett — Potter & Bonsai Artist",
     description:
-      "Bonsai potter and artist Jim Barrett presents at GSBS, demonstrating pottery techniques for bonsai containers. Barrett joins Fred Aufschlager in bringing ceramic arts expertise to the club.",
+      "California bonsai artist Jim Barrett — founding member of the Golden State Bonsai Federation — presents at GSBS on matching deciduous trees to pots. His expertise in tree-and-pot proportion complements Fred Aufschlager's ceramic artistry.",
     type: "artist",
   },
   {
@@ -185,21 +185,21 @@ const timelineEvents: TimelineEvent[] = [
     year: "2008",
     title: "Maine Larch Collecting Trip",
     description:
-      "GSBS organizes its first group yamadori (wild collecting) trip to Maine for American Larch — combining adventure and the art of finding bonsai material in nature. The club also secures collecting access through the Morris County Park Commission.",
+      "GSBS organizes its first group yamadori (wild collecting) trip to Maine for American Larch (John Michalski, Juan Calderon, Ed Ullrich, Kerry Heck). The club also partners with the Morris County Park Commission for invasive honeysuckle collecting at Kay Environmental Center, Chester, NJ — a win-win where members get free bonsai material while helping parks remove invasive species. Twenty-nine members visit the Brooklyn Botanic Gardens with curator Julian Velasco.",
     type: "milestone",
   },
   {
     year: "2008",
     title: "MABS Spring Festival Participation",
     description:
-      "GSBS members participate in the Mid-Atlantic Bonsai Societies (MABS) Spring Festival, continuing the club's strong tradition of regional competition and exhibition.",
+      "GSBS members participate in the 25th Annual MABS Spring Festival, featuring Graham Potter (UK) and Michael Hagedorn (USA). The Open House draws 100-150 visitors, with Mark Schmuck and Dan Boehmke tying for the People's Choice Award. David Easterbrook of the Montreal Botanical Gardens praises GSBS as 'one of the more active and vital clubs he's seen on his journeys across North America.'",
     type: "achievement",
   },
   {
     year: "2009",
     title: "Sean Smith — Display Presentation",
     description:
-      "GSBS member Sean Smith delivers a presentation on bonsai display techniques, covering formal display setup, use of accent plants (kusamoto), stands, and scrolls. The presentation exemplifies the club's dedication to the full art of bonsai beyond just tree styling.",
+      "Sean Smith of Custom Oriental Woodcraft (Marysville, PA) delivers a presentation on bonsai display — covering stands, Tokonoma display setup, daiza (wooden bases for suiseki), accent plants, and shoji screens. The presentation exemplifies the club's dedication to the full art of bonsai beyond just tree styling.",
     type: "milestone",
   },
   {
@@ -224,10 +224,10 @@ const timelineEvents: TimelineEvent[] = [
     type: "milestone",
   },
   {
-    year: "2010",
-    title: "Diego Pablos Becomes President",
+    year: "2009",
+    title: "Diego Pablos Elected President",
     description:
-      "Diego Pablos takes over as President of GSBS from John Michalski, continuing the club's tradition of dedicated volunteer leadership. Under Pablos, the club maintains its robust guest artist program and community outreach.",
+      "Diego Pablos is elected President of GSBS in September 2009, succeeding John Michalski who served from 2007 to 2009. Under Pablos, the club maintains its robust guest artist program and community outreach through the next decade.",
     type: "milestone",
   },
   {
