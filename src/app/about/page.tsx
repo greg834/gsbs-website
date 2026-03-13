@@ -505,7 +505,7 @@ export default function AboutPage() {
               { name: "Isao Omachi", origin: "Japan", years: "2012", note: "MABS 2012: Pine and Juniper demonstrations" },
               { name: "John Thompson", origin: "\u2014", years: "2012", note: "MABS 2012: Coastal Oak and Boxwood demonstrations" },
               { name: "Minoru Akiyama", origin: "Japan", years: "2013", note: "Youngest winner of the Prime Minister's Award at Sakafu; apprenticed under Kunio Kobayashi at Shunkaen" },
-              { name: "David Easterbrook", origin: "Canada", years: "2006, 2007, 2008, 2009, 2013, 2017", note: "Curator, Montreal Botanical Garden bonsai collection; 6 visits over 11 years; called GSBS 'one of the more active and vital clubs' in North America" },
+              { name: "David Easterbrook", origin: "Canada", years: "2006, 2007, 2008, 2009, 2013, 2016, 2017", note: "Curator, Montreal Botanical Garden bonsai collection; 7 visits over 11 years; called GSBS 'one of the more active and vital clubs' in North America" },
               { name: "Ron Lang", origin: "\u2014", years: "2013", note: "Bonsai potter; presented The Gestalt of Tree/Container Selection" },
               { name: "Suthin Sukosolvisit", origin: "Thailand/USA", years: "2014", note: "Royal Bonsai Garden, Stoughton MA; involved with bonsai since 1970; MABS 2014 headliner; tropical and temperate species expert" },
               { name: "Bjorn Bjornholm", origin: "Tennessee", years: "2016, 2022", note: "Owner of Bjorvala Bonsai Studio; trained 6 years in Japan under Keiichi Fujikawa; certified by Japanese Bonsai Association" },
@@ -617,13 +617,19 @@ export default function AboutPage() {
                   the 2026 show will celebrate 50 years of GSBS.
                 </p>
                 <p>
-                  <strong>Past Award Winners:</strong> 2018 &mdash; Best in Show:
-                  Fred Aufschlager (Korean Hornbeam), President&apos;s Choice:
-                  John Michalski (yamadori Northern White Cedar), People&apos;s
-                  Choice: Mark Schmuck (Forest planting). 2019 &mdash; Best in
-                  Show: John Michalski (Northern White Cedar), President&apos;s
-                  Award: Rick Meyer (Bush Honeysuckle), People&apos;s Choice:
-                  Rick Meyer (Shimpaku Juniper).
+                  <strong>Past Award Winners:</strong> 2008 &mdash; People&apos;s
+                  Choice (tie): Mark Schmuck (Potentilla) &amp; Dan Boehmke
+                  (Shimpaku). 2009 &mdash; People&apos;s Choice: Mark Schmuck
+                  (Potentilla). 2011 &mdash; People&apos;s Choice: Michael
+                  Markoff. 2016 &mdash; People&apos;s Choice: Mark Schmuck
+                  (Shimpaku Juniper), President&apos;s Award: John Michalski
+                  (Amur Maple). 2018 &mdash; Best in Show: Fred Aufschlager
+                  (Korean Hornbeam), President&apos;s Choice: John Michalski
+                  (yamadori Northern White Cedar), People&apos;s Choice: Mark
+                  Schmuck (Forest planting). 2019 &mdash; Best in Show: John
+                  Michalski (Northern White Cedar), President&apos;s Award: Rick
+                  Meyer (Bush Honeysuckle), People&apos;s Choice: Rick Meyer
+                  (Shimpaku Juniper).
                 </p>
                 <p>
                   Today, the Annual Bonsai Show is held at Garibaldi Hall (621-A

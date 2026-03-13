@@ -416,7 +416,7 @@ const timelineEvents: TimelineEvent[] = [
     year: "2020\u20132021",
     title: "Pandemic Adaptations",
     description:
-      "When COVID-19 prompts the Morris County Parks Commission to close all indoor facilities including the Haggerty Education Center, GSBS adapts by holding outdoor meetings at members' homes and gardens. Mark & Sheila Schmuck host in Rockaway, Rick & Leslie Myers in Succasunna, Doug Siedenburg in Port Murray, and others across northern NJ. The club suspends dues, cancels its MABS entry and planned Suthin Sukosolvisit workshop, and maintains community through its Facebook group, YouTube channel, and newsletter. President John Michalski proposes a 'virtual Open House' of member tree photos.",
+      "When COVID-19 prompts the Morris County Parks Commission to close all indoor facilities including the Haggerty Education Center, GSBS adapts by holding outdoor meetings at members' homes and gardens. Mark & Sheila Schmuck host in Rockaway, Rick & Leslie Myers in Succasunna, Doug Siedenburg in Port Murray, and others across northern NJ. The club suspends dues, cancels its MABS entry and planned Suthin Sukosolvisit workshop, and maintains community through its Facebook group, YouTube channel, and newsletter. Founding member Brian O'Byrne — who served as both GSBS President and MABS President — bids farewell and moves to Canada, donating and auctioning his collection.",
     type: "milestone",
   },
   {
