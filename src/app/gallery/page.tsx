@@ -5,11 +5,11 @@ import GalleryGrid from "../../components/GalleryGrid";
 export const metadata: Metadata = {
   title: "Bonsai Gallery · Member Trees & Show Exhibits · GSBS",
   description:
-    "Browse 137 bonsai photos from Great Swamp Bonsai Society — member trees, annual show exhibits, step-by-step demo sequences from world-renowned artists, meetings, and MABS festivals. Filter by category and year.",
+    "Browse 166 bonsai photos from Great Swamp Bonsai Society — member trees, annual show exhibits, step-by-step demo sequences from world-renowned artists, meetings, and MABS festivals. Filter by category and year.",
   openGraph: {
     title: "Bonsai Gallery · Member Trees & Show Exhibits · GSBS",
     description:
-      "137 bonsai photos from GSBS — member trees, annual shows, workshops, meetings, and MABS festivals.",
+      "166 bonsai photos from GSBS — member trees, annual shows, workshops, meetings, and MABS festivals.",
   },
   alternates: {
     canonical: "https://www.greatswampbonsai.com/gallery",
@@ -73,7 +73,7 @@ export default function GalleryPage() {
             "@context": "https://schema.org",
             "@type": "ImageGallery",
             name: "GSBS Bonsai Gallery",
-            description: "137 photos of bonsai trees, annual shows (2004-2011), step-by-step demo sequences from guest artists, workshops with international artists, meetings, and MABS festivals from the Great Swamp Bonsai Society, spanning 2003-2012.",
+            description: "166 photos of bonsai trees, annual shows (2004-2011), step-by-step demo sequences from guest artists, workshops with international artists, meetings, and MABS festivals from the Great Swamp Bonsai Society, spanning 2003-2012.",
             url: "https://www.greatswampbonsai.com/gallery",
             publisher: {
               "@type": "Organization",
