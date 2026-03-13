@@ -41,9 +41,16 @@ const timelineEvents: TimelineEvent[] = [
   },
   {
     year: "2003",
+    title: "Marco Invernizzi from Italy",
+    description:
+      "Italian bonsai master Marco Invernizzi presents a special evening demonstration at GSBS, marking one of the club's first international guest artist visits and setting the stage for decades of world-class programming. He returns in 2006.",
+    type: "artist",
+  },
+  {
+    year: "2003",
     title: "Boon Manakitivipart Workshop",
     description:
-      "World-renowned bonsai artist Boon Manakitivipart of California conducts a workshop at GSBS, beginning a tradition of hosting internationally acclaimed guest artists.",
+      "World-renowned bonsai artist Boon Manakitivipart of California conducts a workshop at GSBS. Boon trained in Japan under Akio Kato at his nursery in the Aichi prefecture, and his visits to GSBS continue through 2011.",
     type: "artist",
     image: "/images/gallery/boon-workshop-2003.jpg",
   },
@@ -51,7 +58,7 @@ const timelineEvents: TimelineEvent[] = [
     year: "2003",
     title: "Horst Krekeler Visits from Germany",
     description:
-      "German bonsai master Horst Krekeler conducts workshops at GSBS, bringing European bonsai techniques to the club. He returns in 2005.",
+      "Horst Krekeler, a renowned bonsai lecturer, teacher, and author from Heidelberg, Germany, conducts workshops at GSBS. His $50 bring-your-own-tree workshops are followed by evening lecture-demos with raffled demo trees. He returns in 2005.",
     type: "artist",
     image: "/images/gallery/horst-workshop.jpg",
   },
@@ -59,29 +66,78 @@ const timelineEvents: TimelineEvent[] = [
     year: "2004",
     title: "Colin Lewis & Arthur Skolnik",
     description:
-      "Internationally recognized bonsai artists Colin Lewis and Arthur Skolnik present at GSBS meetings, continuing the club's tradition of bringing world-class instruction to its members.",
+      "Internationally renowned bonsai artist Colin Lewis — published author of several bonsai books and magazine articles — presents a lecture-demo and workshop at GSBS. Arthur Skolnik, another internationally recognized artist, demonstrates at the September meeting. GSBS member Martin Schmalenberg styles a garden juniper with audience participation at the October/November meetings.",
     type: "artist",
   },
   {
     year: "2005",
-    title: "Peter Michienzi Wins Rosade Award",
+    title: "MABS Comes to New Jersey",
     description:
-      "GSBS member Peter Michienzi wins the Rosade Award for Design Excellence at the Mid-Atlantic Bonsai Societies (MABS) Spring Festival — a prestigious recognition of artistic achievement.",
+      "The 22nd Annual MABS Spring Festival is held at the Ramada Inn on Route 10 in East Hanover, NJ — practically in GSBS's backyard. Featured headliners include Hatsuji Kato (Japan), David Prescott (UK), Cheryl Manning (California), and Andrew Smith (South Dakota). GSBS member Peter Michienzi wins the prestigious Rosade Award for Design Excellence for his stunning Juniper. Fred Aufschlager and Bill Muldowney win raffle trees.",
     type: "achievement",
   },
   {
     year: "2005",
     title: "Roy Nagatoshi & Andy Smith Visit",
     description:
-      "California bonsai master Roy Nagatoshi — known for his work on the Karate Kid films — and Andy Smith of Golden Arrow Bonsai in South Dakota present at GSBS.",
+      "California bonsai master Roy Nagatoshi — known for his work on the Karate Kid films — and Andy Smith of Golden Arrow Bonsai in South Dakota present at GSBS. Smith demonstrates on a wild collected Rocky Mountain Juniper.",
     type: "artist",
   },
   {
     year: "~2005",
     title: "25th Anniversary Open House",
     description:
-      "GSBS celebrates approximately 25 years with a special open house event, showcasing member trees, demonstrations, and the club's history.",
+      "GSBS celebrates its 25th anniversary with a special open house at the Frelinghuysen Arboretum. The club urges every member to bring a tree for display: \"Every tree is worthy of display.\" The show features lecture-demonstrations with raffled demo trees.",
     type: "milestone",
+  },
+  {
+    year: "2005",
+    title: "5th World Bonsai Convention",
+    description:
+      "GSBS members attend the 5th World Bonsai Convention at the Hilton Washington Hotel in Washington, DC (May 28-31). The convention features lectures and demonstrations by artists from six continents, with special tributes to bonsai legends Saburo Kato and John Naka.",
+    type: "milestone",
+  },
+  {
+    year: "2005",
+    title: "Collecting Expeditions — Nova Scotia & Beyond",
+    description:
+      "John Michalski and Juan Calderon lead collecting expeditions to Nova Scotia peat bogs and rocky areas across the northeast, bringing back American Larch, Potentilla, and other species. Members share stories of stalking nursery stock at Home Depot and multi-year vigils over wild-growing trees. Not all collected material survives — but the adventures are legendary.",
+    type: "milestone",
+  },
+  {
+    year: "2005",
+    title: "Open House at Frelinghuysen Arboretum",
+    description:
+      "GSBS holds its annual Open House at the Haggerty Education Center at the Frelinghuysen Arboretum, East Hanover Avenue. Members display their bonsai and provide live demonstrations for the public. The show draws new visitors and prospective members each year.",
+    type: "milestone",
+  },
+  {
+    year: "2006",
+    title: "23rd MABS Spring Festival",
+    description:
+      "The 23rd Annual MABS Spring Festival is held at the Ramada Inn on Route 10 in East Hanover, NJ — the same venue as the previous year. GSBS members exhibit and compete alongside clubs from across the Mid-Atlantic region.",
+    type: "achievement",
+  },
+  {
+    year: "2006",
+    title: "Ted Matson & Bill Valavanis",
+    description:
+      "California shohin specialist Ted Matson (founder of the California Shohin Society) and Bill Valavanis (publisher of International Bonsai magazine) present at GSBS. Valavanis lectures on \"The Genesis of Classical Bonsai.\"",
+    type: "artist",
+  },
+  {
+    year: "2006",
+    title: "Min Hsuan Lo from Taiwan",
+    description:
+      "Internationally renowned Taiwanese bonsai artist Min Hsuan Lo presents at GSBS, demonstrating his expertise with junipers. He returns for a second visit in 2008.",
+    type: "artist",
+  },
+  {
+    year: "2007",
+    title: "Tony Tickle from the UK",
+    description:
+      "British bonsai artist Tony Tickle demonstrates copper wire techniques at GSBS, with member Evan DeAngelis assisting in showing the strength of copper wire during the presentation.",
+    type: "artist",
   },
   {
     year: "~2005",
@@ -98,6 +154,41 @@ const timelineEvents: TimelineEvent[] = [
     type: "milestone",
   },
   {
+    year: "~2007",
+    title: "John Michalski Becomes President",
+    description:
+      "John Michalski takes over as President of GSBS, succeeding Mark Schmuck. Under Michalski's leadership, the club expands its guest artist program, organizes collecting trips to Maine and Nova Scotia, and secures yamadori collecting permits through the Morris County Park Commission.",
+    type: "milestone",
+  },
+  {
+    year: "~2008",
+    title: "Martin Schmalenberg's North American Bonsai Book",
+    description:
+      "GSBS co-founder and Director of Asian Studies at Blairstown Academy, Martin Schmalenberg, completes work on his book about North American bonsai — drawing on decades of experience with native species and his deep knowledge of Japanese aesthetics. Schmalenberg also publishes a two-part article on Pinus Rigida (Pitch Pine) styling in International Bonsai magazine.",
+    type: "achievement",
+  },
+  {
+    year: "2008",
+    title: "Jim Barrett — Potter & Bonsai Artist",
+    description:
+      "Bonsai potter and artist Jim Barrett presents at GSBS, demonstrating pottery techniques for bonsai containers. Barrett joins Fred Aufschlager in bringing ceramic arts expertise to the club.",
+    type: "artist",
+  },
+  {
+    year: "2008",
+    title: "National Show Representation",
+    description:
+      "GSBS members Juan Calderon, Peter Michienzi, and Jim Gillespie create bonsai selected for the first national bonsai show in Saratoga. Jim Gillespie receives the award for Best Display — a landmark achievement for the club.",
+    type: "achievement",
+  },
+  {
+    year: "2008",
+    title: "Maine Larch Collecting Trip",
+    description:
+      "GSBS organizes its first group yamadori (wild collecting) trip to Maine for American Larch — combining adventure and the art of finding bonsai material in nature. The club also secures collecting access through the Morris County Park Commission.",
+    type: "milestone",
+  },
+  {
     year: "2008",
     title: "MABS Spring Festival Participation",
     description:
@@ -105,17 +196,52 @@ const timelineEvents: TimelineEvent[] = [
     type: "achievement",
   },
   {
+    year: "2009",
+    title: "Sean Smith — Display Presentation",
+    description:
+      "GSBS member Sean Smith delivers a presentation on bonsai display techniques, covering formal display setup, use of accent plants (kusamoto), stands, and scrolls. The presentation exemplifies the club's dedication to the full art of bonsai beyond just tree styling.",
+    type: "milestone",
+  },
+  {
+    year: "2009",
+    title: "Pedro Morales from Puerto Rico",
+    description:
+      "Guest artist Pedro Morales visits from Puerto Rico to style a large San Jose Juniper at Fred Aufschlager's home. He returns for a second visit in 2019.",
+    type: "artist",
+  },
+  {
+    year: "2009",
+    title: "Julian Adams on Scots Pine",
+    description:
+      "Julian Adams delivers a detailed lecture on Pinus Sylvestris (Scots Pine) styling — one of many species-focused educational sessions that exemplify GSBS's commitment to in-depth horticultural instruction.",
+    type: "artist",
+  },
+  {
+    year: "2010",
+    title: "George LeBolt Memorial",
+    description:
+      "GSBS mourns the passing of George LeBolt — Past President of MABS, President of the Bergen Bonsai Society for 16 years, and a beloved guest artist at GSBS. George's trees are in the permanent bonsai collection at the Montreal Botanical Gardens. His legacy of generosity and mentorship is remembered across the Mid-Atlantic bonsai community.",
+    type: "milestone",
+  },
+  {
+    year: "2010",
+    title: "Diego Pablos Becomes President",
+    description:
+      "Diego Pablos takes over as President of GSBS from John Michalski, continuing the club's tradition of dedicated volunteer leadership. Under Pablos, the club maintains its robust guest artist program and community outreach.",
+    type: "milestone",
+  },
+  {
     year: "2010",
     title: "Michael Markoff — MABS New Talent",
     description:
-      "GSBS member Michael Markoff is selected as First Runner-up in the Joshua Roth New Talent Competition at the 27th Annual MABS Spring Festival — one of the most competitive new talent showcases in the Mid-Atlantic bonsai community. GSBS members participate in the festival, continuing a multi-year tradition of engagement with the Joshua Roth New Talent Competition.",
+      "GSBS member Michael Markoff is selected as First Runner-up in the Joshua Roth New Talent Competition at the 27th Annual MABS Spring Festival at Hudson Valley Resort, Kerhonkson, NY. Featured artists include Michel Phaneuf (Canada), Michele Andolfo (Italy), and Charles Ceronio (South Africa).",
     type: "achievement",
   },
   {
     year: "2011",
-    title: "People's Choice Award",
+    title: "Michael Markoff Wins People's Choice",
     description:
-      "A GSBS member earns the People's Choice Award at a regional bonsai exhibition, reflecting the artistry and craftsmanship cultivated within the club.",
+      "GSBS member Michael Markoff wins the People's Choice Award at the 2011 GSBS Open House at the Haggerty Education Center, Frelinghuysen Arboretum. The annual show features member trees, demonstrations, and vendor Jim Gillespie of Sho-Fu-En Bonsai.",
     type: "achievement",
   },
   {
@@ -136,7 +262,7 @@ const timelineEvents: TimelineEvent[] = [
     year: "2011",
     title: "Kathy Shaner & Boon Return",
     description:
-      "California bonsai masters Kathy Shaner and Boon Manakitivipart (returning for the second time) present at GSBS, conducting workshops and demonstrations.",
+      "California bonsai master Kathy Shaner presents at a special workshop held at Fred Aufschlager's residence in Bernardsville, NJ. Boon Manakitivipart returns for his third visit, conducting an afternoon workshop and evening demo on a collected pine at Fred's residence.",
     type: "artist",
   },
   {
@@ -155,17 +281,10 @@ const timelineEvents: TimelineEvent[] = [
   },
   {
     year: "2012",
-    title: "MABS Spring Festival",
+    title: "29th MABS Spring Festival",
     description:
-      "GSBS members participate in the MABS Spring Festival, with continued engagement in the Joshua Roth New Talent Competition and regional exhibition categories.",
+      "GSBS members participate in the 29th Annual MABS Spring Festival at Harrisburg-Hershey Holiday Inn, Grantville, PA. Featured demonstrations by Isao Omachi (Pine and Juniper), John Thompson (Coastal Oak and Boxwood), and Chase Rosade (Hemlock and Juniper). Second Professional Invitation Exhibit (PIE) display.",
     type: "achievement",
-  },
-  {
-    year: "2012",
-    title: "Diego Pablos Serves as President",
-    description:
-      "Diego Pablos serves as President of GSBS, providing leadership during the club's continued growth and its engagement with the regional bonsai community.",
-    type: "milestone",
   },
   {
     year: "2012",
@@ -206,14 +325,35 @@ const timelineEvents: TimelineEvent[] = [
     year: "2016",
     title: "Bjorn Bjornholm Visits",
     description:
-      "Rising bonsai star Bjorn Bjornholm — who trained in Japan — presents at GSBS, demonstrating modern Japanese bonsai techniques.",
+      "Rising bonsai star Bjorn Bjornholm — who trained in Japan — presents at GSBS with a $100 bring-your-own-tree workshop (1-5 PM) and evening lecture/demo (7-10 PM). MABS 2016 held at Cromwell Crowne Plaza in Hartford, Connecticut.",
     type: "artist",
   },
   {
     year: "2019",
     title: "Marc Noelanders from Belgium",
     description:
-      "Belgian bonsai master Marc Noelanders — one of Europe's most celebrated bonsai artists — presents at GSBS.",
+      "Belgian bonsai master Marc Noelanders — one of Europe's most celebrated bonsai artists — presents at GSBS with a $50 bring-your-own-tree workshop (1-4 PM) and evening lecture/demo. Meeting time transitions from 6:30-9:30 PM to the current 6:00-9:00 PM around this period.",
+    type: "artist",
+  },
+  {
+    year: "2019",
+    title: "Mauro Stemberger Demonstration",
+    description:
+      "Italian bonsai artist Mauro Stemberger performs a detailed styling and wiring demonstration on a large Scots Pine at the Bonsai Shack in Pomona, NY, attended by GSBS members.",
+    type: "artist",
+  },
+  {
+    year: "2020\u20132021",
+    title: "Pandemic Adaptations",
+    description:
+      "When COVID-19 closes the Frelinghuysen Arboretum and public venues, GSBS adapts by holding outdoor meetings at members' homes and gardens throughout the summer months. The club suspends dues and maintains community through its Facebook group and newsletter. Members host each other at homes across northern NJ, from Stillwater to Port Murray to River Edge.",
+    type: "milestone",
+  },
+  {
+    year: "2022",
+    title: "Chase Rosade Deadwood Workshop",
+    description:
+      "GSBS visits the legendary Rosade Bonsai Studio in New Hope, PA, where internationally renowned artist Chase Rosade demonstrates deadwood carving techniques on a field-grown juniper, raffled to attendees. The studio visit becomes a beloved annual tradition.",
     type: "artist",
   },
   {
@@ -291,7 +431,7 @@ export default function HistoryPage() {
               <p className="text-sm text-gray-500 mt-1">Years Active</p>
             </div>
             <div>
-              <p className="text-3xl font-serif font-bold text-gsbs-teal">20+</p>
+              <p className="text-3xl font-serif font-bold text-gsbs-teal">35+</p>
               <p className="text-sm text-gray-500 mt-1">Guest Artists Hosted</p>
             </div>
             <div>
@@ -393,18 +533,19 @@ export default function HistoryPage() {
             </div>
             <div className="bg-white border border-gray-200 rounded-lg p-6">
               <h3 className="font-serif font-bold text-gray-900">Martin Schmalenberg</h3>
-              <p className="text-gsbs-teal text-sm font-medium mt-1">Published Author</p>
+              <p className="text-gsbs-teal text-sm font-medium mt-1">Co-Founder &amp; Published Author</p>
               <p className="text-gray-600 text-sm mt-3 leading-relaxed">
-                Published a two-part article on Pinus Rigida styling in International
-                Bonsai magazine. Hosts workshops at his Stillwater Studio.
+                GSBS co-founder and Director of Asian Studies at Blairstown Academy. Author of a
+                book on North American bonsai and a two-part article on Pinus Rigida styling in
+                International Bonsai magazine. Hosts workshops at his Stillwater Studio.
               </p>
             </div>
             <div className="bg-white border border-gray-200 rounded-lg p-6">
               <h3 className="font-serif font-bold text-gray-900">Michael Markoff</h3>
-              <p className="text-gsbs-teal text-sm font-medium mt-1">MABS New Talent</p>
+              <p className="text-gsbs-teal text-sm font-medium mt-1">MABS New Talent &amp; People&apos;s Choice</p>
               <p className="text-gray-600 text-sm mt-3 leading-relaxed">
-                First Runner-up in the Joshua Roth New Talent Competition at the
-                27th Annual MABS Spring Festival in 2010.
+                First Runner-up in the Joshua Roth New Talent Competition at MABS 2010.
+                People&apos;s Choice Award winner at the 2011 GSBS Open House.
               </p>
             </div>
             <div className="bg-white border border-gray-200 rounded-lg p-6">

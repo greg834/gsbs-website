@@ -12,7 +12,7 @@ const programs = [
     icon: GraduationCap,
     title: "Monthly Expert Instruction",
     description:
-      "Each meeting covers a different topic — from repotting and wiring to species-specific care and display techniques.",
+      "Each meeting covers a different topic — from deadwood carving and air-layering to repotting workshops and group design critiques. Over 170 newsletters document hundreds of programs.",
   },
   {
     icon: Palette,
@@ -24,7 +24,7 @@ const programs = [
     icon: Star,
     title: "Guest Artist Workshops",
     description:
-      "GSBS annually sponsors internationally acclaimed bonsai artists for exclusive hands-on workshops and demonstrations.",
+      "Over 35 internationally acclaimed guest artists from the US, UK, Italy, Japan, Taiwan, Belgium, and beyond — hosted directly at GSBS for exclusive workshops and demonstrations.",
   },
   {
     icon: Trophy,

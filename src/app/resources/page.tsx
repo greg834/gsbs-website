@@ -50,7 +50,26 @@ const supplies: ResourceLink[] = [
   {
     name: "AllShapes Bonsai & Nursery",
     url: "https://www.allshapesbonsai.com",
-    description: "Local NJ bonsai nursery and vendor",
+    description:
+      "Local NJ bonsai nursery in Ringoes — run by David & Diane Hall and Brian Zegar. Excellent source for pre-bonsai material, pots, tools, and supplies at reasonable prices. Hosts annual bonsai shows.",
+  },
+  {
+    name: "Manhattan Bonsai",
+    url: "https://manhattanbonsai.com",
+    description:
+      "NYC-area bonsai supplier run by Efrain Torres — soil, pots, trees, and accessories",
+  },
+  {
+    name: "Rosade Bonsai Studio",
+    url: "https://www.rosadebonsai.com",
+    description:
+      "Chase Rosade's legendary studio in New Hope, PA — finished bonsai, pre-bonsai, tools, workshops, and consultations",
+  },
+  {
+    name: "The Bonsai Shack",
+    url: "https://thebonsaishack.com",
+    description:
+      "Pomona, NY — owned by Arnie Friedman; hosts free demonstrations and events with visiting artists",
   },
 ];
 
@@ -105,6 +124,18 @@ const reading: ResourceLink[] = [
     url: "/documents/bonsai-containers-ceramic-art.pdf",
     description:
       "By GSBS Potter in Residence Fred Aufschlager — a scholarly essay on bonsai container history and ceramic art traditions. Free PDF download.",
+  },
+  {
+    name: "Bonsai From the Wild",
+    url: "https://www.amazon.com/s?k=bonsai+from+the+wild+nick+lenz",
+    description:
+      "By the late Nick Lenz — a groundbreaking book highlighting native North American species, their natural habitats, and styling tips. A favorite among GSBS members.",
+  },
+  {
+    name: "International Bonsai Magazine",
+    url: "https://www.internationalbonsai.com",
+    description:
+      "Published by Bill Valavanis (a past GSBS guest artist). GSBS member Martin Schmalenberg published a two-part article on Pitch Pine styling in this magazine.",
   },
 ];
 
@@ -296,8 +327,12 @@ export default function ResourcesPage() {
               Monthly Bonsai Care Guide
             </h2>
             <p className="mt-3 text-gray-600 max-w-2xl mx-auto">
-              Month-by-month care tips for the Northeast US climate, adapted from
-              17 years of GSBS newsletters and member experience.
+              Month-by-month care tips for the Northeast US climate, distilled from
+              over 170 GSBS newsletters spanning 17 years and decades of member experience.
+              For the complete interactive guide, visit our{" "}
+              <Link href="/care-guide" className="text-gsbs-teal hover:text-gsbs-teal-dark underline">
+                dedicated care guide page
+              </Link>.
             </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -485,9 +520,12 @@ export default function ResourcesPage() {
                 Newsletter Archive (2005&ndash;2022)
               </h2>
               <p className="mt-3 text-gray-600 max-w-2xl mx-auto">
-                Over 170 issues covering meeting recaps, bonsai care tips, guest
-                artist features, and club history. Click any year to browse and
-                download individual issues.
+                Over 170 issues spanning 2005 to 2022 — a treasure trove of
+                meeting recaps, monthly care tips, guest artist features,
+                workshop reports, member tributes, collecting trip stories, and
+                club history. Written primarily by John Michalski, these
+                newsletters capture the heart and soul of GSBS. Click any year
+                to browse and download individual issues as PDF.
               </p>
             </div>
             <NewsletterArchive />

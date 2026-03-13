@@ -31,9 +31,9 @@ const GOOGLE_MAPS_DIRECTIONS =
 
 const topicExamples = [
   { icon: TreePine, label: "Tree Selection & Species Care" },
-  { icon: Scissors, label: "Pruning & Wiring Techniques" },
-  { icon: TreePine, label: "Repotting & Soil Composition" },
-  { icon: MessageCircle, label: "Display & Exhibition Setup" },
+  { icon: Scissors, label: "Pruning, Wiring & Deadwood (Jin/Shari)" },
+  { icon: TreePine, label: "Repotting, Soil Mixing & Root Work" },
+  { icon: MessageCircle, label: "Display Setup, Critique Sessions & Auctions" },
 ];
 
 export default function MeetingsPage() {
@@ -222,9 +222,12 @@ export default function MeetingsPage() {
               </div>
               <p className="text-gray-600 text-sm leading-relaxed">
                 Each meeting features a different topic with expert instruction.
-                Programs range from hands-on workshops to guest artist
-                demonstrations to group critiques. Three meetings per year
-                feature our Artist in Residence, Sergio Cuan.
+                Programs range from hands-on workshops (air-layering, repotting,
+                deadwood carving) to guest artist demonstrations to group
+                critiques and &ldquo;bring your own tree&rdquo; sessions. Three
+                meetings per year feature our Artist in Residence, Sergio Cuan.
+                Demo trees are often raffled to attendees at the meeting&apos;s
+                conclusion.
               </p>
             </div>
           </div>
@@ -248,6 +251,37 @@ export default function MeetingsPage() {
                 </div>
               ))}
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Past Meeting Highlights */}
+      <section className="py-12 sm:py-16">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl font-serif font-bold text-gray-900 mb-4">
+            Recent Meeting Highlights
+          </h2>
+          <p className="text-gray-600 max-w-2xl mb-10 leading-relaxed">
+            A sampling from our archives showing the range and depth of GSBS
+            programming over the years.
+          </p>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            {[
+              { topic: "Deadwood Creation (Jin & Shari)", desc: "Hands-on workshop learning to create and maintain deadwood features on bonsai" },
+              { topic: "Night of the Six Junipers", desc: "Members formed teams to style six junipers — a collaborative design learning experience" },
+              { topic: "Wild-Collected Bonsai: Finding the Design", desc: "Lecture and demo on styling yamadori (field-collected) material into refined bonsai" },
+              { topic: "Approach Grafts & Phoenix Grafts", desc: "Advanced grafting techniques demonstrated by experienced club members" },
+              { topic: "Kusamoto (Accent Plants)", desc: "Martin Schmalenberg on selecting, caring for, and displaying accent plants with bonsai" },
+              { topic: "Fertilizer Cake Making Workshop", desc: "Members mixed their own organic fertilizer cakes — a practical take-home skill" },
+              { topic: "Initial Design from Raw Material", desc: "Fred Aufschlager led a workshop on transforming nursery stock into bonsai" },
+              { topic: "Bonsai Pottery Discussion", desc: "Fred Aufschlager exploring how the right container elevates a tree into art" },
+              { topic: "MABS Tree Selection (Penny Vote)", desc: "Annual tradition of selecting club trees for the Mid-Atlantic Spring Festival" },
+            ].map((item) => (
+              <div key={item.topic} className="bg-gray-50 border border-gray-200 rounded p-4">
+                <h3 className="font-semibold text-gray-900 text-sm">{item.topic}</h3>
+                <p className="text-xs text-gray-500 mt-1">{item.desc}</p>
+              </div>
+            ))}
           </div>
         </div>
       </section>

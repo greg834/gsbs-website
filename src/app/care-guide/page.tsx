@@ -26,6 +26,8 @@ const months = [
       "Plan your spring repotting schedule and order supplies.",
       "Check stored trees weekly for moisture and pest issues.",
       "Study deciduous tree structure while bare — perfect for evaluating branch placement.",
+      "Remove trees from glazed containers if possible — glazed pottery tends to crack and spall (shed outer surfaces) in freeze-thaw cycles.",
+      "Watch out for rodents girdling bark on dormant trees — use mothballs or hardware cloth around pots.",
     ],
     species: {
       deciduous: "Evaluate branch structure. Prune for shape while dormant. Keep roots from freezing solid.",
@@ -78,10 +80,11 @@ const months = [
     summary: "Feed & Pinch",
     tips: [
       "Begin feeding, pinching, watering, and pruning in earnest.",
-      "Still a decent month for root-pruning and collecting trees.",
-      "Be mindful of late cold snaps — protect tender new growth.",
+      "Still a decent month for root-pruning and collecting trees from field or yard.",
+      "Be mindful of late cold snaps — protect tender new growth that could freeze in the next inevitable cold snap.",
       "Start air layering projects on healthy, vigorous trees.",
       "Watch for aphids on new growth — treat early.",
+      "Consider pelleted surface fertilizer (e.g., Osmocote) that releases nutrients gradually with each watering — a reliable hands-off approach recommended by veteran GSBS members.",
     ],
     species: {
       deciduous: "Pinch new growth to maintain shape. Begin regular fertilizing. Last chance to repot most species.",
@@ -167,10 +170,11 @@ const months = [
     icon: Leaf,
     summary: "Harden & Cut",
     tips: [
-      "Begin hardening-off for winter in earnest.",
-      "Apply low-nitrogen fertilizer after leaves fall but before November.",
-      "Take hardwood cuttings for propagation.",
-      "Plan and prepare winter storage area.",
+      "Begin hardening-off for winter in earnest — avoid drastic pruning, collecting, or repotting.",
+      "Apply low-nitrogen fertilizer (higher in potassium and phosphorus) after leaves fall but before November to promote bud formation and strengthen roots.",
+      "Take hardwood cuttings for propagation. This is the last opportunity to pot up air layerings before winter.",
+      "Plan and prepare winter storage area — an unheated shed or garage that stays above 35\u00b0F is ideal.",
+      "Remove wire from branches that have set properly. Be aware of thickening branches on wired pines.",
       "Enjoy autumn color — photograph your trees at their peak.",
     ],
     species: {

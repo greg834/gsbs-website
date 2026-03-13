@@ -99,6 +99,14 @@ const commonMistakes = [
     mistake: "Not fertilizing enough",
     fix: "Bonsai live in small pots with limited nutrients. Feed regularly during the growing season (spring through fall).",
   },
+  {
+    mistake: "Over-wiring small branches or under-wiring large ones",
+    fix: "Wire size should be approximately 1/3 of the branch diameter. Apply at a 45-50 degree angle along the branch for best control. Check wired branches regularly — fast-growing species can develop wire scars in weeks.",
+  },
+  {
+    mistake: "Ignoring winter protection",
+    fix: "The goal is to prevent repeated freeze-thaw cycles, wind dehydration, and complete soil dry-out. An unheated shed, cold frame, or burying pots in the ground all work well.",
+  },
 ];
 
 export default function BeginnersPage() {

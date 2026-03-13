@@ -42,7 +42,7 @@ const benefits = [
     icon: Award,
     title: "Guest Artist Workshops",
     description:
-      "Attend workshops with nationally and internationally acclaimed bonsai professionals, like Jonas Dupuich, brought directly to our club.",
+      "Attend workshops with nationally and internationally acclaimed bonsai professionals — from Jonas Dupuich to Chase Rosade to Marc Noelanders — brought directly to our club. Over 35 guest artists hosted since 2003.",
   },
   {
     icon: TreePine,
@@ -52,9 +52,9 @@ const benefits = [
   },
   {
     icon: Calendar,
-    title: "Community Events",
+    title: "Community Events & Traditions",
     description:
-      "Represent GSBS at the Essex County Cherry Blossom Festival and Earth Day celebrations. Share your passion for bonsai with the broader community.",
+      "Represent GSBS at Cherry Blossom and Earth Day festivals. Enjoy summer picnics at members' homes, the annual club auction, and group collecting trips. Access our sales table for member-to-member deals on trees, pots, and tools.",
   },
   {
     icon: Heart,
@@ -99,6 +99,21 @@ const faqs = [
     question: "Do I need to be a member to receive the newsletter?",
     answer:
       "The GSBS newsletter is available free to anyone interested. Paid members receive discounts at participating bonsai suppliers.",
+  },
+  {
+    question: "What should I bring to a meeting?",
+    answer:
+      "Bring a tree (or trees) for display, discussion, or to work on, along with your tools if you plan to do any hands-on work. Don't have a tree yet? No problem — come and observe. Members also enjoy when newcomers bring questions and enthusiasm.",
+  },
+  {
+    question: "Are there workshops with guest artists?",
+    answer:
+      "Yes. GSBS regularly hosts international guest artists for afternoon workshops (typically $50, bring your own tree) followed by an evening lecture-demonstration that is free to all. We have hosted over 35 guest artists from the US, UK, Italy, Germany, Japan, Taiwan, Belgium, Puerto Rico, Canada, South Africa, and Thailand.",
+  },
+  {
+    question: "Is there a sales table at meetings?",
+    answer:
+      "Yes. Members can bring bonsai-related items (trees, pots, tools, books, magazines) to sell at our meetings. It's a non-commercial way for members to pass along items to fellow enthusiasts at fair prices.",
   },
 ];
 

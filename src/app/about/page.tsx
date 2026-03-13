@@ -174,7 +174,7 @@ export default function AboutPage() {
                     <span>
                       <strong>Martin Schmalenberg</strong> &mdash; GSBS
                       co-founder, Director of Asian Studies at Blairstown
-                      Academy &mdash; published a two-part article on Pinus
+                      Academy &mdash; authored a book on North American bonsai and published a two-part article on Pinus
                       Rigida (Pitch Pine) styling in{" "}
                       <em>International Bonsai</em> magazine
                     </span>
@@ -184,6 +184,8 @@ export default function AboutPage() {
                     <span>
                       <strong>Michael Markoff</strong> was First Runner-up in
                       the Joshua Roth New Talent Competition at MABS 2010
+                      and won the People&apos;s Choice Award at the 2011
+                      GSBS Open House
                     </span>
                   </li>
                   <li className="flex items-start gap-2">
@@ -424,7 +426,10 @@ export default function AboutPage() {
                 a paper exploring bonsai and pot styles and how they relate to
                 one another. Fred&apos;s handmade bonsai pots are available for
                 purchase at GSBS events, offering members high-quality,
-                artisan-crafted containers at reasonable costs.
+                artisan-crafted containers at reasonable costs. For years,
+                Fred also hosted a small Saturday morning study group at his
+                Bernardsville home &mdash; an open invitation for members to
+                practice hands-on bonsai in a relaxed, one-on-one setting.
               </p>
             </div>
 
@@ -451,28 +456,41 @@ export default function AboutPage() {
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 max-w-5xl mx-auto">
             {[
-              { name: "Colin Lewis", origin: "Maine", years: "2004", note: "Internationally acclaimed bonsai author and teacher" },
+              { name: "Marco Invernizzi", origin: "Italy", years: "2003, 2006", note: "Italian bonsai master; multiple visits with evening lecture-demos at GSBS" },
+              { name: "Boon Manakitivipart", origin: "California", years: "2003, 2004, 2011", note: "Multiple visits including workshop at Stillwater Studio; trained in Japan under Akio Kato" },
+              { name: "Horst Krekeler", origin: "Germany", years: "2003, 2005", note: "Renowned lecturer, teacher, and author from Heidelberg; German bonsai master bringing European techniques BYOT workshops with evening lecture-demos" },
+              { name: "Colin Lewis", origin: "Maine", years: "2004", note: "Internationally renowned author of several bonsai books and magazine articles; lecture-demo at GSBS" },
               { name: "Arthur Skolnik", origin: "International", years: "2004", note: "Renowned bonsai artist and teacher" },
-              { name: "Boon Manakitivipart", origin: "California", years: "2003, 2011", note: null },
-              { name: "Andy Smith (Golden Arrow Bonsai)", origin: "South Dakota", years: "2005", note: null },
-              { name: "Horst Krekeler", origin: "Germany", years: "2003, 2005", note: null },
-              { name: "Roy Nagatoshi", origin: "California", years: "2005", note: null },
-              { name: "Charles Ceronio", origin: "South Africa", years: "2010", note: "South African bonsai master" },
-              { name: "Kathy Shaner", origin: "California", years: "2011", note: null },
+              { name: "Andy Smith (Golden Arrow Bonsai)", origin: "South Dakota", years: "2005", note: "Lecture-demo on a wild collected Rocky Mountain Juniper" },
+              { name: "Roy Nagatoshi", origin: "California", years: "2005", note: "Known for work on the Karate Kid films; Known for work on the Karate Kid films; workshop at GSBS BYOT workshop with evening lecture-demo and raffle tree" },
+              { name: "Min Hsuan Lo", origin: "Taiwan", years: "2006, 2008", note: "Internationally renowned Taiwanese juniper specialist" },
+              { name: "Ted Matson", origin: "California", years: "2006", note: "Founded the California Shohin Society; shohin specialist" },
+              { name: "Bill Valavanis", origin: "New York", years: "2006", note: "Publisher, International Bonsai magazine; lectured on The Genesis of Classical Bonsai" },
+              { name: "George LeBolt", origin: "New Jersey", years: "2005, 2006", note: "Past President of MABS; President of Bergen Bonsai Society for 16 years; tropical bonsai specialist; Portulacaria (Dwarf Jade) workshop. His trees are in the Montreal Botanical Gardens bonsai collection" },
+              { name: "Tony Tickle", origin: "UK", years: "2007", note: "British bonsai artist; demonstrated copper wire techniques at GSBS" },
+              { name: "Pedro Morales", origin: "Puerto Rico", years: "2009, 2019", note: "Styled San Jose Junipers at GSBS; hosted at Fred Aufschlager's home" },
+              { name: "Julian Adams", origin: "\u2014", years: "2009", note: "Scots Pine specialist; lectured on Pinus Silvestris" },
+              { name: "Jim Barrett", origin: "New Jersey", years: "2008", note: "Bonsai potter and artist; demonstrated pottery techniques for bonsai containers" },
+              { name: "Sean Smith", origin: "New Jersey", years: "2009", note: "GSBS member; presented on bonsai display techniques including formal setup, accent plants, and scrolls" },
+              { name: "Charles Ceronio", origin: "South Africa", years: "2010", note: "South African bonsai master; guest speaker at GSBS after MABS 2010" },
+              { name: "Michel Phaneuf", origin: "Canada", years: "2010", note: "MABS 2010 featured artist" },
+              { name: "Michele Andolfo", origin: "Italy", years: "2010", note: "MABS 2010 featured artist" },
+              { name: "Kathy Shaner", origin: "California", years: "2011", note: "Workshop held at Fred Aufschlager's residence, Bernardsville NJ" },
               { name: "Yasuo Mitsuya", origin: "Japan", years: "2011", note: "Japanese bonsai master" },
               { name: "Steve Tolley", origin: "UK", years: "2011", note: "UK-based bonsai artist" },
+              { name: "Chase Rosade", origin: "Pennsylvania", years: "2012, 2022", note: "MABS 2012 demos; deadwood carving at Rosade Bonsai Studio, New Hope PA" },
               { name: "Peter Warren", origin: "UK", years: "2012", note: null },
-              { name: "Chase Rosade", origin: "Pennsylvania", years: "2012", note: "Owner, Rosade Bonsai Studio, New Hope PA" },
-              { name: "Isao Omachi", origin: "Japan", years: "2012", note: "Japanese bonsai master" },
-              { name: "John Thompson", origin: "\u2014", years: "2012", note: "Bonsai artist" },
+              { name: "Isao Omachi", origin: "Japan", years: "2012", note: "MABS 2012: Pine and Juniper demonstrations" },
+              { name: "John Thompson", origin: "\u2014", years: "2012", note: "MABS 2012: Coastal Oak and Boxwood demonstrations" },
               { name: "Minoru Akiyama", origin: "Japan", years: "2013", note: null },
-              { name: "David Easterbrook", origin: "Canada", years: "2013", note: "Curator, Montreal Botanical Garden bonsai collection" },
-              { name: "Ron Lang", origin: "\u2014", years: "2013", note: "Bonsai artist" },
-              { name: "Suthin Sukosol", origin: "Thailand/USA", years: "2014", note: "Thai-born bonsai master, renowned for tropical species" },
-              { name: "Bjorn Bjornholm", origin: "\u2014", years: "2016", note: null },
-              { name: "Marc Noelanders", origin: "Belgium", years: "2019", note: null },
-              { name: "Will Baddeley", origin: "UK", years: "2022", note: null },
-              { name: "Jonas Dupuich", origin: "California", years: "2026", note: null },
+              { name: "David Easterbrook", origin: "Canada", years: "2009, 2013", note: "Curator, Montreal Botanical Garden bonsai collection; multiple GSBS visits" },
+              { name: "Ron Lang", origin: "\u2014", years: "2013", note: "Bonsai potter; presented The Gestalt of Tree/Container Selection" },
+              { name: "Suthin Sukosol", origin: "Thailand/USA", years: "2014", note: "Thai-born bonsai master; fresh from MABS 2014; renowned for tropical species" },
+              { name: "Bjorn Bjornholm", origin: "\u2014", years: "2016, 2022", note: "Trained in Japan; MABS headliner" },
+              { name: "Mauro Stemberger", origin: "Italy", years: "2019", note: "Italian bonsai artist; demo at Bonsai Shack, Pomona NY" },
+              { name: "Marc Noelanders", origin: "Belgium", years: "2019", note: "One of Europe's most celebrated bonsai artists" },
+              { name: "Will Baddeley", origin: "UK", years: "2022", note: "Deadwood carving specialist; workshop at Fred Aufschlager's home" },
+              { name: "Jonas Dupuich", origin: "California", years: "2026", note: "Bonsai Tonight author; 50th anniversary guest artist" },
             ].map((artist) => (
               <div
                 key={artist.name}
@@ -487,6 +505,201 @@ export default function AboutPage() {
                 )}
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Meeting Programs — Breadth of Topics */}
+      <section className="py-12 sm:py-16 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-serif font-bold text-gray-900">
+              What We Cover at Meetings
+            </h2>
+            <p className="mt-3 text-gray-600 max-w-2xl mx-auto">
+              Over 17 years of newsletters document hundreds of meeting programs.
+              Here is a sample of the topics our members have explored together.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 max-w-6xl mx-auto">
+            {[
+              { category: "Styling & Design", topics: ["Initial design from raw material", "Finding the design in nursery stock", "Deadwood creation (jin & shari)", "Approach grafts & phoenix grafts", "Night of the Six Junipers (group styling)", "Display & presentation techniques"] },
+              { category: "Horticulture", topics: ["Repotting workshops (spring)", "Air-layering demonstrations", "Soil mixing & akadama use", "Fertilizer cake making", "Winter protection strategies", "Wild collecting (yamadori) field trips"] },
+              { category: "Species Focus", topics: ["Scots Pine styling (Pinus Sylvestris)", "Pitch Pine on stone slabs", "Tropical bonsai care & styling", "Juniper design sessions", "Japanese Maple refinement", "Shohin (miniature) bonsai"] },
+              { category: "Art & Culture", topics: ["Kusamoto (accent plants)", "Suiseki (viewing stones)", "Bonsai containers as ceramic art", "Bonsai photography", "Annual club auction", "Holiday party & swap meet"] },
+            ].map((group) => (
+              <div key={group.category} className="bg-white border border-gray-200 rounded-lg p-5">
+                <h3 className="font-serif font-bold text-gsbs-teal text-sm uppercase tracking-wider mb-3">
+                  {group.category}
+                </h3>
+                <ul className="space-y-1.5">
+                  {group.topics.map((topic) => (
+                    <li key={topic} className="text-sm text-gray-600 flex items-start gap-2">
+                      <span className="text-gsbs-teal mt-0.5 shrink-0">&bull;</span>
+                      {topic}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Annual Show History */}
+      <section className="py-12 sm:py-16">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="max-w-3xl mx-auto">
+            <div className="text-center mb-10">
+              <h2 className="text-3xl font-serif font-bold text-gray-900">
+                Our Annual Bonsai Show
+              </h2>
+              <p className="mt-3 text-gray-600 max-w-2xl mx-auto">
+                For decades, GSBS has hosted an annual open house and bonsai
+                exhibition, open to the public and free of charge.
+              </p>
+            </div>
+
+            <div className="prose prose-gray max-w-none">
+              <div className="bg-white border border-gray-200 rounded-lg p-6 sm:p-8 space-y-4 text-gray-600 leading-relaxed">
+                <p>
+                  The Annual Bonsai Show (originally called the &ldquo;Open
+                  House&rdquo;) is GSBS&apos;s signature public event. Held
+                  each June, the show features dozens of member trees on formal
+                  display, live demonstrations with raffled demo trees,
+                  educational presentations, and vendor tables. The public is
+                  invited to attend free of charge.
+                </p>
+                <p>
+                  For many years the show was held at the Haggerty Education
+                  Center at the Frelinghuysen Arboretum in Morristown, NJ. Club
+                  members would arrive by 9:00 AM to set up display tables with
+                  risers, runners, stands, and accent plants. The show opened to
+                  the public at 10:00 AM and ran until 3:00 PM. Members were
+                  encouraged to bring trees at every level &mdash; from
+                  beginner projects to refined specimens &mdash; and to set up a
+                  &ldquo;work table&rdquo; where visitors could watch pruning,
+                  wiring, and repotting in real time.
+                </p>
+                <p>
+                  The show has always been a key recruiting tool for the club.
+                  Newsletter archives record that each year&apos;s show attracted
+                  new newsletter signups and prospective members, many of whom
+                  went on to become active participants. The 2005 show marked
+                  the club&apos;s approximate 25th anniversary, and the 2026
+                  show will celebrate 50 years of GSBS.
+                </p>
+                <p>
+                  Today, the Annual Bonsai Show is held at Garibaldi Hall (621-A
+                  Eagle Rock Ave, Roseland, NJ) on the same campus as the Essex
+                  County Environmental Center. The next show is{" "}
+                  <strong>Saturday, June 6, 2026</strong>, from 11:00 AM to
+                  3:00 PM.
+                </p>
+              </div>
+            </div>
+
+            <div className="mt-8 text-center">
+              <Link
+                href="/events"
+                className="inline-flex items-center gap-2 text-gsbs-teal hover:text-gsbs-teal-dark font-medium transition-colors"
+              >
+                View Upcoming Events
+                <ArrowRight size={16} />
+              </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Community Traditions */}
+      <section className="py-12 sm:py-16 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-serif font-bold text-gray-900">
+              Club Traditions
+            </h2>
+            <p className="mt-3 text-gray-600 max-w-2xl mx-auto">
+              Decades of shared experiences have created traditions that define
+              the GSBS community.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto">
+            <div className="border border-gray-200 rounded-lg p-6">
+              <h3 className="font-serif font-bold text-gray-900 mb-2">
+                Holiday Party &amp; Auction
+              </h3>
+              <p className="text-sm text-gray-600 leading-relaxed">
+                Each December, GSBS holds its Holiday Party and Club Auction. Members bring
+                bonsai, pots, tools, books, and other materials for a lively
+                auction. A portion of proceeds supports the club. It&apos;s a
+                great way to find treasures and pass along items you&apos;ve
+                outgrown.
+              </p>
+            </div>
+            <div className="border border-gray-200 rounded-lg p-6">
+              <h3 className="font-serif font-bold text-gray-900 mb-2">
+                Summer Picnic Series
+              </h3>
+              <p className="text-sm text-gray-600 leading-relaxed">
+                During warmer months, meetings move to members&apos; homes and
+                gardens. Hosts share their collections, members bring food and
+                trees, and the afternoon unfolds with informal critiques, garden
+                tours, and fellowship. Past hosts include Michael Markoff
+                (Randolph, NJ), Martin Schmalenberg (Stillwater Studio),
+                Doug Siedenburg, Peter Michienzi, and many others.
+              </p>
+            </div>
+            <div className="border border-gray-200 rounded-lg p-6">
+              <h3 className="font-serif font-bold text-gray-900 mb-2">
+                MABS Penny Vote
+              </h3>
+              <p className="text-sm text-gray-600 leading-relaxed">
+                Each March, members select trees to represent GSBS at the
+                Mid-Atlantic Bonsai Societies Spring Festival. Every attendee
+                receives pennies to place before their favorite trees &mdash; the
+                top vote-getters earn the honor of representing the club at the
+                regional exhibition.
+              </p>
+            </div>
+            <div className="border border-gray-200 rounded-lg p-6">
+              <h3 className="font-serif font-bold text-gray-900 mb-2">
+                Copper Wire Drive
+              </h3>
+              <p className="text-sm text-gray-600 leading-relaxed">
+                Members save their discarded copper bonsai wire clippings and
+                bring them to meetings. Once a year the accumulated wire is sold
+                to a scrap metal dealer &mdash; typically bringing in enough to
+                cover one or two memberships, helping keep the club financially
+                healthy.
+              </p>
+            </div>
+            <div className="border border-gray-200 rounded-lg p-6">
+              <h3 className="font-serif font-bold text-gray-900 mb-2">
+                Wild Collecting Trips
+              </h3>
+              <p className="text-sm text-gray-600 leading-relaxed">
+                GSBS has organized group yamadori (wild collecting) expeditions,
+                including trips to Maine for American Larch and arrangements
+                with the Morris County Park Commission for collecting non-native
+                species on park land. These trips combine adventure with the art
+                of finding bonsai material in nature.
+              </p>
+            </div>
+            <div className="border border-gray-200 rounded-lg p-6">
+              <h3 className="font-serif font-bold text-gray-900 mb-2">
+                Community Outreach
+              </h3>
+              <p className="text-sm text-gray-600 leading-relaxed">
+                GSBS regularly participates in public events: the Frelinghuysen
+                Arboretum Plant Sale, Essex County Cherry Blossom Festival at
+                Branch Brook Park, Earth Day celebrations, Bloomfest, and
+                library lectures, and trips to the Brooklyn Botanic Garden and National Arboretum. Members display bonsai, answer questions, and
+                introduce the art to new audiences.
+              </p>
+            </div>
           </div>
         </div>
       </section>
