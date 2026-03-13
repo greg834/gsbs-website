@@ -227,7 +227,7 @@ const timelineEvents: TimelineEvent[] = [
     year: "2009",
     title: "Diego Pablos Elected President",
     description:
-      "Diego Pablos is elected President of GSBS in September 2009, succeeding John Michalski who served from 2007 to 2009. Under Pablos, the club maintains its robust guest artist program and community outreach through the next decade.",
+      "Diego Pablos is elected President of GSBS in September 2009, succeeding John Michalski who served from 2007 to 2009. Pablos serves for nine years (2009–2018), during which membership increases and diversifies. He also serves as President of MABS (Mid-Atlantic Bonsai Societies), representing the broader regional bonsai community.",
     type: "milestone",
   },
   {
@@ -329,6 +329,48 @@ const timelineEvents: TimelineEvent[] = [
     type: "artist",
   },
   {
+    year: "2017",
+    title: "David Knittle & MABS in Connecticut",
+    description:
+      "Vermont-based collector David Knittle presents at GSBS on collected bonsai from New England — Red Spruce, Larch, and Balsam Fir from power line cuts and state lands. MABS 2017 at the Radisson Cromwell, CT features headliners Akio Kondo (Japan, Prime Minister Award 2014), Will Baddeley (UK), Boon Manakitivipart, and kusamono artist Young Choe. Boon conducts a $100 workshop at GSBS with an evening demo.",
+    type: "artist",
+  },
+  {
+    year: "2017",
+    title: "Fred Aufschlager Exhibits at Buck Garden",
+    description:
+      "Potter in Residence Fred Aufschlager displays approximately 20 bonsai at the Leonard J. Buck Garden in Far Hills, NJ (Sept 9–15). Aufschlager has been a volunteer gardener at Buck Garden (Somerset County Parks) since 2001. David Easterbrook returns in October for a $50 workshop and evening demo, styling a Hinoki Cypress raffled to Bob Klein.",
+    type: "milestone",
+  },
+  {
+    year: "2018",
+    title: "Tony Tickle Workshop & Collecting Trip",
+    description:
+      "British bonsai artist Tony Tickle — BCI Board member, four-time Ginkgo award winner, specializing in Hawthorn, Yew, and Pine — presents a $50 workshop and evening demo, styling a Shimpaku Juniper. Days later, the club goes collecting at Matthew Schror's 14-acre fallow property in Hope, NJ — harvesting hornbeam, spicebush, and Russian olive.",
+    type: "artist",
+  },
+  {
+    year: "2018",
+    title: "Koji Hiramatsu from Japan",
+    description:
+      "Japanese pine specialist Koji Hiramatsu from a multi-generational bonsai business leads a workshop for 12 participants, then styles a wild-collected Pitch Pine (collected by Martin Schmalenberg) at the evening demo. Deep Cut and Bergen Bonsai Society members attend alongside GSBS regulars.",
+    type: "artist",
+  },
+  {
+    year: "2018",
+    title: "John Michalski Elected President — Third Term",
+    description:
+      "John Michalski is elected President for a third non-consecutive term in September 2018, succeeding Diego Pablos who served for nine years (2009–2018). Under Pablos, membership increased and diversified, and he also served as MABS President. The Open House features Fred Aufschlager's Korean Hornbeam (Best in Show), Michalski's yamadori Northern White Cedar (President's Choice), and Schmuck's Forest planting (People's Choice).",
+    type: "milestone",
+  },
+  {
+    year: "2019",
+    title: "Best-Attended Open House in Years",
+    description:
+      "The 2019 Annual Bonsai Open House draws a couple hundred visitors — the best-attended event in many years, credited to a yard sign campaign (50 signs). 42 trees are displayed with non-stop lectures and demos. Rick Meyer wins both People's Choice (Shimpaku Juniper) and President's Award (Bush Honeysuckle); John Michalski takes Best in Show (Northern White Cedar). MABS disbursement: $1,056 (3rd highest attendance among all clubs).",
+    type: "achievement",
+  },
+  {
     year: "2019",
     title: "Marc Noelanders from Belgium",
     description:
@@ -341,6 +383,27 @@ const timelineEvents: TimelineEvent[] = [
     description:
       "Italian bonsai artist Mauro Stemberger performs a detailed styling and wiring demonstration on a large Scots Pine at the Bonsai Shack in Pomona, NY (owned by Arnie Friedman), attended by GSBS members John Michalski and Mark Sanders. The Bonsai Shack becomes a favored destination for GSBS members.",
     type: "artist",
+  },
+  {
+    year: "2019",
+    title: "Dale Cochoy Memorial",
+    description:
+      "The bonsai community mourns Dale Cochoy of Hartville, Ohio — a beloved bonsai potter whose Wild Things Bonsai Studio and Yakimono no Kokoro Bonsai Pottery were regular fixtures at MABS vendor rooms. His handcrafted pots were treasured by collectors across the Mid-Atlantic.",
+    type: "milestone",
+  },
+  {
+    year: "2021",
+    title: "Sergio Cuan's First GSBS Visit",
+    description:
+      "Renowned bonsai artist Sergio Cuan makes his first visit to GSBS, demonstrating root grafting and thread grafting on Japanese maples at the home of Mark and Marla Sanders in Randolph, NJ. Twenty members attend the outdoor summer session — one of the first guest artist events since the pandemic began. Cuan's visit begins what will become the formal Artist in Residence program.",
+    type: "artist",
+  },
+  {
+    year: "2021",
+    title: "Jay Gettinger Memorial",
+    description:
+      "GSBS remembers Jay Gettinger — a former member who relocated to Vermont — who succumbed to brain cancer. Known for his handmade bonsai pots, Gettinger's work exemplified the creative spirit that connects ceramics and bonsai.",
+    type: "milestone",
   },
   {
     year: "2020\u20132021",
@@ -381,7 +444,7 @@ const timelineEvents: TimelineEvent[] = [
     year: "2022",
     title: "Will Baddeley from the UK",
     description:
-      "British bonsai professional Will Baddeley visits GSBS, continuing the club's tradition of hosting international artists.",
+      "British deadwood specialist Will Baddeley — who works with power tools and scalpels to create natural deadwood on deciduous trees — leads a workshop at Fred Aufschlager's home in Bernardsville, NJ, working on Fred's yew. GSBS also participates in the Plant Sale at Frelinghuysen Arboretum (April 30–May 1), with Michalski, Schmuck, Heck, Pablos, Myers, and Chernow manning the bonsai display.",
     type: "artist",
   },
   {
@@ -445,7 +508,7 @@ export default function HistoryPage() {
               <p className="text-sm text-gray-500 mt-1">Years Active</p>
             </div>
             <div>
-              <p className="text-3xl font-serif font-bold text-gsbs-teal">35+</p>
+              <p className="text-3xl font-serif font-bold text-gsbs-teal">40+</p>
               <p className="text-sm text-gray-500 mt-1">Guest Artists Hosted</p>
             </div>
             <div>

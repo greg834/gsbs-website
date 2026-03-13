@@ -479,7 +479,7 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 max-w-5xl mx-auto">
             {[
               { name: "Marco Invernizzi", origin: "Italy", years: "2003, 2006", note: "Italian bonsai master; multiple visits with evening lecture-demos at GSBS" },
-              { name: "Boon Manakitivipart", origin: "California", years: "2003, 2004, 2011", note: "Multiple visits including workshop at Stillwater Studio; trained in Japan under Akio Kato" },
+              { name: "Boon Manakitivipart", origin: "California", years: "2003, 2004, 2011, 2017", note: "Multiple visits including workshop at Stillwater Studio; trained in Japan under Kihachiro Kamiya; won Best Medium Size Bonsai at 2016 US National Exhibit; $100 workshop at GSBS 2017" },
               { name: "Horst Krekeler", origin: "Germany", years: "2003, 2005", note: "Renowned lecturer, teacher, and author from Heidelberg; German bonsai master bringing European techniques BYOT workshops with evening lecture-demos" },
               { name: "Colin Lewis", origin: "Maine", years: "2004", note: "Internationally renowned author of several bonsai books and magazine articles; lecture-demo at GSBS" },
               { name: "Arthur Skolnik", origin: "International", years: "2004", note: "Renowned bonsai artist and teacher" },
@@ -489,7 +489,7 @@ export default function AboutPage() {
               { name: "Ted Matson", origin: "California", years: "2006", note: "Founded the California Shohin Society; shohin specialist" },
               { name: "Bill Valavanis", origin: "New York", years: "2006", note: "Publisher, International Bonsai magazine; lectured on The Genesis of Classical Bonsai" },
               { name: "George LeBolt", origin: "New Jersey", years: "2005, 2006", note: "Past President of MABS; President of Bergen Bonsai Society for 16 years; tropical bonsai specialist; Portulacaria (Dwarf Jade) workshop. His trees are in the Montreal Botanical Gardens bonsai collection" },
-              { name: "Tony Tickle", origin: "UK", years: "2007", note: "British bonsai artist; demonstrated copper wire techniques at GSBS" },
+              { name: "Tony Tickle", origin: "UK", years: "2007, 2018", note: "BCI Board 2003–2005; four Ginkgo awards; specializes in Hawthorn, Yew, and Pine; styled Shimpaku Juniper at GSBS 2018 workshop" },
               { name: "Pedro Morales", origin: "Puerto Rico", years: "2009, 2019", note: "Styled San Jose Junipers at GSBS; hosted at Fred Aufschlager's home" },
               { name: "Julian Adams", origin: "\u2014", years: "2009", note: "Scots Pine specialist; lectured on Pinus Silvestris" },
               { name: "Jim Barrett", origin: "California", years: "2008", note: "Founding member Golden State Bonsai Federation; presented on matching deciduous trees to pots" },
@@ -505,13 +505,15 @@ export default function AboutPage() {
               { name: "Isao Omachi", origin: "Japan", years: "2012", note: "MABS 2012: Pine and Juniper demonstrations" },
               { name: "John Thompson", origin: "\u2014", years: "2012", note: "MABS 2012: Coastal Oak and Boxwood demonstrations" },
               { name: "Minoru Akiyama", origin: "Japan", years: "2013", note: "Youngest winner of the Prime Minister's Award at Sakafu; apprenticed under Kunio Kobayashi at Shunkaen" },
-              { name: "David Easterbrook", origin: "Canada", years: "2008, 2009, 2013", note: "Curator, Montreal Botanical Garden bonsai collection; called GSBS 'one of the more active and vital clubs' in North America" },
+              { name: "David Easterbrook", origin: "Canada", years: "2008, 2009, 2013, 2017", note: "Curator, Montreal Botanical Garden bonsai collection; called GSBS 'one of the more active and vital clubs' in North America; styled Hinoki Cypress at 2017 workshop" },
               { name: "Ron Lang", origin: "\u2014", years: "2013", note: "Bonsai potter; presented The Gestalt of Tree/Container Selection" },
               { name: "Suthin Sukosolvisit", origin: "Thailand/USA", years: "2014", note: "Royal Bonsai Garden, Stoughton MA; involved with bonsai since 1970; MABS 2014 headliner; tropical and temperate species expert" },
               { name: "Bjorn Bjornholm", origin: "Tennessee", years: "2016, 2022", note: "Owner of Bjorvala Bonsai Studio; trained 6 years in Japan under Keiichi Fujikawa; certified by Japanese Bonsai Association" },
               { name: "Mauro Stemberger", origin: "Italy", years: "2022", note: "Italian bonsai artist; detailed styling and wiring demo on Scots Pine at the Bonsai Shack, Pomona NY" },
               { name: "Marc Noelanders", origin: "Belgium", years: "2019", note: "President of European Bonsai Association; Director of WBFF for Europe; studied with Kimura, Kato, and Naka; founded the Noelanders Trophy" },
               { name: "Will Baddeley", origin: "UK", years: "2022", note: "Deadwood carving specialist; specializes in natural deadwood on deciduous trees using power tools and scalpels; workshop at Fred Aufschlager's home in Bernardsville" },
+              { name: "David Knittle", origin: "Vermont", years: "2017", note: "Specialist in collected bonsai from New England; Red Spruce, Larch, and Balsam Fir from power line cuts and state lands" },
+              { name: "Koji Hiramatsu", origin: "Japan", years: "2018", note: "Multi-generational bonsai business; pine specialist; styled wild-collected Pitch Pine at GSBS evening demo" },
               { name: "Jonas Dupuich", origin: "California", years: "2026", note: "Bonsai Tonight author; 50th anniversary guest artist" },
             ].map((artist) => (
               <div
@@ -608,9 +610,20 @@ export default function AboutPage() {
                   The show has always been a key recruiting tool for the club.
                   Newsletter archives record that each year&apos;s show attracted
                   new newsletter signups and prospective members, many of whom
-                  went on to become active participants. The 2005 show marked
-                  the club&apos;s approximate 25th anniversary, and the 2026
-                  show will celebrate 50 years of GSBS.
+                  went on to become active participants. The 2019 Open House
+                  drew a couple hundred visitors &mdash; the best-attended in
+                  many years, credited in part to a yard sign campaign. The 2005
+                  show marked the club&apos;s approximate 25th anniversary, and
+                  the 2026 show will celebrate 50 years of GSBS.
+                </p>
+                <p>
+                  <strong>Past Award Winners:</strong> 2018 &mdash; Best in Show:
+                  Fred Aufschlager (Korean Hornbeam), President&apos;s Choice:
+                  John Michalski (yamadori Northern White Cedar), People&apos;s
+                  Choice: Mark Schmuck (Forest planting). 2019 &mdash; Best in
+                  Show: John Michalski (Northern White Cedar), President&apos;s
+                  Award: Rick Meyer (Bush Honeysuckle), People&apos;s Choice:
+                  Rick Meyer (Shimpaku Juniper).
                 </p>
                 <p>
                   Today, the Annual Bonsai Show is held at Garibaldi Hall (621-A
@@ -654,9 +667,9 @@ export default function AboutPage() {
                 Holiday Party &amp; Auction
               </h3>
               <p className="text-sm text-gray-600 leading-relaxed">
-                Each December, GSBS holds its Holiday Party and Club Auction. Members bring
+                Each January, GSBS holds its Holiday Party and Club Auction. Members bring
                 bonsai, pots, tools, books, and other materials for a lively
-                auction. A portion of proceeds supports the club. It&apos;s a
+                auction &mdash; 15% of proceeds supports the club. It&apos;s a
                 great way to find treasures and pass along items you&apos;ve
                 outgrown.
               </p>
