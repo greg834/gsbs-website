@@ -33,6 +33,11 @@ const officers = [
     detail: "Ongoing organizer and event coordinator",
   },
   {
+    name: "Rick Myers",
+    role: "Treasurer",
+    detail: null,
+  },
+  {
     name: "T. Albert",
     role: "Webmaster",
     detail: null,
@@ -475,21 +480,21 @@ export default function AboutPage() {
               { name: "Charles Ceronio", origin: "South Africa", years: "2010", note: "South African bonsai master; guest speaker at GSBS after MABS 2010" },
               { name: "Michel Phaneuf", origin: "Canada", years: "2010", note: "MABS 2010 featured artist" },
               { name: "Michele Andolfo", origin: "Italy", years: "2010", note: "MABS 2010 featured artist" },
-              { name: "Kathy Shaner", origin: "California", years: "2011", note: "Workshop held at Fred Aufschlager's residence, Bernardsville NJ" },
+              { name: "Kathy Shaner", origin: "California", years: "2011, 2022", note: "Workshop at Fred Aufschlager's residence; MABS 2022 headliner at Parsippany Hilton" },
               { name: "Yasuo Mitsuya", origin: "Japan", years: "2011", note: "Japanese bonsai master" },
               { name: "Steve Tolley", origin: "UK", years: "2011", note: "UK-based bonsai artist" },
-              { name: "Chase Rosade", origin: "Pennsylvania", years: "2012, 2022", note: "MABS 2012 demos; deadwood carving at Rosade Bonsai Studio, New Hope PA" },
-              { name: "Peter Warren", origin: "UK", years: "2012", note: null },
+              { name: "Chase Rosade", origin: "Pennsylvania", years: "2012, 2022", note: "One of the 'Mount Rushmore of American Bonsai Pioneers'; deadwood carving at Rosade Bonsai Studio, New Hope PA" },
+              { name: "Peter Warren", origin: "UK", years: "2012, 2013", note: "UK-based bonsai professional; multiple GSBS visits fresh from MABS" },
               { name: "Isao Omachi", origin: "Japan", years: "2012", note: "MABS 2012: Pine and Juniper demonstrations" },
               { name: "John Thompson", origin: "\u2014", years: "2012", note: "MABS 2012: Coastal Oak and Boxwood demonstrations" },
-              { name: "Minoru Akiyama", origin: "Japan", years: "2013", note: null },
+              { name: "Minoru Akiyama", origin: "Japan", years: "2013", note: "Youngest winner of the Prime Minister's Award at Sakafu; apprenticed under Kunio Kobayashi at Shunkaen" },
               { name: "David Easterbrook", origin: "Canada", years: "2009, 2013", note: "Curator, Montreal Botanical Garden bonsai collection; multiple GSBS visits" },
               { name: "Ron Lang", origin: "\u2014", years: "2013", note: "Bonsai potter; presented The Gestalt of Tree/Container Selection" },
-              { name: "Suthin Sukosol", origin: "Thailand/USA", years: "2014", note: "Thai-born bonsai master; fresh from MABS 2014; renowned for tropical species" },
-              { name: "Bjorn Bjornholm", origin: "\u2014", years: "2016, 2022", note: "Trained in Japan; MABS headliner" },
-              { name: "Mauro Stemberger", origin: "Italy", years: "2019", note: "Italian bonsai artist; demo at Bonsai Shack, Pomona NY" },
-              { name: "Marc Noelanders", origin: "Belgium", years: "2019", note: "One of Europe's most celebrated bonsai artists" },
-              { name: "Will Baddeley", origin: "UK", years: "2022", note: "Deadwood carving specialist; workshop at Fred Aufschlager's home" },
+              { name: "Suthin Sukosolvisit", origin: "Thailand/USA", years: "2014", note: "Royal Bonsai Garden, Stoughton MA; involved with bonsai since 1970; MABS 2014 headliner; tropical and temperate species expert" },
+              { name: "Bjorn Bjornholm", origin: "Tennessee", years: "2016, 2022", note: "Owner of Bjorvala Bonsai Studio; trained 6 years in Japan under Keiichi Fujikawa; certified by Japanese Bonsai Association" },
+              { name: "Mauro Stemberger", origin: "Italy", years: "2022", note: "Italian bonsai artist; detailed styling and wiring demo on Scots Pine at the Bonsai Shack, Pomona NY" },
+              { name: "Marc Noelanders", origin: "Belgium", years: "2019", note: "President of European Bonsai Association; Director of WBFF for Europe; studied with Kimura, Kato, and Naka; founded the Noelanders Trophy" },
+              { name: "Will Baddeley", origin: "UK", years: "2022", note: "Deadwood carving specialist; specializes in natural deadwood on deciduous trees using power tools and scalpels; workshop at Fred Aufschlager's home in Bernardsville" },
               { name: "Jonas Dupuich", origin: "California", years: "2026", note: "Bonsai Tonight author; 50th anniversary guest artist" },
             ].map((artist) => (
               <div
@@ -649,7 +654,7 @@ export default function AboutPage() {
                 trees, and the afternoon unfolds with informal critiques, garden
                 tours, and fellowship. Past hosts include Michael Markoff
                 (Randolph, NJ), Martin Schmalenberg (Stillwater Studio),
-                Doug Siedenburg, Peter Michienzi, and many others.
+                Doug Siedenburg (Port Murray, NJ), Rick &amp; Leslie Myers (Succasunna, NJ), Mark &amp; Sheila Schmuck (Rockaway, NJ), Peter Michienzi, and many others.
               </p>
             </div>
             <div className="border border-gray-200 rounded-lg p-6">

@@ -297,14 +297,14 @@ const timelineEvents: TimelineEvent[] = [
     year: "2013",
     title: "Minoru Akiyama from Japan",
     description:
-      "Japanese bonsai master Minoru Akiyama visits GSBS, bringing authentic Japanese techniques and aesthetics directly to club members.",
+      "Japanese bonsai master Minoru Akiyama — the youngest person ever to win the Prime Minister's Award at the Sakafu exhibition (at age 29) — headlines MABS 2013 at Holiday Inn, Grantville, PA. Akiyama apprenticed for six years under Kunio Kobayashi at Shunkaen and specializes in junipers and white pines. Peter Warren from the UK also presents at GSBS on April 23, fresh from MABS.",
     type: "artist",
   },
   {
-    year: "2013–2014",
-    title: "Suthin Sukosolvisit Residency",
+    year: "2014",
+    title: "Suthin Sukosolvisit Workshop",
     description:
-      "Thai-American bonsai artist Suthin Sukosolvisit presents at GSBS over multiple sessions, sharing his expertise in tropical and temperate species.",
+      "Thai-born bonsai master Suthin Sukosolvisit — involved with bonsai since 1970 and operator of the Royal Bonsai Garden in Stoughton, MA — headlines MABS 2014 at the Ramada Inn on Route 10, East Hanover, NJ, alongside Corin Tomlinson and Takashi Iura. Suthin visits GSBS for a $50 bring-your-own-tree workshop and evening presentation, sharing his expertise in tropical and temperate species.",
     type: "artist",
   },
   {
@@ -325,7 +325,7 @@ const timelineEvents: TimelineEvent[] = [
     year: "2016",
     title: "Bjorn Bjornholm Visits",
     description:
-      "Rising bonsai star Bjorn Bjornholm — who trained in Japan — presents at GSBS with a $100 bring-your-own-tree workshop (1-5 PM) and evening lecture/demo (7-10 PM). MABS 2016 held at Cromwell Crowne Plaza in Hartford, Connecticut.",
+      "Bjorn Bjornholm — owner of Bjorvala Bonsai Studio in Knoxville, TN, and former apprentice of Keiichi Fujikawa at Kouka-en nursery near Osaka — presents at GSBS with a $100 bring-your-own-tree workshop (1-5 PM) and evening lecture/demo. Bjornholm completed nearly six years in Japan and became a certified bonsai professional by the Japanese Bonsai Association. MABS 2016 headliners: Kunio Kobayashi (Japan), Walter Pall (Germany), and Bjorn Bjornholm. Held at Cromwell Crowne Plaza in Hartford, Connecticut.",
     type: "artist",
   },
   {
@@ -336,10 +336,10 @@ const timelineEvents: TimelineEvent[] = [
     type: "artist",
   },
   {
-    year: "2019",
+    year: "2022",
     title: "Mauro Stemberger Demonstration",
     description:
-      "Italian bonsai artist Mauro Stemberger performs a detailed styling and wiring demonstration on a large Scots Pine at the Bonsai Shack in Pomona, NY, attended by GSBS members.",
+      "Italian bonsai artist Mauro Stemberger performs a detailed styling and wiring demonstration on a large Scots Pine at the Bonsai Shack in Pomona, NY (owned by Arnie Friedman), attended by GSBS members John Michalski and Mark Sanders. The Bonsai Shack becomes a favored destination for GSBS members.",
     type: "artist",
   },
   {
@@ -353,14 +353,28 @@ const timelineEvents: TimelineEvent[] = [
     year: "2022",
     title: "Chase Rosade Deadwood Workshop",
     description:
-      "GSBS visits the legendary Rosade Bonsai Studio in New Hope, PA, where internationally renowned artist Chase Rosade demonstrates deadwood carving techniques on a field-grown juniper, raffled to attendees. The studio visit becomes a beloved annual tradition.",
+      "GSBS visits the legendary Rosade Bonsai Studio in New Hope, PA, where internationally renowned artist Chase Rosade — one of the 'Mount Rushmore of American Bonsai Pioneers' — demonstrates deadwood carving techniques on a field-grown juniper, raffled to attendees. MABS 2022 at the Parsippany Hilton features Kathy Shaner, Suthin Sukosolvisit, and Bjorn Bjornholm.",
     type: "artist",
+  },
+  {
+    year: "2022",
+    title: "Nick Lenz Memorial",
+    description:
+      "The bonsai community mourns the loss of Nick Lenz — bonsai stylist, potter, painter, sculptor, and author of the groundbreaking book 'Bonsai From the Wild,' which highlighted native North American species for bonsai. Known for his whimsical sculptures and gothic cathedral ruins with trees growing from them, Lenz was a beloved figure in the GSBS and wider bonsai world.",
+    type: "milestone",
+  },
+  {
+    year: "2022",
+    title: "Allshapes Bonsai Nursery Partnership",
+    description:
+      "GSBS members participate in a bonsai show at Allshapes Bonsai Nursery in Ringoes, NJ, owned by David and Diane Hall and Brian Zegar. The nursery becomes a valued resource for pre-bonsai material, pots, tools, and supplies at accessible prices.",
+    type: "milestone",
   },
   {
     year: "~2022",
     title: "Move to Essex County Environmental Center",
     description:
-      "GSBS relocates from the Frelinghuysen Arboretum to the Essex County Environmental Center in Roseland, NJ — a modern facility with excellent meeting spaces and easy highway access.",
+      "After the Morris County Parks Commission closes the Haggerty Education Center indefinitely, GSBS briefly uses the Morris County Library (directly across from the Arboretum) before relocating to the Essex County Environmental Center in Roseland, NJ — a modern facility with excellent meeting spaces and easy highway access from I-280.",
     type: "move",
   },
   {
