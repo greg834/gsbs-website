@@ -120,9 +120,16 @@ const timelineEvents: TimelineEvent[] = [
   },
   {
     year: "2006",
-    title: "Ted Matson & Bill Valavanis",
+    title: "David Easterbrook's First Visit",
     description:
-      "California shohin specialist Ted Matson (founder of the California Shohin Society) and Bill Valavanis (publisher of International Bonsai magazine) present at GSBS. Valavanis lectures on \"The Genesis of Classical Bonsai.\"",
+      "David Easterbrook, curator of the Montreal Botanic Gardens bonsai collection, makes his first visit to GSBS — the beginning of a remarkable relationship spanning six visits over 11 years (2006, 2007, 2008, 2009, 2013, 2017). He returns again in October 2007 for a workshop and lecture.",
+    type: "artist",
+  },
+  {
+    year: "2007",
+    title: "Ted Matson, Bill Valavanis & Julian Adams",
+    description:
+      "MABS 2007 features Robert Steven (Indonesia), Guy Guidry, and Ted Matson. Matson — trained with Ben Suzuki, Roy Nagatoshi, and John Naka — visits GSBS in April to create a Shohin from Juniper. Bill Valavanis lectures on \"The Genesis of Classical Bonsai\" at Martin Schmalenberg's Stillwater Studio. Julian Adams of Adams Bonsai (Virginia) presents on Scots Pine in September. Member Michael Markoff travels to Japan with Bill Valavanis to attend the Kokufu Ten exhibition.",
     type: "artist",
   },
   {
@@ -192,7 +199,7 @@ const timelineEvents: TimelineEvent[] = [
     year: "2008",
     title: "MABS Spring Festival Participation",
     description:
-      "GSBS members participate in the 25th Annual MABS Spring Festival, featuring Graham Potter (UK) and Michael Hagedorn (USA). The Open House draws 100-150 visitors, with Mark Schmuck and Dan Boehmke tying for the People's Choice Award. David Easterbrook of the Montreal Botanical Gardens praises GSBS as 'one of the more active and vital clubs he's seen on his journeys across North America.'",
+      "GSBS members participate in the 25th Annual MABS Spring Festival at Hudson Valley Resort, Kerhonkson, NY, featuring Graham Potter (UK) and Michael Hagedorn (USA). Mark Schmuck presides as MABS President. The Open House draws 100-150 visitors, with Mark Schmuck (Potentilla) and Dan Boehmke (Shimpaku) tying for the People's Choice Award. Vendor Jim Gillespie of Sho Fu En Bonsai (Danielsville, PA) sells tools, books, and supplies. David Easterbrook praises GSBS as 'one of the more active and vital clubs he's seen across North America.'",
     type: "achievement",
   },
   {
@@ -211,10 +218,10 @@ const timelineEvents: TimelineEvent[] = [
   },
   {
     year: "2009",
-    title: "Julian Adams on Scots Pine",
+    title: "Bill Valavanis House Fire",
     description:
-      "Julian Adams delivers a detailed lecture on Pinus Sylvestris (Scots Pine) styling — one of many species-focused educational sessions that exemplify GSBS's commitment to in-depth horticultural instruction.",
-    type: "artist",
+      "The bonsai community rallies after a devastating fire destroys the home of Bill Valavanis — publisher of International Bonsai magazine — along with much of his library, magazine archives, and business equipment. GSBS members support recovery efforts. The club's Open House draws visitors 'way beyond expectations' thanks to Daily Record publicity and pre-show signage. People's Choice: Mark Schmuck's Potentilla (Cinquefoil).",
+    type: "milestone",
   },
   {
     year: "2010",
@@ -619,10 +626,21 @@ export default function HistoryPage() {
             </div>
             <div className="bg-white border border-gray-200 rounded-lg p-6">
               <h3 className="font-serif font-bold text-gray-900">Michael Markoff</h3>
-              <p className="text-gsbs-teal text-sm font-medium mt-1">MABS New Talent &amp; People&apos;s Choice</p>
+              <p className="text-gsbs-teal text-sm font-medium mt-1">MABS New Talent &amp; Public Educator</p>
               <p className="text-gray-600 text-sm mt-3 leading-relaxed">
                 First Runner-up in the Joshua Roth New Talent Competition at MABS 2010.
-                People&apos;s Choice Award winner at the 2011 GSBS Open House.
+                People&apos;s Choice Award winner at 2011 Open House. Traveled to Japan
+                with Bill Valavanis for the Kokufu Ten. Gave public bonsai lectures at
+                Randolph Public Library.
+              </p>
+            </div>
+            <div className="bg-white border border-gray-200 rounded-lg p-6">
+              <h3 className="font-serif font-bold text-gray-900">Dan Boehmke</h3>
+              <p className="text-gsbs-teal text-sm font-medium mt-1">Newsletter Editor (2005–2010)</p>
+              <p className="text-gray-600 text-sm mt-3 leading-relaxed">
+                Produced the club&apos;s newsletter for years, documenting guest artists,
+                meeting recaps, and care tips. Co-winner of the People&apos;s Choice Award
+                at the 2008 Open House with his Shimpaku Juniper.
               </p>
             </div>
             <div className="bg-white border border-gray-200 rounded-lg p-6">
