@@ -79,6 +79,18 @@ const learning: ResourceLink[] = [
     description:
       "Long-running bonsai publication featuring artists, techniques, and exhibitions worldwide",
   },
+  {
+    name: "Knowledge of Bonsai",
+    url: "https://www.knowledgeofbonsai.org",
+    description:
+      "In-depth bonsai education resource covering techniques, species, and design principles",
+  },
+  {
+    name: "Rosade Bonsai Studio",
+    url: "https://www.rosadebonsai.com",
+    description:
+      "Chase Rosade's bonsai studio in New Hope, PA — classes, consultations, and bonsai art",
+  },
 ];
 
 const reading: ResourceLink[] = [
@@ -134,6 +146,12 @@ const linkCategories: LinkCategory[] = [
         url: "https://www.bonsai-bci.com",
         description:
           "Global bonsai organization connecting clubs and enthusiasts worldwide",
+      },
+      {
+        name: "National Bonsai Foundation",
+        url: "https://www.nationalbonsaifoundation.org",
+        description:
+          "Supports the National Bonsai & Penjing Collection at the U.S. National Arboretum in Washington, D.C.",
       },
     ],
   },

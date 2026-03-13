@@ -95,6 +95,11 @@ const faqs = [
     answer:
       "Yes — children ages 12 and up are welcome at all meetings and events. It's a great way to introduce young people to the art of bonsai.",
   },
+  {
+    question: "Do I need to be a member to receive the newsletter?",
+    answer:
+      "The GSBS newsletter is available free to anyone interested. Paid members receive discounts at participating bonsai suppliers.",
+  },
 ];
 
 const faqSchema = {

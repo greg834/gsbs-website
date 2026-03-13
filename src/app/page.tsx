@@ -6,7 +6,6 @@ import PhotoGrid from "../components/PhotoGrid";
 import UpcomingEvents from "../components/UpcomingEvents";
 import ProgramsHighlight from "../components/ProgramsHighlight";
 import Testimonials from "../components/Testimonials";
-import NewsletterSignup from "../components/NewsletterSignup";
 import GoogleMap from "../components/GoogleMap";
 import JoinCTA from "../components/JoinCTA";
 
@@ -85,10 +84,7 @@ export default function Home() {
       {/* 7. What Members Say */}
       <Testimonials />
 
-      {/* 8. Newsletter Signup */}
-      <NewsletterSignup />
-
-      {/* 9. Google Map */}
+      {/* 8. Google Map */}
       <GoogleMap />
 
       {/* 8. Join Us CTA */}

@@ -84,6 +84,13 @@ const timelineEvents: TimelineEvent[] = [
     type: "milestone",
   },
   {
+    year: "~2005",
+    title: "Mark Schmuck Serves as President",
+    description:
+      "Mark Schmuck serves as President of GSBS, helping to guide the club through its growth years in the mid-2000s.",
+    type: "milestone",
+  },
+  {
     year: "2005–2022",
     title: "Newsletter Archive Established",
     description:
@@ -91,10 +98,38 @@ const timelineEvents: TimelineEvent[] = [
     type: "milestone",
   },
   {
+    year: "2008",
+    title: "MABS Spring Festival Participation",
+    description:
+      "GSBS members participate in the Mid-Atlantic Bonsai Societies (MABS) Spring Festival, continuing the club's strong tradition of regional competition and exhibition.",
+    type: "achievement",
+  },
+  {
     year: "2010",
     title: "Michael Markoff — MABS New Talent",
     description:
-      "GSBS member Michael Markoff is selected as First Runner-up in the Joshua Roth New Talent Competition at the 27th Annual MABS Spring Festival.",
+      "GSBS member Michael Markoff is selected as First Runner-up in the Joshua Roth New Talent Competition at the 27th Annual MABS Spring Festival — one of the most competitive new talent showcases in the Mid-Atlantic bonsai community. GSBS members participate in the festival, continuing a multi-year tradition of engagement with the Joshua Roth New Talent Competition.",
+    type: "achievement",
+  },
+  {
+    year: "2011",
+    title: "People's Choice Award",
+    description:
+      "A GSBS member earns the People's Choice Award at a regional bonsai exhibition, reflecting the artistry and craftsmanship cultivated within the club.",
+    type: "achievement",
+  },
+  {
+    year: "2011",
+    title: "Bloomfest Participation",
+    description:
+      "GSBS participates in Bloomfest, a community horticultural festival, bringing bonsai displays and education to a wider public audience.",
+    type: "milestone",
+  },
+  {
+    year: "2011",
+    title: "MABS Spring Festival",
+    description:
+      "GSBS members exhibit and compete at the MABS Spring Festival, maintaining the club's active presence in the Mid-Atlantic bonsai community.",
     type: "achievement",
   },
   {
@@ -103,6 +138,34 @@ const timelineEvents: TimelineEvent[] = [
     description:
       "California bonsai masters Kathy Shaner and Boon Manakitivipart (returning for the second time) present at GSBS, conducting workshops and demonstrations.",
     type: "artist",
+  },
+  {
+    year: "2011–2012",
+    title: "Randolph Library Lecture & Demonstration",
+    description:
+      "GSBS presents a bonsai lecture and live demonstration at the Randolph Library, bringing public bonsai education to the local community.",
+    type: "milestone",
+  },
+  {
+    year: "2012",
+    title: "Stone Appreciation Symposium",
+    description:
+      "GSBS member Martin Schmalenberg co-organizes a Stone Appreciation Symposium, bringing together bonsai and suiseki (viewing stone) enthusiasts for a dedicated program on the art of stone appreciation.",
+    type: "milestone",
+  },
+  {
+    year: "2012",
+    title: "MABS Spring Festival",
+    description:
+      "GSBS members participate in the MABS Spring Festival, with continued engagement in the Joshua Roth New Talent Competition and regional exhibition categories.",
+    type: "achievement",
+  },
+  {
+    year: "2012",
+    title: "Diego Pablos Serves as President",
+    description:
+      "Diego Pablos serves as President of GSBS, providing leadership during the club's continued growth and its engagement with the regional bonsai community.",
+    type: "milestone",
   },
   {
     year: "2012",
@@ -166,6 +229,13 @@ const timelineEvents: TimelineEvent[] = [
     description:
       "British bonsai professional Will Baddeley visits GSBS, continuing the club's tradition of hosting international artists.",
     type: "artist",
+  },
+  {
+    year: "2024",
+    title: "Diego Garnica Elected President",
+    description:
+      "Diego Garnica is elected President of GSBS, becoming the club's representative on the NJ Bonsai Societies (NJBS) Board. He continues to serve in this role through the present.",
+    type: "milestone",
   },
   {
     year: "2024",

@@ -33,6 +33,14 @@ export const metadata: Metadata = {
     "GSBS",
     "bonsai meetings NJ",
     "bonsai show New Jersey",
+    "bonsai Essex County NJ",
+    "bonsai Morris County NJ",
+    "bonsai northern New Jersey",
+    "learn bonsai NJ",
+    "bonsai workshop NJ",
+    "bonsai beginners NJ",
+    "bonsai club near me",
+    "bonsai annual show Roseland",
   ],
   openGraph: {
     title: "Great Swamp Bonsai Society · NJ Bonsai Club Since 1976",
@@ -112,10 +120,35 @@ const localBusinessSchema = {
     description: "2nd Tuesday of each month (no December meeting)",
   },
   priceRange: "Free meetings, $40/year membership",
-  areaServed: {
-    "@type": "State",
-    name: "New Jersey",
-  },
+  areaServed: [
+    {
+      "@type": "State",
+      name: "New Jersey",
+    },
+    {
+      "@type": "City",
+      name: "Roseland",
+      containedInPlace: { "@type": "State", name: "New Jersey" },
+    },
+    {
+      "@type": "AdministrativeArea",
+      name: "Essex County",
+      containedInPlace: { "@type": "State", name: "New Jersey" },
+    },
+    {
+      "@type": "AdministrativeArea",
+      name: "Morris County",
+      containedInPlace: { "@type": "State", name: "New Jersey" },
+    },
+  ],
+  knowsAbout: [
+    "bonsai",
+    "bonsai cultivation",
+    "bonsai styling",
+    "Japanese bonsai art",
+    "bonsai workshops",
+    "bonsai exhibitions",
+  ],
   sameAs: [
     "https://www.facebook.com/groups/296001945128377",
     "https://www.youtube.com/@greatswampbonsaisociety5552",

@@ -111,7 +111,8 @@ export default function AboutPage() {
                     1976 &ndash; 2022
                   </p>
                   <p className="text-sm text-gray-600">
-                    Met at the Frelinghuysen Arboretum, Morristown, NJ
+                    Met at the Frelinghuysen Arboretum (Haggerty Education
+                    Center, East Hanover Ave), Morristown, NJ
                   </p>
                 </div>
                 <div>
@@ -121,6 +122,15 @@ export default function AboutPage() {
                   <p className="text-sm text-gray-600">
                     Relocated to the Essex County Environmental Center,
                     Roseland, NJ
+                  </p>
+                </div>
+                <div>
+                  <p className="text-sm font-semibold text-gsbs-teal">
+                    Meeting Times
+                  </p>
+                  <p className="text-sm text-gray-600">
+                    Schedule has evolved over the years: originally 7:00&ndash;10:00&nbsp;PM,
+                    then 6:30&ndash;9:30&nbsp;PM, now 6:00&ndash;9:00&nbsp;PM
                   </p>
                 </div>
                 <div>
@@ -162,8 +172,10 @@ export default function AboutPage() {
                   <li className="flex items-start gap-2">
                     <span className="text-gsbs-teal mt-0.5 shrink-0">&bull;</span>
                     <span>
-                      <strong>Martin Schmalenberg</strong> published a two-part
-                      article on Pinus Rigida (Pitch Pine) styling in{" "}
+                      <strong>Martin Schmalenberg</strong> &mdash; GSBS
+                      co-founder, Director of Asian Studies at Blairstown
+                      Academy &mdash; published a two-part article on Pinus
+                      Rigida (Pitch Pine) styling in{" "}
                       <em>International Bonsai</em> magazine
                     </span>
                   </li>
@@ -177,9 +189,9 @@ export default function AboutPage() {
                   <li className="flex items-start gap-2">
                     <span className="text-gsbs-teal mt-0.5 shrink-0">&bull;</span>
                     <span>
-                      <strong>Martin Schmalenberg</strong> hosts workshops at
-                      his Stillwater Studio and has demonstrated styling
-                      techniques at numerous GSBS meetings
+                      <strong>Martin Schmalenberg</strong> runs{" "}
+                      <em>Stillwater Studio</em>, hosts member workshops, and
+                      organized the Stone Appreciation Symposium (2012)
                     </span>
                   </li>
                   <li className="flex items-start gap-2">
@@ -439,21 +451,28 @@ export default function AboutPage() {
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 max-w-5xl mx-auto">
             {[
-              { name: "Colin Lewis", origin: "International", years: "2004" },
-              { name: "Arthur Skolnik", origin: "International", years: "2004" },
-              { name: "Boon Manakitivipart", origin: "California", years: "2003, 2011" },
-              { name: "Andy Smith (Golden Arrow Bonsai)", origin: "South Dakota", years: "2005" },
-              { name: "Horst Krekeler", origin: "Germany", years: "2003, 2005" },
-              { name: "Roy Nagatoshi", origin: "California", years: "2005" },
-              { name: "Kathy Shaner", origin: "California", years: "2011" },
-              { name: "Peter Warren", origin: "UK", years: "2012" },
-              { name: "Chase Rosade", origin: "Pennsylvania", years: "2012" },
-              { name: "Minoru Akiyama", origin: "Japan", years: "2013" },
-              { name: "Suthin Sukosolvisit", origin: "Thailand/USA", years: "2013\u20132014" },
-              { name: "Bjorn Bjornholm", origin: "\u2014", years: "2016" },
-              { name: "Marc Noelanders", origin: "Belgium", years: "2019" },
-              { name: "Will Baddeley", origin: "UK", years: "2022" },
-              { name: "Jonas Dupuich", origin: "California", years: "2026" },
+              { name: "Colin Lewis", origin: "Maine", years: "2004", note: "Internationally acclaimed bonsai author and teacher" },
+              { name: "Arthur Skolnik", origin: "International", years: "2004", note: "Renowned bonsai artist and teacher" },
+              { name: "Boon Manakitivipart", origin: "California", years: "2003, 2011", note: null },
+              { name: "Andy Smith (Golden Arrow Bonsai)", origin: "South Dakota", years: "2005", note: null },
+              { name: "Horst Krekeler", origin: "Germany", years: "2003, 2005", note: null },
+              { name: "Roy Nagatoshi", origin: "California", years: "2005", note: null },
+              { name: "Charles Ceronio", origin: "South Africa", years: "2010", note: "South African bonsai master" },
+              { name: "Kathy Shaner", origin: "California", years: "2011", note: null },
+              { name: "Yasuo Mitsuya", origin: "Japan", years: "2011", note: "Japanese bonsai master" },
+              { name: "Steve Tolley", origin: "UK", years: "2011", note: "UK-based bonsai artist" },
+              { name: "Peter Warren", origin: "UK", years: "2012", note: null },
+              { name: "Chase Rosade", origin: "Pennsylvania", years: "2012", note: "Owner, Rosade Bonsai Studio, New Hope PA" },
+              { name: "Isao Omachi", origin: "Japan", years: "2012", note: "Japanese bonsai master" },
+              { name: "John Thompson", origin: "\u2014", years: "2012", note: "Bonsai artist" },
+              { name: "Minoru Akiyama", origin: "Japan", years: "2013", note: null },
+              { name: "David Easterbrook", origin: "Canada", years: "2013", note: "Curator, Montreal Botanical Garden bonsai collection" },
+              { name: "Ron Lang", origin: "\u2014", years: "2013", note: "Bonsai artist" },
+              { name: "Suthin Sukosol", origin: "Thailand/USA", years: "2014", note: "Thai-born bonsai master, renowned for tropical species" },
+              { name: "Bjorn Bjornholm", origin: "\u2014", years: "2016", note: null },
+              { name: "Marc Noelanders", origin: "Belgium", years: "2019", note: null },
+              { name: "Will Baddeley", origin: "UK", years: "2022", note: null },
+              { name: "Jonas Dupuich", origin: "California", years: "2026", note: null },
             ].map((artist) => (
               <div
                 key={artist.name}
@@ -463,6 +482,9 @@ export default function AboutPage() {
                 <p className="text-sm text-gray-500 mt-1">
                   {artist.origin} &middot; {artist.years}
                 </p>
+                {artist.note && (
+                  <p className="text-xs text-gray-400 mt-1 italic">{artist.note}</p>
+                )}
               </div>
             ))}
           </div>

@@ -62,6 +62,8 @@ const months = [
       "Spray for fungus and insects on warm days before buds open.",
       "Good month for collecting trees from the wild (yamadori) — dig before leaves emerge.",
       "Begin light fertilizing as growth starts.",
+      "Repotting frequency varies by age: young trees every 1–2 years, mature trees every 3–5 years.",
+      "When using insecticides or fungicides on container-grown trees, apply at half the label strength to avoid root burn.",
     ],
     species: {
       deciduous: "Repot maples, elms, beeches. Root prune up to 1/3. Use well-draining soil mix.",
@@ -206,6 +208,7 @@ const months = [
       "Remove dead leaves and branches — clean up for winter.",
       "Tropical bonsai should already be indoors with supplemental lighting.",
       "Reduce watering frequency but don't let roots dry out completely.",
+      "Protect container trees from winter rodents: wrap hardware cloth around pots or move trees into a cold frame.",
     ],
     species: {
       deciduous: "Move to winter protection after hard frost. Water lightly.",
@@ -224,6 +227,7 @@ const months = [
       "Plan repotting schedule for spring and order soil components.",
       "Mix soil, clean and sharpen tools, organize supplies.",
       "Prevent soil freeze-thaw cycles and wind dehydration in storage.",
+      "A cold frame — an unheated structure that stays just above freezing — protects trees from desiccating winter winds while preserving natural dormancy.",
     ],
     species: {
       deciduous: "Study structure. Sketch design plans. Keep roots from freezing solid.",
