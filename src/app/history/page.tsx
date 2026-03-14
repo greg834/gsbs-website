@@ -140,13 +140,6 @@ const timelineEvents: TimelineEvent[] = [
     type: "artist",
   },
   {
-    year: "2007",
-    title: "Tony Tickle from the UK",
-    description:
-      "British bonsai artist Tony Tickle demonstrates copper wire techniques at GSBS, with member Evan DeAngelis assisting in showing the strength of copper wire during the presentation.",
-    type: "artist",
-  },
-  {
     year: "~2005",
     title: "Mark Schmuck Serves as President",
     description:
@@ -290,7 +283,14 @@ const timelineEvents: TimelineEvent[] = [
     year: "2012",
     title: "Joan Greentree Memorial",
     description:
-      "GSBS remembers Joan Greentree, a beloved member whose bonsai were displayed at the Boonton Historical Society in October 2012. Her dedication to the art and the club is honored by fellow members.",
+      "GSBS mourns Joan Greentree — a beloved member who died in May 2012 after a 50-year career as gardener, landscape architect, artist, and civic activist. A 3-month retrospective exhibit of her work opened at the Boonton Historical Museum in October 2012, organized by her son Victor Levine.",
+    type: "milestone",
+  },
+  {
+    year: "~2012",
+    title: "David Yedwab Passes Away",
+    description:
+      "GSBS mourns the loss of David Yedwab, a longtime club member and specialist in tropical bonsai, root trimming, and indoor bonsai techniques. Fred Aufschlager kept David's pot collection available to club members, and his historic umbrella-plant bonsai found a new home in 2014.",
     type: "milestone",
   },
   {
@@ -322,6 +322,13 @@ const timelineEvents: TimelineEvent[] = [
     type: "artist",
   },
   {
+    year: "2013",
+    title: "Hirojoshi Yamaji from Japan",
+    description:
+      "Japanese bonsai master Hirojoshi Yamaji visits GSBS for a full-day advanced bring-your-own-tree workshop held at Fred Aufschlager's home in Bernardsville, NJ (September 28). Yamaji demonstrates bending heavy branches on a large Pitch Pine using iron rebar, and transforms Bill Kasakoff's Shimpaku Juniper 'beyond all recognition, with astounding results.'",
+    type: "artist",
+  },
+  {
     year: "2014",
     title: "Suthin Sukosolvisit Workshop",
     description:
@@ -343,11 +350,18 @@ const timelineEvents: TimelineEvent[] = [
     type: "achievement",
   },
   {
-    year: "~2015",
+    year: "2005",
     title: "Bart Thomas — Duke Farms Curator",
     description:
       "GSBS member Bart Thomas is selected as Curator of the Bonsai Collection at Duke Farms in Hillsborough, NJ — a prestigious public garden and conservation estate.",
     type: "achievement",
+  },
+  {
+    year: "2006",
+    title: "Bart Thomas Passes Away",
+    description:
+      "GSBS mourns the loss of Bart Thomas, a beloved long-time member known for his bonsai skill, his sense of humor, and his role as Curator of the Duke Farms bonsai collection. Bart also contributed humorous bonsai writing to the club newsletter. He passed away March 31, 2006.",
+    type: "milestone",
   },
   {
     year: "2016",

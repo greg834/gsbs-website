@@ -490,7 +490,7 @@ export default function AboutPage() {
               { name: "Ted Matson", origin: "California", years: "2007", note: "Founded the California Shohin Society; trained with Ben Suzuki, Roy Nagatoshi, and John Naka; created Shohin from Juniper at GSBS" },
               { name: "Bill Valavanis", origin: "New York", years: "2007", note: "Publisher, International Bonsai magazine; lectured on The Genesis of Classical Bonsai at Stillwater Studio; hosted Michael Markoff on Japan trip to Kokufu Ten" },
               { name: "George LeBolt", origin: "New Jersey", years: "2005, 2006, 2007", note: "Past President of MABS; President of Bergen Bonsai Society for 16 years; tropical bonsai specialist; Ficus and collected Larch workshops. His trees are in the Montreal Botanical Gardens bonsai collection" },
-              { name: "Tony Tickle", origin: "UK", years: "2007, 2018", note: "BCI Board 2003–2005; four Ginkgo awards; specializes in Hawthorn, Yew, and Pine; styled Shimpaku Juniper at GSBS 2018 workshop" },
+              { name: "Tony Tickle", origin: "UK", years: "2018", note: "BCI Board 2003–2005; four Ginkgo awards; specializes in Hawthorn, Yew, and Pine; styled Shimpaku Juniper at GSBS 2018 workshop" },
               { name: "Pedro Morales", origin: "Puerto Rico", years: "2009, 2019", note: "Styled San Jose Junipers at GSBS; hosted at Fred Aufschlager's home" },
               { name: "Julian Adams", origin: "Virginia", years: "2007", note: "Adams Bonsai; Scots Pine specialist; BYOT workshop and PowerPoint on Pinus Silvestris; zuisho white pine cuttings for sale" },
               { name: "Jim Barrett", origin: "California", years: "2008", note: "Founding member Golden State Bonsai Federation; presented on matching deciduous trees to pots" },
@@ -506,6 +506,7 @@ export default function AboutPage() {
               { name: "Isao Omachi", origin: "Japan", years: "2012", note: "MABS 2012: Pine and Juniper demonstrations" },
               { name: "John Thompson", origin: "\u2014", years: "2012", note: "MABS 2012: Coastal Oak and Boxwood demonstrations" },
               { name: "Minoru Akiyama", origin: "Japan", years: "2013", note: "Youngest winner of the Prime Minister's Award at Sakafu; apprenticed under Kunio Kobayashi at Shunkaen" },
+              { name: "Hirojoshi Yamaji", origin: "Japan", years: "2013", note: "Full-day advanced BYOT workshop at Fred Aufschlager's home; demonstrated bending heavy branches with iron rebar; transformed member trees 'beyond all recognition'" },
               { name: "David Easterbrook", origin: "Canada", years: "2006, 2007, 2008, 2009, 2013, 2016, 2017", note: "Curator, Montreal Botanical Garden bonsai collection; 7 visits over 11 years; called GSBS 'one of the more active and vital clubs' in North America" },
               { name: "Ron Lang", origin: "\u2014", years: "2013", note: "Bonsai potter; presented The Gestalt of Tree/Container Selection" },
               { name: "Suthin Sukosolvisit", origin: "Thailand/USA", years: "2014", note: "Royal Bonsai Garden, Stoughton MA; involved with bonsai since 1970; MABS 2014 headliner; tropical and temperate species expert" },
@@ -515,7 +516,8 @@ export default function AboutPage() {
               { name: "Will Baddeley", origin: "UK", years: "2022", note: "Deadwood carving specialist; specializes in natural deadwood on deciduous trees using power tools and scalpels; workshop at Fred Aufschlager's home in Bernardsville" },
               { name: "David Knittle", origin: "Vermont", years: "2017", note: "Specialist in collected bonsai from New England; Red Spruce, Larch, and Balsam Fir from power line cuts and state lands" },
               { name: "Koji Hiramatsu", origin: "Japan", years: "2018", note: "Multi-generational bonsai business; pine specialist; styled wild-collected Pitch Pine at GSBS evening demo" },
-              { name: "Budi Sulistyo", origin: "Indonesia", years: "2015", note: "Internationally acclaimed Indonesian bonsai master; MABS 2015 headliner; workshop and demonstration at GSBS" },
+              { name: "Philip Shimko", origin: "USA", years: "2015", note: "Shimpaku juniper styling workshop at GSBS; demonstrated trunk shaping with raffia and copper wire on 6–7 year old cuttings" },
+              { name: "Budi Sulistyo", origin: "Indonesia", years: "2015", note: "Internationally acclaimed Indonesian bonsai master; MABS 2015 headliner; workshop and demonstration at GSBS; author of Tropical Bonsai Gallery; bonsai instructor on Indonesian National TV since 1985" },
               { name: "Jonas Dupuich", origin: "California", years: "2026", note: "Bonsai Tonight author; 50th anniversary guest artist" },
             ].map((artist) => (
               <div
