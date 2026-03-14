@@ -36,7 +36,7 @@ const benefits = [
     icon: Palette,
     title: "Artist in Residence Sessions",
     description:
-      "Work one-on-one with renowned bonsai artist Sergio Cuan three times per year. A two-time Emmy winner and one of the East Coast's most recognized bonsai artists.",
+      "Three times per year, renowned bonsai artist Sergio Cuan leads GSBS meetings - working one-on-one with members on their trees and demonstrating advanced techniques. Cuan is a two-time Emmy Award winner, former Nickelodeon SVP, BFA Pratt Institute, and recipient of the 'Finest Deciduous Award' at the 4th U.S. National Bonsai Exhibition. Sessions are included with membership at no additional cost. Bring your tree.",
   },
   {
     icon: Award,
@@ -96,9 +96,9 @@ const faqs = [
       "Yes  -  children ages 12 and up are welcome at all meetings and events. It's a great way to introduce young people to the art of bonsai.",
   },
   {
-    question: "Do I need to be a member to receive the newsletter?",
+    question: "Is there a GSBS newsletter?",
     answer:
-      "The GSBS newsletter is available free to anyone interested. Paid members receive discounts at participating bonsai suppliers.",
+      "GSBS published a monthly newsletter for 17 years (2005-2022), written primarily by former president John Michalski. Over 170 issues are available as free PDF downloads in our Newsletter Archive on the Resources page. To receive updates and announcements, email us at great.swampbonsai@gmail.com or follow us on Facebook.",
   },
   {
     question: "What should I bring to a meeting?",
