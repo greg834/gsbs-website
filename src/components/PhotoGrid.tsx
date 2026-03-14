@@ -1,27 +1,27 @@
 const photos = [
   {
-    src: "/images/bonsai-1.png",
-    alt: "Hands carefully wiring and styling a juniper bonsai during a GSBS workshop",
+    src: "/images/gallery/mabs-06-display-1.jpg",
+    alt: "Cascade white pine bonsai with suiseki accent stone on display at MABS Spring Festival 2006",
   },
   {
-    src: "/images/bonsai-2.png",
-    alt: "Bonsai artist styling a tree with precision tools at a club demonstration",
+    src: "/images/gallery/cedar-elm.jpg",
+    alt: "Cedar Elm bonsai in winter showing fine branch ramification, Great Swamp Bonsai Society member tree",
   },
   {
-    src: "/images/bonsai-3.png",
-    alt: "Mature bonsai tree with refined branch structure on display",
+    src: "/images/gallery/show-05-visitors.jpg",
+    alt: "Wired juniper bonsai on white wall display at GSBS Annual Show 2005, Roseland New Jersey",
   },
   {
-    src: "/images/bonsai-4.png",
-    alt: "Bonsai exhibit at the GSBS Annual Show at Garibaldi Hall",
+    src: "/images/gallery/japanese-maple.jpg",
+    alt: "Japanese Maple bonsai in autumn color, multi-trunk style, Great Swamp Bonsai Society collection",
   },
   {
-    src: "/images/bonsai-5.png",
-    alt: "Elegant bonsai composition displayed on a traditional wooden stand",
+    src: "/images/gallery/show-11-exhibit.jpg",
+    alt: "Forest planting bonsai on blue panel display at Great Swamp Bonsai Society Annual Show 2011",
   },
   {
-    src: "/images/bonsai-6.png",
-    alt: "Collection of member bonsai trees showcased at a Great Swamp Bonsai Society meeting",
+    src: "/images/gallery/cascade-juniper.jpg",
+    alt: "Cascade-style juniper bonsai with dramatic downward movement, GSBS member collection",
   },
 ];
 
