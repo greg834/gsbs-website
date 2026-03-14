@@ -275,7 +275,7 @@ export default function AnnualShowPage() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
               {
                 icon: TreePine,
@@ -300,6 +300,12 @@ export default function AnnualShowPage() {
                 title: "Expert Advice - Free",
                 description:
                   "Experienced GSBS members circulate throughout the show and are happy to answer questions about any tree on display, discuss care, troubleshoot problems, or help you get started with your own bonsai.",
+              },
+              {
+                icon: Award,
+                title: "Vendors & Sales",
+                description:
+                  "The show typically features bonsai vendors with trees, pots, tools, soil, and books for purchase. Past shows have featured Jim Gillespie of Nature's Way Nursery and specialty pot vendors. A great place to find something for your collection.",
               },
             ].map((item) => (
               <div

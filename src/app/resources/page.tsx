@@ -420,8 +420,87 @@ export default function ResourcesPage() {
         </div>
       </section>
 
-      {/* YouTube Videos */}
+      {/* Member Tips: Fertilizer & Soil */}
       <section className="py-12 sm:py-16">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+            {/* Fertilizer Cake Recipe */}
+            <div>
+              <h2 className="text-2xl font-serif font-bold text-gray-900 mb-2">
+                Member Recipe: Organic Fertilizer Cake
+              </h2>
+              <p className="text-gray-500 text-sm mb-6">
+                Documented in GSBS newsletters since the early 2000s. Originally from Michael Persiano; adapted by John Michalski.
+              </p>
+              <div className="bg-gray-50 border border-gray-200 rounded p-6 space-y-4 text-sm">
+                <div>
+                  <h3 className="font-semibold text-gray-900 mb-2">Dry Ingredients (by volume)</h3>
+                  <ul className="space-y-1 text-gray-600">
+                    <li>3 parts cottonseed meal (acidic nitrogen)</li>
+                    <li>2 parts garden lime (alkaline balance)</li>
+                    <li>1 part blood meal (nitrogen and iron)</li>
+                    <li>1 part bone meal (phosphorus)</li>
+                  </ul>
+                </div>
+                <div>
+                  <h3 className="font-semibold text-gray-900 mb-2">Wet Ingredients (per 5 lbs dry)</h3>
+                  <ul className="space-y-1 text-gray-600">
+                    <li>5 oz fish emulsion</li>
+                    <li>Water as needed to reach cookie-dough consistency</li>
+                  </ul>
+                </div>
+                <div>
+                  <h3 className="font-semibold text-gray-900 mb-2">Method</h3>
+                  <p className="text-gray-600 leading-relaxed">
+                    Mix to a stiff cookie-dough consistency. Spread 1/4 inch thick on a flat surface. Dry in sun, then break into 1-2 inch blocks. Store dry.
+                  </p>
+                </div>
+                <div>
+                  <h3 className="font-semibold text-gray-900 mb-2">Application</h3>
+                  <p className="text-gray-600 leading-relaxed">
+                    Apply in spring when bud growth is evident: 4-5 chunks for a large pot, 1-2 for a small pot. Place on soil surface and allow to break down with watering. Cease application in early August to avoid triggering late bud break before winter.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Fred Aufschlager Soil Mixes */}
+            <div>
+              <h2 className="text-2xl font-serif font-bold text-gray-900 mb-2">
+                Fred Aufschlager&apos;s Soil Mixes
+              </h2>
+              <p className="text-gray-500 text-sm mb-6">
+                GSBS Potter in Residence Fred Aufschlager offers professional-grade custom soil mixes for club members.
+              </p>
+              <div className="space-y-4">
+                <div className="bg-gray-50 border border-gray-200 rounded p-5">
+                  <h3 className="font-semibold text-gray-900 mb-1">Coniferous Mix</h3>
+                  <p className="text-sm text-gray-600 mb-3">Available in coarse and fine grinds. Formulated for pines, junipers, and other conifers.</p>
+                  <p className="text-sm text-gsbs-teal font-medium">$50 per 5-gallon bucket &middot; $12/gal (1-3 gal)</p>
+                </div>
+                <div className="bg-gray-50 border border-gray-200 rounded p-5">
+                  <h3 className="font-semibold text-gray-900 mb-1">Deciduous Mix (Fine)</h3>
+                  <p className="text-sm text-gray-600 mb-3">Fine grind formulated for maples, hornbeams, elms, and other deciduous species.</p>
+                  <p className="text-sm text-gsbs-teal font-medium">$60 per 5-gallon bucket &middot; $14/gal (1-3 gal)</p>
+                </div>
+                <div className="bg-gray-50 border border-gray-200 rounded p-6">
+                  <h3 className="font-semibold text-gray-900 mb-2">NJ Winter Protection Tips</h3>
+                  <p className="text-sm text-gray-600 leading-relaxed">
+                    From 17 years of GSBS newsletters: snow is beneficial to hardy trees (insulates, stabilizes temperature). The real threats are repeated freeze-thaw cycles, wind desiccation, and rodents (voles and mice). Keep hardy trees fully frozen outdoors rather than in cold frames where soil thaws and attracts wildlife.
+                  </p>
+                </div>
+              </div>
+              <p className="text-sm text-gray-500 mt-4">
+                Interested in soil mixes? Ask at any meeting or{" "}
+                <a href="mailto:great.swampbonsai@gmail.com" className="text-gsbs-teal hover:text-gsbs-teal-dark">contact the club</a>.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* YouTube Videos */}
+      <section className="py-12 sm:py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-10">
             <div className="flex items-center justify-center mx-auto mb-4">

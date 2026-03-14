@@ -297,6 +297,56 @@ export default function MeetingsPage() {
         </div>
       </section>
 
+      {/* Club Traditions */}
+      <section className="py-12 sm:py-16 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl font-serif font-bold text-gray-900 mb-4">
+            Annual Club Traditions
+          </h2>
+          <p className="text-gray-600 max-w-2xl mb-10 leading-relaxed">
+            Beyond the monthly program, GSBS has built a set of beloved annual traditions over its 50-year history.
+          </p>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="bg-white rounded border border-gray-200 p-6">
+              <h3 className="font-serif font-semibold text-gray-900 mb-2">Winter Auction</h3>
+              <p className="text-gray-600 text-sm leading-relaxed">
+                Each January, members donate bonsai, pots, tools, books, and magazines for a lively auction. Members set minimum bids; the club takes a small percentage of proceeds to fund programs. A beloved tradition for scoring deals and passing along treasures.
+              </p>
+            </div>
+            <div className="bg-white rounded border border-gray-200 p-6">
+              <h3 className="font-serif font-semibold text-gray-900 mb-2">MABS Tree Selection Vote</h3>
+              <p className="text-gray-600 text-sm leading-relaxed">
+                Each spring, members vote (by penny vote) to select three trees to represent GSBS at the Mid-Atlantic Bonsai Societies Spring Festival. Trees are judged alongside exhibits from 11 clubs across the region.
+              </p>
+            </div>
+            <div className="bg-white rounded border border-gray-200 p-6">
+              <h3 className="font-serif font-semibold text-gray-900 mb-2">Summer Picnic</h3>
+              <p className="text-gray-600 text-sm leading-relaxed">
+                In July or August, GSBS gathers at a member&apos;s home for an informal summer picnic. These outdoor gatherings are a chance to tour members&apos; garden collections, share a meal, and enjoy bonsai in a relaxed setting.
+              </p>
+            </div>
+            <div className="bg-white rounded border border-gray-200 p-6">
+              <h3 className="font-serif font-semibold text-gray-900 mb-2">Members&apos; Sales Table</h3>
+              <p className="text-gray-600 text-sm leading-relaxed">
+                Members can bring bonsai-related items to sell at any meeting - trees, pots, tools, books, or magazines. It&apos;s a non-commercial way for enthusiasts to pass along items to fellow members at fair prices.
+              </p>
+            </div>
+            <div className="bg-white rounded border border-gray-200 p-6">
+              <h3 className="font-serif font-semibold text-gray-900 mb-2">Wire Recycling Drive</h3>
+              <p className="text-gray-600 text-sm leading-relaxed">
+                Members save used copper bonsai wire clippings throughout the year, cut to 3-6 inch lengths. Periodically, the club collects and sells the scrap copper - proceeds go toward dues support and club operations.
+              </p>
+            </div>
+            <div className="bg-white rounded border border-gray-200 p-6">
+              <h3 className="font-serif font-semibold text-gray-900 mb-2">Collecting Trips</h3>
+              <p className="text-gray-600 text-sm leading-relaxed">
+                The club has organized yamadori collecting expeditions to Nova Scotia, Maine, and local NJ sites - including a partnership with the Morris County Park Commission to harvest invasive honeysuckle from Kay Environmental Center, Chester, NJ.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* First Visit */}
       <section className="py-12 sm:py-16 bg-gsbs-teal text-white">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
