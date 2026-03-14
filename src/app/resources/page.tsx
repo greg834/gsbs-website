@@ -51,31 +51,31 @@ const supplies: ResourceLink[] = [
     name: "AllShapes Bonsai & Nursery",
     url: "https://www.allshapesbonsai.com",
     description:
-      "Local NJ bonsai nursery in Ringoes — run by David & Diane Hall and Brian Zegar. Excellent source for pre-bonsai material, pots, tools, and supplies at reasonable prices. Hosts annual bonsai shows.",
+      "Local NJ bonsai nursery in Ringoes  -  run by David & Diane Hall and Brian Zegar. Excellent source for pre-bonsai material, pots, tools, and supplies at reasonable prices. Hosts annual bonsai shows.",
   },
   {
     name: "Manhattan Bonsai",
     url: "https://manhattanbonsai.com",
     description:
-      "NYC-area bonsai supplier run by Efrain Torres — soil, pots, trees, and accessories",
+      "NYC-area bonsai supplier run by Efrain Torres  -  soil, pots, trees, and accessories",
   },
   {
     name: "Rosade Bonsai Studio",
     url: "https://www.rosadebonsai.com",
     description:
-      "Chase Rosade's legendary studio in New Hope, PA — finished bonsai, pre-bonsai, tools, workshops, and consultations",
+      "Chase Rosade's legendary studio in New Hope, PA  -  finished bonsai, pre-bonsai, tools, workshops, and consultations",
   },
   {
     name: "The Bonsai Shack",
     url: "https://thebonsaishack.com",
     description:
-      "Pomona, NY — owned by Arnie Friedman; hosts free demonstrations and events with visiting artists",
+      "Pomona, NY  -  owned by Arnie Friedman; hosts free demonstrations and events with visiting artists",
   },
 ];
 
 const learning: ResourceLink[] = [
   {
-    name: "Bonsai Tonight — Jonas Dupuich",
+    name: "Bonsai Tonight  -  Jonas Dupuich",
     url: "https://bonsaitonight.com",
     description:
       "In-depth bonsai techniques, species guides, and seasonal care from professional bonsai artist Jonas Dupuich",
@@ -108,7 +108,7 @@ const learning: ResourceLink[] = [
     name: "Rosade Bonsai Studio",
     url: "https://www.rosadebonsai.com",
     description:
-      "Chase Rosade's bonsai studio in New Hope, PA — classes, consultations, and bonsai art",
+      "Chase Rosade's bonsai studio in New Hope, PA  -  classes, consultations, and bonsai art",
   },
 ];
 
@@ -117,19 +117,19 @@ const reading: ResourceLink[] = [
     name: "Bonsai Heresy",
     url: "https://www.amazon.com/s?k=bonsai+heresy",
     description:
-      "Illustrated by GSBS Artist in Residence Sergio Cuan — a fresh perspective on bonsai conventions",
+      "Illustrated by GSBS Artist in Residence Sergio Cuan  -  a fresh perspective on bonsai conventions",
   },
   {
     name: "Bonsai Containers as Ceramic Art",
     url: "/documents/bonsai-containers-ceramic-art.pdf",
     description:
-      "By GSBS Potter in Residence Fred Aufschlager — a scholarly essay on bonsai container history and ceramic art traditions. Free PDF download.",
+      "By GSBS Potter in Residence Fred Aufschlager  -  a scholarly essay on bonsai container history and ceramic art traditions. Free PDF download.",
   },
   {
     name: "Bonsai From the Wild",
     url: "https://www.amazon.com/s?k=bonsai+from+the+wild+nick+lenz",
     description:
-      "By the late Nick Lenz — a groundbreaking book highlighting native North American species, their natural habitats, and styling tips. A favorite among GSBS members.",
+      "By the late Nick Lenz  -  a groundbreaking book highlighting native North American species, their natural habitats, and styling tips. A favorite among GSBS members.",
   },
   {
     name: "International Bonsai Magazine",
@@ -141,19 +141,19 @@ const reading: ResourceLink[] = [
     name: "Growing & Displaying Bonsai",
     url: "https://www.amazon.com/s?k=growing+displaying+bonsai+colin+lewis",
     description:
-      "By Colin Lewis & Neil Sutherland — the source GSBS newsletters cited for monthly care tips across 17 years of issues. A reliable, practical reference for temperate-climate bonsai.",
+      "By Colin Lewis & Neil Sutherland  -  the source GSBS newsletters cited for monthly care tips across 17 years of issues. A reliable, practical reference for temperate-climate bonsai.",
   },
   {
     name: "Bonsai: The Art of Growing and Keeping Miniature Trees",
     url: "https://www.amazon.com/s?k=bonsai+art+growing+miniature+trees+peter+chan",
     description:
-      "By Peter Chan — another foundational reference cited throughout the GSBS newsletter archive for seasonal care guidance and species-specific advice.",
+      "By Peter Chan  -  another foundational reference cited throughout the GSBS newsletter archive for seasonal care guidance and species-specific advice.",
   },
   {
     name: "The Bonsai Book",
     url: "https://www.amazon.com/s?k=the+bonsai+book+dan+barton",
     description:
-      "By Dan Barton — recommended by GSBS member John Michalski as 'a well-rounded overview of bonsai for people who have progressed beyond the beginner stage.' A retired veterinarian and passionate bonsai practitioner.",
+      "By Dan Barton  -  recommended by GSBS member John Michalski as 'a well-rounded overview of bonsai for people who have progressed beyond the beginner stage.' A retired veterinarian and passionate bonsai practitioner.",
   },
 ];
 
@@ -182,7 +182,7 @@ const linkCategories: LinkCategory[] = [
         name: "Mid-Atlantic Bonsai Societies (MABS)",
         url: "https://www.midatlanticbonsai.com",
         description:
-          "11 member clubs across CT, DE, NY, NJ, PA, RI, and MA — hosts annual Spring Festival",
+          "11 member clubs across CT, DE, NY, NJ, PA, RI, and MA  -  hosts annual Spring Festival",
       },
       {
         name: "NJ Bonsai Societies (NJBS)",
@@ -235,18 +235,18 @@ const linkCategories: LinkCategory[] = [
       {
         name: "Longwood Gardens",
         url: "https://longwoodgardens.org",
-        description: "Kennett Square, PA — hosts bonsai exhibitions",
+        description: "Kennett Square, PA  -  hosts bonsai exhibitions",
       },
       {
         name: "Brooklyn Botanic Garden",
         url: "https://www.bbg.org",
-        description: "Brooklyn, NY — C.V. Starr Bonsai Museum",
+        description: "Brooklyn, NY  -  C.V. Starr Bonsai Museum",
       },
       {
         name: "National Bonsai & Penjing Museum",
         url: "https://www.bonsai-nbf.org",
         description:
-          "Washington, D.C. — U.S. National Arboretum, world-class collection",
+          "Washington, D.C.  -  U.S. National Arboretum, world-class collection",
       },
     ],
   },
@@ -373,11 +373,11 @@ export default function ResourcesPage() {
               },
               {
                 month: "May",
-                tips: "Daily watering begins. Take cuttings and continue air-layering. Watch wired branches carefully — deciduous trees expand quickly in May and June.",
+                tips: "Daily watering begins. Take cuttings and continue air-layering. Watch wired branches carefully  -  deciduous trees expand quickly in May and June.",
               },
               {
                 month: "June",
-                tips: "Pinch terminal buds on deciduous trees, leaving one pair of leaves. Candle-pinching for evergreens winding down. Watch closely for insect pests. Chinese junipers are the only trees to safely repot this month — shield from drying wind and full sun. Mist foliage in early morning or evening only — water on leaves in full sun causes burn.",
+                tips: "Pinch terminal buds on deciduous trees, leaving one pair of leaves. Candle-pinching for evergreens winding down. Watch closely for insect pests. Chinese junipers are the only trees to safely repot this month  -  shield from drying wind and full sun. Mist foliage in early morning or evening only  -  water on leaves in full sun causes burn.",
               },
               {
                 month: "July",
@@ -385,7 +385,7 @@ export default function ResourcesPage() {
               },
               {
                 month: "August",
-                tips: "Water every day, possibly twice. Reduce nitrogen and increase potassium and phosphorus. Loosen wire that's biting into branches. Begin hardening trees for fall. Next year's buds and leaves are already being set — avoid heavy pruning that triggers new growth that won't harden before winter. Stop leaf pruning deciduous trees and eliminate nitrogen entirely by month's end.",
+                tips: "Water every day, possibly twice. Reduce nitrogen and increase potassium and phosphorus. Loosen wire that's biting into branches. Begin hardening trees for fall. Next year's buds and leaves are already being set  -  avoid heavy pruning that triggers new growth that won't harden before winter. Stop leaf pruning deciduous trees and eliminate nitrogen entirely by month's end.",
               },
               {
                 month: "September",
@@ -393,7 +393,7 @@ export default function ResourcesPage() {
               },
               {
                 month: "October",
-                tips: "Growth drawing to a close — stop fertilizing. Heavy branch pruning on pines. Prepare winter storage area. Many evergreens can be wire-trained in autumn. Prime time to scout garden centers — nurseries discount trees and shrubs up to 50%, and stock with broken tops or low branches that shoppers overlook are ideal bonsai candidates.",
+                tips: "Growth drawing to a close  -  stop fertilizing. Heavy branch pruning on pines. Prepare winter storage area. Many evergreens can be wire-trained in autumn. Prime time to scout garden centers  -  nurseries discount trees and shrubs up to 50%, and stock with broken tops or low branches that shoppers overlook are ideal bonsai candidates.",
               },
               {
                 month: "November",
@@ -401,7 +401,7 @@ export default function ResourcesPage() {
               },
               {
                 month: "December",
-                tips: "Assess deciduous tree design while bare. Wire evergreens (not deciduous — too brittle). Plan repotting schedule, mix soil, and clean tools. Prevent soil freeze-thaw and wind dehydration.",
+                tips: "Assess deciduous tree design while bare. Wire evergreens (not deciduous  -  too brittle). Plan repotting schedule, mix soil, and clean tools. Prevent soil freeze-thaw and wind dehydration.",
               },
             ].map((item) => (
               <div
@@ -450,7 +450,7 @@ export default function ResourcesPage() {
                 <p className="text-sm text-gray-400 mt-1">Watch on YouTube</p>
               </div>
             </a>
-            <div className="text-center mt-6">
+            <div className="text-center mt-6 flex flex-wrap items-center justify-center gap-6">
               <a
                 href="https://www.youtube.com/@greatswampbonsaisociety5552"
                 target="_blank"
@@ -460,6 +460,13 @@ export default function ResourcesPage() {
                 Visit our YouTube channel
                 <ExternalLink size={16} />
               </a>
+              <Link
+                href="/youtube-videos"
+                className="inline-flex items-center gap-2 text-gsbs-teal hover:text-gsbs-teal-dark font-medium transition-colors"
+              >
+                Browse videos on this site
+                <ExternalLink size={16} />
+              </Link>
             </div>
           </div>
         </div>
@@ -538,7 +545,7 @@ export default function ResourcesPage() {
                 Newsletter Archive (2005&ndash;2022)
               </h2>
               <p className="mt-3 text-gray-600 max-w-2xl mx-auto">
-                Over 170 issues spanning 2005 to 2022 — a treasure trove of
+                Over 170 issues spanning 2005 to 2022  -  a treasure trove of
                 meeting recaps, monthly care tips, guest artist features,
                 workshop reports, member tributes, collecting trip stories, and
                 club history. Written primarily by John Michalski, these
@@ -690,7 +697,7 @@ export default function ResourcesPage() {
                     International Stone Appreciation Symposium
                   </p>
                   <p className="text-sm text-gray-500 mt-0.5">
-                    Suiseki and viewing stone appreciation — a companion art to
+                    Suiseki and viewing stone appreciation  -  a companion art to
                     bonsai
                   </p>
                 </div>

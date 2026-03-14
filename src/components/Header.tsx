@@ -17,6 +17,7 @@ const navLinks = [
 ];
 
 const mobileExtraLinks = [
+  { href: "/youtube-videos", label: "YouTube Videos" },
   { href: "/apparel", label: "Apparel" },
   { href: "/beginners", label: "Beginner's Guide" },
   { href: "/care-guide", label: "Care Guide" },
@@ -47,7 +48,7 @@ export default function Header() {
 
   return (
     <>
-      {/* Skip to content — a11y */}
+      {/* Skip to content  -  a11y */}
       <a
         href="#main-content"
         className="sr-only focus:not-sr-only focus:absolute focus:top-0 focus:left-0 focus:z-[60] focus:bg-gsbs-teal focus:text-white focus:px-4 focus:py-2 focus:text-sm"

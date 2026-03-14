@@ -4,11 +4,11 @@ import { Youtube, ExternalLink } from "lucide-react";
 export const metadata: Metadata = {
   title: "GSBS on YouTube · Bonsai Videos · Great Swamp Bonsai Society",
   description:
-    "Watch bonsai demonstrations and seasonal care tutorials from Great Swamp Bonsai Society members — deadwood carving, bud pinching, species-specific care, and beginner guides.",
+    "Watch bonsai demonstrations and seasonal care tutorials from Great Swamp Bonsai Society members  -  deadwood carving, bud pinching, species-specific care, and beginner guides.",
   openGraph: {
     title: "GSBS on YouTube · Bonsai Videos · Great Swamp Bonsai Society",
     description:
-      "Bonsai demonstrations and seasonal care tutorials from GSBS members — deadwood carving, juniper styling, hemlock, maple, beech, and more.",
+      "Bonsai demonstrations and seasonal care tutorials from GSBS members  -  deadwood carving, juniper styling, hemlock, maple, beech, and more.",
   },
   alternates: {
     canonical: "https://www.greatswampbonsai.com/youtube-videos",
@@ -20,19 +20,19 @@ const videos = [
     id: "f1qP3GEfxfo",
     title: "Deadwood Carving on Yew",
     description:
-      "A detailed demonstration of deadwood carving (jin and shari) techniques on a Yew bonsai — creating dramatic aged character.",
+      "A detailed demonstration of deadwood carving (jin and shari) techniques on a Yew bonsai  -  creating dramatic aged character.",
     category: "Technique",
   },
   {
     id: "zZ7XeG2phQo",
     title: "Getting Started with a Nursery Juniper",
     description:
-      "How to turn a basic nursery juniper into bonsai material — selecting the front, removing foliage, and initial wiring.",
+      "How to turn a basic nursery juniper into bonsai material  -  selecting the front, removing foliage, and initial wiring.",
     category: "Beginner",
   },
   {
     id: "4l3xlXeXvrM",
-    title: "Dwarf Alberta Spruce — Initial Design",
+    title: "Dwarf Alberta Spruce  -  Initial Design",
     description:
       "Initial styling session on a Dwarf Alberta Spruce, selecting the primary structure and cleaning unwanted growth.",
     category: "Species",
@@ -41,7 +41,7 @@ const videos = [
     id: "ZA7x3DMRyfA",
     title: "Approach Graft Progress Update",
     description:
-      "An update on an approach graft — demonstrating how to add foliage to a bonsai branch using the approach graft technique.",
+      "An update on an approach graft  -  demonstrating how to add foliage to a bonsai branch using the approach graft technique.",
     category: "Technique",
   },
   {
@@ -55,12 +55,12 @@ const videos = [
     id: "lgmmfn7h_Pk",
     title: "Arborvitae Haircut",
     description:
-      "Trimming and shaping an Arborvitae bonsai in spring — removing coarse growth and refining the silhouette.",
+      "Trimming and shaping an Arborvitae bonsai in spring  -  removing coarse growth and refining the silhouette.",
     category: "Seasonal Care",
   },
   {
     id: "5NBXuTGJlJ0",
-    title: "Canada Plum — Leaf Pruning",
+    title: "Canada Plum  -  Leaf Pruning",
     description:
       "Leaf pruning a Canada Plum (Prunus nigra) bonsai in spring to encourage smaller, finer foliage.",
     category: "Seasonal Care",
@@ -76,26 +76,26 @@ const videos = [
     id: "3fFLYR90c5o",
     title: "Juniper Bud Pinching",
     description:
-      "Spring bud pinching technique for juniper bonsai — maintaining pad definition and encouraging back-budding.",
+      "Spring bud pinching technique for juniper bonsai  -  maintaining pad definition and encouraging back-budding.",
     category: "Seasonal Care",
   },
   {
     id: "M01bs9DQk8s",
     title: "Honeysuckle and Spruce Bud Pruning",
     description:
-      "Spring pruning techniques for both Honeysuckle and Spruce bonsai — timing and approach for each species.",
+      "Spring pruning techniques for both Honeysuckle and Spruce bonsai  -  timing and approach for each species.",
     category: "Seasonal Care",
   },
   {
     id: "XdVHAIFNhEA",
     title: "Beech Bud Pruning",
     description:
-      "Bud pruning a European or American Beech bonsai in spring — developing fine ramification in the canopy.",
+      "Bud pruning a European or American Beech bonsai in spring  -  developing fine ramification in the canopy.",
     category: "Seasonal Care",
   },
   {
     id: "bXNm9SPOip8",
-    title: "Amur Maple — Leaf Pruning",
+    title: "Amur Maple  -  Leaf Pruning",
     description:
       "Leaf pruning an Amur Maple bonsai in spring to encourage a second flush of smaller leaves.",
     category: "Seasonal Care",
@@ -194,7 +194,7 @@ export default function YoutubeVideosPage() {
             </h2>
             <p className="mt-2 text-gray-600">
               Species-specific bud pinching and pruning techniques for
-              Northeast bonsai — recorded during the 2020 growing season.
+              Northeast bonsai  -  recorded during the 2020 growing season.
             </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -239,46 +239,24 @@ function VideoCard({
 }) {
   return (
     <div className="bg-white rounded overflow-hidden border border-gray-200 flex flex-col">
-      {/* YouTube thumbnail — links to video */}
-      <a
-        href={`https://www.youtube.com/watch?v=${video.id}`}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="block relative aspect-video bg-gray-900 group overflow-hidden"
-      >
-        <img
-          src={`https://img.youtube.com/vi/${video.id}/hqdefault.jpg`}
-          alt={video.title}
-          className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+      {/* Embedded YouTube player */}
+      <div className="relative aspect-video bg-gray-900">
+        <iframe
+          src={`https://www.youtube.com/embed/${video.id}`}
+          title={video.title}
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
           loading="lazy"
+          className="absolute inset-0 w-full h-full"
         />
-        {/* Play overlay */}
-        <div className="absolute inset-0 flex items-center justify-center bg-black/20 group-hover:bg-black/40 transition-colors">
-          <div className="w-12 h-12 bg-red-600 rounded-full flex items-center justify-center group-hover:bg-red-700 transition-colors shadow-lg">
-            <svg
-              viewBox="0 0 24 24"
-              fill="white"
-              className="w-6 h-6 ml-1"
-            >
-              <path d="M8 5v14l11-7z" />
-            </svg>
-          </div>
-        </div>
-      </a>
+      </div>
       {/* Info */}
       <div className="p-4 flex-1 flex flex-col">
         <span className="text-xs font-medium text-gsbs-teal uppercase tracking-wide mb-1">
           {video.category}
         </span>
         <h3 className="font-semibold text-gray-900 leading-snug mb-2">
-          <a
-            href={`https://www.youtube.com/watch?v=${video.id}`}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hover:text-gsbs-teal transition-colors"
-          >
-            {video.title}
-          </a>
+          {video.title}
         </h3>
         <p className="text-sm text-gray-500 leading-relaxed flex-1">
           {video.description}
@@ -290,7 +268,7 @@ function VideoCard({
           className="mt-3 inline-flex items-center gap-1.5 text-sm text-red-600 hover:text-red-700 font-medium transition-colors"
         >
           <Youtube size={14} />
-          Watch on YouTube
+          Open on YouTube
         </a>
       </div>
     </div>
