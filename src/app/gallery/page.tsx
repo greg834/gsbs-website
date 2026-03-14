@@ -10,6 +10,14 @@ export const metadata: Metadata = {
     title: "Bonsai Gallery · Member Trees & Show Exhibits · GSBS",
     description:
       "395 bonsai photos from GSBS — member trees, annual shows, workshops, meetings, and MABS festivals.",
+    images: [
+      {
+        url: "https://www.greatswampbonsai.com/images/gallery/cedar-elm.jpg",
+        width: 400,
+        height: 533,
+        alt: "Cedar Elm bonsai in winter showing fine branch structure — Great Swamp Bonsai Society",
+      },
+    ],
   },
   alternates: {
     canonical: "https://www.greatswampbonsai.com/gallery",
@@ -73,7 +81,7 @@ export default function GalleryPage() {
             "@context": "https://schema.org",
             "@type": "ImageGallery",
             name: "GSBS Bonsai Gallery",
-            description: "166 photos of bonsai trees, annual shows (2004-2011), step-by-step demo sequences from guest artists, workshops with international artists, meetings, and MABS festivals from the Great Swamp Bonsai Society, spanning 2003-2012.",
+            description: "395 photos of bonsai trees, annual shows (2004-2012), step-by-step demo sequences from world-renowned guest artists, workshops, meetings, and MABS Spring Festivals from the Great Swamp Bonsai Society, spanning 2003-2012.",
             url: "https://www.greatswampbonsai.com/gallery",
             publisher: {
               "@type": "Organization",

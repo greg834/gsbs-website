@@ -115,7 +115,7 @@ const items: GalleryItem[] = [
     caption: "Andy Smith - refined styling on a collected tree",
     category: "Member Trees",
     image: "/images/gallery/asmith-tree-2.jpg",
-    alt: "Bonsai tree styled by Andy Smith",
+    alt: "Bonsai tree styled by Andy Smith at GSBS demonstration, New Jersey bonsai workshop",
     year: "c. 2005",
   },
   {
@@ -188,7 +188,7 @@ const items: GalleryItem[] = [
     caption: "Member tree - D. Prescott",
     category: "Member Trees",
     image: "/images/gallery/dprescott-tree.jpg",
-    alt: "Bonsai tree by GSBS member D. Prescott",
+    alt: "Member bonsai tree by D. Prescott, Great Swamp Bonsai Society NJ",
     year: "c. 2005",
   },
   {
@@ -197,7 +197,7 @@ const items: GalleryItem[] = [
     caption: "Member tree showing careful development over years",
     category: "Member Trees",
     image: "/images/gallery/mark-tree.jpg",
-    alt: "Bonsai tree by GSBS member Mark",
+    alt: "Member bonsai tree by Mark, Great Swamp Bonsai Society New Jersey",
     year: "c. 2005",
   },
   {
@@ -206,7 +206,7 @@ const items: GalleryItem[] = [
     caption: "Member tree - Kerry",
     category: "Member Trees",
     image: "/images/gallery/kerry-tree.jpg",
-    alt: "Bonsai tree by GSBS member Kerry",
+    alt: "Kerry bonsai member tree display, Great Swamp Bonsai Society NJ",
     year: "c. 2005",
   },
   {
@@ -233,7 +233,7 @@ const items: GalleryItem[] = [
     caption: "Member tree - C. Manning",
     category: "Member Trees",
     image: "/images/gallery/cmanning-tree.jpg",
-    alt: "Bonsai tree by GSBS member C. Manning",
+    alt: "C. Manning masterpiece bonsai, Great Swamp Bonsai Society member collection",
     year: "c. 2005",
   },
   {

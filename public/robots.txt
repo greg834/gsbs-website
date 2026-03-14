@@ -32,3 +32,4 @@ User-agent: cohere-ai
 Allow: /
 
 Sitemap: https://www.greatswampbonsai.com/sitemap.xml
+Sitemap: https://www.greatswampbonsai.com/image-sitemap.xml
