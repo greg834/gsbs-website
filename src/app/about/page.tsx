@@ -692,9 +692,8 @@ export default function AboutPage() {
                 During warmer months, meetings move to members&apos; homes and
                 gardens. Hosts share their collections, members bring food and
                 trees, and the afternoon unfolds with informal critiques, garden
-                tours, and fellowship. Past hosts include Michael Markoff
-                (Randolph, NJ), Martin Schmalenberg (Stillwater Studio),
-                Doug Siedenburg (Port Murray, NJ), Rick &amp; Leslie Myers (Succasunna, NJ), Mark &amp; Sheila Schmuck (Rockaway, NJ), Peter Michienzi, and many others.
+                tours, and fellowship. Past hosts include Peter &amp; Genevieve Michienzi, Martin Schmalenberg (Stillwater Studio),
+                Doug &amp; Karen Siedenburg (Port Murray, NJ), Rick &amp; Leslie Myers (Succasunna, NJ), Mark &amp; Sheila Schmuck (Rockaway, NJ), Mark &amp; Marla Sanders (Randolph, NJ), Michael Markoff, and many others.
               </p>
             </div>
             <div className="border border-gray-200 rounded-lg p-6">

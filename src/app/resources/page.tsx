@@ -137,6 +137,24 @@ const reading: ResourceLink[] = [
     description:
       "Published by Bill Valavanis (a past GSBS guest artist). GSBS member Martin Schmalenberg published a two-part article on Pitch Pine styling in this magazine.",
   },
+  {
+    name: "Growing & Displaying Bonsai",
+    url: "https://www.amazon.com/s?k=growing+displaying+bonsai+colin+lewis",
+    description:
+      "By Colin Lewis & Neil Sutherland — the source GSBS newsletters cited for monthly care tips across 17 years of issues. A reliable, practical reference for temperate-climate bonsai.",
+  },
+  {
+    name: "Bonsai: The Art of Growing and Keeping Miniature Trees",
+    url: "https://www.amazon.com/s?k=bonsai+art+growing+miniature+trees+peter+chan",
+    description:
+      "By Peter Chan — another foundational reference cited throughout the GSBS newsletter archive for seasonal care guidance and species-specific advice.",
+  },
+  {
+    name: "The Bonsai Book",
+    url: "https://www.amazon.com/s?k=the+bonsai+book+dan+barton",
+    description:
+      "By Dan Barton — recommended by GSBS member John Michalski as 'a well-rounded overview of bonsai for people who have progressed beyond the beginner stage.' A retired veterinarian and passionate bonsai practitioner.",
+  },
 ];
 
 const linkCategories: LinkCategory[] = [
@@ -359,7 +377,7 @@ export default function ResourcesPage() {
               },
               {
                 month: "June",
-                tips: "Pinch terminal buds on deciduous trees, leaving one pair of leaves. Candle-pinching for evergreens winding down. Watch closely for insect pests.",
+                tips: "Pinch terminal buds on deciduous trees, leaving one pair of leaves. Candle-pinching for evergreens winding down. Watch closely for insect pests. Chinese junipers are the only trees to safely repot this month — shield from drying wind and full sun. Mist foliage in early morning or evening only — water on leaves in full sun causes burn.",
               },
               {
                 month: "July",
@@ -367,7 +385,7 @@ export default function ResourcesPage() {
               },
               {
                 month: "August",
-                tips: "Water every day, possibly twice. Reduce nitrogen and increase potassium and phosphorus. Loosen wire that's biting into branches. Begin hardening trees for fall.",
+                tips: "Water every day, possibly twice. Reduce nitrogen and increase potassium and phosphorus. Loosen wire that's biting into branches. Begin hardening trees for fall. Next year's buds and leaves are already being set — avoid heavy pruning that triggers new growth that won't harden before winter. Stop leaf pruning deciduous trees and eliminate nitrogen entirely by month's end.",
               },
               {
                 month: "September",
@@ -375,7 +393,7 @@ export default function ResourcesPage() {
               },
               {
                 month: "October",
-                tips: "Growth drawing to a close — stop fertilizing. Heavy branch pruning on pines. Prepare winter storage area. Many evergreens can be wire-trained in autumn.",
+                tips: "Growth drawing to a close — stop fertilizing. Heavy branch pruning on pines. Prepare winter storage area. Many evergreens can be wire-trained in autumn. Prime time to scout garden centers — nurseries discount trees and shrubs up to 50%, and stock with broken tops or low branches that shoppers overlook are ideal bonsai candidates.",
               },
               {
                 month: "November",
