@@ -160,10 +160,10 @@ From I-280: Exit 4A → Eisenhower Parkway South → first right at traffic ligh
 ## Content Snippets (Pre-Written — Use Verbatim or Adapt)
 
 ### Home Hero
-> New Jersey's Premier Bonsai Club Since 1976 — Free monthly meetings in Roseland, NJ. Beginners welcome. Expert instruction, internationally acclaimed guest artists, and a 50-year community of bonsai enthusiasts. Join us any Tuesday.
+> New Jersey's Premier Bonsai Club Since 1976 - Free monthly meetings in Roseland, NJ. Beginners welcome. Expert instruction, internationally acclaimed guest artists, and a 50-year community of bonsai enthusiasts. Join us any Tuesday.
 
-### About — History Paragraph
-> The Great Swamp Bonsai Society was founded in 1976 and is named after the Great Swamp National Wildlife Refuge in Morris County, New Jersey. For its first several decades, the club met at the Frelinghuysen Arboretum in Morristown — one of the region's most beloved horticultural landmarks. The club later relocated to its current home at the Essex County Environmental Center in Roseland, NJ, where it continues to grow. Today, GSBS draws members from eight New Jersey counties and Eastern Pennsylvania, and stands as one of the longest-running bonsai clubs in the region.
+### About - History Paragraph
+> The Great Swamp Bonsai Society was founded in 1976 and is named after the Great Swamp National Wildlife Refuge in Morris County, New Jersey. For its first several decades, the club met at the Frelinghuysen Arboretum in Morristown, one of the region's most beloved horticultural landmarks. The club later relocated to its current home at the Essex County Environmental Center in Roseland, NJ, where it continues to grow. Today, GSBS draws members from eight New Jersey counties and Eastern Pennsylvania, and stands as one of the longest-running bonsai clubs in the region.
 
 ### Meetings — First Visit Section
 > First time? Come as you are. No bonsai experience is required, and you don't need to own a tree to attend. Simply show up on any second Tuesday at 6:00 PM and introduce yourself. You're welcome to attend as our guest as many times as you like before deciding to become a member. Meetings are free and open to adults and children ages 12 and up.
@@ -179,12 +179,24 @@ From I-280: Exit 4A → Eisenhower Parkway South → first right at traffic ligh
 - Shared layout in `app/layout.tsx` with `<Header />` and `<Footer />` components
 - Each page is `app/[route]/page.tsx`
 - Components in `components/` directory (e.g., `Header.tsx`, `Footer.tsx`, `EventCard.tsx`, `MeetingCallout.tsx`)
-- Images in `public/images/` — use Next.js `<Image>` component with proper alt tags
-- Use placeholder images from `placehold.co` or solid color blocks until real photos are provided (label them clearly: "Placeholder — replace with member bonsai photo")
+- Images in `public/images/` - use Next.js `<Image>` component with proper alt tags
+- Use placeholder images from `placehold.co` or solid color blocks until real photos are provided (label them clearly: "Placeholder - replace with member bonsai photo")
 - Tailwind config extends with brand colors: `teal: { DEFAULT: '#226E93', dark: '#1a5674', light: '#2d8ab8' }`
-- All text content hardcoded (no CMS) — this is a static site for a volunteer club
+- All text content hardcoded (no CMS) - this is a static site for a volunteer club
 - TypeScript throughout (`.tsx` files)
 - Formspree endpoint placeholder: `https://formspree.io/f/YOUR_FORM_ID` (to be replaced after Formspree account setup)
+
+### CRITICAL: No Em Dashes — Ever
+
+**Never use em dashes (`—`) or the HTML entity `&mdash;` anywhere on this site.** This applies to all page content, component text, metadata descriptions, alt text, and schema markup. Use alternatives instead:
+
+| Instead of | Use |
+|-----------|-----|
+| `Name — Role` | `Name, Role` or `Name: Role` |
+| `sentence — continuation` | `sentence, continuation` or `sentence. Continuation` |
+| `item — detail` | `item - detail` (regular hyphen with spaces) |
+
+The hyphen-minus with spaces (` - `) is acceptable. En dashes in date/time ranges (`6:00-9:00 PM`, `Apr 17-19`) are fine.
 
 ---
 
