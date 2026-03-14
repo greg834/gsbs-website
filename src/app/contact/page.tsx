@@ -12,7 +12,7 @@ import ContactForm from "../../components/ContactForm";
 export const metadata: Metadata = {
   title: "Contact Great Swamp Bonsai Society · Roseland, NJ",
   description:
-    "Get in touch with the Great Swamp Bonsai Society. Email, call, or visit us at the Essex County Environmental Center in Roseland, NJ. Free monthly meetings — guests welcome.",
+    "Get in touch with the Great Swamp Bonsai Society. Email, call, or visit us at the Essex County Environmental Center in Roseland, NJ. Free monthly meetings  -  guests welcome.",
   openGraph: {
     title: "Contact Great Swamp Bonsai Society · Roseland, NJ",
     description:
@@ -44,7 +44,7 @@ export default function ContactPage() {
       <section className="py-12 sm:py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-5 gap-12 lg:gap-16">
-            {/* Contact Form — takes 3 of 5 columns */}
+            {/* Contact Form  -  takes 3 of 5 columns */}
             <div className="lg:col-span-3">
               <h2 className="text-2xl sm:text-3xl font-serif font-bold text-gray-900 mb-2">
                 Send Us a Message
@@ -56,7 +56,7 @@ export default function ContactPage() {
               <ContactForm />
             </div>
 
-            {/* Contact Info Sidebar — takes 2 of 5 columns */}
+            {/* Contact Info Sidebar  -  takes 2 of 5 columns */}
             <div className="lg:col-span-2">
               <div className="bg-gray-50 rounded p-8 space-y-8">
                 <h3 className="text-xl font-serif font-bold text-gray-900">
@@ -187,7 +187,7 @@ export default function ContactPage() {
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="Essex County Environmental Center — GSBS Meeting Location"
+              title="Essex County Environmental Center  -  GSBS Meeting Location"
             />
           </div>
         </div>

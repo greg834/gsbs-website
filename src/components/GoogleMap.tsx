@@ -10,7 +10,7 @@ export default function GoogleMap() {
             </h2>
             <p className="mt-3 text-gray-600">
               We meet at the Essex County Environmental Center in Roseland, NJ
-              &mdash; easily accessible from I-280 and Route 80.
+               -  easily accessible from I-280 and Route 80.
             </p>
             <div className="mt-4 space-y-2 text-sm text-gray-700">
               <p>

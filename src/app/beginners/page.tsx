@@ -85,7 +85,7 @@ const commonMistakes = [
   },
   {
     mistake: "Watering on a schedule",
-    fix: "Water when the soil begins to dry, not on a fixed schedule. Check soil daily — frequency changes with weather.",
+    fix: "Water when the soil begins to dry, not on a fixed schedule. Check soil daily  -  frequency changes with weather.",
   },
   {
     mistake: "Using regular potting soil",
@@ -93,7 +93,7 @@ const commonMistakes = [
   },
   {
     mistake: "Repotting at the wrong time",
-    fix: "Repot in early spring as buds swell — not in summer or winter. Most trees need repotting every 2-3 years.",
+    fix: "Repot in early spring as buds swell  -  not in summer or winter. Most trees need repotting every 2-3 years.",
   },
   {
     mistake: "Not fertilizing enough",
@@ -101,7 +101,7 @@ const commonMistakes = [
   },
   {
     mistake: "Over-wiring small branches or under-wiring large ones",
-    fix: "Wire size should be approximately 1/3 of the branch diameter. Apply at a 45-50 degree angle along the branch for best control. Check wired branches regularly — fast-growing species can develop wire scars in weeks.",
+    fix: "Wire size should be approximately 1/3 of the branch diameter. Apply at a 45-50 degree angle along the branch for best control. Check wired branches regularly  -  fast-growing species can develop wire scars in weeks.",
   },
   {
     mistake: "Ignoring winter protection",
@@ -124,7 +124,7 @@ export default function BeginnersPage() {
             Beginner&apos;s Guide to Bonsai
           </h1>
           <p className="mt-4 text-gray-300 max-w-2xl mx-auto text-lg">
-            Everything you need to know to get started with the art of bonsai —
+            Everything you need to know to get started with the art of bonsai  - 
             from choosing your first tree to attending your first meeting.
           </p>
           <Link
@@ -148,7 +148,7 @@ export default function BeginnersPage() {
               Bonsai (pronounced &ldquo;bone-sigh&rdquo;) is the Japanese art of
               growing miniature trees in containers. The word literally means
               &ldquo;planted in a tray.&rdquo; Unlike houseplants, bonsai are
-              real trees — the same species you see in nature — trained through
+              real trees  -  the same species you see in nature  -  trained through
               pruning, wiring, and careful cultivation to express the beauty and
               character of a full-sized tree in miniature form.
             </p>
@@ -156,7 +156,7 @@ export default function BeginnersPage() {
               Bonsai is not about dwarfing or stunting trees. It&apos;s about
               guiding their growth over years (sometimes decades) to create
               living art. The practice combines horticulture, design, and
-              patience — and it&apos;s accessible to anyone willing to learn.
+              patience  -  and it&apos;s accessible to anyone willing to learn.
             </p>
           </div>
         </div>
@@ -238,7 +238,7 @@ export default function BeginnersPage() {
             {/* Basic Care Summary */}
             <div className="bg-gsbs-navy text-white rounded-lg p-8">
               <h3 className="font-serif font-bold text-xl mb-6">
-                Basic Care — The 4 Essentials
+                Basic Care  -  The 4 Essentials
               </h3>
               <div className="space-y-6">
                 <div className="flex items-start gap-4">
@@ -349,7 +349,7 @@ export default function BeginnersPage() {
                 <span className="w-8 h-8 bg-gsbs-teal text-white rounded-full flex items-center justify-center text-sm font-bold shrink-0">1</span>
                 <p>
                   <strong className="text-gray-900">Arrive at 6:00 PM.</strong> The
-                  first 30 minutes are informal — members set up their trees,
+                  first 30 minutes are informal  -  members set up their trees,
                   chat, and answer questions. This is the perfect time to
                   introduce yourself and say you&apos;re new.
                 </p>
@@ -358,7 +358,7 @@ export default function BeginnersPage() {
                 <span className="w-8 h-8 bg-gsbs-teal text-white rounded-full flex items-center justify-center text-sm font-bold shrink-0">2</span>
                 <p>
                   <strong className="text-gray-900">The program starts at 6:30.</strong> Each
-                  meeting features a different topic — demonstrations,
+                  meeting features a different topic  -  demonstrations,
                   workshops, guest artists, or group critiques. You&apos;ll learn
                   something new every time.
                 </p>
@@ -376,7 +376,7 @@ export default function BeginnersPage() {
                 <p>
                   <strong className="text-gray-900">Bring a tree if you have one.</strong> Members
                   love helping newcomers with their trees. If you don&apos;t
-                  have one yet, that&apos;s fine — you&apos;ll learn a lot just
+                  have one yet, that&apos;s fine  -  you&apos;ll learn a lot just
                   by watching and asking questions.
                 </p>
               </div>
@@ -428,7 +428,7 @@ export default function BeginnersPage() {
           </h2>
           <p className="mt-4 text-lg text-white/85 leading-relaxed">
             The best way to learn bonsai is alongside experienced practitioners.
-            Come to a free meeting — no experience, no tree, and no commitment
+            Come to a free meeting  -  no experience, no tree, and no commitment
             required.
           </p>
           <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-3">

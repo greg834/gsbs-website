@@ -37,7 +37,7 @@ export default function Footer() {
       {/* Main Footer */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
-          {/* Left — Name & Address */}
+          {/* Left  -  Name & Address */}
           <div>
             <div className="flex items-center gap-3 mb-4">
               <img src="/images/gsbs-logo.png" alt="GSBS logo" className="h-10 w-auto" />

@@ -5,17 +5,17 @@ import GalleryGrid from "../../components/GalleryGrid";
 export const metadata: Metadata = {
   title: "Bonsai Gallery · Member Trees & Show Exhibits · GSBS",
   description:
-    "Browse 395 bonsai photos from Great Swamp Bonsai Society — member trees, annual show exhibits, step-by-step demo sequences from world-renowned artists, meetings, and MABS festivals. Filter by category and year.",
+    "Browse 395 bonsai photos from Great Swamp Bonsai Society  -  member trees, annual show exhibits, step-by-step demo sequences from world-renowned artists, meetings, and MABS festivals. Filter by category and year.",
   openGraph: {
     title: "Bonsai Gallery · Member Trees & Show Exhibits · GSBS",
     description:
-      "395 bonsai photos from GSBS — member trees, annual shows, workshops, meetings, and MABS festivals.",
+      "395 bonsai photos from GSBS  -  member trees, annual shows, workshops, meetings, and MABS festivals.",
     images: [
       {
         url: "https://www.greatswampbonsai.com/images/gallery/cedar-elm.jpg",
         width: 400,
         height: 533,
-        alt: "Cedar Elm bonsai in winter showing fine branch structure — Great Swamp Bonsai Society",
+        alt: "Cedar Elm bonsai in winter showing fine branch structure  -  Great Swamp Bonsai Society",
       },
     ],
   },
@@ -36,7 +36,7 @@ export default function GalleryPage() {
             Bonsai Gallery
           </h1>
           <p className="mt-4 text-gray-300 max-w-2xl mx-auto">
-            Member trees, show exhibits, and meeting highlights from GSBS — spanning two decades of bonsai artistry.
+            Member trees, show exhibits, and meeting highlights from GSBS  -  spanning two decades of bonsai artistry.
           </p>
         </div>
       </section>

@@ -32,7 +32,7 @@ export const metadata: Metadata = {
 const nextMeetingSchema = {
   "@context": "https://schema.org",
   "@type": "Event",
-  name: "GSBS Monthly Meeting — Jonas Dupuich Lecture & Demo",
+  name: "GSBS Monthly Meeting  -  Jonas Dupuich Lecture & Demo",
   startDate: "2026-04-14T18:00:00-04:00",
   endDate: "2026-04-14T21:00:00-04:00",
   eventAttendanceMode: "https://schema.org/OfflineEventAttendanceMode",
@@ -128,7 +128,7 @@ const calendarEvents: CalendarEvent[] = [
   {
     date: "Apr 14",
     dateSort: 414.2,
-    title: "Monthly Meeting — Jonas Dupuich Lecture & Demo",
+    title: "Monthly Meeting  -  Jonas Dupuich Lecture & Demo",
     description:
       "Evening lecture and live demonstration by Jonas Dupuich of Bonsai Tonight.",
     location: "Essex County Environmental Center",
@@ -166,7 +166,7 @@ const calendarEvents: CalendarEvent[] = [
   {
     date: "May 12",
     dateSort: 512,
-    title: "Monthly Meeting — Air Layering & Propagation",
+    title: "Monthly Meeting  -  Air Layering & Propagation",
     description:
       "Learn air layering and propagation techniques to expand your bonsai collection.",
     location: "Essex County Environmental Center",
@@ -187,7 +187,7 @@ const calendarEvents: CalendarEvent[] = [
   {
     date: "Jun 9",
     dateSort: 609,
-    title: "Monthly Meeting — Pottery with Fred Aufshlager",
+    title: "Monthly Meeting  -  Pottery with Fred Aufshlager",
     description:
       "Pottery discussion with Fred Aufshlager, GSBS Potter in Residence. Learn about bonsai containers as ceramic art.",
     location: "Essex County Environmental Center",
@@ -233,7 +233,7 @@ const calendarEvents: CalendarEvent[] = [
   {
     date: "Oct TBA",
     dateSort: 1000,
-    title: 'NJBS "Art of Bonsai" Exhibition — 4th Edition',
+    title: 'NJBS "Art of Bonsai" Exhibition  -  4th Edition',
     description:
       "Annual exhibition by NJ Bonsai Societies. Open to the public.",
     location: "Hazlet, NJ",
@@ -358,7 +358,7 @@ export default function EventsPage() {
         </div>
       </section>
 
-      {/* Featured Event — Annual Bonsai Show */}
+      {/* Featured Event  -  Annual Bonsai Show */}
       <section className="py-12 sm:py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="relative overflow-hidden rounded bg-gradient-to-br from-gsbs-navy via-gsbs-navy to-gsbs-teal-dark">
@@ -367,7 +367,7 @@ export default function EventsPage() {
             <div className="absolute bottom-0 left-0 w-48 h-48 bg-gsbs-teal/5 rounded-full translate-y-1/2 -translate-x-1/4" />
 
             <div className="relative grid grid-cols-1 lg:grid-cols-5 gap-8 p-8 sm:p-10 lg:p-12">
-              {/* Left — Info */}
+              {/* Left  -  Info */}
               <div className="lg:col-span-3">
                 <div className="flex items-center gap-2 mb-4">
                   <Star className="text-amber-400" size={20} />
@@ -425,22 +425,31 @@ export default function EventsPage() {
                     Garibaldi Hall, 621-A Eagle Rock Ave, Roseland, NJ 07068
                   </span>
                 </div>
-                <a
-                  href="https://www.google.com/maps/dir/?api=1&destination=621+Eagle+Rock+Ave+Roseland+NJ+07068"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 mt-6 px-6 py-3 bg-gsbs-teal hover:bg-gsbs-teal-dark text-white font-medium rounded transition-colors duration-200 text-sm"
-                >
-                  <MapPin size={16} />
-                  Get Directions
-                </a>
+                <div className="mt-6 flex flex-wrap gap-3">
+                  <Link
+                    href="/annual-show"
+                    className="inline-flex items-center gap-2 px-6 py-3 bg-amber-500 hover:bg-amber-600 text-white font-medium rounded transition-colors duration-200 text-sm"
+                  >
+                    <Star size={16} />
+                    Full Show Details
+                  </Link>
+                  <a
+                    href="https://www.google.com/maps/dir/?api=1&destination=621+Eagle+Rock+Ave+Roseland+NJ+07068"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 px-6 py-3 bg-gsbs-teal hover:bg-gsbs-teal-dark text-white font-medium rounded transition-colors duration-200 text-sm"
+                  >
+                    <MapPin size={16} />
+                    Get Directions
+                  </a>
+                </div>
               </div>
 
-              {/* Right — Show Card */}
+              {/* Right  -  Show Card */}
               <div className="lg:col-span-2 flex items-center justify-center">
                 <img
                   src="/images/annual-show-card.png"
-                  alt="GSBS Annual Bonsai Show — Saturday June 6, 2026, 11 AM to 3 PM at Garibaldi Hall, Roseland NJ. Experience the Living Art."
+                  alt="GSBS Annual Bonsai Show  -  Saturday June 6, 2026, 11 AM to 3 PM at Garibaldi Hall, Roseland NJ. Experience the Living Art."
                   className="w-full max-w-sm rounded"
                 />
               </div>
@@ -462,7 +471,7 @@ export default function EventsPage() {
                   </span>
                 </div>
                 <h3 className="text-2xl font-serif font-bold text-gray-900">
-                  Jonas Dupuich &mdash; Hands-On Workshop &amp; Evening Demo
+                  Jonas Dupuich  -  Hands-On Workshop &amp; Evening Demo
                 </h3>
                 <p className="mt-2 text-gray-600 leading-relaxed max-w-2xl">
                   Master bonsai artist Jonas Dupuich of{" "}

@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Great Swamp Bonsai Society//Annual Bonsai Show 2026//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:gsbs-annual-show-2026@greatswampbonsai.com
+DTSTAMP:20260101T000000Z
+DTSTART:20260606T110000
+DTEND:20260606T150000
+SUMMARY:GSBS Annual Bonsai Show 2026 - 50th Anniversary
+DESCRIPTION:Celebrate 50 years of the Great Swamp Bonsai Society at our Annual Bonsai Show. Dozens of stunning exhibits\, live demonstrations\, expert advice\, and raffles. Free admission\, open to the public.\n\nGaribaldi Hall\n621-A Eagle Rock Ave\nRoseland\, NJ 07068\n\nMore info: https://www.greatswampbonsai.com/annual-show
+LOCATION:Garibaldi Hall\, 621-A Eagle Rock Ave\, Roseland\, NJ 07068
+URL:https://www.greatswampbonsai.com/annual-show
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:GSBS Annual Bonsai Show is one week away - June 6 in Roseland NJ
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:GSBS Annual Bonsai Show starts in 1 hour - Garibaldi Hall\, Roseland NJ
+END:VALARM
+END:VEVENT
+END:VCALENDAR

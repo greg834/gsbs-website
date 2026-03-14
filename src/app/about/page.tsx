@@ -10,7 +10,7 @@ import {
 export const metadata: Metadata = {
   title: "About GSBS · Northern New Jersey's Premier Bonsai Club",
   description:
-    "Learn about the Great Swamp Bonsai Society — founded in 1976, with an Artist in Residence program, annual guest workshops, and affiliations with MABS and NJ Bonsai Societies.",
+    "Learn about the Great Swamp Bonsai Society  -  founded in 1976, with an Artist in Residence program, annual guest workshops, and affiliations with MABS and NJ Bonsai Societies.",
   openGraph: {
     title: "About GSBS · Northern New Jersey's Premier Bonsai Club",
     description:
@@ -88,7 +88,7 @@ export default function AboutPage() {
                 The Great Swamp Bonsai Society was founded in 1976 and is named
                 after the Great Swamp National Wildlife Refuge in Morris County,
                 New Jersey. For its first several decades, the club met at the
-                Frelinghuysen Arboretum in Morristown &mdash; one of the
+                Frelinghuysen Arboretum in Morristown  -  one of the
                 region&apos;s most beloved horticultural landmarks. The club
                 later relocated to its current home at the Essex County
                 Environmental Center in Roseland, NJ, where it continues to
@@ -98,7 +98,7 @@ export default function AboutPage() {
                 Today, GSBS draws members from eight New Jersey counties and
                 Eastern Pennsylvania, and stands as one of the longest-running
                 bonsai clubs in the region. In 2026, we celebrate our{" "}
-                <strong>50th anniversary</strong> &mdash; half a century of
+                <strong>50th anniversary</strong>  -  half a century of
                 cultivating miniature trees and lasting friendships.
               </p>
 
@@ -177,9 +177,9 @@ export default function AboutPage() {
                   <li className="flex items-start gap-2">
                     <span className="text-gsbs-teal mt-0.5 shrink-0">&bull;</span>
                     <span>
-                      <strong>Martin Schmalenberg</strong> &mdash; GSBS
+                      <strong>Martin Schmalenberg</strong>  -  GSBS
                       co-founder, Director of Asian Studies at Blairstown
-                      Academy &mdash; authored a book on North American bonsai and published a two-part article on Pinus
+                      Academy  -  authored a book on North American bonsai and published a two-part article on Pinus
                       Rigida (Pitch Pine) styling in{" "}
                       <em>International Bonsai</em> magazine
                     </span>
@@ -204,7 +204,7 @@ export default function AboutPage() {
                   <li className="flex items-start gap-2">
                     <span className="text-gsbs-teal mt-0.5 shrink-0">&bull;</span>
                     <span>
-                      <strong>Juan Calderon</strong> &mdash; expert stylist whose
+                      <strong>Juan Calderon</strong>  -  expert stylist whose
                       literati Eastern Red Cedar was praised by President Michalski
                       as entering &ldquo;the realm of the masterpiece bonsai&rdquo;;
                       co-led collecting expeditions to Nova Scotia and Maine
@@ -305,7 +305,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Artist in Residence — Sergio Cuan */}
+      {/* Artist in Residence  -  Sergio Cuan */}
       <section className="py-12 sm:py-16 bg-gsbs-navy text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
@@ -352,7 +352,7 @@ export default function AboutPage() {
                     <span className="text-white font-medium">
                       &ldquo;Finest Deciduous Award&rdquo;
                     </span>{" "}
-                    &mdash; 4th U.S. National Bonsai Exhibition, 2014
+                     -  4th U.S. National Bonsai Exhibition, 2014
                   </p>
                 </div>
                 <div className="flex items-start gap-3">
@@ -364,7 +364,7 @@ export default function AboutPage() {
                     <span className="text-white font-medium">
                       Two-time Emmy Award winner
                     </span>{" "}
-                    &mdash; Nickelodeon SVP / Creative Director
+                     -  Nickelodeon SVP / Creative Director
                   </p>
                 </div>
                 <div className="flex items-start gap-3">
@@ -376,7 +376,7 @@ export default function AboutPage() {
                     <span className="text-white font-medium">
                       MABS 2024 headliner
                     </span>{" "}
-                    &mdash; alongside Boon Manakitivipart
+                     -  alongside Boon Manakitivipart
                   </p>
                 </div>
                 <div className="flex items-start gap-3">
@@ -388,7 +388,7 @@ export default function AboutPage() {
                     <span className="text-white font-medium">
                       BFA, Pratt Institute
                     </span>{" "}
-                    &mdash; Art and Design, Brooklyn, NY
+                     -  Art and Design, Brooklyn, NY
                   </p>
                 </div>
                 <div className="flex items-start gap-3">
@@ -419,7 +419,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Potter in Residence — Fred Aufshlager */}
+      {/* Potter in Residence  -  Fred Aufshlager */}
       <section className="py-12 sm:py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
@@ -438,7 +438,7 @@ export default function AboutPage() {
                 Fred Aufshlager is the Great Swamp Bonsai Society&apos;s Potter
                 in Residence, bringing the art of ceramic bonsai containers to
                 our club. Fred presents pottery discussions at GSBS meetings,
-                exploring the relationship between tree and pot &mdash; how the
+                exploring the relationship between tree and pot  -  how the
                 right container elevates a bonsai from a tree in a pot to a work
                 of art.
               </p>
@@ -450,7 +450,7 @@ export default function AboutPage() {
                 purchase at GSBS events, offering members high-quality,
                 artisan-crafted containers at reasonable costs. For years,
                 Fred also hosted a small Saturday morning study group at his
-                Bernardsville home &mdash; an open invitation for members to
+                Bernardsville home  -  an open invitation for members to
                 practice hands-on bonsai in a relaxed, one-on-one setting.
               </p>
             </div>
@@ -537,7 +537,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Meeting Programs — Breadth of Topics */}
+      {/* Meeting Programs  -  Breadth of Topics */}
       <section className="py-12 sm:py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
@@ -605,8 +605,8 @@ export default function AboutPage() {
                   members would arrive by 9:00 AM to set up display tables with
                   risers, runners, stands, and accent plants. The show opened to
                   the public at 10:00 AM and ran until 3:00 PM. Members were
-                  encouraged to bring trees at every level &mdash; from
-                  beginner projects to refined specimens &mdash; and to set up a
+                  encouraged to bring trees at every level  -  from
+                  beginner projects to refined specimens  -  and to set up a
                   &ldquo;work table&rdquo; where visitors could watch pruning,
                   wiring, and repotting in real time.
                 </p>
@@ -615,22 +615,22 @@ export default function AboutPage() {
                   Newsletter archives record that each year&apos;s show attracted
                   new newsletter signups and prospective members, many of whom
                   went on to become active participants. The 2019 Open House
-                  drew a couple hundred visitors &mdash; the best-attended in
+                  drew a couple hundred visitors  -  the best-attended in
                   many years, credited in part to a yard sign campaign. The 2005
                   show marked the club&apos;s approximate 25th anniversary, and
                   the 2026 show will celebrate 50 years of GSBS.
                 </p>
                 <p>
-                  <strong>Past Award Winners:</strong> 2008 &mdash; People&apos;s
+                  <strong>Past Award Winners:</strong> 2008  -  People&apos;s
                   Choice (tie): Mark Schmuck (Potentilla) &amp; Dan Boehmke
-                  (Shimpaku). 2009 &mdash; People&apos;s Choice: Mark Schmuck
-                  (Potentilla). 2011 &mdash; People&apos;s Choice: Michael
-                  Markoff. 2016 &mdash; People&apos;s Choice: Mark Schmuck
+                  (Shimpaku). 2009  -  People&apos;s Choice: Mark Schmuck
+                  (Potentilla). 2011  -  People&apos;s Choice: Michael
+                  Markoff. 2016  -  People&apos;s Choice: Mark Schmuck
                   (Shimpaku Juniper), President&apos;s Award: John Michalski
-                  (Amur Maple). 2018 &mdash; Best in Show: Fred Aufschlager
+                  (Amur Maple). 2018  -  Best in Show: Fred Aufschlager
                   (Korean Hornbeam), President&apos;s Choice: John Michalski
                   (yamadori Northern White Cedar), People&apos;s Choice: Mark
-                  Schmuck (Forest planting). 2019 &mdash; Best in Show: John
+                  Schmuck (Forest planting). 2019  -  Best in Show: John
                   Michalski (Northern White Cedar), President&apos;s Award: Rick
                   Meyer (Bush Honeysuckle), People&apos;s Choice: Rick Meyer
                   (Shimpaku Juniper).
@@ -679,7 +679,7 @@ export default function AboutPage() {
               <p className="text-sm text-gray-600 leading-relaxed">
                 Each January, GSBS holds its Holiday Party and Club Auction. Members bring
                 bonsai, pots, tools, books, and other materials for a lively
-                auction &mdash; 15% of proceeds supports the club. It&apos;s a
+                auction  -  15% of proceeds supports the club. It&apos;s a
                 great way to find treasures and pass along items you&apos;ve
                 outgrown.
               </p>
@@ -703,7 +703,7 @@ export default function AboutPage() {
               <p className="text-sm text-gray-600 leading-relaxed">
                 Each March, members select trees to represent GSBS at the
                 Mid-Atlantic Bonsai Societies Spring Festival. Every attendee
-                receives pennies to place before their favorite trees &mdash; the
+                receives pennies to place before their favorite trees  -  the
                 top vote-getters earn the honor of representing the club at the
                 regional exhibition.
               </p>
@@ -715,7 +715,7 @@ export default function AboutPage() {
               <p className="text-sm text-gray-600 leading-relaxed">
                 Members save their discarded copper bonsai wire clippings and
                 bring them to meetings. Once a year the accumulated wire is sold
-                to a scrap metal dealer &mdash; typically bringing in enough to
+                to a scrap metal dealer  -  typically bringing in enough to
                 cover one or two memberships, helping keep the club financially
                 healthy.
               </p>
@@ -800,7 +800,7 @@ export default function AboutPage() {
                 NJ Bonsai Societies is a 501(c)(3) nonprofit organization
                 dedicated to educating the public about the art of bonsai. The
                 organization hosts the annual &ldquo;Art of Bonsai&rdquo;
-                exhibition &mdash; the 4th edition is planned for Hazlet, NJ in
+                exhibition  -  the 4th edition is planned for Hazlet, NJ in
                 October 2026.
               </p>
               <p className="text-gray-500 text-sm">
@@ -836,7 +836,7 @@ export default function AboutPage() {
           </h2>
           <p className="mt-4 text-lg text-white/85 leading-relaxed">
             The best way to learn about GSBS is to attend a meeting. No
-            experience needed &mdash; just curiosity and a love of trees.
+            experience needed  -  just curiosity and a love of trees.
           </p>
           <div className="mt-6 flex flex-col sm:flex-row items-center justify-center gap-3">
             <Link

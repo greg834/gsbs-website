@@ -12,7 +12,7 @@ const programs = [
     icon: GraduationCap,
     title: "Monthly Expert Instruction",
     description:
-      "Each meeting covers a different topic — from deadwood carving and air-layering to repotting workshops and group design critiques. Over 170 newsletters document hundreds of programs.",
+      "Each meeting covers a different topic  -  from deadwood carving and air-layering to repotting workshops and group design critiques. Over 170 newsletters document hundreds of programs.",
   },
   {
     icon: Palette,
@@ -24,13 +24,13 @@ const programs = [
     icon: Star,
     title: "Guest Artist Workshops",
     description:
-      "Over 35 internationally acclaimed guest artists from the US, UK, Italy, Japan, Taiwan, Belgium, and beyond — hosted directly at GSBS for exclusive workshops and demonstrations.",
+      "Over 35 internationally acclaimed guest artists from the US, UK, Italy, Japan, Taiwan, Belgium, and beyond  -  hosted directly at GSBS for exclusive workshops and demonstrations.",
   },
   {
     icon: Trophy,
     title: "Annual Bonsai Show",
     description:
-      "Every spring at Garibaldi Hall — dozens of stunning exhibits, live demos, and expert advice. Free and open to the public.",
+      "Every spring at Garibaldi Hall  -  dozens of stunning exhibits, live demos, and expert advice. Free and open to the public.",
   },
 ];
 

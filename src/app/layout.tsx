@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     template: "%s | Great Swamp Bonsai Society",
   },
   description:
-    "Great Swamp Bonsai Society — NJ's premier bonsai club since 1976. Free monthly meetings in Roseland, NJ. Beginners welcome. Annual show, workshops & more.",
+    "Great Swamp Bonsai Society  -  NJ's premier bonsai club since 1976. Free monthly meetings in Roseland, NJ. Beginners welcome. Annual show, workshops & more.",
   keywords: [
     "NJ bonsai club",
     "New Jersey bonsai society",
@@ -164,7 +164,7 @@ const organizationSchema = {
   foundingDate: "1976",
   email: "great.swampbonsai@gmail.com",
   description:
-    "New Jersey's premier bonsai club for anyone interested in the ancient art of bonsai — growing miniature trees in pots. Northern New Jersey Bonsai Community Since 1976.",
+    "New Jersey's premier bonsai club for anyone interested in the ancient art of bonsai  -  growing miniature trees in pots. Northern New Jersey Bonsai Community Since 1976.",
   address: {
     "@type": "PostalAddress",
     streetAddress: "621-B Eagle Rock Ave",

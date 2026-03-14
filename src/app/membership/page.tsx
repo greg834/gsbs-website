@@ -14,11 +14,11 @@ import FAQAccordion from "../../components/FAQAccordion";
 export const metadata: Metadata = {
   title: "Join Great Swamp Bonsai Society · NJ Bonsai Club",
   description:
-    "Join New Jersey's premier bonsai club — free monthly meetings, expert instruction, guest artists, and a welcoming community since 1976. No experience required.",
+    "Join New Jersey's premier bonsai club  -  free monthly meetings, expert instruction, guest artists, and a welcoming community since 1976. No experience required.",
   openGraph: {
     title: "Join Great Swamp Bonsai Society · NJ Bonsai Club",
     description:
-      "Join NJ's premier bonsai club — free meetings, expert instruction, and a welcoming community since 1976.",
+      "Join NJ's premier bonsai club  -  free meetings, expert instruction, and a welcoming community since 1976.",
   },
   alternates: {
     canonical: "https://www.greatswampbonsai.com/membership",
@@ -30,7 +30,7 @@ const benefits = [
     icon: Users,
     title: "Monthly Expert Meetings",
     description:
-      "Learn from experienced members every second Tuesday — demonstrations, hands-on instruction, and open discussion from 6:00 to 9:00 PM.",
+      "Learn from experienced members every second Tuesday  -  demonstrations, hands-on instruction, and open discussion from 6:00 to 9:00 PM.",
   },
   {
     icon: Palette,
@@ -42,13 +42,13 @@ const benefits = [
     icon: Award,
     title: "Guest Artist Workshops",
     description:
-      "Attend workshops with nationally and internationally acclaimed bonsai professionals — from Jonas Dupuich to Chase Rosade to Marc Noelanders — brought directly to our club. Over 35 guest artists hosted since 2003.",
+      "Attend workshops with nationally and internationally acclaimed bonsai professionals  -  from Jonas Dupuich to Chase Rosade to Marc Noelanders  -  brought directly to our club. Over 35 guest artists hosted since 2003.",
   },
   {
     icon: TreePine,
     title: "Annual Bonsai Show",
     description:
-      "Exhibit your trees at our Annual Bonsai Show at Garibaldi Hall — dozens of displays, live demos, and expert advice, free and open to the public.",
+      "Exhibit your trees at our Annual Bonsai Show at Garibaldi Hall  -  dozens of displays, live demos, and expert advice, free and open to the public.",
   },
   {
     icon: Calendar,
@@ -60,7 +60,7 @@ const benefits = [
     icon: Heart,
     title: "A Welcoming Community",
     description:
-      "Join members from eight NJ counties and Eastern PA in one of the longest-running bonsai clubs in the region — 50 years and counting.",
+      "Join members from eight NJ counties and Eastern PA in one of the longest-running bonsai clubs in the region  -  50 years and counting.",
   },
 ];
 
@@ -93,7 +93,7 @@ const faqs = [
   {
     question: "Can I bring my kids?",
     answer:
-      "Yes — children ages 12 and up are welcome at all meetings and events. It's a great way to introduce young people to the art of bonsai.",
+      "Yes  -  children ages 12 and up are welcome at all meetings and events. It's a great way to introduce young people to the art of bonsai.",
   },
   {
     question: "Do I need to be a member to receive the newsletter?",
@@ -103,7 +103,7 @@ const faqs = [
   {
     question: "What should I bring to a meeting?",
     answer:
-      "Bring a tree (or trees) for display, discussion, or to work on, along with your tools if you plan to do any hands-on work. Don't have a tree yet? No problem — come and observe. Members also enjoy when newcomers bring questions and enthusiasm.",
+      "Bring a tree (or trees) for display, discussion, or to work on, along with your tools if you plan to do any hands-on work. Don't have a tree yet? No problem  -  come and observe. Members also enjoy when newcomers bring questions and enthusiasm.",
   },
   {
     question: "Are there workshops with guest artists?",
@@ -163,7 +163,7 @@ export default function MembershipPage() {
               How to Join
             </h2>
             <p className="mt-4 text-gray-600 text-lg leading-relaxed">
-              Joining GSBS is simple — no application, no interview, no pressure.
+              Joining GSBS is simple  -  no application, no interview, no pressure.
             </p>
           </div>
 
@@ -177,7 +177,7 @@ export default function MembershipPage() {
                 </h3>
                 <p className="text-gray-600 leading-relaxed">
                   Show up any second Tuesday at 6:00 PM at the Essex County
-                  Environmental Center. No reservation needed — just introduce
+                  Environmental Center. No reservation needed  -  just introduce
                   yourself. You&apos;re welcome to attend as a guest as many
                   times as you like.
                 </p>

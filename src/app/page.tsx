@@ -12,7 +12,7 @@ import JoinCTA from "../components/JoinCTA";
 export const metadata = {
   title: "Great Swamp Bonsai Society · NJ Bonsai Club Since 1976",
   description:
-    "Great Swamp Bonsai Society — NJ's premier bonsai club since 1976. Free monthly meetings in Roseland, NJ. Beginners welcome. Annual show, workshops & more.",
+    "Great Swamp Bonsai Society  -  NJ's premier bonsai club since 1976. Free monthly meetings in Roseland, NJ. Beginners welcome. Annual show, workshops & more.",
   openGraph: {
     title: "Great Swamp Bonsai Society · NJ Bonsai Club Since 1976",
     description:
@@ -44,7 +44,7 @@ export default function Home() {
                 The Great Swamp Bonsai Society was founded in 1976 and is named
                 after the Great Swamp National Wildlife Refuge in Morris County,
                 New Jersey. For its first several decades, the club met at the
-                Frelinghuysen Arboretum in Morristown &mdash; one of the
+                Frelinghuysen Arboretum in Morristown  -  one of the
                 region&apos;s most beloved horticultural landmarks. The club
                 later relocated to its current home at the Essex County
                 Environmental Center in Roseland, NJ, where it continues to

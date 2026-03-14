@@ -57,7 +57,7 @@ export default function MeetingsPage() {
       <section className="py-12 sm:py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-            {/* Left — Schedule details */}
+            {/* Left  -  Schedule details */}
             <div>
               <h2 className="text-3xl font-serif font-bold text-gray-900 mb-6">
                 When We Meet
@@ -126,7 +126,7 @@ export default function MeetingsPage() {
               </div>
             </div>
 
-            {/* Right — Summary card */}
+            {/* Right  -  Summary card */}
             <div className="bg-gsbs-navy rounded p-8 text-white self-start">
               <h3 className="font-serif font-bold text-xl mb-5">
                 At a Glance
@@ -268,25 +268,25 @@ export default function MeetingsPage() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {[
               { topic: "Deadwood Creation (Jin & Shari)", desc: "Hands-on workshop learning to create and maintain deadwood features on bonsai" },
-              { topic: "Night of the Six Junipers", desc: "Members formed teams to style six junipers — a collaborative design learning experience" },
+              { topic: "Night of the Six Junipers", desc: "Members formed teams to style six junipers  -  a collaborative design learning experience" },
               { topic: "Wild-Collected Bonsai: Finding the Design", desc: "Lecture and demo on styling yamadori (field-collected) material into refined bonsai" },
               { topic: "Approach Grafts & Phoenix Grafts", desc: "Advanced grafting techniques demonstrated by experienced club members" },
-              { topic: "Kusamoto (Accent Plants)", desc: "Martin Schmalenberg on selecting, caring for, and displaying small accent plants with bonsai — raw examples created and raffled" },
-              { topic: "Fertilizer Cake Making Workshop", desc: "Members mixed their own organic fertilizer cakes — a practical take-home skill" },
+              { topic: "Kusamoto (Accent Plants)", desc: "Martin Schmalenberg on selecting, caring for, and displaying small accent plants with bonsai  -  raw examples created and raffled" },
+              { topic: "Fertilizer Cake Making Workshop", desc: "Members mixed their own organic fertilizer cakes  -  a practical take-home skill" },
               { topic: "Initial Design from Raw Material", desc: "Fred Aufschlager led a workshop on transforming nursery stock into bonsai" },
               { topic: "Bonsai Pottery Discussion", desc: "Fred Aufschlager exploring how the right container elevates a tree into art" },
               { topic: "MABS Tree Selection (Penny Vote)", desc: "Annual tradition of selecting club trees for the Mid-Atlantic Spring Festival" },
-              { topic: "European vs. Japanese Bonsai Design", desc: "Walter Pall (Germany) critiqued member trees and discussed European innovation against classical Japanese tradition — a thought-provoking comparison" },
-              { topic: "Overwintering Your Trees", desc: "Andy Walsh presented a PowerPoint covering how trees prepare for winter based on day length and hormonal changes — a must-attend for newer members" },
+              { topic: "European vs. Japanese Bonsai Design", desc: "Walter Pall (Germany) critiqued member trees and discussed European innovation against classical Japanese tradition  -  a thought-provoking comparison" },
+              { topic: "Overwintering Your Trees", desc: "Andy Walsh presented a PowerPoint covering how trees prepare for winter based on day length and hormonal changes  -  a must-attend for newer members" },
               { topic: "Tropical Bonsai Styling", desc: "George LeBolt of Bergen Bonsai demonstrated on a Ficus, covering technique differences between tropical and temperate species" },
-              { topic: "Shohin from Juniper", desc: "Guest artist Ted Matson — trained under Ben Suzuki, Roy Nagatoshi, and John Naka — demonstrated creating a miniature Shohin-size tree from a Juniper" },
-              { topic: "Bonsai Display — Stands, Tokonoma & Accents", desc: "Sean Smith covered bonsai display fundamentals: stands, Tokonoma setup, daiza (wood bases for suiseki), accent plants, and shoji screens" },
-              { topic: "Guy Wires — Alternatives to Branch Wiring", desc: "Discussion of how guy wires and other non-traditional methods can be used to position branches without conventional wire" },
-              { topic: "Horst Krekeler European Styling", desc: "Krekeler (Germany) emphasized the tree's natural characteristics over classical Japanese form — afternoon workshop followed by evening demo with raffled tree" },
+              { topic: "Shohin from Juniper", desc: "Guest artist Ted Matson  -  trained under Ben Suzuki, Roy Nagatoshi, and John Naka  -  demonstrated creating a miniature Shohin-size tree from a Juniper" },
+              { topic: "Bonsai Display  -  Stands, Tokonoma & Accents", desc: "Sean Smith covered bonsai display fundamentals: stands, Tokonoma setup, daiza (wood bases for suiseki), accent plants, and shoji screens" },
+              { topic: "Guy Wires  -  Alternatives to Branch Wiring", desc: "Discussion of how guy wires and other non-traditional methods can be used to position branches without conventional wire" },
+              { topic: "Horst Krekeler European Styling", desc: "Krekeler (Germany) emphasized the tree's natural characteristics over classical Japanese form  -  afternoon workshop followed by evening demo with raffled tree" },
               { topic: "Heavy Branch Bending with Iron Rebar", desc: "Hirojoshi Yamaji (Japan) transformed a Shimpaku Juniper 'beyond all recognition' and demonstrated bending large-diameter branches on Pitch Pine using rebar" },
-              { topic: "Wild Collecting from New England", desc: "David Knittle (Vermont) presented collected Red Spruce, Larch, and Balsam Fir from power line cuts and state lands — with tips on permits and transport" },
-              { topic: "Jim Gavigan — Grafting Clinic", desc: "Member-led grafting demonstration covering technique, timing, and species selection — showing GSBS's deep bench of internal teaching talent" },
-              { topic: "Roy Nagatoshi — San Jose Juniper Demo", desc: "California master Roy Nagatoshi (President of CA Bonsai Society, known for work on the Karate Kid films) styled a San Jose Juniper — afternoon workshop preceded the meeting" },
+              { topic: "Wild Collecting from New England", desc: "David Knittle (Vermont) presented collected Red Spruce, Larch, and Balsam Fir from power line cuts and state lands  -  with tips on permits and transport" },
+              { topic: "Jim Gavigan  -  Grafting Clinic", desc: "Member-led grafting demonstration covering technique, timing, and species selection  -  showing GSBS's deep bench of internal teaching talent" },
+              { topic: "Roy Nagatoshi  -  San Jose Juniper Demo", desc: "California master Roy Nagatoshi (President of CA Bonsai Society, known for work on the Karate Kid films) styled a San Jose Juniper  -  afternoon workshop preceded the meeting" },
             ].map((item) => (
               <div key={item.topic} className="bg-gray-50 border border-gray-200 rounded p-4">
                 <h3 className="font-semibold text-gray-900 text-sm">{item.topic}</h3>
@@ -421,7 +421,7 @@ export default function MeetingsPage() {
               What to Bring
             </h2>
             <p className="text-gray-600 leading-relaxed mb-8">
-              There&apos;s no required equipment &mdash; just bring yourself.
+              There&apos;s no required equipment  -  just bring yourself.
               But if you have any of the following, feel free to bring them
               along:
             </p>
@@ -448,7 +448,7 @@ export default function MeetingsPage() {
                 Your Tools
               </h3>
               <p className="text-gray-500 text-sm">
-                Bonsai shears, wire cutters, or any tools you use &mdash;
+                Bonsai shears, wire cutters, or any tools you use  - 
                 there&apos;s often hands-on work.
               </p>
             </div>

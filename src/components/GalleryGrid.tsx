@@ -646,7 +646,7 @@ const items: GalleryItem[] = [
     year: "2010",
   },
 
-  // MABS Spring Festival 2005 — Ramada Inn, East Hanover, NJ
+  // MABS Spring Festival 2005  -  Ramada Inn, East Hanover, NJ
   {
     id: 138,
     title: "MABS 2005 - Display 1",
@@ -1637,7 +1637,7 @@ const items: GalleryItem[] = [
   {
     id: 291,
     title: "MABS 2012 - Professional Exhibit 1",
-    caption: "Professional Invitation Exhibit at MABS 2012 — featuring works by Martin Schmalenberg (Stillwater Studio) and professional artists",
+    caption: "Professional Invitation Exhibit at MABS 2012  -  featuring works by Martin Schmalenberg (Stillwater Studio) and professional artists",
     category: "MABS",
     image: "/images/gallery/mabs-12-pie-01.jpg",
     alt: "Professional bonsai exhibit #1 at MABS 2012 Spring Festival PIE, Mid-Atlantic Bonsai Societies",
@@ -1647,7 +1647,7 @@ const items: GalleryItem[] = [
   {
     id: 292,
     title: "MABS 2012 - Professional Exhibit 2",
-    caption: "Professional Invitation Exhibit at MABS 2012 — featuring works by Martin Schmalenberg (Stillwater Studio) and professional artists",
+    caption: "Professional Invitation Exhibit at MABS 2012  -  featuring works by Martin Schmalenberg (Stillwater Studio) and professional artists",
     category: "MABS",
     image: "/images/gallery/mabs-12-pie-02.jpg",
     alt: "Professional bonsai exhibit #2 at MABS 2012 Spring Festival PIE, Mid-Atlantic Bonsai Societies",
@@ -1656,7 +1656,7 @@ const items: GalleryItem[] = [
   {
     id: 293,
     title: "MABS 2012 - Professional Exhibit 3",
-    caption: "Professional Invitation Exhibit at MABS 2012 — featuring works by Martin Schmalenberg (Stillwater Studio) and professional artists",
+    caption: "Professional Invitation Exhibit at MABS 2012  -  featuring works by Martin Schmalenberg (Stillwater Studio) and professional artists",
     category: "MABS",
     image: "/images/gallery/mabs-12-pie-03.jpg",
     alt: "Professional bonsai exhibit #3 at MABS 2012 Spring Festival PIE, Mid-Atlantic Bonsai Societies",
@@ -1665,7 +1665,7 @@ const items: GalleryItem[] = [
   {
     id: 294,
     title: "MABS 2012 - Professional Exhibit 4",
-    caption: "Professional Invitation Exhibit at MABS 2012 — featuring works by Martin Schmalenberg (Stillwater Studio) and professional artists",
+    caption: "Professional Invitation Exhibit at MABS 2012  -  featuring works by Martin Schmalenberg (Stillwater Studio) and professional artists",
     category: "MABS",
     image: "/images/gallery/mabs-12-pie-04.jpg",
     alt: "Professional bonsai exhibit #4 at MABS 2012 Spring Festival PIE, Mid-Atlantic Bonsai Societies",
@@ -1674,7 +1674,7 @@ const items: GalleryItem[] = [
   {
     id: 295,
     title: "MABS 2012 - Professional Exhibit 5",
-    caption: "Professional Invitation Exhibit at MABS 2012 — featuring works by Martin Schmalenberg (Stillwater Studio) and professional artists",
+    caption: "Professional Invitation Exhibit at MABS 2012  -  featuring works by Martin Schmalenberg (Stillwater Studio) and professional artists",
     category: "MABS",
     image: "/images/gallery/mabs-12-pie-05.jpg",
     alt: "Professional bonsai exhibit #5 at MABS 2012 Spring Festival PIE, Mid-Atlantic Bonsai Societies",
@@ -1683,7 +1683,7 @@ const items: GalleryItem[] = [
   {
     id: 296,
     title: "MABS 2012 - Professional Exhibit 6",
-    caption: "Professional Invitation Exhibit at MABS 2012 — featuring works by Martin Schmalenberg (Stillwater Studio) and professional artists",
+    caption: "Professional Invitation Exhibit at MABS 2012  -  featuring works by Martin Schmalenberg (Stillwater Studio) and professional artists",
     category: "MABS",
     image: "/images/gallery/mabs-12-pie-06.jpg",
     alt: "Professional bonsai exhibit #6 at MABS 2012 Spring Festival PIE, Mid-Atlantic Bonsai Societies",
@@ -1692,7 +1692,7 @@ const items: GalleryItem[] = [
   {
     id: 297,
     title: "MABS 2012 - Professional Exhibit 7",
-    caption: "Professional Invitation Exhibit at MABS 2012 — featuring works by Martin Schmalenberg (Stillwater Studio) and professional artists",
+    caption: "Professional Invitation Exhibit at MABS 2012  -  featuring works by Martin Schmalenberg (Stillwater Studio) and professional artists",
     category: "MABS",
     image: "/images/gallery/mabs-12-pie-07.jpg",
     alt: "Professional bonsai exhibit #7 at MABS 2012 Spring Festival PIE, Mid-Atlantic Bonsai Societies",
@@ -1701,7 +1701,7 @@ const items: GalleryItem[] = [
   {
     id: 298,
     title: "MABS 2012 - Professional Exhibit 8",
-    caption: "Professional Invitation Exhibit at MABS 2012 — featuring works by Martin Schmalenberg (Stillwater Studio) and professional artists",
+    caption: "Professional Invitation Exhibit at MABS 2012  -  featuring works by Martin Schmalenberg (Stillwater Studio) and professional artists",
     category: "MABS",
     image: "/images/gallery/mabs-12-pie-08.jpg",
     alt: "Professional bonsai exhibit #8 at MABS 2012 Spring Festival PIE, Mid-Atlantic Bonsai Societies",
@@ -1710,7 +1710,7 @@ const items: GalleryItem[] = [
   {
     id: 299,
     title: "MABS 2012 - Professional Exhibit 9",
-    caption: "Professional Invitation Exhibit at MABS 2012 — featuring works by Martin Schmalenberg (Stillwater Studio) and professional artists",
+    caption: "Professional Invitation Exhibit at MABS 2012  -  featuring works by Martin Schmalenberg (Stillwater Studio) and professional artists",
     category: "MABS",
     image: "/images/gallery/mabs-12-pie-09.jpg",
     alt: "Professional bonsai exhibit #9 at MABS 2012 Spring Festival PIE, Mid-Atlantic Bonsai Societies",
@@ -1719,7 +1719,7 @@ const items: GalleryItem[] = [
   {
     id: 300,
     title: "MABS 2012 - Professional Exhibit 10",
-    caption: "Professional Invitation Exhibit at MABS 2012 — featuring works by Martin Schmalenberg (Stillwater Studio) and professional artists",
+    caption: "Professional Invitation Exhibit at MABS 2012  -  featuring works by Martin Schmalenberg (Stillwater Studio) and professional artists",
     category: "MABS",
     image: "/images/gallery/mabs-12-pie-10.jpg",
     alt: "Professional bonsai exhibit #10 at MABS 2012 Spring Festival PIE, Mid-Atlantic Bonsai Societies",
@@ -1728,7 +1728,7 @@ const items: GalleryItem[] = [
   {
     id: 301,
     title: "MABS 2012 - Professional Exhibit 11",
-    caption: "Professional Invitation Exhibit at MABS 2012 — featuring works by Martin Schmalenberg (Stillwater Studio) and professional artists",
+    caption: "Professional Invitation Exhibit at MABS 2012  -  featuring works by Martin Schmalenberg (Stillwater Studio) and professional artists",
     category: "MABS",
     image: "/images/gallery/mabs-12-pie-11.jpg",
     alt: "Professional bonsai exhibit #11 at MABS 2012 Spring Festival PIE, Mid-Atlantic Bonsai Societies",
@@ -1737,7 +1737,7 @@ const items: GalleryItem[] = [
   {
     id: 302,
     title: "MABS 2012 - Professional Exhibit 12",
-    caption: "Professional Invitation Exhibit at MABS 2012 — featuring works by Martin Schmalenberg (Stillwater Studio) and professional artists",
+    caption: "Professional Invitation Exhibit at MABS 2012  -  featuring works by Martin Schmalenberg (Stillwater Studio) and professional artists",
     category: "MABS",
     image: "/images/gallery/mabs-12-pie-12.jpg",
     alt: "Professional bonsai exhibit #12 at MABS 2012 Spring Festival PIE, Mid-Atlantic Bonsai Societies",
@@ -1746,7 +1746,7 @@ const items: GalleryItem[] = [
   {
     id: 303,
     title: "MABS 2012 - Professional Exhibit 13",
-    caption: "Professional Invitation Exhibit at MABS 2012 — featuring works by Martin Schmalenberg (Stillwater Studio) and professional artists",
+    caption: "Professional Invitation Exhibit at MABS 2012  -  featuring works by Martin Schmalenberg (Stillwater Studio) and professional artists",
     category: "MABS",
     image: "/images/gallery/mabs-12-pie-13.jpg",
     alt: "Professional bonsai exhibit #13 at MABS 2012 Spring Festival PIE, Mid-Atlantic Bonsai Societies",
@@ -1755,7 +1755,7 @@ const items: GalleryItem[] = [
   {
     id: 304,
     title: "MABS 2012 - Professional Exhibit 14",
-    caption: "Professional Invitation Exhibit at MABS 2012 — featuring works by Martin Schmalenberg (Stillwater Studio) and professional artists",
+    caption: "Professional Invitation Exhibit at MABS 2012  -  featuring works by Martin Schmalenberg (Stillwater Studio) and professional artists",
     category: "MABS",
     image: "/images/gallery/mabs-12-pie-14.jpg",
     alt: "Professional bonsai exhibit #14 at MABS 2012 Spring Festival PIE, Mid-Atlantic Bonsai Societies",
@@ -1764,7 +1764,7 @@ const items: GalleryItem[] = [
   {
     id: 305,
     title: "MABS 2012 - Professional Exhibit 15",
-    caption: "Professional Invitation Exhibit at MABS 2012 — featuring works by Martin Schmalenberg (Stillwater Studio) and professional artists",
+    caption: "Professional Invitation Exhibit at MABS 2012  -  featuring works by Martin Schmalenberg (Stillwater Studio) and professional artists",
     category: "MABS",
     image: "/images/gallery/mabs-12-pie-15.jpg",
     alt: "Professional bonsai exhibit #15 at MABS 2012 Spring Festival PIE, Mid-Atlantic Bonsai Societies",
@@ -1773,7 +1773,7 @@ const items: GalleryItem[] = [
   {
     id: 306,
     title: "MABS 2012 - Professional Exhibit 16",
-    caption: "Professional Invitation Exhibit at MABS 2012 — featuring works by Martin Schmalenberg (Stillwater Studio) and professional artists",
+    caption: "Professional Invitation Exhibit at MABS 2012  -  featuring works by Martin Schmalenberg (Stillwater Studio) and professional artists",
     category: "MABS",
     image: "/images/gallery/mabs-12-pie-16.jpg",
     alt: "Professional bonsai exhibit #16 at MABS 2012 Spring Festival PIE, Mid-Atlantic Bonsai Societies",
@@ -1782,7 +1782,7 @@ const items: GalleryItem[] = [
   {
     id: 307,
     title: "MABS 2012 - Members Exhibit 1",
-    caption: "Members exhibit at the 29th MABS Spring Festival — bonsai from clubs across CT, DE, NY, NJ, PA, RI and MA",
+    caption: "Members exhibit at the 29th MABS Spring Festival  -  bonsai from clubs across CT, DE, NY, NJ, PA, RI and MA",
     category: "MABS",
     image: "/images/gallery/mabs-12-members-show-01.jpg",
     alt: "Bonsai exhibit #1 displayed at MABS 2012 Spring Festival, Mid-Atlantic Bonsai Societies",
@@ -1792,7 +1792,7 @@ const items: GalleryItem[] = [
   {
     id: 308,
     title: "MABS 2012 - Members Exhibit 2",
-    caption: "Members exhibit at the 29th MABS Spring Festival — bonsai from clubs across CT, DE, NY, NJ, PA, RI and MA",
+    caption: "Members exhibit at the 29th MABS Spring Festival  -  bonsai from clubs across CT, DE, NY, NJ, PA, RI and MA",
     category: "MABS",
     image: "/images/gallery/mabs-12-members-show-02.jpg",
     alt: "Bonsai exhibit #2 displayed at MABS 2012 Spring Festival, Mid-Atlantic Bonsai Societies",
@@ -1801,7 +1801,7 @@ const items: GalleryItem[] = [
   {
     id: 309,
     title: "MABS 2012 - Members Exhibit 3",
-    caption: "Members exhibit at the 29th MABS Spring Festival — bonsai from clubs across CT, DE, NY, NJ, PA, RI and MA",
+    caption: "Members exhibit at the 29th MABS Spring Festival  -  bonsai from clubs across CT, DE, NY, NJ, PA, RI and MA",
     category: "MABS",
     image: "/images/gallery/mabs-12-members-show-03.jpg",
     alt: "Bonsai exhibit #3 displayed at MABS 2012 Spring Festival, Mid-Atlantic Bonsai Societies",
@@ -1810,7 +1810,7 @@ const items: GalleryItem[] = [
   {
     id: 310,
     title: "MABS 2012 - Members Exhibit 4",
-    caption: "Members exhibit at the 29th MABS Spring Festival — bonsai from clubs across CT, DE, NY, NJ, PA, RI and MA",
+    caption: "Members exhibit at the 29th MABS Spring Festival  -  bonsai from clubs across CT, DE, NY, NJ, PA, RI and MA",
     category: "MABS",
     image: "/images/gallery/mabs-12-members-show-04.jpg",
     alt: "Bonsai exhibit #4 displayed at MABS 2012 Spring Festival, Mid-Atlantic Bonsai Societies",
@@ -1819,7 +1819,7 @@ const items: GalleryItem[] = [
   {
     id: 311,
     title: "MABS 2012 - Members Exhibit 5",
-    caption: "Members exhibit at the 29th MABS Spring Festival — bonsai from clubs across CT, DE, NY, NJ, PA, RI and MA",
+    caption: "Members exhibit at the 29th MABS Spring Festival  -  bonsai from clubs across CT, DE, NY, NJ, PA, RI and MA",
     category: "MABS",
     image: "/images/gallery/mabs-12-members-show-05.jpg",
     alt: "Bonsai exhibit #5 displayed at MABS 2012 Spring Festival, Mid-Atlantic Bonsai Societies",
@@ -1828,7 +1828,7 @@ const items: GalleryItem[] = [
   {
     id: 312,
     title: "MABS 2012 - Members Exhibit 6",
-    caption: "Members exhibit at the 29th MABS Spring Festival — bonsai from clubs across CT, DE, NY, NJ, PA, RI and MA",
+    caption: "Members exhibit at the 29th MABS Spring Festival  -  bonsai from clubs across CT, DE, NY, NJ, PA, RI and MA",
     category: "MABS",
     image: "/images/gallery/mabs-12-members-show-06.jpg",
     alt: "Bonsai exhibit #6 displayed at MABS 2012 Spring Festival, Mid-Atlantic Bonsai Societies",
@@ -1837,7 +1837,7 @@ const items: GalleryItem[] = [
   {
     id: 313,
     title: "MABS 2012 - Members Exhibit 7",
-    caption: "Members exhibit at the 29th MABS Spring Festival — bonsai from clubs across CT, DE, NY, NJ, PA, RI and MA",
+    caption: "Members exhibit at the 29th MABS Spring Festival  -  bonsai from clubs across CT, DE, NY, NJ, PA, RI and MA",
     category: "MABS",
     image: "/images/gallery/mabs-12-members-show-07.jpg",
     alt: "Bonsai exhibit #7 displayed at MABS 2012 Spring Festival, Mid-Atlantic Bonsai Societies",
@@ -1846,7 +1846,7 @@ const items: GalleryItem[] = [
   {
     id: 314,
     title: "MABS 2012 - Members Exhibit 8",
-    caption: "Members exhibit at the 29th MABS Spring Festival — bonsai from clubs across CT, DE, NY, NJ, PA, RI and MA",
+    caption: "Members exhibit at the 29th MABS Spring Festival  -  bonsai from clubs across CT, DE, NY, NJ, PA, RI and MA",
     category: "MABS",
     image: "/images/gallery/mabs-12-members-show-08.jpg",
     alt: "Bonsai exhibit #8 displayed at MABS 2012 Spring Festival, Mid-Atlantic Bonsai Societies",
@@ -1855,7 +1855,7 @@ const items: GalleryItem[] = [
   {
     id: 315,
     title: "MABS 2012 - Members Exhibit 9",
-    caption: "Members exhibit at the 29th MABS Spring Festival — bonsai from clubs across CT, DE, NY, NJ, PA, RI and MA",
+    caption: "Members exhibit at the 29th MABS Spring Festival  -  bonsai from clubs across CT, DE, NY, NJ, PA, RI and MA",
     category: "MABS",
     image: "/images/gallery/mabs-12-members-show-09.jpg",
     alt: "Bonsai exhibit #9 displayed at MABS 2012 Spring Festival, Mid-Atlantic Bonsai Societies",
@@ -1864,7 +1864,7 @@ const items: GalleryItem[] = [
   {
     id: 316,
     title: "MABS 2012 - Members Exhibit 10",
-    caption: "Members exhibit at the 29th MABS Spring Festival — bonsai from clubs across CT, DE, NY, NJ, PA, RI and MA",
+    caption: "Members exhibit at the 29th MABS Spring Festival  -  bonsai from clubs across CT, DE, NY, NJ, PA, RI and MA",
     category: "MABS",
     image: "/images/gallery/mabs-12-members-show-10.jpg",
     alt: "Bonsai exhibit #10 displayed at MABS 2012 Spring Festival, Mid-Atlantic Bonsai Societies",
@@ -1873,7 +1873,7 @@ const items: GalleryItem[] = [
   {
     id: 317,
     title: "MABS 2012 - Members Exhibit 11",
-    caption: "Members exhibit at the 29th MABS Spring Festival — bonsai from clubs across CT, DE, NY, NJ, PA, RI and MA",
+    caption: "Members exhibit at the 29th MABS Spring Festival  -  bonsai from clubs across CT, DE, NY, NJ, PA, RI and MA",
     category: "MABS",
     image: "/images/gallery/mabs-12-members-show-11.jpg",
     alt: "Bonsai exhibit #11 displayed at MABS 2012 Spring Festival, Mid-Atlantic Bonsai Societies",
@@ -1882,7 +1882,7 @@ const items: GalleryItem[] = [
   {
     id: 318,
     title: "MABS 2012 - Members Exhibit 12",
-    caption: "Members exhibit at the 29th MABS Spring Festival — bonsai from clubs across CT, DE, NY, NJ, PA, RI and MA",
+    caption: "Members exhibit at the 29th MABS Spring Festival  -  bonsai from clubs across CT, DE, NY, NJ, PA, RI and MA",
     category: "MABS",
     image: "/images/gallery/mabs-12-members-show-12.jpg",
     alt: "Bonsai exhibit #12 displayed at MABS 2012 Spring Festival, Mid-Atlantic Bonsai Societies",
@@ -1891,7 +1891,7 @@ const items: GalleryItem[] = [
   {
     id: 319,
     title: "MABS 2012 - Members Exhibit 13",
-    caption: "Members exhibit at the 29th MABS Spring Festival — bonsai from clubs across CT, DE, NY, NJ, PA, RI and MA",
+    caption: "Members exhibit at the 29th MABS Spring Festival  -  bonsai from clubs across CT, DE, NY, NJ, PA, RI and MA",
     category: "MABS",
     image: "/images/gallery/mabs-12-members-show-13.jpg",
     alt: "Bonsai exhibit #13 displayed at MABS 2012 Spring Festival, Mid-Atlantic Bonsai Societies",
@@ -1900,7 +1900,7 @@ const items: GalleryItem[] = [
   {
     id: 320,
     title: "MABS 2012 - Members Exhibit 14",
-    caption: "Members exhibit at the 29th MABS Spring Festival — bonsai from clubs across CT, DE, NY, NJ, PA, RI and MA",
+    caption: "Members exhibit at the 29th MABS Spring Festival  -  bonsai from clubs across CT, DE, NY, NJ, PA, RI and MA",
     category: "MABS",
     image: "/images/gallery/mabs-12-members-show-14.jpg",
     alt: "Bonsai exhibit #14 displayed at MABS 2012 Spring Festival, Mid-Atlantic Bonsai Societies",
@@ -1909,7 +1909,7 @@ const items: GalleryItem[] = [
   {
     id: 321,
     title: "MABS 2012 - Members Exhibit 15",
-    caption: "Members exhibit at the 29th MABS Spring Festival — bonsai from clubs across CT, DE, NY, NJ, PA, RI and MA",
+    caption: "Members exhibit at the 29th MABS Spring Festival  -  bonsai from clubs across CT, DE, NY, NJ, PA, RI and MA",
     category: "MABS",
     image: "/images/gallery/mabs-12-members-show-15.jpg",
     alt: "Bonsai exhibit #15 displayed at MABS 2012 Spring Festival, Mid-Atlantic Bonsai Societies",
@@ -1918,7 +1918,7 @@ const items: GalleryItem[] = [
   {
     id: 322,
     title: "MABS 2012 - Members Exhibit 16",
-    caption: "Members exhibit at the 29th MABS Spring Festival — bonsai from clubs across CT, DE, NY, NJ, PA, RI and MA",
+    caption: "Members exhibit at the 29th MABS Spring Festival  -  bonsai from clubs across CT, DE, NY, NJ, PA, RI and MA",
     category: "MABS",
     image: "/images/gallery/mabs-12-members-show-16.jpg",
     alt: "Bonsai exhibit #16 displayed at MABS 2012 Spring Festival, Mid-Atlantic Bonsai Societies",
@@ -1927,7 +1927,7 @@ const items: GalleryItem[] = [
   {
     id: 323,
     title: "MABS 2012 - Members Exhibit 17",
-    caption: "Members exhibit at the 29th MABS Spring Festival — bonsai from clubs across CT, DE, NY, NJ, PA, RI and MA",
+    caption: "Members exhibit at the 29th MABS Spring Festival  -  bonsai from clubs across CT, DE, NY, NJ, PA, RI and MA",
     category: "MABS",
     image: "/images/gallery/mabs-12-members-show-17.jpg",
     alt: "Bonsai exhibit #17 displayed at MABS 2012 Spring Festival, Mid-Atlantic Bonsai Societies",
@@ -1936,7 +1936,7 @@ const items: GalleryItem[] = [
   {
     id: 324,
     title: "MABS 2012 - Members Exhibit 18",
-    caption: "Members exhibit at the 29th MABS Spring Festival — bonsai from clubs across CT, DE, NY, NJ, PA, RI and MA",
+    caption: "Members exhibit at the 29th MABS Spring Festival  -  bonsai from clubs across CT, DE, NY, NJ, PA, RI and MA",
     category: "MABS",
     image: "/images/gallery/mabs-12-members-show-18.jpg",
     alt: "Bonsai exhibit #18 displayed at MABS 2012 Spring Festival, Mid-Atlantic Bonsai Societies",
@@ -1945,7 +1945,7 @@ const items: GalleryItem[] = [
   {
     id: 325,
     title: "MABS 2012 - Members Exhibit 19",
-    caption: "Members exhibit at the 29th MABS Spring Festival — bonsai from clubs across CT, DE, NY, NJ, PA, RI and MA",
+    caption: "Members exhibit at the 29th MABS Spring Festival  -  bonsai from clubs across CT, DE, NY, NJ, PA, RI and MA",
     category: "MABS",
     image: "/images/gallery/mabs-12-members-show-19.jpg",
     alt: "Bonsai exhibit #19 displayed at MABS 2012 Spring Festival, Mid-Atlantic Bonsai Societies",
@@ -1954,7 +1954,7 @@ const items: GalleryItem[] = [
   {
     id: 326,
     title: "MABS 2012 - Members Exhibit 20",
-    caption: "Members exhibit at the 29th MABS Spring Festival — bonsai from clubs across CT, DE, NY, NJ, PA, RI and MA",
+    caption: "Members exhibit at the 29th MABS Spring Festival  -  bonsai from clubs across CT, DE, NY, NJ, PA, RI and MA",
     category: "MABS",
     image: "/images/gallery/mabs-12-members-show-20.jpg",
     alt: "Bonsai exhibit #20 displayed at MABS 2012 Spring Festival, Mid-Atlantic Bonsai Societies",
@@ -1963,7 +1963,7 @@ const items: GalleryItem[] = [
   {
     id: 327,
     title: "MABS 2012 - Members Exhibit 21",
-    caption: "Members exhibit at the 29th MABS Spring Festival — bonsai from clubs across CT, DE, NY, NJ, PA, RI and MA",
+    caption: "Members exhibit at the 29th MABS Spring Festival  -  bonsai from clubs across CT, DE, NY, NJ, PA, RI and MA",
     category: "MABS",
     image: "/images/gallery/mabs-12-members-show-21.jpg",
     alt: "Bonsai exhibit #21 displayed at MABS 2012 Spring Festival, Mid-Atlantic Bonsai Societies",
@@ -1972,7 +1972,7 @@ const items: GalleryItem[] = [
   {
     id: 328,
     title: "MABS 2012 - Members Exhibit 22",
-    caption: "Members exhibit at the 29th MABS Spring Festival — bonsai from clubs across CT, DE, NY, NJ, PA, RI and MA",
+    caption: "Members exhibit at the 29th MABS Spring Festival  -  bonsai from clubs across CT, DE, NY, NJ, PA, RI and MA",
     category: "MABS",
     image: "/images/gallery/mabs-12-members-show-22.jpg",
     alt: "Bonsai exhibit #22 displayed at MABS 2012 Spring Festival, Mid-Atlantic Bonsai Societies",
@@ -1981,7 +1981,7 @@ const items: GalleryItem[] = [
   {
     id: 329,
     title: "MABS 2012 - Members Exhibit 23",
-    caption: "Members exhibit at the 29th MABS Spring Festival — bonsai from clubs across CT, DE, NY, NJ, PA, RI and MA",
+    caption: "Members exhibit at the 29th MABS Spring Festival  -  bonsai from clubs across CT, DE, NY, NJ, PA, RI and MA",
     category: "MABS",
     image: "/images/gallery/mabs-12-members-show-23.jpg",
     alt: "Bonsai exhibit #23 displayed at MABS 2012 Spring Festival, Mid-Atlantic Bonsai Societies",
@@ -1990,7 +1990,7 @@ const items: GalleryItem[] = [
   {
     id: 330,
     title: "MABS 2012 - Members Exhibit 24",
-    caption: "Members exhibit at the 29th MABS Spring Festival — bonsai from clubs across CT, DE, NY, NJ, PA, RI and MA",
+    caption: "Members exhibit at the 29th MABS Spring Festival  -  bonsai from clubs across CT, DE, NY, NJ, PA, RI and MA",
     category: "MABS",
     image: "/images/gallery/mabs-12-members-show-24.jpg",
     alt: "Bonsai exhibit #24 displayed at MABS 2012 Spring Festival, Mid-Atlantic Bonsai Societies",
@@ -1999,7 +1999,7 @@ const items: GalleryItem[] = [
   {
     id: 331,
     title: "MABS 2012 - Members Exhibit 25",
-    caption: "Members exhibit at the 29th MABS Spring Festival — bonsai from clubs across CT, DE, NY, NJ, PA, RI and MA",
+    caption: "Members exhibit at the 29th MABS Spring Festival  -  bonsai from clubs across CT, DE, NY, NJ, PA, RI and MA",
     category: "MABS",
     image: "/images/gallery/mabs-12-members-show-25.jpg",
     alt: "Bonsai exhibit #25 displayed at MABS 2012 Spring Festival, Mid-Atlantic Bonsai Societies",
@@ -2008,7 +2008,7 @@ const items: GalleryItem[] = [
   {
     id: 332,
     title: "MABS 2012 - Members Exhibit 26",
-    caption: "Members exhibit at the 29th MABS Spring Festival — bonsai from clubs across CT, DE, NY, NJ, PA, RI and MA",
+    caption: "Members exhibit at the 29th MABS Spring Festival  -  bonsai from clubs across CT, DE, NY, NJ, PA, RI and MA",
     category: "MABS",
     image: "/images/gallery/mabs-12-members-show-26.jpg",
     alt: "Bonsai exhibit #26 displayed at MABS 2012 Spring Festival, Mid-Atlantic Bonsai Societies",
@@ -2017,7 +2017,7 @@ const items: GalleryItem[] = [
   {
     id: 333,
     title: "MABS 2012 - Members Exhibit 27",
-    caption: "Members exhibit at the 29th MABS Spring Festival — bonsai from clubs across CT, DE, NY, NJ, PA, RI and MA",
+    caption: "Members exhibit at the 29th MABS Spring Festival  -  bonsai from clubs across CT, DE, NY, NJ, PA, RI and MA",
     category: "MABS",
     image: "/images/gallery/mabs-12-members-show-27.jpg",
     alt: "Bonsai exhibit #27 displayed at MABS 2012 Spring Festival, Mid-Atlantic Bonsai Societies",
@@ -2026,7 +2026,7 @@ const items: GalleryItem[] = [
   {
     id: 334,
     title: "MABS 2012 - Members Exhibit 28",
-    caption: "Members exhibit at the 29th MABS Spring Festival — bonsai from clubs across CT, DE, NY, NJ, PA, RI and MA",
+    caption: "Members exhibit at the 29th MABS Spring Festival  -  bonsai from clubs across CT, DE, NY, NJ, PA, RI and MA",
     category: "MABS",
     image: "/images/gallery/mabs-12-members-show-28.jpg",
     alt: "Bonsai exhibit #28 displayed at MABS 2012 Spring Festival, Mid-Atlantic Bonsai Societies",
@@ -2035,7 +2035,7 @@ const items: GalleryItem[] = [
   {
     id: 335,
     title: "MABS 2012 - Members Exhibit 29",
-    caption: "Members exhibit at the 29th MABS Spring Festival — bonsai from clubs across CT, DE, NY, NJ, PA, RI and MA",
+    caption: "Members exhibit at the 29th MABS Spring Festival  -  bonsai from clubs across CT, DE, NY, NJ, PA, RI and MA",
     category: "MABS",
     image: "/images/gallery/mabs-12-members-show-29.jpg",
     alt: "Bonsai exhibit #29 displayed at MABS 2012 Spring Festival, Mid-Atlantic Bonsai Societies",
@@ -2044,7 +2044,7 @@ const items: GalleryItem[] = [
   {
     id: 336,
     title: "MABS 2012 - Members Exhibit 30",
-    caption: "Members exhibit at the 29th MABS Spring Festival — bonsai from clubs across CT, DE, NY, NJ, PA, RI and MA",
+    caption: "Members exhibit at the 29th MABS Spring Festival  -  bonsai from clubs across CT, DE, NY, NJ, PA, RI and MA",
     category: "MABS",
     image: "/images/gallery/mabs-12-members-show-30.jpg",
     alt: "Bonsai exhibit #30 displayed at MABS 2012 Spring Festival, Mid-Atlantic Bonsai Societies",
@@ -2053,7 +2053,7 @@ const items: GalleryItem[] = [
   {
     id: 337,
     title: "MABS 2012 - Members Exhibit 31",
-    caption: "Members exhibit at the 29th MABS Spring Festival — bonsai from clubs across CT, DE, NY, NJ, PA, RI and MA",
+    caption: "Members exhibit at the 29th MABS Spring Festival  -  bonsai from clubs across CT, DE, NY, NJ, PA, RI and MA",
     category: "MABS",
     image: "/images/gallery/mabs-12-members-show-31.jpg",
     alt: "Bonsai exhibit #31 displayed at MABS 2012 Spring Festival, Mid-Atlantic Bonsai Societies",
@@ -2062,7 +2062,7 @@ const items: GalleryItem[] = [
   {
     id: 338,
     title: "MABS 2012 - Members Exhibit 32",
-    caption: "Members exhibit at the 29th MABS Spring Festival — bonsai from clubs across CT, DE, NY, NJ, PA, RI and MA",
+    caption: "Members exhibit at the 29th MABS Spring Festival  -  bonsai from clubs across CT, DE, NY, NJ, PA, RI and MA",
     category: "MABS",
     image: "/images/gallery/mabs-12-members-show-32.jpg",
     alt: "Bonsai exhibit #32 displayed at MABS 2012 Spring Festival, Mid-Atlantic Bonsai Societies",
@@ -2071,7 +2071,7 @@ const items: GalleryItem[] = [
   {
     id: 339,
     title: "MABS 2012 - Members Exhibit 33",
-    caption: "Members exhibit at the 29th MABS Spring Festival — bonsai from clubs across CT, DE, NY, NJ, PA, RI and MA",
+    caption: "Members exhibit at the 29th MABS Spring Festival  -  bonsai from clubs across CT, DE, NY, NJ, PA, RI and MA",
     category: "MABS",
     image: "/images/gallery/mabs-12-members-show-33.jpg",
     alt: "Bonsai exhibit #33 displayed at MABS 2012 Spring Festival, Mid-Atlantic Bonsai Societies",
@@ -2190,7 +2190,7 @@ const items: GalleryItem[] = [
   {
     id: 355,
     title: "Boon Workshop 2011 - 16",
-    caption: "Boon Manakitivipart evening demo/lecture on a collected pine — GSBS monthly meeting, October 2011",
+    caption: "Boon Manakitivipart evening demo/lecture on a collected pine  -  GSBS monthly meeting, October 2011",
     category: "Workshops",
     image: "/images/gallery/Boon 10-27-11 015.jpg",
     alt: "Boon Manakitivipart pine bonsai demonstration GSBS 2011",
@@ -2199,7 +2199,7 @@ const items: GalleryItem[] = [
   {
     id: 356,
     title: "Boon Workshop 2011 - 17",
-    caption: "Boon Manakitivipart evening demo/lecture on a collected pine — GSBS monthly meeting, October 2011",
+    caption: "Boon Manakitivipart evening demo/lecture on a collected pine  -  GSBS monthly meeting, October 2011",
     category: "Workshops",
     image: "/images/gallery/Boon 10-27-11 016.jpg",
     alt: "Boon Manakitivipart pine bonsai demonstration GSBS 2011",
@@ -2208,7 +2208,7 @@ const items: GalleryItem[] = [
   {
     id: 357,
     title: "Boon Workshop 2011 - 18",
-    caption: "Boon Manakitivipart evening demo/lecture on a collected pine — GSBS monthly meeting, October 2011",
+    caption: "Boon Manakitivipart evening demo/lecture on a collected pine  -  GSBS monthly meeting, October 2011",
     category: "Workshops",
     image: "/images/gallery/Boon 10-27-11 017.jpg",
     alt: "Boon Manakitivipart pine bonsai demonstration GSBS 2011",
@@ -2217,7 +2217,7 @@ const items: GalleryItem[] = [
   {
     id: 358,
     title: "Boon Workshop 2011 - 19",
-    caption: "Boon Manakitivipart evening demo/lecture on a collected pine — GSBS monthly meeting, October 2011",
+    caption: "Boon Manakitivipart evening demo/lecture on a collected pine  -  GSBS monthly meeting, October 2011",
     category: "Workshops",
     image: "/images/gallery/Boon 10-27-11 018.jpg",
     alt: "Boon Manakitivipart pine bonsai demonstration GSBS 2011",
@@ -2226,7 +2226,7 @@ const items: GalleryItem[] = [
   {
     id: 359,
     title: "Boon Workshop 2011 - 20",
-    caption: "Boon Manakitivipart evening demo/lecture on a collected pine — GSBS monthly meeting, October 2011",
+    caption: "Boon Manakitivipart evening demo/lecture on a collected pine  -  GSBS monthly meeting, October 2011",
     category: "Workshops",
     image: "/images/gallery/Boon 10-27-11 019.jpg",
     alt: "Boon Manakitivipart pine bonsai demonstration GSBS 2011",
@@ -2235,7 +2235,7 @@ const items: GalleryItem[] = [
   {
     id: 360,
     title: "Boon Workshop 2011 - 21",
-    caption: "Boon Manakitivipart evening demo/lecture on a collected pine — GSBS monthly meeting, October 2011",
+    caption: "Boon Manakitivipart evening demo/lecture on a collected pine  -  GSBS monthly meeting, October 2011",
     category: "Workshops",
     image: "/images/gallery/Boon 10-27-11 020.jpg",
     alt: "Boon Manakitivipart pine bonsai demonstration GSBS 2011",
@@ -2244,7 +2244,7 @@ const items: GalleryItem[] = [
   {
     id: 361,
     title: "Boon Workshop 2011 - 22",
-    caption: "Boon Manakitivipart evening demo/lecture on a collected pine — GSBS monthly meeting, October 2011",
+    caption: "Boon Manakitivipart evening demo/lecture on a collected pine  -  GSBS monthly meeting, October 2011",
     category: "Workshops",
     image: "/images/gallery/Boon 10-27-11 021.jpg",
     alt: "Boon Manakitivipart pine bonsai demonstration GSBS 2011",
@@ -2253,7 +2253,7 @@ const items: GalleryItem[] = [
   {
     id: 362,
     title: "Boon Workshop 2011 - 23",
-    caption: "Boon Manakitivipart evening demo/lecture on a collected pine — GSBS monthly meeting, October 2011",
+    caption: "Boon Manakitivipart evening demo/lecture on a collected pine  -  GSBS monthly meeting, October 2011",
     category: "Workshops",
     image: "/images/gallery/Boon 10-27-11 022.jpg",
     alt: "Boon Manakitivipart pine bonsai demonstration GSBS 2011",
@@ -2262,7 +2262,7 @@ const items: GalleryItem[] = [
   {
     id: 363,
     title: "Boon Workshop 2011 - 24",
-    caption: "Boon Manakitivipart evening demo/lecture on a collected pine — GSBS monthly meeting, October 2011",
+    caption: "Boon Manakitivipart evening demo/lecture on a collected pine  -  GSBS monthly meeting, October 2011",
     category: "Workshops",
     image: "/images/gallery/Boon 10-27-11 023.jpg",
     alt: "Boon Manakitivipart pine bonsai demonstration GSBS 2011",
@@ -2271,7 +2271,7 @@ const items: GalleryItem[] = [
   {
     id: 364,
     title: "Boon Workshop 2011 - 25",
-    caption: "Boon Manakitivipart evening demo/lecture on a collected pine — GSBS monthly meeting, October 2011",
+    caption: "Boon Manakitivipart evening demo/lecture on a collected pine  -  GSBS monthly meeting, October 2011",
     category: "Workshops",
     image: "/images/gallery/Boon 10-27-11 024.jpg",
     alt: "Boon Manakitivipart pine bonsai demonstration GSBS 2011",
@@ -2280,7 +2280,7 @@ const items: GalleryItem[] = [
   {
     id: 366,
     title: "Boon Workshop 2011 - 27",
-    caption: "Boon Manakitivipart evening demo/lecture on a collected pine — GSBS monthly meeting, October 2011",
+    caption: "Boon Manakitivipart evening demo/lecture on a collected pine  -  GSBS monthly meeting, October 2011",
     category: "Workshops",
     image: "/images/gallery/Boon 10-27-11 026.jpg",
     alt: "Boon Manakitivipart pine bonsai demonstration GSBS 2011",
@@ -2289,7 +2289,7 @@ const items: GalleryItem[] = [
   {
     id: 367,
     title: "Boon Workshop 2011 - 28",
-    caption: "Boon Manakitivipart evening demo/lecture on a collected pine — GSBS monthly meeting, October 2011",
+    caption: "Boon Manakitivipart evening demo/lecture on a collected pine  -  GSBS monthly meeting, October 2011",
     category: "Workshops",
     image: "/images/gallery/Boon 10-27-11 027.jpg",
     alt: "Boon Manakitivipart pine bonsai demonstration GSBS 2011",
@@ -2298,7 +2298,7 @@ const items: GalleryItem[] = [
   {
     id: 368,
     title: "Boon Workshop 2011 - 29",
-    caption: "Boon Manakitivipart evening demo/lecture on a collected pine — GSBS monthly meeting, October 2011",
+    caption: "Boon Manakitivipart evening demo/lecture on a collected pine  -  GSBS monthly meeting, October 2011",
     category: "Workshops",
     image: "/images/gallery/Boon 10-27-11 028.jpg",
     alt: "Boon Manakitivipart pine bonsai demonstration GSBS 2011",
@@ -2307,7 +2307,7 @@ const items: GalleryItem[] = [
   {
     id: 369,
     title: "Boon Workshop 2011 - 30",
-    caption: "Boon Manakitivipart evening demo/lecture on a collected pine — GSBS monthly meeting, October 2011",
+    caption: "Boon Manakitivipart evening demo/lecture on a collected pine  -  GSBS monthly meeting, October 2011",
     category: "Workshops",
     image: "/images/gallery/Boon 10-27-11 029.jpg",
     alt: "Boon Manakitivipart pine bonsai demonstration GSBS 2011",
@@ -2316,7 +2316,7 @@ const items: GalleryItem[] = [
   {
     id: 370,
     title: "Boon Workshop 2011 - 31",
-    caption: "Boon Manakitivipart evening demo/lecture on a collected pine — GSBS monthly meeting, October 2011",
+    caption: "Boon Manakitivipart evening demo/lecture on a collected pine  -  GSBS monthly meeting, October 2011",
     category: "Workshops",
     image: "/images/gallery/Boon 10-27-11 030.jpg",
     alt: "Boon Manakitivipart pine bonsai demonstration GSBS 2011",
@@ -2327,7 +2327,7 @@ const items: GalleryItem[] = [
   {
     id: 374,
     title: "Annual Show 2005 - 4",
-    caption: "GSBS Annual Bonsai Show 2005 — member exhibits on display",
+    caption: "GSBS Annual Bonsai Show 2005  -  member exhibits on display",
     category: "Annual Show",
     image: "/images/gallery/show-05-4.jpg",
     alt: "GSBS Annual Bonsai Show 2005 exhibit",
@@ -2336,7 +2336,7 @@ const items: GalleryItem[] = [
   {
     id: 376,
     title: "Annual Show 2005 - 6",
-    caption: "GSBS Annual Bonsai Show 2005 — member exhibits on display",
+    caption: "GSBS Annual Bonsai Show 2005  -  member exhibits on display",
     category: "Annual Show",
     image: "/images/gallery/show-05-6.jpg",
     alt: "GSBS Annual Bonsai Show 2005 exhibit",
@@ -2345,7 +2345,7 @@ const items: GalleryItem[] = [
   {
     id: 378,
     title: "Annual Show 2005 - 8",
-    caption: "GSBS Annual Bonsai Show 2005 — member exhibits on display",
+    caption: "GSBS Annual Bonsai Show 2005  -  member exhibits on display",
     category: "Annual Show",
     image: "/images/gallery/show-05-8.jpg",
     alt: "GSBS Annual Bonsai Show 2005 exhibit",
@@ -2354,7 +2354,7 @@ const items: GalleryItem[] = [
   {
     id: 380,
     title: "Annual Show 2005 - 10",
-    caption: "GSBS Annual Bonsai Show 2005 — member exhibits on display",
+    caption: "GSBS Annual Bonsai Show 2005  -  member exhibits on display",
     category: "Annual Show",
     image: "/images/gallery/show-05-10.jpg",
     alt: "GSBS Annual Bonsai Show 2005 exhibit",
@@ -2363,7 +2363,7 @@ const items: GalleryItem[] = [
   {
     id: 381,
     title: "Annual Show 2005 - 11",
-    caption: "GSBS Annual Bonsai Show 2005 — member exhibits on display",
+    caption: "GSBS Annual Bonsai Show 2005  -  member exhibits on display",
     category: "Annual Show",
     image: "/images/gallery/show-05-11.jpg",
     alt: "GSBS Annual Bonsai Show 2005 exhibit",
@@ -2372,7 +2372,7 @@ const items: GalleryItem[] = [
   {
     id: 383,
     title: "Annual Show 2005 - 13",
-    caption: "GSBS Annual Bonsai Show 2005 — member exhibits on display",
+    caption: "GSBS Annual Bonsai Show 2005  -  member exhibits on display",
     category: "Annual Show",
     image: "/images/gallery/show-05-13.jpg",
     alt: "GSBS Annual Bonsai Show 2005 exhibit",
@@ -2381,7 +2381,7 @@ const items: GalleryItem[] = [
   {
     id: 384,
     title: "Annual Show 2005 - 14",
-    caption: "GSBS Annual Bonsai Show 2005 — member exhibits on display",
+    caption: "GSBS Annual Bonsai Show 2005  -  member exhibits on display",
     category: "Annual Show",
     image: "/images/gallery/show-05-14.jpg",
     alt: "GSBS Annual Bonsai Show 2005 exhibit",
@@ -2390,7 +2390,7 @@ const items: GalleryItem[] = [
   {
     id: 388,
     title: "Annual Show 2005 - 18",
-    caption: "GSBS Annual Bonsai Show 2005 — member exhibits on display",
+    caption: "GSBS Annual Bonsai Show 2005  -  member exhibits on display",
     category: "Annual Show",
     image: "/images/gallery/show-05-18.jpg",
     alt: "GSBS Annual Bonsai Show 2005 exhibit",
@@ -2403,7 +2403,7 @@ const items: GalleryItem[] = [
   {
     id: 419,
     title: "MABS 2011 - Professional Exhibit 1",
-    caption: "Professional Invitation Exhibit at MABS 2011 Spring Festival — featuring works by renowned bonsai artists",
+    caption: "Professional Invitation Exhibit at MABS 2011 Spring Festival  -  featuring works by renowned bonsai artists",
     category: "MABS",
     image: "/images/gallery/pie 01-11.JPG",
     alt: "Professional bonsai exhibit MABS 2011 PIE",
@@ -2549,7 +2549,7 @@ const items: GalleryItem[] = [
   // ── Member Trees & Meeting Photos ────────────────────────────
   {
     id: 448,
-    title: "Member Tree — Andy Smith Masterpiece",
+    title: "Member Tree  -  Andy Smith Masterpiece",
     caption: "Andy Smith masterpiece bonsai from GSBS member collection",
     category: "Member Trees",
     image: "/images/gallery/ASmithM.jpg",
@@ -2558,7 +2558,7 @@ const items: GalleryItem[] = [
   },
   {
     id: 463,
-    title: "Member Tree — J. Roth 1",
+    title: "Member Tree  -  J. Roth 1",
     caption: "J. Roth bonsai from GSBS member collection, 2010",
     category: "Member Trees",
     image: "/images/gallery/JRoth 01-10.JPG",
@@ -2568,7 +2568,7 @@ const items: GalleryItem[] = [
   },
   {
     id: 464,
-    title: "Member Tree — J. Roth 2",
+    title: "Member Tree  -  J. Roth 2",
     caption: "J. Roth bonsai from GSBS member collection, 2010",
     category: "Member Trees",
     image: "/images/gallery/JRoth 02-10.jpg",
@@ -2577,7 +2577,7 @@ const items: GalleryItem[] = [
   },
   {
     id: 465,
-    title: "Member Tree — J. Roth 3",
+    title: "Member Tree  -  J. Roth 3",
     caption: "J. Roth bonsai from GSBS member collection, 2010",
     category: "Member Trees",
     image: "/images/gallery/JRoth 03-10.JPG",
@@ -2586,7 +2586,7 @@ const items: GalleryItem[] = [
   },
   {
     id: 466,
-    title: "Member Tree — J. Roth 4",
+    title: "Member Tree  -  J. Roth 4",
     caption: "J. Roth bonsai from GSBS member collection, 2010",
     category: "Member Trees",
     image: "/images/gallery/JRoth 04-10.JPG",
@@ -2595,7 +2595,7 @@ const items: GalleryItem[] = [
   },
   {
     id: 467,
-    title: "Member Tree — J. Roth 5",
+    title: "Member Tree  -  J. Roth 5",
     caption: "J. Roth bonsai from GSBS member collection, 2010",
     category: "Member Trees",
     image: "/images/gallery/JRoth 05-10.JPG",
@@ -2604,8 +2604,8 @@ const items: GalleryItem[] = [
   },
   {
     id: 470,
-    title: "GSBS Meeting — Spring 2010",
-    caption: "GSBS monthly meeting, April 2010 — members and displays at Essex County Environmental Center",
+    title: "GSBS Meeting  -  Spring 2010",
+    caption: "GSBS monthly meeting, April 2010  -  members and displays at Essex County Environmental Center",
     category: "Meetings",
     image: "/images/gallery/Welcome 04-16-10.JPG",
     alt: "GSBS monthly meeting April 2010",
@@ -2614,7 +2614,7 @@ const items: GalleryItem[] = [
   {
     id: 471,
     title: "Annual Show 2010",
-    caption: "GSBS Annual Bonsai Show 2010 — member exhibits on display",
+    caption: "GSBS Annual Bonsai Show 2010  -  member exhibits on display",
     category: "Annual Show",
     image: "/images/gallery/Show-11-10.JPG",
     alt: "GSBS Annual Bonsai Show 2010",
@@ -2623,7 +2623,7 @@ const items: GalleryItem[] = [
   {
     id: 472,
     title: "Annual Show 2011",
-    caption: "GSBS Annual Bonsai Show 2011 — member exhibits on display",
+    caption: "GSBS Annual Bonsai Show 2011  -  member exhibits on display",
     category: "Annual Show",
     image: "/images/gallery/Show-11-11.JPG",
     alt: "GSBS Annual Bonsai Show 2011",
@@ -2631,7 +2631,7 @@ const items: GalleryItem[] = [
   },
   {
     id: 476,
-    title: "Member Tree — Bonsai 1",
+    title: "Member Tree  -  Bonsai 1",
     caption: "Bonsai from GSBS member collection",
     category: "Member Trees",
     image: "/images/gallery/bonsai1.jpg",
@@ -2640,7 +2640,7 @@ const items: GalleryItem[] = [
   },
   {
     id: 477,
-    title: "Member Tree — Bonsai 2",
+    title: "Member Tree  -  Bonsai 2",
     caption: "Bonsai from GSBS member collection",
     category: "Member Trees",
     image: "/images/gallery/bonsai2.jpg",
@@ -2653,7 +2653,7 @@ const items: GalleryItem[] = [
   {
     id: 482,
     title: "Annual Show 2010 - 2",
-    caption: "GSBS Annual Bonsai Show 2010 — member exhibits on display",
+    caption: "GSBS Annual Bonsai Show 2010  -  member exhibits on display",
     category: "Annual Show",
     image: "/images/gallery/Show 02-10.JPG",
     alt: "GSBS Annual Bonsai Show 2010 exhibit #2, Great Swamp Bonsai Society Roseland New Jersey",
@@ -2662,7 +2662,7 @@ const items: GalleryItem[] = [
   {
     id: 483,
     title: "Annual Show 2010 - 3",
-    caption: "GSBS Annual Bonsai Show 2010 — member exhibits on display",
+    caption: "GSBS Annual Bonsai Show 2010  -  member exhibits on display",
     category: "Annual Show",
     image: "/images/gallery/Show 03-10.JPG",
     alt: "GSBS Annual Bonsai Show 2010 exhibit #3, Great Swamp Bonsai Society Roseland New Jersey",
@@ -2671,7 +2671,7 @@ const items: GalleryItem[] = [
   {
     id: 484,
     title: "Annual Show 2010 - 4",
-    caption: "GSBS Annual Bonsai Show 2010 — member exhibits on display",
+    caption: "GSBS Annual Bonsai Show 2010  -  member exhibits on display",
     category: "Annual Show",
     image: "/images/gallery/Show 04-10.JPG",
     alt: "GSBS Annual Bonsai Show 2010 exhibit #4, Great Swamp Bonsai Society Roseland New Jersey",
@@ -2680,7 +2680,7 @@ const items: GalleryItem[] = [
   {
     id: 486,
     title: "Annual Show 2010 - 6",
-    caption: "GSBS Annual Bonsai Show 2010 — member exhibits on display",
+    caption: "GSBS Annual Bonsai Show 2010  -  member exhibits on display",
     category: "Annual Show",
     image: "/images/gallery/Show 06-10.JPG",
     alt: "GSBS Annual Bonsai Show 2010 exhibit #6, Great Swamp Bonsai Society Roseland New Jersey",
@@ -2689,7 +2689,7 @@ const items: GalleryItem[] = [
   {
     id: 487,
     title: "Annual Show 2010 - 7",
-    caption: "GSBS Annual Bonsai Show 2010 — member exhibits on display",
+    caption: "GSBS Annual Bonsai Show 2010  -  member exhibits on display",
     category: "Annual Show",
     image: "/images/gallery/Show 07-10.JPG",
     alt: "GSBS Annual Bonsai Show 2010 exhibit #7, Great Swamp Bonsai Society Roseland New Jersey",
@@ -2698,7 +2698,7 @@ const items: GalleryItem[] = [
   {
     id: 488,
     title: "Annual Show 2010 - 8",
-    caption: "GSBS Annual Bonsai Show 2010 — member exhibits on display",
+    caption: "GSBS Annual Bonsai Show 2010  -  member exhibits on display",
     category: "Annual Show",
     image: "/images/gallery/Show 08-10.JPG",
     alt: "GSBS Annual Bonsai Show 2010 exhibit #8, Great Swamp Bonsai Society Roseland New Jersey",
@@ -2707,7 +2707,7 @@ const items: GalleryItem[] = [
   {
     id: 489,
     title: "Annual Show 2010 - 9",
-    caption: "GSBS Annual Bonsai Show 2010 — member exhibits on display",
+    caption: "GSBS Annual Bonsai Show 2010  -  member exhibits on display",
     category: "Annual Show",
     image: "/images/gallery/Show 09-10.JPG",
     alt: "GSBS Annual Bonsai Show 2010 exhibit #9, Great Swamp Bonsai Society Roseland New Jersey",
@@ -2716,7 +2716,7 @@ const items: GalleryItem[] = [
   {
     id: 490,
     title: "Annual Show 2010 - 10",
-    caption: "GSBS Annual Bonsai Show 2010 — member exhibits on display",
+    caption: "GSBS Annual Bonsai Show 2010  -  member exhibits on display",
     category: "Annual Show",
     image: "/images/gallery/Show 10-10.JPG",
     alt: "GSBS Annual Bonsai Show 2010 exhibit #10, Great Swamp Bonsai Society Roseland New Jersey",
@@ -2725,7 +2725,7 @@ const items: GalleryItem[] = [
   {
     id: 491,
     title: "Annual Show 2010 - 11",
-    caption: "GSBS Annual Bonsai Show 2010 — member exhibits on display",
+    caption: "GSBS Annual Bonsai Show 2010  -  member exhibits on display",
     category: "Annual Show",
     image: "/images/gallery/Show 11-10.JPG",
     alt: "GSBS Annual Bonsai Show 2010 exhibit #11, Great Swamp Bonsai Society Roseland New Jersey",
@@ -2734,7 +2734,7 @@ const items: GalleryItem[] = [
   {
     id: 492,
     title: "Annual Show 2010 - 12",
-    caption: "GSBS Annual Bonsai Show 2010 — member exhibits on display",
+    caption: "GSBS Annual Bonsai Show 2010  -  member exhibits on display",
     category: "Annual Show",
     image: "/images/gallery/Show 12-10.JPG",
     alt: "GSBS Annual Bonsai Show 2010 exhibit #12, Great Swamp Bonsai Society Roseland New Jersey",
@@ -2743,7 +2743,7 @@ const items: GalleryItem[] = [
   {
     id: 493,
     title: "Annual Show 2010 - 13",
-    caption: "GSBS Annual Bonsai Show 2010 — member exhibits on display",
+    caption: "GSBS Annual Bonsai Show 2010  -  member exhibits on display",
     category: "Annual Show",
     image: "/images/gallery/Show 13-10.JPG",
     alt: "GSBS Annual Bonsai Show 2010 exhibit #13, Great Swamp Bonsai Society Roseland New Jersey",
@@ -2752,7 +2752,7 @@ const items: GalleryItem[] = [
   {
     id: 494,
     title: "Annual Show 2011 - 1",
-    caption: "GSBS Annual Bonsai Show 2011 — member exhibits on display",
+    caption: "GSBS Annual Bonsai Show 2011  -  member exhibits on display",
     category: "Annual Show",
     image: "/images/gallery/Show 01-11.JPG",
     alt: "Annual Show 2011 - 1 2011",
@@ -2762,7 +2762,7 @@ const items: GalleryItem[] = [
   {
     id: 495,
     title: "Annual Show 2011 - 2",
-    caption: "GSBS Annual Bonsai Show 2011 — member exhibits on display",
+    caption: "GSBS Annual Bonsai Show 2011  -  member exhibits on display",
     category: "Annual Show",
     image: "/images/gallery/Show 02-11.JPG",
     alt: "Annual Show 2011 - 2 2011",
@@ -2771,7 +2771,7 @@ const items: GalleryItem[] = [
   {
     id: 496,
     title: "Annual Show 2011 - 3",
-    caption: "GSBS Annual Bonsai Show 2011 — member exhibits on display",
+    caption: "GSBS Annual Bonsai Show 2011  -  member exhibits on display",
     category: "Annual Show",
     image: "/images/gallery/Show 03-11.JPG",
     alt: "Annual Show 2011 - 3 2011",
@@ -2780,7 +2780,7 @@ const items: GalleryItem[] = [
   {
     id: 497,
     title: "Annual Show 2011 - 4",
-    caption: "GSBS Annual Bonsai Show 2011 — member exhibits on display",
+    caption: "GSBS Annual Bonsai Show 2011  -  member exhibits on display",
     category: "Annual Show",
     image: "/images/gallery/Show 04-11.JPG",
     alt: "Annual Show 2011 - 4 2011",
@@ -2789,7 +2789,7 @@ const items: GalleryItem[] = [
   {
     id: 498,
     title: "Annual Show 2011 - 5",
-    caption: "GSBS Annual Bonsai Show 2011 — member exhibits on display",
+    caption: "GSBS Annual Bonsai Show 2011  -  member exhibits on display",
     category: "Annual Show",
     image: "/images/gallery/Show 05-11.JPG",
     alt: "Annual Show 2011 - 5 2011",
@@ -2798,7 +2798,7 @@ const items: GalleryItem[] = [
   {
     id: 499,
     title: "Annual Show 2011 - 6",
-    caption: "GSBS Annual Bonsai Show 2011 — member exhibits on display",
+    caption: "GSBS Annual Bonsai Show 2011  -  member exhibits on display",
     category: "Annual Show",
     image: "/images/gallery/Show 06-11.JPG",
     alt: "Annual Show 2011 - 6 2011",
@@ -2807,7 +2807,7 @@ const items: GalleryItem[] = [
   {
     id: 500,
     title: "Annual Show 2011 - 7",
-    caption: "GSBS Annual Bonsai Show 2011 — member exhibits on display",
+    caption: "GSBS Annual Bonsai Show 2011  -  member exhibits on display",
     category: "Annual Show",
     image: "/images/gallery/Show 07-11.JPG",
     alt: "Annual Show 2011 - 7 2011",
@@ -2816,7 +2816,7 @@ const items: GalleryItem[] = [
   {
     id: 501,
     title: "Annual Show 2011 - 8",
-    caption: "GSBS Annual Bonsai Show 2011 — member exhibits on display",
+    caption: "GSBS Annual Bonsai Show 2011  -  member exhibits on display",
     category: "Annual Show",
     image: "/images/gallery/Show 08-11.JPG",
     alt: "Annual Show 2011 - 8 2011",
@@ -2825,7 +2825,7 @@ const items: GalleryItem[] = [
   {
     id: 502,
     title: "Annual Show 2011 - 9",
-    caption: "GSBS Annual Bonsai Show 2011 — member exhibits on display",
+    caption: "GSBS Annual Bonsai Show 2011  -  member exhibits on display",
     category: "Annual Show",
     image: "/images/gallery/Show 09-11.JPG",
     alt: "Annual Show 2011 - 9 2011",
@@ -2834,7 +2834,7 @@ const items: GalleryItem[] = [
   {
     id: 503,
     title: "Annual Show 2011 - 10",
-    caption: "GSBS Annual Bonsai Show 2011 — member exhibits on display",
+    caption: "GSBS Annual Bonsai Show 2011  -  member exhibits on display",
     category: "Annual Show",
     image: "/images/gallery/Show 10-11.JPG",
     alt: "Annual Show 2011 - 10 2011",
@@ -2843,7 +2843,7 @@ const items: GalleryItem[] = [
   {
     id: 504,
     title: "Annual Show 2011 - 11",
-    caption: "GSBS Annual Bonsai Show 2011 — member exhibits on display",
+    caption: "GSBS Annual Bonsai Show 2011  -  member exhibits on display",
     category: "Annual Show",
     image: "/images/gallery/Show 11-11.JPG",
     alt: "Annual Show 2011 - 11 2011",
@@ -2852,7 +2852,7 @@ const items: GalleryItem[] = [
   {
     id: 505,
     title: "Annual Show 2011 - 12",
-    caption: "GSBS Annual Bonsai Show 2011 — member exhibits on display",
+    caption: "GSBS Annual Bonsai Show 2011  -  member exhibits on display",
     category: "Annual Show",
     image: "/images/gallery/Show 12-11.JPG",
     alt: "Annual Show 2011 - 12 2011",
@@ -2861,7 +2861,7 @@ const items: GalleryItem[] = [
   {
     id: 506,
     title: "Annual Show 2011 - 13",
-    caption: "GSBS Annual Bonsai Show 2011 — member exhibits on display",
+    caption: "GSBS Annual Bonsai Show 2011  -  member exhibits on display",
     category: "Annual Show",
     image: "/images/gallery/Show 13-11.JPG",
     alt: "Annual Show 2011 - 13 2011",
@@ -2870,7 +2870,7 @@ const items: GalleryItem[] = [
   {
     id: 507,
     title: "Annual Show 2011 - 14",
-    caption: "GSBS Annual Bonsai Show 2011 — member exhibits on display",
+    caption: "GSBS Annual Bonsai Show 2011  -  member exhibits on display",
     category: "Annual Show",
     image: "/images/gallery/Show 14-11.jpg",
     alt: "Annual Show 2011 - 14 2011",
@@ -2879,7 +2879,7 @@ const items: GalleryItem[] = [
   {
     id: 508,
     title: "Annual Show 2011 - 15",
-    caption: "GSBS Annual Bonsai Show 2011 — member exhibits on display",
+    caption: "GSBS Annual Bonsai Show 2011  -  member exhibits on display",
     category: "Annual Show",
     image: "/images/gallery/Show 15-11.jpg",
     alt: "Annual Show 2011 - 15 2011",
@@ -2888,7 +2888,7 @@ const items: GalleryItem[] = [
   {
     id: 509,
     title: "Annual Show 2011 - 16",
-    caption: "GSBS Annual Bonsai Show 2011 — member exhibits on display",
+    caption: "GSBS Annual Bonsai Show 2011  -  member exhibits on display",
     category: "Annual Show",
     image: "/images/gallery/Show 16-11.jpg",
     alt: "Annual Show 2011 - 16 2011",
@@ -2897,7 +2897,7 @@ const items: GalleryItem[] = [
   {
     id: 510,
     title: "Annual Show 2011 - 17",
-    caption: "GSBS Annual Bonsai Show 2011 — member exhibits on display",
+    caption: "GSBS Annual Bonsai Show 2011  -  member exhibits on display",
     category: "Annual Show",
     image: "/images/gallery/Show 17-11.jpg",
     alt: "Annual Show 2011 - 17 2011",
@@ -2906,7 +2906,7 @@ const items: GalleryItem[] = [
   {
     id: 511,
     title: "Annual Show 2011 - 18",
-    caption: "GSBS Annual Bonsai Show 2011 — member exhibits on display",
+    caption: "GSBS Annual Bonsai Show 2011  -  member exhibits on display",
     category: "Annual Show",
     image: "/images/gallery/Show 18-11.jpg",
     alt: "Annual Show 2011 - 18 2011",
@@ -2915,7 +2915,7 @@ const items: GalleryItem[] = [
   {
     id: 512,
     title: "Annual Show 2011 - 19",
-    caption: "GSBS Annual Bonsai Show 2011 — member exhibits on display",
+    caption: "GSBS Annual Bonsai Show 2011  -  member exhibits on display",
     category: "Annual Show",
     image: "/images/gallery/Show 19-11.jpg",
     alt: "Annual Show 2011 - 19 2011",
@@ -2924,7 +2924,7 @@ const items: GalleryItem[] = [
   {
     id: 513,
     title: "Annual Show 2011 - 20",
-    caption: "GSBS Annual Bonsai Show 2011 — member exhibits on display",
+    caption: "GSBS Annual Bonsai Show 2011  -  member exhibits on display",
     category: "Annual Show",
     image: "/images/gallery/Show 20-11.jpg",
     alt: "Annual Show 2011 - 20 2011",
@@ -2933,7 +2933,7 @@ const items: GalleryItem[] = [
   {
     id: 514,
     title: "Annual Show 2011 - 21",
-    caption: "GSBS Annual Bonsai Show 2011 — member exhibits on display",
+    caption: "GSBS Annual Bonsai Show 2011  -  member exhibits on display",
     category: "Annual Show",
     image: "/images/gallery/Show 21-11.jpg",
     alt: "Annual Show 2011 - 21 2011",
@@ -2942,7 +2942,7 @@ const items: GalleryItem[] = [
   {
     id: 515,
     title: "Annual Show 2011 - 22",
-    caption: "GSBS Annual Bonsai Show 2011 — member exhibits on display",
+    caption: "GSBS Annual Bonsai Show 2011  -  member exhibits on display",
     category: "Annual Show",
     image: "/images/gallery/Show 22-11.jpg",
     alt: "Annual Show 2011 - 22 2011",
@@ -2951,7 +2951,7 @@ const items: GalleryItem[] = [
   {
     id: 516,
     title: "Annual Show 2011 - 23",
-    caption: "GSBS Annual Bonsai Show 2011 — member exhibits on display",
+    caption: "GSBS Annual Bonsai Show 2011  -  member exhibits on display",
     category: "Annual Show",
     image: "/images/gallery/Show 23-11.jpg",
     alt: "Annual Show 2011 - 23 2011",
@@ -2960,7 +2960,7 @@ const items: GalleryItem[] = [
   {
     id: 517,
     title: "Annual Show 2011 - 24",
-    caption: "GSBS Annual Bonsai Show 2011 — member exhibits on display",
+    caption: "GSBS Annual Bonsai Show 2011  -  member exhibits on display",
     category: "Annual Show",
     image: "/images/gallery/Show 24-11.jpg",
     alt: "Annual Show 2011 - 24 2011",
@@ -2969,7 +2969,7 @@ const items: GalleryItem[] = [
   {
     id: 518,
     title: "Annual Show 2011 - 25",
-    caption: "GSBS Annual Bonsai Show 2011 — member exhibits on display",
+    caption: "GSBS Annual Bonsai Show 2011  -  member exhibits on display",
     category: "Annual Show",
     image: "/images/gallery/Show 25-11.jpg",
     alt: "Annual Show 2011 - 25 2011",
@@ -2978,7 +2978,7 @@ const items: GalleryItem[] = [
   {
     id: 519,
     title: "Annual Show 2011 - 26",
-    caption: "GSBS Annual Bonsai Show 2011 — member exhibits on display",
+    caption: "GSBS Annual Bonsai Show 2011  -  member exhibits on display",
     category: "Annual Show",
     image: "/images/gallery/Show 26-11.jpg",
     alt: "Annual Show 2011 - 26 2011",
@@ -2987,7 +2987,7 @@ const items: GalleryItem[] = [
   {
     id: 520,
     title: "Annual Show 2011 - 27",
-    caption: "GSBS Annual Bonsai Show 2011 — member exhibits on display",
+    caption: "GSBS Annual Bonsai Show 2011  -  member exhibits on display",
     category: "Annual Show",
     image: "/images/gallery/Show 27-11.jpg",
     alt: "Annual Show 2011 - 27 2011",
@@ -2996,7 +2996,7 @@ const items: GalleryItem[] = [
   {
     id: 521,
     title: "Annual Show 2011 - 28",
-    caption: "GSBS Annual Bonsai Show 2011 — member exhibits on display",
+    caption: "GSBS Annual Bonsai Show 2011  -  member exhibits on display",
     category: "Annual Show",
     image: "/images/gallery/Show 28-11.jpg",
     alt: "Annual Show 2011 - 28 2011",
@@ -3005,7 +3005,7 @@ const items: GalleryItem[] = [
   {
     id: 522,
     title: "Annual Show 2011 - 29",
-    caption: "GSBS Annual Bonsai Show 2011 — member exhibits on display",
+    caption: "GSBS Annual Bonsai Show 2011  -  member exhibits on display",
     category: "Annual Show",
     image: "/images/gallery/Show 29-11.jpg",
     alt: "Annual Show 2011 - 29 2011",
@@ -3014,7 +3014,7 @@ const items: GalleryItem[] = [
   {
     id: 523,
     title: "Annual Show 2011 - 30",
-    caption: "GSBS Annual Bonsai Show 2011 — member exhibits on display",
+    caption: "GSBS Annual Bonsai Show 2011  -  member exhibits on display",
     category: "Annual Show",
     image: "/images/gallery/Show 30-11.jpg",
     alt: "Annual Show 2011 - 30 2011",
@@ -3023,7 +3023,7 @@ const items: GalleryItem[] = [
   {
     id: 524,
     title: "Annual Show 2011 - 31",
-    caption: "GSBS Annual Bonsai Show 2011 — member exhibits on display",
+    caption: "GSBS Annual Bonsai Show 2011  -  member exhibits on display",
     category: "Annual Show",
     image: "/images/gallery/Show 31-11.jpg",
     alt: "Annual Show 2011 - 31 2011",
@@ -3032,7 +3032,7 @@ const items: GalleryItem[] = [
   {
     id: 525,
     title: "Annual Show 2011 - 32",
-    caption: "GSBS Annual Bonsai Show 2011 — member exhibits on display",
+    caption: "GSBS Annual Bonsai Show 2011  -  member exhibits on display",
     category: "Annual Show",
     image: "/images/gallery/Show 32-11.jpg",
     alt: "Annual Show 2011 - 32 2011",
@@ -3041,7 +3041,7 @@ const items: GalleryItem[] = [
   {
     id: 526,
     title: "Annual Show 2011 - 33",
-    caption: "GSBS Annual Bonsai Show 2011 — member exhibits on display",
+    caption: "GSBS Annual Bonsai Show 2011  -  member exhibits on display",
     category: "Annual Show",
     image: "/images/gallery/Show 33-11.jpg",
     alt: "Annual Show 2011 - 33 2011",
@@ -3050,7 +3050,7 @@ const items: GalleryItem[] = [
   {
     id: 527,
     title: "Annual Show 2011 - 34",
-    caption: "GSBS Annual Bonsai Show 2011 — member exhibits on display",
+    caption: "GSBS Annual Bonsai Show 2011  -  member exhibits on display",
     category: "Annual Show",
     image: "/images/gallery/Show 34-11.jpg",
     alt: "Annual Show 2011 - 34 2011",
@@ -3059,7 +3059,7 @@ const items: GalleryItem[] = [
   {
     id: 528,
     title: "Annual Show 2011 - 35",
-    caption: "GSBS Annual Bonsai Show 2011 — member exhibits on display",
+    caption: "GSBS Annual Bonsai Show 2011  -  member exhibits on display",
     category: "Annual Show",
     image: "/images/gallery/Show 35-11.jpg",
     alt: "Annual Show 2011 - 35 2011",
@@ -3068,7 +3068,7 @@ const items: GalleryItem[] = [
   {
     id: 529,
     title: "Annual Show 2011 - 36",
-    caption: "GSBS Annual Bonsai Show 2011 — member exhibits on display",
+    caption: "GSBS Annual Bonsai Show 2011  -  member exhibits on display",
     category: "Annual Show",
     image: "/images/gallery/Show 36-11.jpg",
     alt: "Annual Show 2011 - 36 2011",
@@ -3077,7 +3077,7 @@ const items: GalleryItem[] = [
   {
     id: 530,
     title: "Annual Show 2011 - 37",
-    caption: "GSBS Annual Bonsai Show 2011 — member exhibits on display",
+    caption: "GSBS Annual Bonsai Show 2011  -  member exhibits on display",
     category: "Annual Show",
     image: "/images/gallery/Show 37-11.jpg",
     alt: "Annual Show 2011 - 37 2011",
@@ -3086,7 +3086,7 @@ const items: GalleryItem[] = [
   {
     id: 531,
     title: "Annual Show 2011 - 38",
-    caption: "GSBS Annual Bonsai Show 2011 — member exhibits on display",
+    caption: "GSBS Annual Bonsai Show 2011  -  member exhibits on display",
     category: "Annual Show",
     image: "/images/gallery/Show 38-11.jpg",
     alt: "Annual Show 2011 - 38 2011",
@@ -3095,7 +3095,7 @@ const items: GalleryItem[] = [
   {
     id: 533,
     title: "Annual Show 2011 - 40",
-    caption: "GSBS Annual Bonsai Show 2011 — member exhibits on display",
+    caption: "GSBS Annual Bonsai Show 2011  -  member exhibits on display",
     category: "Annual Show",
     image: "/images/gallery/Show 40-11.jpg",
     alt: "Annual Show 2011 - 40 2011",
@@ -3104,7 +3104,7 @@ const items: GalleryItem[] = [
   {
     id: 534,
     title: "Annual Show 2011 - 41",
-    caption: "GSBS Annual Bonsai Show 2011 — member exhibits on display",
+    caption: "GSBS Annual Bonsai Show 2011  -  member exhibits on display",
     category: "Annual Show",
     image: "/images/gallery/Show 41-11.jpg",
     alt: "Annual Show 2011 - 41 2011",
@@ -3113,7 +3113,7 @@ const items: GalleryItem[] = [
   {
     id: 535,
     title: "Annual Show 2011 - 42",
-    caption: "GSBS Annual Bonsai Show 2011 — member exhibits on display",
+    caption: "GSBS Annual Bonsai Show 2011  -  member exhibits on display",
     category: "Annual Show",
     image: "/images/gallery/Show 42-11.jpg",
     alt: "Annual Show 2011 - 42 2011",
@@ -3122,7 +3122,7 @@ const items: GalleryItem[] = [
   {
     id: 536,
     title: "Annual Show 2011 - 43",
-    caption: "GSBS Annual Bonsai Show 2011 — member exhibits on display",
+    caption: "GSBS Annual Bonsai Show 2011  -  member exhibits on display",
     category: "Annual Show",
     image: "/images/gallery/Show 43-11.jpg",
     alt: "Annual Show 2011 - 43 2011",
@@ -3131,7 +3131,7 @@ const items: GalleryItem[] = [
   {
     id: 538,
     title: "Annual Show 2011 - Extra 2",
-    caption: "GSBS Annual Bonsai Show 2011 — additional exhibit photos",
+    caption: "GSBS Annual Bonsai Show 2011  -  additional exhibit photos",
     category: "Annual Show",
     image: "/images/gallery/Show-11-02.JPG",
     alt: "Annual Show 2011 - Extra 2 2011",
@@ -3140,7 +3140,7 @@ const items: GalleryItem[] = [
   {
     id: 540,
     title: "Annual Show 2011 - Extra 4",
-    caption: "GSBS Annual Bonsai Show 2011 — additional exhibit photos",
+    caption: "GSBS Annual Bonsai Show 2011  -  additional exhibit photos",
     category: "Annual Show",
     image: "/images/gallery/Show-11-04.JPG",
     alt: "Annual Show 2011 - Extra 4 2011",
@@ -3149,7 +3149,7 @@ const items: GalleryItem[] = [
   {
     id: 542,
     title: "Annual Show 2011 - Extra 6",
-    caption: "GSBS Annual Bonsai Show 2011 — additional exhibit photos",
+    caption: "GSBS Annual Bonsai Show 2011  -  additional exhibit photos",
     category: "Annual Show",
     image: "/images/gallery/Show-11-06.JPG",
     alt: "Annual Show 2011 - Extra 6 2011",
@@ -3158,7 +3158,7 @@ const items: GalleryItem[] = [
   {
     id: 544,
     title: "Annual Show 2011 - Extra 8",
-    caption: "GSBS Annual Bonsai Show 2011 — additional exhibit photos",
+    caption: "GSBS Annual Bonsai Show 2011  -  additional exhibit photos",
     category: "Annual Show",
     image: "/images/gallery/Show-11-08.JPG",
     alt: "Annual Show 2011 - Extra 8 2011",
@@ -3167,7 +3167,7 @@ const items: GalleryItem[] = [
   {
     id: 545,
     title: "Annual Show 2011 - Extra 9",
-    caption: "GSBS Annual Bonsai Show 2011 — additional exhibit photos",
+    caption: "GSBS Annual Bonsai Show 2011  -  additional exhibit photos",
     category: "Annual Show",
     image: "/images/gallery/Show-11-09.JPG",
     alt: "Annual Show 2011 - Extra 9 2011",
@@ -3175,92 +3175,92 @@ const items: GalleryItem[] = [
   },
   {
     id: 583,
-    title: "Member Tree — J. Roth 6",
+    title: "Member Tree  -  J. Roth 6",
     caption: "J. Roth bonsai from GSBS member collection, 2010",
     category: "Member Trees",
     image: "/images/gallery/JRoth 06-10.JPG",
-    alt: "Member Tree — J. Roth 6 2010",
+    alt: "Member Tree  -  J. Roth 6 2010",
     year: "2010",
   },
   {
     id: 584,
-    title: "Member Tree — J. Roth 7",
+    title: "Member Tree  -  J. Roth 7",
     caption: "J. Roth bonsai from GSBS member collection, 2010",
     category: "Member Trees",
     image: "/images/gallery/JRoth 07-10.JPG",
-    alt: "Member Tree — J. Roth 7 2010",
+    alt: "Member Tree  -  J. Roth 7 2010",
     year: "2010",
   },
   {
     id: 585,
-    title: "Member Tree — J. Roth 8",
+    title: "Member Tree  -  J. Roth 8",
     caption: "J. Roth bonsai from GSBS member collection, 2010",
     category: "Member Trees",
     image: "/images/gallery/JRoth 08-10.JPG",
-    alt: "Member Tree — J. Roth 8 2010",
+    alt: "Member Tree  -  J. Roth 8 2010",
     year: "2010",
   },
   {
     id: 586,
-    title: "Member Tree — J. Roth 9",
+    title: "Member Tree  -  J. Roth 9",
     caption: "J. Roth bonsai from GSBS member collection, 2010",
     category: "Member Trees",
     image: "/images/gallery/JRoth 09-10.JPG",
-    alt: "Member Tree — J. Roth 9 2010",
+    alt: "Member Tree  -  J. Roth 9 2010",
     year: "2010",
   },
   {
     id: 603,
-    title: "Member Tree — Bonsai (Edited)",
+    title: "Member Tree  -  Bonsai (Edited)",
     caption: "Bonsai from GSBS member collection",
     category: "Member Trees",
     image: "/images/gallery/bonsai1_edited.jpg",
-    alt: "Member Tree — Bonsai (Edited) c. 2005",
+    alt: "Member Tree  -  Bonsai (Edited) c. 2005",
     year: "c. 2005",
   },
   {
     id: 604,
-    title: "Member Tree — Photo 1",
+    title: "Member Tree  -  Photo 1",
     caption: "Bonsai from GSBS member collection",
     category: "Member Trees",
     image: "/images/gallery/PC140285.JPG",
-    alt: "Member Tree — Photo 1 c. 2010",
+    alt: "Member Tree  -  Photo 1 c. 2010",
     year: "c. 2010",
   },
   {
     id: 605,
-    title: "Member Tree — Photo 2",
+    title: "Member Tree  -  Photo 2",
     caption: "Bonsai from GSBS member collection",
     category: "Member Trees",
     image: "/images/gallery/PC140286.JPG",
-    alt: "Member Tree — Photo 2 c. 2010",
+    alt: "Member Tree  -  Photo 2 c. 2010",
     year: "c. 2010",
   },
   {
     id: 606,
-    title: "Member Tree — Photo 3",
+    title: "Member Tree  -  Photo 3",
     caption: "Bonsai from GSBS member collection",
     category: "Member Trees",
     image: "/images/gallery/PC140288.JPG",
-    alt: "Member Tree — Photo 3 c. 2010",
+    alt: "Member Tree  -  Photo 3 c. 2010",
     year: "c. 2010",
   },
   {
     id: 607,
-    title: "Member Tree — Photo 4",
+    title: "Member Tree  -  Photo 4",
     caption: "Bonsai from GSBS member collection",
     category: "Member Trees",
     image: "/images/gallery/PC140292.JPG",
-    alt: "Member Tree — Photo 4 c. 2010",
+    alt: "Member Tree  -  Photo 4 c. 2010",
     year: "c. 2010",
   },
   {
     id: 608,
-    title: "Member Tree — Photo 5",
+    title: "Member Tree  -  Photo 5",
     caption: "Bonsai from GSBS member collection",
     category: "Member Trees",
     image: "/images/gallery/PC140297.JPG",
-    alt: "Member Tree — Photo 5 c. 2010",
+    alt: "Member Tree  -  Photo 5 c. 2010",
     year: "c. 2010",
   },
 
@@ -3837,7 +3837,7 @@ export default function GalleryGrid() {
       </div>
 
       <p className="text-center text-sm text-gray-500 mb-8">
-        {filtered.length} {filtered.length === 1 ? "photo" : "photos"} — click any image to enlarge
+        {filtered.length} {filtered.length === 1 ? "photo" : "photos"}  -  click any image to enlarge
       </p>
 
       {/* Grid */}

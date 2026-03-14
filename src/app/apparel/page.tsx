@@ -4,7 +4,7 @@ import { Mail } from "lucide-react";
 export const metadata: Metadata = {
   title: "GSBS Apparel · Great Swamp Bonsai Society",
   description:
-    "Great Swamp Bonsai Society branded apparel — caps, polo shirts, and t-shirts featuring the GSBS logo. Contact Diego Garnica to order.",
+    "Great Swamp Bonsai Society branded apparel  -  caps, polo shirts, and t-shirts featuring the GSBS logo. Contact Diego Garnica to order.",
   openGraph: {
     title: "GSBS Apparel · Great Swamp Bonsai Society",
     description:
@@ -34,14 +34,14 @@ const items: ApparelItem[] = [
   {
     name: "GSBS Under Armour Polo Shirt",
     price: "$80",
-    note: "Made to order — pictured without tag in front",
+    note: "Made to order  -  pictured without tag in front",
     image: "/images/apparel/gsbs-polo-underarmour.jpg",
     alt: "Black Under Armour polo shirt with embroidered GSBS bonsai tree logo",
   },
   {
     name: 'GSBS "No Name" Polo Shirt',
     price: "$50",
-    note: "Made to order — pictured with tag",
+    note: "Made to order  -  pictured with tag",
     image: "/images/apparel/gsbs-polo-noname.jpg",
     alt: "Dark navy Maelreg polo shirt with embroidered GSBS bonsai tree logo",
   },

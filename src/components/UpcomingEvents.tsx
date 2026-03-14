@@ -6,19 +6,19 @@ const events = [
     date: "Apr 14",
     title: "Jonas Dupuich Workshop & Meeting",
     description:
-      "Afternoon hands-on workshop with master bonsai artist Jonas Dupuich ($50, BYOT). Evening lecture and live demo at 6:00 PM — free and open to all.",
+      "Afternoon hands-on workshop with master bonsai artist Jonas Dupuich ($50, BYOT). Evening lecture and live demo at 6:00 PM  -  free and open to all.",
     highlight: true,
   },
   {
     date: "Jun 6",
     title: "Annual Bonsai Show",
     description:
-      "Garibaldi Hall, 11 AM–3 PM. Dozens of stunning exhibits, live demonstrations, and expert advice. Free admission — open to the public.",
+      "Garibaldi Hall, 11 AM–3 PM. Dozens of stunning exhibits, live demonstrations, and expert advice. Free admission  -  open to the public.",
     highlight: true,
   },
   {
     date: "May 12",
-    title: "Monthly Meeting — Air Layering",
+    title: "Monthly Meeting  -  Air Layering",
     description:
       "Learn air layering and propagation techniques to expand your bonsai collection. 6:00–9:00 PM at the Environmental Center.",
     highlight: false,

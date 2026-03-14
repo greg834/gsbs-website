@@ -21,13 +21,13 @@ const months = [
     icon: Snowflake,
     summary: "Protect & Plan",
     tips: [
-      "Protect trees from extreme cold — check that soil hasn't dried out under snow cover.",
+      "Protect trees from extreme cold  -  check that soil hasn't dried out under snow cover.",
       "Excellent month for heavy pruning, new design work, carving, and needle plucking on pines.",
       "Plan your spring repotting schedule and order supplies.",
       "Check stored trees weekly for moisture and pest issues.",
-      "Study deciduous tree structure while bare — perfect for evaluating branch placement.",
-      "Remove trees from glazed containers if possible — glazed pottery tends to crack and spall (shed outer surfaces) in freeze-thaw cycles.",
-      "Watch out for rodents girdling bark on dormant trees — use mothballs or hardware cloth around pots.",
+      "Study deciduous tree structure while bare  -  perfect for evaluating branch placement.",
+      "Remove trees from glazed containers if possible  -  glazed pottery tends to crack and spall (shed outer surfaces) in freeze-thaw cycles.",
+      "Watch out for rodents girdling bark on dormant trees  -  use mothballs or hardware cloth around pots.",
     ],
     species: {
       deciduous: "Evaluate branch structure. Prune for shape while dormant. Keep roots from freezing solid.",
@@ -44,8 +44,8 @@ const months = [
       "Prepare bonsai compost: peat, garden compost, sand/grit with slow-release fertilizer.",
       "In mild spells, begin repotting and wiring deciduous trees.",
       "Branch pruning can be done on most trees except Japanese maples and pines.",
-      "Check wire on evergreens — branches may swell as sap begins to rise.",
-      "Late winter is a good time to take hardwood cuttings for propagation — and remember: if in doubt about repotting, wait another year.",
+      "Check wire on evergreens  -  branches may swell as sap begins to rise.",
+      "Late winter is a good time to take hardwood cuttings for propagation  -  and remember: if in doubt about repotting, wait another year.",
       "Start seeds indoors for species you want to grow from scratch.",
     ],
     species: {
@@ -60,10 +60,10 @@ const months = [
     icon: Leaf,
     summary: "Repot & Collect",
     tips: [
-      "Prime repotting season — root-prune and repot most species this month.",
+      "Prime repotting season  -  root-prune and repot most species this month.",
       "Gradually bring trees out of winter shelter as frost risk decreases.",
       "Spray for fungus and insects on warm days before buds open.",
-      "Good month for collecting trees from the wild (yamadori) — dig before leaves emerge.",
+      "Good month for collecting trees from the wild (yamadori)  -  dig before leaves emerge.",
       "Begin light fertilizing as growth starts.",
       "Repotting frequency varies by age: young trees every 1–2 years, mature trees every 3–5 years.",
       "When using insecticides or fungicides on container-grown trees, apply at half the label strength to avoid root burn.",
@@ -82,10 +82,10 @@ const months = [
     tips: [
       "Begin feeding, pinching, watering, and pruning in earnest.",
       "Still a decent month for root-pruning and collecting trees from field or yard.",
-      "Be mindful of late cold snaps — protect tender new growth that could freeze in the next inevitable cold snap.",
+      "Be mindful of late cold snaps  -  protect tender new growth that could freeze in the next inevitable cold snap.",
       "Start air layering projects on healthy, vigorous trees.",
-      "Watch for aphids on new growth — treat early.",
-      "Consider pelleted surface fertilizer (e.g., Osmocote) that releases nutrients gradually with each watering — a reliable hands-off approach recommended by veteran GSBS members.",
+      "Watch for aphids on new growth  -  treat early.",
+      "Consider pelleted surface fertilizer (e.g., Osmocote) that releases nutrients gradually with each watering  -  a reliable hands-off approach recommended by veteran GSBS members.",
     ],
     species: {
       deciduous: "Pinch new growth to maintain shape. Begin regular fertilizing. Last chance to repot most species.",
@@ -99,12 +99,12 @@ const months = [
     icon: Sun,
     summary: "Water & Watch",
     tips: [
-      "Daily watering begins — check soil moisture morning and evening.",
+      "Daily watering begins  -  check soil moisture morning and evening.",
       "Take softwood cuttings and continue air-layering projects.",
-      "Watch wired branches carefully — deciduous trees expand quickly in May and June.",
+      "Watch wired branches carefully  -  deciduous trees expand quickly in May and June.",
       "Remove wire before it bites into bark on fast-growing species.",
       "Defoliate strong trees if needed for ramification.",
-      "Consider softwood cuttings of Chinese elm, zelkova, Japanese maple, and trident maple — they typically root within 3–4 weeks under good conditions and can be individually potted by July.",
+      "Consider softwood cuttings of Chinese elm, zelkova, Japanese maple, and trident maple  -  they typically root within 3–4 weeks under good conditions and can be individually potted by July.",
     ],
     species: {
       deciduous: "Pinch constantly. Remove wire that's cutting in. Defoliate strong maples for smaller leaves.",
@@ -120,14 +120,14 @@ const months = [
     tips: [
       "Pinch terminal buds on deciduous trees, leaving one pair of leaves.",
       "Candle-pinching for pines should be winding down by mid-June.",
-      "Watch closely for insect pests — scale, spider mites, and caterpillars.",
+      "Watch closely for insect pests  -  scale, spider mites, and caterpillars.",
       "Move trees to partial shade if temperatures exceed 95°F.",
       "Continue regular fertilizing on all species.",
-      "Chinese junipers are the only trees to safely repot this month — provided they are shielded from drying wind and full sun. If a tree has outgrown its pot, move it to a larger container without disturbing roots.",
-      "Early morning or evening is best for misting foliage — water left on leaves in full sun causes leaf burn.",
+      "Chinese junipers are the only trees to safely repot this month  -  provided they are shielded from drying wind and full sun. If a tree has outgrown its pot, move it to a larger container without disturbing roots.",
+      "Early morning or evening is best for misting foliage  -  water left on leaves in full sun causes leaf burn.",
     ],
     species: {
-      deciduous: "Second flush of growth — continue pinching. Watch for powdery mildew.",
+      deciduous: "Second flush of growth  -  continue pinching. Watch for powdery mildew.",
       coniferous: "Cut back juniper shoots to 2-3 clusters. Final pine candle work.",
       tropical: "Heavy growth period. Can do major styling work. Water twice daily in heat.",
     },
@@ -140,15 +140,15 @@ const months = [
     tips: [
       "Feeding, pinching, and pruning in full swing.",
       "Keep plucking terminal buds off junipers and cedars for dense pads.",
-      "Spray in shade if using pest chemicals — avoid leaf burn.",
+      "Spray in shade if using pest chemicals  -  avoid leaf burn.",
       "Mulch soil surface to retain moisture in extreme heat.",
       "Provide afternoon shade for sensitive species.",
-      "Vigorous growth from spring may slow mid-month before a second surge at the tips of earlier shoots — continue pinching as new growth appears.",
+      "Vigorous growth from spring may slow mid-month before a second surge at the tips of earlier shoots  -  continue pinching as new growth appears.",
       "Shari (deadwood on trunk) can be created now while the sap is still flowing and the bark is easier to loosen and remove.",
     ],
     species: {
       deciduous: "Continue maintenance pruning. Reduce fertilizer if trees are stressed by heat.",
-      coniferous: "Pluck junipers and cedars. Hold off on heavy work — save for fall.",
+      coniferous: "Pluck junipers and cedars. Hold off on heavy work  -  save for fall.",
       tropical: "Peak season. Can repot if needed. Watch for root-bound conditions.",
     },
   },
@@ -159,17 +159,17 @@ const months = [
     summary: "Hydrate & Harden",
     tips: [
       "Water every day, possibly twice in hot weather.",
-      "Reduce nitrogen — increase potassium and phosphorus to harden growth.",
+      "Reduce nitrogen  -  increase potassium and phosphorus to harden growth.",
       "Loosen wire that's biting into branches before it scars.",
-      "Begin hardening trees for fall — reduce pinching frequency.",
-      "Last chance for air layering — layers need time to root before fall.",
-      "Next year's buds, leaves, and flowers are already being set this month — heavy pruning now may trigger new growth that won't harden before winter.",
+      "Begin hardening trees for fall  -  reduce pinching frequency.",
+      "Last chance for air layering  -  layers need time to root before fall.",
+      "Next year's buds, leaves, and flowers are already being set this month  -  heavy pruning now may trigger new growth that won't harden before winter.",
       "Stop leaf pruning of deciduous trees by the end of August.",
-      "Eliminate nitrogen fertilizer entirely by month's end — switch to a high-potassium formulation.",
+      "Eliminate nitrogen fertilizer entirely by month's end  -  switch to a high-potassium formulation.",
     ],
     species: {
       deciduous: "Shift to low-nitrogen fertilizer. Allow growth to harden. Final defoliation window.",
-      coniferous: "Needle pull pines if not done. Wire junipers — fall wiring season begins.",
+      coniferous: "Needle pull pines if not done. Wire junipers  -  fall wiring season begins.",
       tropical: "Continue normal care. Begin reducing fertilizer late in month.",
     },
   },
@@ -179,15 +179,15 @@ const months = [
     icon: Leaf,
     summary: "Harden & Cut",
     tips: [
-      "Begin hardening-off for winter in earnest — avoid drastic pruning, collecting, or repotting.",
+      "Begin hardening-off for winter in earnest  -  avoid drastic pruning, collecting, or repotting.",
       "Apply low-nitrogen fertilizer (higher in potassium and phosphorus) after leaves fall but before November to promote bud formation and strengthen roots.",
       "Take hardwood cuttings for propagation. This is the last opportunity to pot up air layerings before winter.",
-      "Plan and prepare winter storage area — an unheated shed or garage that stays above 35°F is ideal.",
+      "Plan and prepare winter storage area  -  an unheated shed or garage that stays above 35°F is ideal.",
       "Remove wire from branches that have set properly. Be aware of thickening branches on wired pines.",
-      "Enjoy autumn color — photograph your trees at their peak.",
-      "This is the last opportunity for Jin and Shari work while sap is still flowing — bark becomes much harder to loosen after temperatures drop.",
+      "Enjoy autumn color  -  photograph your trees at their peak.",
+      "This is the last opportunity for Jin and Shari work while sap is still flowing  -  bark becomes much harder to loosen after temperatures drop.",
       "Remove leaf litter and debris from soil surface to prevent disease from taking hold. Dead moss should also be cleared away.",
-      "Moss planted in September will grow through warm autumn spells and establish well by spring — limit it to areas around roots, as too much harbors pests.",
+      "Moss planted in September will grow through warm autumn spells and establish well by spring  -  limit it to areas around roots, as too much harbors pests.",
     ],
     species: {
       deciduous: "Final pruning for shape before dormancy. Heavy feeding with 0-10-10.",
@@ -201,14 +201,14 @@ const months = [
     icon: CloudRain,
     summary: "Prune & Prepare",
     tips: [
-      "Growth drawing to a close — stop fertilizing most species.",
-      "Heavy branch pruning on pines — wounds seal slowly in fall, reducing sap bleed.",
-      "Prepare winter storage area — cold frame, garage, or unheated room.",
+      "Growth drawing to a close  -  stop fertilizing most species.",
+      "Heavy branch pruning on pines  -  wounds seal slowly in fall, reducing sap bleed.",
+      "Prepare winter storage area  -  cold frame, garage, or unheated room.",
       "Many evergreens can be wire-trained in autumn.",
       "Clean and oil tools for winter storage.",
-      "October is prime time to scout garden centers — many discount trees and shrubs up to 50%. Look in the back for stock with broken tops or low crooked branches that normal shoppers pass over — perfect bonsai candidates.",
-      "Remove any wire that is beginning to dig into branches. Snip carefully with a wire cutter rather than unwinding — unwinding can snap set branches. Avoid re-wiring now; wait until spring.",
-      "Keep an eye out for plants to dig and pot for next year's training — hardwood cuttings and hard-shelled seeds can be planted outdoors now.",
+      "October is prime time to scout garden centers  -  many discount trees and shrubs up to 50%. Look in the back for stock with broken tops or low crooked branches that normal shoppers pass over  -  perfect bonsai candidates.",
+      "Remove any wire that is beginning to dig into branches. Snip carefully with a wire cutter rather than unwinding  -  unwinding can snap set branches. Avoid re-wiring now; wait until spring.",
+      "Keep an eye out for plants to dig and pot for next year's training  -  hardwood cuttings and hard-shelled seeds can be planted outdoors now.",
     ],
     species: {
       deciduous: "Stop feeding. Allow natural leaf drop. Clean fallen leaves from soil surface.",
@@ -224,13 +224,13 @@ const months = [
     tips: [
       "Trees can remain outdoors until month's end in most NJ locations.",
       "Check for insects and spray before moving to winter storage.",
-      "Remove dead leaves and branches — clean up for winter.",
+      "Remove dead leaves and branches  -  clean up for winter.",
       "Tropical bonsai should already be indoors with supplemental lighting.",
       "Reduce watering frequency but don't let roots dry out completely.",
       "Protect container trees from winter rodents: wrap hardware cloth around pots or move trees into a cold frame.",
-      "Only rough pruning of raw material should be attempted now — leave short stubs that can be refined to shape in spring. Well-sealed wounds may still die back around edges if winter is severe.",
-      "Spray trees with a non-systemic fungicide before storage — gives the material time to work before trees return in spring. Clean display areas and spray with fungicide and pesticide to eliminate overwintering pests.",
-      "You may have luck with hardwood cuttings taken now — some species root reliably from November cuttings.",
+      "Only rough pruning of raw material should be attempted now  -  leave short stubs that can be refined to shape in spring. Well-sealed wounds may still die back around edges if winter is severe.",
+      "Spray trees with a non-systemic fungicide before storage  -  gives the material time to work before trees return in spring. Clean display areas and spray with fungicide and pesticide to eliminate overwintering pests.",
+      "You may have luck with hardwood cuttings taken now  -  some species root reliably from November cuttings.",
     ],
     species: {
       deciduous: "Move to winter protection after hard frost. Water lightly.",
@@ -244,15 +244,15 @@ const months = [
     icon: Snowflake,
     summary: "Assess & Design",
     tips: [
-      "Assess deciduous tree design while bare — the true structure is revealed.",
-      "Wire evergreens (not deciduous — branches too brittle when frozen).",
+      "Assess deciduous tree design while bare  -  the true structure is revealed.",
+      "Wire evergreens (not deciduous  -  branches too brittle when frozen).",
       "Plan repotting schedule for spring and order soil components.",
       "Mix soil, clean and sharpen tools, organize supplies.",
       "Prevent soil freeze-thaw cycles and wind dehydration in storage.",
-      "A cold frame — an unheated structure that stays just above freezing — protects trees from desiccating winter winds while preserving natural dormancy.",
+      "A cold frame  -  an unheated structure that stays just above freezing  -  protects trees from desiccating winter winds while preserving natural dormancy.",
       "Hardy species can be dug and potted into large containers or growing beds now. Large fully-hardy deciduous trees can be repotted if roots can be protected from hard frost all winter.",
-      "Inspect conifers for scale, galls, and spider mite — spray on dry, sunny days when temperatures are above freezing.",
-      "If any tree failed to show growth by mid-season, inspect carefully both above and below ground to understand the cause — this knowledge helps prevent future losses.",
+      "Inspect conifers for scale, galls, and spider mite  -  spray on dry, sunny days when temperatures are above freezing.",
+      "If any tree failed to show growth by mid-season, inspect carefully both above and below ground to understand the cause  -  this knowledge helps prevent future losses.",
     ],
     species: {
       deciduous: "Study structure. Sketch design plans. Keep roots from freezing solid.",
@@ -355,7 +355,7 @@ export default function CareGuidePage() {
               <div className="bg-white border border-gray-200 rounded-lg overflow-hidden">
                 <div className="border-b border-gray-200 px-6 py-4">
                   <h3 className="font-serif font-bold text-gray-900 text-lg">
-                    Species-Specific Tips — {month.name}
+                    Species-Specific Tips  -  {month.name}
                   </h3>
                 </div>
                 <div className="flex border-b border-gray-200">
@@ -389,7 +389,7 @@ export default function CareGuidePage() {
               </div>
             </div>
 
-            {/* Sidebar — Quick Reference */}
+            {/* Sidebar  -  Quick Reference */}
             <div className="space-y-6">
               <div className="bg-gsbs-navy text-white rounded-lg p-6">
                 <h3 className="font-serif font-bold text-lg mb-4">Quick Reference</h3>
@@ -402,7 +402,7 @@ export default function CareGuidePage() {
                         {month.season === "summer" ? "Daily, possibly twice in heat" :
                          month.season === "spring" ? "Increase as growth begins" :
                          month.season === "autumn" ? "Reduce as growth slows" :
-                         "Minimal — check weekly"}
+                         "Minimal  -  check weekly"}
                       </p>
                     </div>
                   </div>
@@ -411,10 +411,10 @@ export default function CareGuidePage() {
                     <div>
                       <p className="font-medium text-white">Fertilizing</p>
                       <p className="text-gray-400 mt-0.5">
-                        {month.season === "summer" ? "Regular — reduce nitrogen in late summer" :
+                        {month.season === "summer" ? "Regular  -  reduce nitrogen in late summer" :
                          month.season === "spring" ? "Begin as buds open" :
                          month.season === "autumn" ? "Low-nitrogen, stop by November" :
-                         "None — trees are dormant"}
+                         "None  -  trees are dormant"}
                       </p>
                     </div>
                   </div>
@@ -558,7 +558,7 @@ export default function CareGuidePage() {
             description: "Month-by-month bonsai care tips covering watering, pruning, repotting, and fertilizing for deciduous, coniferous, and tropical bonsai in the Northeast US climate.",
             step: months.map((m) => ({
               "@type": "HowToStep",
-              name: `${m.name} — ${m.summary}`,
+              name: `${m.name}  -  ${m.summary}`,
               text: m.tips.join(" "),
             })),
           }),

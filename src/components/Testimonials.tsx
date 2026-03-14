@@ -24,7 +24,7 @@ const testimonials = [
   },
   {
     quote:
-      "The guest artists GSBS brings in are world-class. Boon Manakitivipart, Marc Noelanders, Jonas Dupuich — these are names you see at national conventions, and they come right to our club in Roseland.",
+      "The guest artists GSBS brings in are world-class. Boon Manakitivipart, Marc Noelanders, Jonas Dupuich  -  these are names you see at national conventions, and they come right to our club in Roseland.",
     name: "GSBS Member",
     detail: "Member since 2011",
   },
