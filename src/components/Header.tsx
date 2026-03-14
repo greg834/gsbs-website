@@ -60,7 +60,7 @@ export default function Header() {
         <div className="flex items-center justify-between h-14 sm:h-16">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2 shrink-0">
-            <img src="/images/gsbs-logo.png" alt="Great Swamp Bonsai Society logo" className="h-9 w-auto" />
+            <img src="/images/gsbs-logo.png" alt="Great Swamp Bonsai Society logo" className="h-10 w-10 object-contain rounded-full" />
             <span className="hidden sm:block text-white font-serif font-bold text-sm leading-tight">
               Great Swamp<br />Bonsai Society
             </span>
