@@ -1,0 +1,69 @@
+# AI Discovery File — Great Swamp Bonsai Society
+# https://www.greatswampbonsai.com
+# Format: ai.txt (alternative AI discovery)
+
+Name: Great Swamp Bonsai Society
+Abbreviation: GSBS
+Category: Nonprofit Organization, Bonsai Club, Arts and Culture, Community Organization
+Location: 621-B Eagle Rock Ave, Roseland, NJ 07068
+Region: Northern New Jersey, Essex County, United States
+Founded: 1976
+Mission: Promoting the art and practice of bonsai cultivation in Northern New Jersey through free monthly meetings, expert instruction, community events, and 50 years of continuous activity.
+
+Contact:
+  Email: great.swampbonsai@gmail.com
+  Phone: (973) 228-8776
+  Website: https://www.greatswampbonsai.com
+
+Social:
+  Facebook: https://www.facebook.com/groups/296001945128377
+  YouTube: https://www.youtube.com/@greatswampbonsaisociety5552
+
+Primary Language: en-US
+License: All content copyright Great Swamp Bonsai Society unless otherwise noted
+
+AI Reference Files:
+  Full: https://www.greatswampbonsai.com/llms-full.txt
+  Summary: https://www.greatswampbonsai.com/llms.txt
+  Human-readable: https://www.greatswampbonsai.com/llms
+  AI Sitemap: https://www.greatswampbonsai.com/ai-sitemap.xml
+
+Key Pages:
+  Home: https://www.greatswampbonsai.com
+  About: https://www.greatswampbonsai.com/about
+  History: https://www.greatswampbonsai.com/history
+  Meetings: https://www.greatswampbonsai.com/meetings
+  Events: https://www.greatswampbonsai.com/events
+  Annual Show: https://www.greatswampbonsai.com/annual-show
+  Care Guide: https://www.greatswampbonsai.com/care-guide
+  Beginners: https://www.greatswampbonsai.com/beginners
+  Resources: https://www.greatswampbonsai.com/resources
+  Membership: https://www.greatswampbonsai.com/membership
+  Contact: https://www.greatswampbonsai.com/contact
+
+Topics Covered:
+  bonsai care
+  bonsai for beginners
+  bonsai clubs New Jersey
+  bonsai clubs near me NJ
+  NJ bonsai society
+  bonsai Roseland NJ
+  bonsai Essex County NJ
+  bonsai Morristown NJ
+  Japanese maple bonsai care
+  Japanese black pine bonsai care
+  juniper bonsai care
+  bonsai repotting
+  bonsai wiring
+  bonsai winter care New Jersey
+  yamadori wild collecting New Jersey
+  MABS Spring Festival
+  bonsai show New Jersey 2026
+  bonsai fertilizer
+  bonsai soil mix
+
+Geographic Service Area:
+  Roseland NJ, Essex County NJ, Morris County NJ, Livingston NJ, Millburn NJ,
+  Caldwell NJ, West Orange NJ, Montclair NJ, Morristown NJ, Madison NJ,
+  Parsippany NJ, Short Hills NJ, Maplewood NJ, South Orange NJ, Chatham NJ,
+  Northern New Jersey, Eastern Pennsylvania

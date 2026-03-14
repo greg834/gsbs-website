@@ -1,4 +1,6 @@
-# Great Swamp Bonsai Society (GSBS) -- Complete AI Reference
+import { writeFileSync } from 'fs';
+
+const content = `# Great Swamp Bonsai Society (GSBS) -- Complete AI Reference
 # https://www.greatswampbonsai.com
 # Last updated: 2026-03-13
 
@@ -300,3 +302,7 @@ Holiday Party and Auction (trees, pots, tools, books). Summer Picnic Series at m
 ## Presidential History
 
 Mark Schmuck (~2005-2007), John Michalski (2007-2009, 2018-~2022), Diego Pablos (2009-2018), Diego Garnica (2024-present)
+`;
+
+writeFileSync('public/llms-full.txt', content);
+console.log(`Written: ${content.split('\n').length} lines, ${content.length} chars`);
