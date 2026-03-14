@@ -435,7 +435,7 @@ const items: GalleryItem[] = [
     caption: "Exhibition hall overview at the 2011 annual show",
     category: "Annual Show",
     image: "/images/gallery/show-11-overview.jpg",
-    alt: "Overview of GSBS Annual Show 2011",
+    alt: "Overview of Great Swamp Bonsai Society Annual Show 2011, Roseland New Jersey",
     year: "2011",
   },
   {
@@ -453,7 +453,7 @@ const items: GalleryItem[] = [
     caption: "Formal display at the 2011 annual show",
     category: "Annual Show",
     image: "/images/gallery/show-11-display.jpg",
-    alt: "Bonsai display at GSBS Annual Show 2011",
+    alt: "Bonsai exhibit at Great Swamp Bonsai Society Annual Show 2011 #1, Roseland NJ",
     year: "2011",
   },
   {
@@ -633,7 +633,7 @@ const items: GalleryItem[] = [
     caption: "GSBS members at the MABS Spring Festival 2010",
     category: "MABS",
     image: "/images/gallery/mabs-2010-a.jpg",
-    alt: "GSBS at MABS Spring Festival 2010",
+    alt: "Great Swamp Bonsai Society bonsai display at MABS Spring Festival 2010, NJ bonsai club",
     year: "2010",
   },
   {
@@ -642,7 +642,7 @@ const items: GalleryItem[] = [
     caption: "Bonsai exhibits at the MABS Spring Festival 2010",
     category: "MABS",
     image: "/images/gallery/mabs-2010-b.jpg",
-    alt: "Bonsai exhibits at MABS Spring Festival 2010",
+    alt: "Bonsai exhibits at MABS Spring Festival 2010, Mid-Atlantic Bonsai Societies",
     year: "2010",
   },
 
@@ -653,7 +653,7 @@ const items: GalleryItem[] = [
     caption: "Bonsai exhibit at the 22nd MABS Spring Festival, Ramada Inn, East Hanover",
     category: "MABS",
     image: "/images/gallery/mabs-05-display-1.jpg",
-    alt: "Bonsai on display at MABS Spring Festival 2005",
+    alt: "Bonsai tree exhibit #1 at MABS Spring Festival 2005, Mid-Atlantic Bonsai Societies",
     tall: true,
     year: "2005",
   },
@@ -663,7 +663,7 @@ const items: GalleryItem[] = [
     caption: "Exhibition tree at the 2005 MABS Spring Festival",
     category: "MABS",
     image: "/images/gallery/mabs-05-display-2.jpg",
-    alt: "Exhibition bonsai at MABS 2005",
+    alt: "Exhibition bonsai #1 at MABS 2005 Spring Festival, Mid-Atlantic Bonsai Societies",
     tall: true,
     year: "2005",
   },
@@ -673,7 +673,7 @@ const items: GalleryItem[] = [
     caption: "Member exhibit at the MABS 2005 exhibition",
     category: "MABS",
     image: "/images/gallery/mabs-05-display-5.jpg",
-    alt: "Member bonsai exhibit at MABS 2005",
+    alt: "Member bonsai exhibit at MABS Spring Festival 2005, Great Swamp Bonsai Society NJ",
     year: "2005",
   },
   {
@@ -756,7 +756,7 @@ const items: GalleryItem[] = [
     caption: "Bonsai exhibit at the 23rd MABS Spring Festival, 2006",
     category: "MABS",
     image: "/images/gallery/mabs-06-display-1.jpg",
-    alt: "Bonsai on display at MABS Spring Festival 2006",
+    alt: "Bonsai tree exhibit #1 at MABS Spring Festival 2006, Mid-Atlantic Bonsai Societies",
     tall: true,
     year: "2006",
   },
@@ -766,7 +766,7 @@ const items: GalleryItem[] = [
     caption: "Exhibition tree at the 2006 MABS Spring Festival",
     category: "MABS",
     image: "/images/gallery/mabs-06-display-2.jpg",
-    alt: "Exhibition bonsai at MABS 2006",
+    alt: "Exhibition bonsai #2 at MABS 2006 Spring Festival, Mid-Atlantic Bonsai Societies",
     tall: true,
     year: "2006",
   },
@@ -839,7 +839,7 @@ const items: GalleryItem[] = [
     caption: "Exhibition bonsai at MABS 2006",
     category: "MABS",
     image: "/images/gallery/mabs-06-display-12.jpg",
-    alt: "Exhibition bonsai at MABS 2006",
+    alt: "Exhibition bonsai #3 at MABS 2006 Spring Festival, Mid-Atlantic Bonsai Societies",
     year: "2006",
   },
   {
@@ -959,7 +959,7 @@ const items: GalleryItem[] = [
     caption: "Isao Omachi (Japan) demonstrates on a Pine at the 29th MABS Spring Festival, 2012",
     category: "MABS",
     image: "/images/gallery/mabs-12-omachi-pine-01.jpg",
-    alt: "Isao Omachi Japanese pine bonsai demonstration MABS 2012",
+    alt: "Isao Omachi Japanese black pine bonsai demonstration step 1 at MABS 2012 Spring Festival",
     tall: true,
     year: "2012",
   },
@@ -969,7 +969,7 @@ const items: GalleryItem[] = [
     caption: "Isao Omachi (Japan) demonstrates on a Pine at the 29th MABS Spring Festival, 2012",
     category: "MABS",
     image: "/images/gallery/mabs-12-omachi-pine-02.jpg",
-    alt: "Isao Omachi Japanese pine bonsai demonstration MABS 2012",
+    alt: "Isao Omachi Japanese black pine bonsai demonstration step 2 at MABS 2012 Spring Festival",
     year: "2012",
   },
   {
@@ -978,7 +978,7 @@ const items: GalleryItem[] = [
     caption: "Isao Omachi (Japan) demonstrates on a Pine at the 29th MABS Spring Festival, 2012",
     category: "MABS",
     image: "/images/gallery/mabs-12-omachi-pine-03.jpg",
-    alt: "Isao Omachi Japanese pine bonsai demonstration MABS 2012",
+    alt: "Isao Omachi Japanese black pine bonsai demonstration step 3 at MABS 2012 Spring Festival",
     year: "2012",
   },
   {
@@ -987,7 +987,7 @@ const items: GalleryItem[] = [
     caption: "Isao Omachi (Japan) demonstrates on a Pine at the 29th MABS Spring Festival, 2012",
     category: "MABS",
     image: "/images/gallery/mabs-12-omachi-pine-04.jpg",
-    alt: "Isao Omachi Japanese pine bonsai demonstration MABS 2012",
+    alt: "Isao Omachi Japanese black pine bonsai demonstration step 4 at MABS 2012 Spring Festival",
     year: "2012",
   },
   {
@@ -996,7 +996,7 @@ const items: GalleryItem[] = [
     caption: "Isao Omachi (Japan) demonstrates on a Pine at the 29th MABS Spring Festival, 2012",
     category: "MABS",
     image: "/images/gallery/mabs-12-omachi-pine-05.jpg",
-    alt: "Isao Omachi Japanese pine bonsai demonstration MABS 2012",
+    alt: "Isao Omachi Japanese black pine bonsai demonstration step 5 at MABS 2012 Spring Festival",
     year: "2012",
   },
   {
@@ -1005,7 +1005,7 @@ const items: GalleryItem[] = [
     caption: "Isao Omachi (Japan) demonstrates on a Pine at the 29th MABS Spring Festival, 2012",
     category: "MABS",
     image: "/images/gallery/mabs-12-omachi-pine-06.jpg",
-    alt: "Isao Omachi Japanese pine bonsai demonstration MABS 2012",
+    alt: "Isao Omachi Japanese black pine bonsai demonstration step 6 at MABS 2012 Spring Festival",
     year: "2012",
   },
   {
@@ -1014,7 +1014,7 @@ const items: GalleryItem[] = [
     caption: "Isao Omachi (Japan) demonstrates on a Pine at the 29th MABS Spring Festival, 2012",
     category: "MABS",
     image: "/images/gallery/mabs-12-omachi-pine-07.jpg",
-    alt: "Isao Omachi Japanese pine bonsai demonstration MABS 2012",
+    alt: "Isao Omachi Japanese black pine bonsai demonstration step 7 at MABS 2012 Spring Festival",
     year: "2012",
   },
   {
@@ -1023,7 +1023,7 @@ const items: GalleryItem[] = [
     caption: "Isao Omachi (Japan) demonstrates on a Pine at the 29th MABS Spring Festival, 2012",
     category: "MABS",
     image: "/images/gallery/mabs-12-omachi-pine-08.jpg",
-    alt: "Isao Omachi Japanese pine bonsai demonstration MABS 2012",
+    alt: "Isao Omachi Japanese black pine bonsai demonstration step 8 at MABS 2012 Spring Festival",
     year: "2012",
   },
   {
@@ -1032,7 +1032,7 @@ const items: GalleryItem[] = [
     caption: "Isao Omachi (Japan) demonstrates on a Pine at the 29th MABS Spring Festival, 2012",
     category: "MABS",
     image: "/images/gallery/mabs-12-omachi-pine-09.jpg",
-    alt: "Isao Omachi Japanese pine bonsai demonstration MABS 2012",
+    alt: "Isao Omachi Japanese black pine bonsai demonstration step 9 at MABS 2012 Spring Festival",
     year: "2012",
   },
   {
@@ -1041,7 +1041,7 @@ const items: GalleryItem[] = [
     caption: "Isao Omachi (Japan) demonstrates on a Pine at the 29th MABS Spring Festival, 2012",
     category: "MABS",
     image: "/images/gallery/mabs-12-omachi-pine-10.jpg",
-    alt: "Isao Omachi Japanese pine bonsai demonstration MABS 2012",
+    alt: "Isao Omachi Japanese black pine bonsai demonstration step 10 at MABS 2012 Spring Festival",
     year: "2012",
   },
   {
@@ -1050,7 +1050,7 @@ const items: GalleryItem[] = [
     caption: "Isao Omachi (Japan) demonstrates on a Pine at the 29th MABS Spring Festival, 2012",
     category: "MABS",
     image: "/images/gallery/mabs-12-omachi-pine-11.jpg",
-    alt: "Isao Omachi Japanese pine bonsai demonstration MABS 2012",
+    alt: "Isao Omachi Japanese black pine bonsai demonstration step 11 at MABS 2012 Spring Festival",
     year: "2012",
   },
   {
@@ -1059,7 +1059,7 @@ const items: GalleryItem[] = [
     caption: "Isao Omachi (Japan) demonstrates on a Pine at the 29th MABS Spring Festival, 2012",
     category: "MABS",
     image: "/images/gallery/mabs-12-omachi-pine-12.jpg",
-    alt: "Isao Omachi Japanese pine bonsai demonstration MABS 2012",
+    alt: "Isao Omachi Japanese black pine bonsai demonstration step 12 at MABS 2012 Spring Festival",
     year: "2012",
   },
   {
@@ -1068,7 +1068,7 @@ const items: GalleryItem[] = [
     caption: "Isao Omachi (Japan) demonstrates on a Pine at the 29th MABS Spring Festival, 2012",
     category: "MABS",
     image: "/images/gallery/mabs-12-omachi-pine-13.jpg",
-    alt: "Isao Omachi Japanese pine bonsai demonstration MABS 2012",
+    alt: "Isao Omachi Japanese black pine bonsai demonstration step 13 at MABS 2012 Spring Festival",
     year: "2012",
   },
   {
@@ -1077,7 +1077,7 @@ const items: GalleryItem[] = [
     caption: "Isao Omachi (Japan) demonstrates on a Pine at the 29th MABS Spring Festival, 2012",
     category: "MABS",
     image: "/images/gallery/mabs-12-omachi-pine-14.jpg",
-    alt: "Isao Omachi Japanese pine bonsai demonstration MABS 2012",
+    alt: "Isao Omachi Japanese black pine bonsai demonstration step 14 at MABS 2012 Spring Festival",
     year: "2012",
   },
   {
@@ -1086,7 +1086,7 @@ const items: GalleryItem[] = [
     caption: "Isao Omachi (Japan) demonstrates on a Pine at the 29th MABS Spring Festival, 2012",
     category: "MABS",
     image: "/images/gallery/mabs-12-omachi-pine-15.jpg",
-    alt: "Isao Omachi Japanese pine bonsai demonstration MABS 2012",
+    alt: "Isao Omachi Japanese black pine bonsai demonstration step 15 at MABS 2012 Spring Festival",
     year: "2012",
   },
   {
@@ -1095,7 +1095,7 @@ const items: GalleryItem[] = [
     caption: "Isao Omachi (Japan) demonstrates on a Pine at the 29th MABS Spring Festival, 2012",
     category: "MABS",
     image: "/images/gallery/mabs-12-omachi-pine-16.jpg",
-    alt: "Isao Omachi Japanese pine bonsai demonstration MABS 2012",
+    alt: "Isao Omachi Japanese black pine bonsai demonstration step 16 at MABS 2012 Spring Festival",
     year: "2012",
   },
   {
@@ -1104,7 +1104,7 @@ const items: GalleryItem[] = [
     caption: "Isao Omachi (Japan) demonstrates on a Pine at the 29th MABS Spring Festival, 2012",
     category: "MABS",
     image: "/images/gallery/mabs-12-omachi-pine-17.jpg",
-    alt: "Isao Omachi Japanese pine bonsai demonstration MABS 2012",
+    alt: "Isao Omachi Japanese black pine bonsai demonstration step 17 at MABS 2012 Spring Festival",
     year: "2012",
   },
   {
@@ -1113,7 +1113,7 @@ const items: GalleryItem[] = [
     caption: "Isao Omachi (Japan) demonstrates on a Pine at the 29th MABS Spring Festival, 2012",
     category: "MABS",
     image: "/images/gallery/mabs-12-omachi-pine-18.jpg",
-    alt: "Isao Omachi Japanese pine bonsai demonstration MABS 2012",
+    alt: "Isao Omachi Japanese black pine bonsai demonstration step 18 at MABS 2012 Spring Festival",
     year: "2012",
   },
   {
@@ -1122,7 +1122,7 @@ const items: GalleryItem[] = [
     caption: "Isao Omachi (Japan) demonstrates on a Pine at the 29th MABS Spring Festival, 2012",
     category: "MABS",
     image: "/images/gallery/mabs-12-omachi-pine-19.jpg",
-    alt: "Isao Omachi Japanese pine bonsai demonstration MABS 2012",
+    alt: "Isao Omachi Japanese black pine bonsai demonstration step 19 at MABS 2012 Spring Festival",
     year: "2012",
   },
   {
@@ -1131,7 +1131,7 @@ const items: GalleryItem[] = [
     caption: "Isao Omachi (Japan) demonstrates on a Pine at the 29th MABS Spring Festival, 2012",
     category: "MABS",
     image: "/images/gallery/mabs-12-omachi-pine-20.jpg",
-    alt: "Isao Omachi Japanese pine bonsai demonstration MABS 2012",
+    alt: "Isao Omachi Japanese black pine bonsai demonstration step 20 at MABS 2012 Spring Festival",
     year: "2012",
   },
   {
@@ -1140,7 +1140,7 @@ const items: GalleryItem[] = [
     caption: "Isao Omachi (Japan) demonstrates on a Pine at the 29th MABS Spring Festival, 2012",
     category: "MABS",
     image: "/images/gallery/mabs-12-omachi-pine-21.jpg",
-    alt: "Isao Omachi Japanese pine bonsai demonstration MABS 2012",
+    alt: "Isao Omachi Japanese black pine bonsai demonstration step 21 at MABS 2012 Spring Festival",
     year: "2012",
   },
   {
@@ -1149,7 +1149,7 @@ const items: GalleryItem[] = [
     caption: "Isao Omachi (Japan) demonstrates on a Pine at the 29th MABS Spring Festival, 2012",
     category: "MABS",
     image: "/images/gallery/mabs-12-omachi-pine-22.jpg",
-    alt: "Isao Omachi Japanese pine bonsai demonstration MABS 2012",
+    alt: "Isao Omachi Japanese black pine bonsai demonstration step 22 at MABS 2012 Spring Festival",
     year: "2012",
   },
   {
@@ -1158,7 +1158,7 @@ const items: GalleryItem[] = [
     caption: "Isao Omachi (Japan) demonstrates on a Pine at the 29th MABS Spring Festival, 2012",
     category: "MABS",
     image: "/images/gallery/mabs-12-omachi-pine-23.jpg",
-    alt: "Isao Omachi Japanese pine bonsai demonstration MABS 2012",
+    alt: "Isao Omachi Japanese black pine bonsai demonstration step 23 at MABS 2012 Spring Festival",
     year: "2012",
   },
   {
@@ -1167,7 +1167,7 @@ const items: GalleryItem[] = [
     caption: "Isao Omachi (Japan) demonstrates on a Juniper at MABS 2012 Spring Festival",
     category: "MABS",
     image: "/images/gallery/mabs-12-omachi-juniper-01.jpg",
-    alt: "Isao Omachi juniper bonsai demonstration MABS 2012",
+    alt: "Isao Omachi juniper bonsai demonstration step 1 at MABS 2012 Spring Festival",
     tall: true,
     year: "2012",
   },
@@ -1177,7 +1177,7 @@ const items: GalleryItem[] = [
     caption: "Isao Omachi (Japan) demonstrates on a Juniper at MABS 2012 Spring Festival",
     category: "MABS",
     image: "/images/gallery/mabs-12-omachi-juniper-02.jpg",
-    alt: "Isao Omachi juniper bonsai demonstration MABS 2012",
+    alt: "Isao Omachi juniper bonsai demonstration step 2 at MABS 2012 Spring Festival",
     year: "2012",
   },
   {
@@ -1186,7 +1186,7 @@ const items: GalleryItem[] = [
     caption: "Isao Omachi (Japan) demonstrates on a Juniper at MABS 2012 Spring Festival",
     category: "MABS",
     image: "/images/gallery/mabs-12-omachi-juniper-03.jpg",
-    alt: "Isao Omachi juniper bonsai demonstration MABS 2012",
+    alt: "Isao Omachi juniper bonsai demonstration step 3 at MABS 2012 Spring Festival",
     year: "2012",
   },
   {
@@ -1195,7 +1195,7 @@ const items: GalleryItem[] = [
     caption: "Isao Omachi (Japan) demonstrates on a Juniper at MABS 2012 Spring Festival",
     category: "MABS",
     image: "/images/gallery/mabs-12-omachi-juniper-04.jpg",
-    alt: "Isao Omachi juniper bonsai demonstration MABS 2012",
+    alt: "Isao Omachi juniper bonsai demonstration step 4 at MABS 2012 Spring Festival",
     year: "2012",
   },
   {
@@ -1204,7 +1204,7 @@ const items: GalleryItem[] = [
     caption: "Isao Omachi (Japan) demonstrates on a Juniper at MABS 2012 Spring Festival",
     category: "MABS",
     image: "/images/gallery/mabs-12-omachi-juniper-05.jpg",
-    alt: "Isao Omachi juniper bonsai demonstration MABS 2012",
+    alt: "Isao Omachi juniper bonsai demonstration step 5 at MABS 2012 Spring Festival",
     year: "2012",
   },
   {
@@ -1213,7 +1213,7 @@ const items: GalleryItem[] = [
     caption: "Isao Omachi (Japan) demonstrates on a Juniper at MABS 2012 Spring Festival",
     category: "MABS",
     image: "/images/gallery/mabs-12-omachi-juniper-06.jpg",
-    alt: "Isao Omachi juniper bonsai demonstration MABS 2012",
+    alt: "Isao Omachi juniper bonsai demonstration step 6 at MABS 2012 Spring Festival",
     year: "2012",
   },
   {
@@ -1222,7 +1222,7 @@ const items: GalleryItem[] = [
     caption: "Isao Omachi (Japan) demonstrates on a Juniper at MABS 2012 Spring Festival",
     category: "MABS",
     image: "/images/gallery/mabs-12-omachi-juniper-07.jpg",
-    alt: "Isao Omachi juniper bonsai demonstration MABS 2012",
+    alt: "Isao Omachi juniper bonsai demonstration step 7 at MABS 2012 Spring Festival",
     year: "2012",
   },
   {
@@ -1231,7 +1231,7 @@ const items: GalleryItem[] = [
     caption: "Isao Omachi (Japan) demonstrates on a Juniper at MABS 2012 Spring Festival",
     category: "MABS",
     image: "/images/gallery/mabs-12-omachi-juniper-08.jpg",
-    alt: "Isao Omachi juniper bonsai demonstration MABS 2012",
+    alt: "Isao Omachi juniper bonsai demonstration step 8 at MABS 2012 Spring Festival",
     year: "2012",
   },
   {
@@ -1240,7 +1240,7 @@ const items: GalleryItem[] = [
     caption: "Isao Omachi (Japan) demonstrates on a Juniper at MABS 2012 Spring Festival",
     category: "MABS",
     image: "/images/gallery/mabs-12-omachi-juniper-09.jpg",
-    alt: "Isao Omachi juniper bonsai demonstration MABS 2012",
+    alt: "Isao Omachi juniper bonsai demonstration step 9 at MABS 2012 Spring Festival",
     year: "2012",
   },
   {
@@ -1249,7 +1249,7 @@ const items: GalleryItem[] = [
     caption: "Isao Omachi (Japan) demonstrates on a Juniper at MABS 2012 Spring Festival",
     category: "MABS",
     image: "/images/gallery/mabs-12-omachi-juniper-10.jpg",
-    alt: "Isao Omachi juniper bonsai demonstration MABS 2012",
+    alt: "Isao Omachi juniper bonsai demonstration step 10 at MABS 2012 Spring Festival",
     year: "2012",
   },
   {
@@ -1258,7 +1258,7 @@ const items: GalleryItem[] = [
     caption: "Isao Omachi (Japan) demonstrates on a Juniper at MABS 2012 Spring Festival",
     category: "MABS",
     image: "/images/gallery/mabs-12-omachi-juniper-11.jpg",
-    alt: "Isao Omachi juniper bonsai demonstration MABS 2012",
+    alt: "Isao Omachi juniper bonsai demonstration step 11 at MABS 2012 Spring Festival",
     year: "2012",
   },
   {
@@ -1267,7 +1267,7 @@ const items: GalleryItem[] = [
     caption: "Isao Omachi (Japan) demonstrates on a Juniper at MABS 2012 Spring Festival",
     category: "MABS",
     image: "/images/gallery/mabs-12-omachi-juniper-12.jpg",
-    alt: "Isao Omachi juniper bonsai demonstration MABS 2012",
+    alt: "Isao Omachi juniper bonsai demonstration step 12 at MABS 2012 Spring Festival",
     year: "2012",
   },
   {
@@ -1276,7 +1276,7 @@ const items: GalleryItem[] = [
     caption: "Isao Omachi (Japan) demonstrates on a Juniper at MABS 2012 Spring Festival",
     category: "MABS",
     image: "/images/gallery/mabs-12-omachi-juniper-13.jpg",
-    alt: "Isao Omachi juniper bonsai demonstration MABS 2012",
+    alt: "Isao Omachi juniper bonsai demonstration step 13 at MABS 2012 Spring Festival",
     year: "2012",
   },
   {
@@ -1285,7 +1285,7 @@ const items: GalleryItem[] = [
     caption: "Isao Omachi (Japan) demonstrates on a Juniper at MABS 2012 Spring Festival",
     category: "MABS",
     image: "/images/gallery/mabs-12-omachi-juniper-14.jpg",
-    alt: "Isao Omachi juniper bonsai demonstration MABS 2012",
+    alt: "Isao Omachi juniper bonsai demonstration step 14 at MABS 2012 Spring Festival",
     year: "2012",
   },
   {
@@ -1294,7 +1294,7 @@ const items: GalleryItem[] = [
     caption: "John Thompson demonstrates Coastal Live Oak bonsai design at MABS 2012",
     category: "MABS",
     image: "/images/gallery/mabs-12-jt-oak-01.jpg",
-    alt: "John Thompson Coastal Oak bonsai demonstration MABS 2012",
+    alt: "John Thompson coastal oak bonsai demonstration step 1 at MABS 2012 Spring Festival",
     tall: true,
     year: "2012",
   },
@@ -1304,7 +1304,7 @@ const items: GalleryItem[] = [
     caption: "John Thompson demonstrates Coastal Live Oak bonsai design at MABS 2012",
     category: "MABS",
     image: "/images/gallery/mabs-12-jt-oak-02.jpg",
-    alt: "John Thompson Coastal Oak bonsai demonstration MABS 2012",
+    alt: "John Thompson coastal oak bonsai demonstration step 2 at MABS 2012 Spring Festival",
     year: "2012",
   },
   {
@@ -1313,7 +1313,7 @@ const items: GalleryItem[] = [
     caption: "John Thompson demonstrates Coastal Live Oak bonsai design at MABS 2012",
     category: "MABS",
     image: "/images/gallery/mabs-12-jt-oak-03.jpg",
-    alt: "John Thompson Coastal Oak bonsai demonstration MABS 2012",
+    alt: "John Thompson coastal oak bonsai demonstration step 3 at MABS 2012 Spring Festival",
     year: "2012",
   },
   {
@@ -1322,7 +1322,7 @@ const items: GalleryItem[] = [
     caption: "John Thompson demonstrates Coastal Live Oak bonsai design at MABS 2012",
     category: "MABS",
     image: "/images/gallery/mabs-12-jt-oak-04.jpg",
-    alt: "John Thompson Coastal Oak bonsai demonstration MABS 2012",
+    alt: "John Thompson coastal oak bonsai demonstration step 4 at MABS 2012 Spring Festival",
     year: "2012",
   },
   {
@@ -1331,7 +1331,7 @@ const items: GalleryItem[] = [
     caption: "John Thompson demonstrates Coastal Live Oak bonsai design at MABS 2012",
     category: "MABS",
     image: "/images/gallery/mabs-12-jt-oak-05.jpg",
-    alt: "John Thompson Coastal Oak bonsai demonstration MABS 2012",
+    alt: "John Thompson coastal oak bonsai demonstration step 5 at MABS 2012 Spring Festival",
     year: "2012",
   },
   {
@@ -1340,7 +1340,7 @@ const items: GalleryItem[] = [
     caption: "John Thompson demonstrates Coastal Live Oak bonsai design at MABS 2012",
     category: "MABS",
     image: "/images/gallery/mabs-12-jt-oak-06.jpg",
-    alt: "John Thompson Coastal Oak bonsai demonstration MABS 2012",
+    alt: "John Thompson coastal oak bonsai demonstration step 6 at MABS 2012 Spring Festival",
     year: "2012",
   },
   {
@@ -1349,7 +1349,7 @@ const items: GalleryItem[] = [
     caption: "John Thompson demonstrates Coastal Live Oak bonsai design at MABS 2012",
     category: "MABS",
     image: "/images/gallery/mabs-12-jt-oak-07.jpg",
-    alt: "John Thompson Coastal Oak bonsai demonstration MABS 2012",
+    alt: "John Thompson coastal oak bonsai demonstration step 7 at MABS 2012 Spring Festival",
     year: "2012",
   },
   {
@@ -1358,7 +1358,7 @@ const items: GalleryItem[] = [
     caption: "John Thompson demonstrates Coastal Live Oak bonsai design at MABS 2012",
     category: "MABS",
     image: "/images/gallery/mabs-12-jt-oak-08.jpg",
-    alt: "John Thompson Coastal Oak bonsai demonstration MABS 2012",
+    alt: "John Thompson coastal oak bonsai demonstration step 8 at MABS 2012 Spring Festival",
     year: "2012",
   },
   {
@@ -1367,7 +1367,7 @@ const items: GalleryItem[] = [
     caption: "John Thompson demonstrates Boxwood bonsai styling at MABS 2012",
     category: "MABS",
     image: "/images/gallery/mabs-12-jt-boxwood-01.jpg",
-    alt: "John Thompson boxwood bonsai demonstration MABS 2012",
+    alt: "John Thompson boxwood bonsai demonstration step 1 at MABS 2012 Spring Festival, Mid-Atlantic Bonsai Societies",
     tall: true,
     year: "2012",
   },
@@ -1377,7 +1377,7 @@ const items: GalleryItem[] = [
     caption: "John Thompson demonstrates Boxwood bonsai styling at MABS 2012",
     category: "MABS",
     image: "/images/gallery/mabs-12-jt-boxwood-02.jpg",
-    alt: "John Thompson boxwood bonsai demonstration MABS 2012",
+    alt: "John Thompson boxwood bonsai demonstration step 2 at MABS 2012 Spring Festival, Mid-Atlantic Bonsai Societies",
     year: "2012",
   },
   {
@@ -1386,7 +1386,7 @@ const items: GalleryItem[] = [
     caption: "John Thompson demonstrates Boxwood bonsai styling at MABS 2012",
     category: "MABS",
     image: "/images/gallery/mabs-12-jt-boxwood-03.jpg",
-    alt: "John Thompson boxwood bonsai demonstration MABS 2012",
+    alt: "John Thompson boxwood bonsai demonstration step 3 at MABS 2012 Spring Festival, Mid-Atlantic Bonsai Societies",
     year: "2012",
   },
   {
@@ -1395,7 +1395,7 @@ const items: GalleryItem[] = [
     caption: "John Thompson demonstrates Boxwood bonsai styling at MABS 2012",
     category: "MABS",
     image: "/images/gallery/mabs-12-jt-boxwood-04.jpg",
-    alt: "John Thompson boxwood bonsai demonstration MABS 2012",
+    alt: "John Thompson boxwood bonsai demonstration step 4 at MABS 2012 Spring Festival, Mid-Atlantic Bonsai Societies",
     year: "2012",
   },
   {
@@ -1404,7 +1404,7 @@ const items: GalleryItem[] = [
     caption: "John Thompson demonstrates Boxwood bonsai styling at MABS 2012",
     category: "MABS",
     image: "/images/gallery/mabs-12-jt-boxwood-05.jpg",
-    alt: "John Thompson boxwood bonsai demonstration MABS 2012",
+    alt: "John Thompson boxwood bonsai demonstration step 5 at MABS 2012 Spring Festival, Mid-Atlantic Bonsai Societies",
     year: "2012",
   },
   {
@@ -1413,7 +1413,7 @@ const items: GalleryItem[] = [
     caption: "John Thompson demonstrates Boxwood bonsai styling at MABS 2012",
     category: "MABS",
     image: "/images/gallery/mabs-12-jt-boxwood-06.jpg",
-    alt: "John Thompson boxwood bonsai demonstration MABS 2012",
+    alt: "John Thompson boxwood bonsai demonstration step 6 at MABS 2012 Spring Festival, Mid-Atlantic Bonsai Societies",
     year: "2012",
   },
   {
@@ -1422,7 +1422,7 @@ const items: GalleryItem[] = [
     caption: "John Thompson demonstrates Boxwood bonsai styling at MABS 2012",
     category: "MABS",
     image: "/images/gallery/mabs-12-jt-boxwood-07.jpg",
-    alt: "John Thompson boxwood bonsai demonstration MABS 2012",
+    alt: "John Thompson boxwood bonsai demonstration step 7 at MABS 2012 Spring Festival, Mid-Atlantic Bonsai Societies",
     year: "2012",
   },
   {
@@ -1431,7 +1431,7 @@ const items: GalleryItem[] = [
     caption: "John Thompson demonstrates Boxwood bonsai styling at MABS 2012",
     category: "MABS",
     image: "/images/gallery/mabs-12-jt-boxwood-08.jpg",
-    alt: "John Thompson boxwood bonsai demonstration MABS 2012",
+    alt: "John Thompson boxwood bonsai demonstration step 8 at MABS 2012 Spring Festival, Mid-Atlantic Bonsai Societies",
     year: "2012",
   },
   {
@@ -1440,7 +1440,7 @@ const items: GalleryItem[] = [
     caption: "John Thompson demonstrates Boxwood bonsai styling at MABS 2012",
     category: "MABS",
     image: "/images/gallery/mabs-12-jt-boxwood-09.jpg",
-    alt: "John Thompson boxwood bonsai demonstration MABS 2012",
+    alt: "John Thompson boxwood bonsai demonstration step 9 at MABS 2012 Spring Festival, Mid-Atlantic Bonsai Societies",
     year: "2012",
   },
   {
@@ -1449,7 +1449,7 @@ const items: GalleryItem[] = [
     caption: "John Thompson demonstrates Boxwood bonsai styling at MABS 2012",
     category: "MABS",
     image: "/images/gallery/mabs-12-jt-boxwood-10.jpg",
-    alt: "John Thompson boxwood bonsai demonstration MABS 2012",
+    alt: "John Thompson boxwood bonsai demonstration step 10 at MABS 2012 Spring Festival, Mid-Atlantic Bonsai Societies",
     year: "2012",
   },
   {
@@ -1458,7 +1458,7 @@ const items: GalleryItem[] = [
     caption: "John Thompson demonstrates Boxwood bonsai styling at MABS 2012",
     category: "MABS",
     image: "/images/gallery/mabs-12-jt-boxwood-11.jpg",
-    alt: "John Thompson boxwood bonsai demonstration MABS 2012",
+    alt: "John Thompson boxwood bonsai demonstration step 11 at MABS 2012 Spring Festival, Mid-Atlantic Bonsai Societies",
     year: "2012",
   },
   {
@@ -1467,7 +1467,7 @@ const items: GalleryItem[] = [
     caption: "John Thompson demonstrates Boxwood bonsai styling at MABS 2012",
     category: "MABS",
     image: "/images/gallery/mabs-12-jt-boxwood-12.jpg",
-    alt: "John Thompson boxwood bonsai demonstration MABS 2012",
+    alt: "John Thompson boxwood bonsai demonstration step 12 at MABS 2012 Spring Festival, Mid-Atlantic Bonsai Societies",
     year: "2012",
   },
   {
@@ -1476,7 +1476,7 @@ const items: GalleryItem[] = [
     caption: "Chase Rosade (Rosade Bonsai Studio, New Hope PA) demonstrates Hemlock styling at MABS 2012",
     category: "MABS",
     image: "/images/gallery/mabs-12-rosade-hemlock-01.jpg",
-    alt: "Chase Rosade hemlock bonsai demonstration MABS 2012",
+    alt: "Chase Rosade hemlock bonsai demonstration step 1 at MABS 2012 Spring Festival",
     tall: true,
     year: "2012",
   },
@@ -1486,7 +1486,7 @@ const items: GalleryItem[] = [
     caption: "Chase Rosade (Rosade Bonsai Studio, New Hope PA) demonstrates Hemlock styling at MABS 2012",
     category: "MABS",
     image: "/images/gallery/mabs-12-rosade-hemlock-02.jpg",
-    alt: "Chase Rosade hemlock bonsai demonstration MABS 2012",
+    alt: "Chase Rosade hemlock bonsai demonstration step 2 at MABS 2012 Spring Festival",
     year: "2012",
   },
   {
@@ -1495,7 +1495,7 @@ const items: GalleryItem[] = [
     caption: "Chase Rosade (Rosade Bonsai Studio, New Hope PA) demonstrates Hemlock styling at MABS 2012",
     category: "MABS",
     image: "/images/gallery/mabs-12-rosade-hemlock-03.jpg",
-    alt: "Chase Rosade hemlock bonsai demonstration MABS 2012",
+    alt: "Chase Rosade hemlock bonsai demonstration step 3 at MABS 2012 Spring Festival",
     year: "2012",
   },
   {
@@ -1504,7 +1504,7 @@ const items: GalleryItem[] = [
     caption: "Chase Rosade (Rosade Bonsai Studio, New Hope PA) demonstrates Hemlock styling at MABS 2012",
     category: "MABS",
     image: "/images/gallery/mabs-12-rosade-hemlock-04.jpg",
-    alt: "Chase Rosade hemlock bonsai demonstration MABS 2012",
+    alt: "Chase Rosade hemlock bonsai demonstration step 4 at MABS 2012 Spring Festival",
     year: "2012",
   },
   {
@@ -1513,7 +1513,7 @@ const items: GalleryItem[] = [
     caption: "Chase Rosade (Rosade Bonsai Studio, New Hope PA) demonstrates Hemlock styling at MABS 2012",
     category: "MABS",
     image: "/images/gallery/mabs-12-rosade-hemlock-05.jpg",
-    alt: "Chase Rosade hemlock bonsai demonstration MABS 2012",
+    alt: "Chase Rosade hemlock bonsai demonstration step 5 at MABS 2012 Spring Festival",
     year: "2012",
   },
   {
@@ -1522,7 +1522,7 @@ const items: GalleryItem[] = [
     caption: "Chase Rosade (Rosade Bonsai Studio, New Hope PA) demonstrates Hemlock styling at MABS 2012",
     category: "MABS",
     image: "/images/gallery/mabs-12-rosade-hemlock-06.jpg",
-    alt: "Chase Rosade hemlock bonsai demonstration MABS 2012",
+    alt: "Chase Rosade hemlock bonsai demonstration step 6 at MABS 2012 Spring Festival",
     year: "2012",
   },
   {
@@ -1531,7 +1531,7 @@ const items: GalleryItem[] = [
     caption: "Chase Rosade (Rosade Bonsai Studio, New Hope PA) demonstrates Hemlock styling at MABS 2012",
     category: "MABS",
     image: "/images/gallery/mabs-12-rosade-hemlock-07.jpg",
-    alt: "Chase Rosade hemlock bonsai demonstration MABS 2012",
+    alt: "Chase Rosade hemlock bonsai demonstration step 7 at MABS 2012 Spring Festival",
     year: "2012",
   },
   {
@@ -1540,7 +1540,7 @@ const items: GalleryItem[] = [
     caption: "Chase Rosade demonstrates Juniper bonsai design at MABS 2012 Spring Festival",
     category: "MABS",
     image: "/images/gallery/mabs-12-rosade-juniper-01.jpg",
-    alt: "Chase Rosade juniper bonsai demonstration MABS 2012",
+    alt: "Chase Rosade juniper bonsai demonstration step 1 at MABS 2012 Spring Festival, NJ",
     tall: true,
     year: "2012",
   },
@@ -1550,7 +1550,7 @@ const items: GalleryItem[] = [
     caption: "Chase Rosade demonstrates Juniper bonsai design at MABS 2012 Spring Festival",
     category: "MABS",
     image: "/images/gallery/mabs-12-rosade-juniper-02.jpg",
-    alt: "Chase Rosade juniper bonsai demonstration MABS 2012",
+    alt: "Chase Rosade juniper bonsai demonstration step 2 at MABS 2012 Spring Festival, NJ",
     year: "2012",
   },
   {
@@ -1559,7 +1559,7 @@ const items: GalleryItem[] = [
     caption: "Chase Rosade demonstrates Juniper bonsai design at MABS 2012 Spring Festival",
     category: "MABS",
     image: "/images/gallery/mabs-12-rosade-juniper-03.jpg",
-    alt: "Chase Rosade juniper bonsai demonstration MABS 2012",
+    alt: "Chase Rosade juniper bonsai demonstration step 3 at MABS 2012 Spring Festival, NJ",
     year: "2012",
   },
   {
@@ -1568,7 +1568,7 @@ const items: GalleryItem[] = [
     caption: "Chase Rosade demonstrates Juniper bonsai design at MABS 2012 Spring Festival",
     category: "MABS",
     image: "/images/gallery/mabs-12-rosade-juniper-04.jpg",
-    alt: "Chase Rosade juniper bonsai demonstration MABS 2012",
+    alt: "Chase Rosade juniper bonsai demonstration step 4 at MABS 2012 Spring Festival, NJ",
     year: "2012",
   },
   {
@@ -1577,7 +1577,7 @@ const items: GalleryItem[] = [
     caption: "Chase Rosade demonstrates Juniper bonsai design at MABS 2012 Spring Festival",
     category: "MABS",
     image: "/images/gallery/mabs-12-rosade-juniper-05.jpg",
-    alt: "Chase Rosade juniper bonsai demonstration MABS 2012",
+    alt: "Chase Rosade juniper bonsai demonstration step 5 at MABS 2012 Spring Festival, NJ",
     year: "2012",
   },
   {
@@ -1586,7 +1586,7 @@ const items: GalleryItem[] = [
     caption: "Chase Rosade demonstrates Juniper bonsai design at MABS 2012 Spring Festival",
     category: "MABS",
     image: "/images/gallery/mabs-12-rosade-juniper-06.jpg",
-    alt: "Chase Rosade juniper bonsai demonstration MABS 2012",
+    alt: "Chase Rosade juniper bonsai demonstration step 6 at MABS 2012 Spring Festival, NJ",
     year: "2012",
   },
   {
@@ -1595,7 +1595,7 @@ const items: GalleryItem[] = [
     caption: "Chase Rosade demonstrates Juniper bonsai design at MABS 2012 Spring Festival",
     category: "MABS",
     image: "/images/gallery/mabs-12-rosade-juniper-07.jpg",
-    alt: "Chase Rosade juniper bonsai demonstration MABS 2012",
+    alt: "Chase Rosade juniper bonsai demonstration step 7 at MABS 2012 Spring Festival, NJ",
     year: "2012",
   },
   {
@@ -1604,7 +1604,7 @@ const items: GalleryItem[] = [
     caption: "Chase Rosade demonstrates Juniper bonsai design at MABS 2012 Spring Festival",
     category: "MABS",
     image: "/images/gallery/mabs-12-rosade-juniper-08.jpg",
-    alt: "Chase Rosade juniper bonsai demonstration MABS 2012",
+    alt: "Chase Rosade juniper bonsai demonstration step 8 at MABS 2012 Spring Festival, NJ",
     year: "2012",
   },
   {
@@ -1613,7 +1613,7 @@ const items: GalleryItem[] = [
     caption: "Chase Rosade demonstrates Juniper bonsai design at MABS 2012 Spring Festival",
     category: "MABS",
     image: "/images/gallery/mabs-12-rosade-juniper-09.jpg",
-    alt: "Chase Rosade juniper bonsai demonstration MABS 2012",
+    alt: "Chase Rosade juniper bonsai demonstration step 9 at MABS 2012 Spring Festival, NJ",
     year: "2012",
   },
   {
@@ -1622,7 +1622,7 @@ const items: GalleryItem[] = [
     caption: "Chase Rosade demonstrates Juniper bonsai design at MABS 2012 Spring Festival",
     category: "MABS",
     image: "/images/gallery/mabs-12-rosade-juniper-10.jpg",
-    alt: "Chase Rosade juniper bonsai demonstration MABS 2012",
+    alt: "Chase Rosade juniper bonsai demonstration step 10 at MABS 2012 Spring Festival, NJ",
     year: "2012",
   },
   {
@@ -1631,7 +1631,7 @@ const items: GalleryItem[] = [
     caption: "Chase Rosade demonstrates Juniper bonsai design at MABS 2012 Spring Festival",
     category: "MABS",
     image: "/images/gallery/mabs-12-rosade-juniper-11.jpg",
-    alt: "Chase Rosade juniper bonsai demonstration MABS 2012",
+    alt: "Chase Rosade juniper bonsai demonstration step 11 at MABS 2012 Spring Festival, NJ",
     year: "2012",
   },
   {
@@ -1640,7 +1640,7 @@ const items: GalleryItem[] = [
     caption: "Professional Invitation Exhibit at MABS 2012 — featuring works by Martin Schmalenberg (Stillwater Studio) and professional artists",
     category: "MABS",
     image: "/images/gallery/mabs-12-pie-01.jpg",
-    alt: "Professional bonsai exhibit MABS 2012 PIE",
+    alt: "Professional bonsai exhibit #1 at MABS 2012 Spring Festival PIE, Mid-Atlantic Bonsai Societies",
     tall: true,
     year: "2012",
   },
@@ -1650,7 +1650,7 @@ const items: GalleryItem[] = [
     caption: "Professional Invitation Exhibit at MABS 2012 — featuring works by Martin Schmalenberg (Stillwater Studio) and professional artists",
     category: "MABS",
     image: "/images/gallery/mabs-12-pie-02.jpg",
-    alt: "Professional bonsai exhibit MABS 2012 PIE",
+    alt: "Professional bonsai exhibit #2 at MABS 2012 Spring Festival PIE, Mid-Atlantic Bonsai Societies",
     year: "2012",
   },
   {
@@ -1659,7 +1659,7 @@ const items: GalleryItem[] = [
     caption: "Professional Invitation Exhibit at MABS 2012 — featuring works by Martin Schmalenberg (Stillwater Studio) and professional artists",
     category: "MABS",
     image: "/images/gallery/mabs-12-pie-03.jpg",
-    alt: "Professional bonsai exhibit MABS 2012 PIE",
+    alt: "Professional bonsai exhibit #3 at MABS 2012 Spring Festival PIE, Mid-Atlantic Bonsai Societies",
     year: "2012",
   },
   {
@@ -1668,7 +1668,7 @@ const items: GalleryItem[] = [
     caption: "Professional Invitation Exhibit at MABS 2012 — featuring works by Martin Schmalenberg (Stillwater Studio) and professional artists",
     category: "MABS",
     image: "/images/gallery/mabs-12-pie-04.jpg",
-    alt: "Professional bonsai exhibit MABS 2012 PIE",
+    alt: "Professional bonsai exhibit #4 at MABS 2012 Spring Festival PIE, Mid-Atlantic Bonsai Societies",
     year: "2012",
   },
   {
@@ -1677,7 +1677,7 @@ const items: GalleryItem[] = [
     caption: "Professional Invitation Exhibit at MABS 2012 — featuring works by Martin Schmalenberg (Stillwater Studio) and professional artists",
     category: "MABS",
     image: "/images/gallery/mabs-12-pie-05.jpg",
-    alt: "Professional bonsai exhibit MABS 2012 PIE",
+    alt: "Professional bonsai exhibit #5 at MABS 2012 Spring Festival PIE, Mid-Atlantic Bonsai Societies",
     year: "2012",
   },
   {
@@ -1686,7 +1686,7 @@ const items: GalleryItem[] = [
     caption: "Professional Invitation Exhibit at MABS 2012 — featuring works by Martin Schmalenberg (Stillwater Studio) and professional artists",
     category: "MABS",
     image: "/images/gallery/mabs-12-pie-06.jpg",
-    alt: "Professional bonsai exhibit MABS 2012 PIE",
+    alt: "Professional bonsai exhibit #6 at MABS 2012 Spring Festival PIE, Mid-Atlantic Bonsai Societies",
     year: "2012",
   },
   {
@@ -1695,7 +1695,7 @@ const items: GalleryItem[] = [
     caption: "Professional Invitation Exhibit at MABS 2012 — featuring works by Martin Schmalenberg (Stillwater Studio) and professional artists",
     category: "MABS",
     image: "/images/gallery/mabs-12-pie-07.jpg",
-    alt: "Professional bonsai exhibit MABS 2012 PIE",
+    alt: "Professional bonsai exhibit #7 at MABS 2012 Spring Festival PIE, Mid-Atlantic Bonsai Societies",
     year: "2012",
   },
   {
@@ -1704,7 +1704,7 @@ const items: GalleryItem[] = [
     caption: "Professional Invitation Exhibit at MABS 2012 — featuring works by Martin Schmalenberg (Stillwater Studio) and professional artists",
     category: "MABS",
     image: "/images/gallery/mabs-12-pie-08.jpg",
-    alt: "Professional bonsai exhibit MABS 2012 PIE",
+    alt: "Professional bonsai exhibit #8 at MABS 2012 Spring Festival PIE, Mid-Atlantic Bonsai Societies",
     year: "2012",
   },
   {
@@ -1713,7 +1713,7 @@ const items: GalleryItem[] = [
     caption: "Professional Invitation Exhibit at MABS 2012 — featuring works by Martin Schmalenberg (Stillwater Studio) and professional artists",
     category: "MABS",
     image: "/images/gallery/mabs-12-pie-09.jpg",
-    alt: "Professional bonsai exhibit MABS 2012 PIE",
+    alt: "Professional bonsai exhibit #9 at MABS 2012 Spring Festival PIE, Mid-Atlantic Bonsai Societies",
     year: "2012",
   },
   {
@@ -1722,7 +1722,7 @@ const items: GalleryItem[] = [
     caption: "Professional Invitation Exhibit at MABS 2012 — featuring works by Martin Schmalenberg (Stillwater Studio) and professional artists",
     category: "MABS",
     image: "/images/gallery/mabs-12-pie-10.jpg",
-    alt: "Professional bonsai exhibit MABS 2012 PIE",
+    alt: "Professional bonsai exhibit #10 at MABS 2012 Spring Festival PIE, Mid-Atlantic Bonsai Societies",
     year: "2012",
   },
   {
@@ -1731,7 +1731,7 @@ const items: GalleryItem[] = [
     caption: "Professional Invitation Exhibit at MABS 2012 — featuring works by Martin Schmalenberg (Stillwater Studio) and professional artists",
     category: "MABS",
     image: "/images/gallery/mabs-12-pie-11.jpg",
-    alt: "Professional bonsai exhibit MABS 2012 PIE",
+    alt: "Professional bonsai exhibit #11 at MABS 2012 Spring Festival PIE, Mid-Atlantic Bonsai Societies",
     year: "2012",
   },
   {
@@ -1740,7 +1740,7 @@ const items: GalleryItem[] = [
     caption: "Professional Invitation Exhibit at MABS 2012 — featuring works by Martin Schmalenberg (Stillwater Studio) and professional artists",
     category: "MABS",
     image: "/images/gallery/mabs-12-pie-12.jpg",
-    alt: "Professional bonsai exhibit MABS 2012 PIE",
+    alt: "Professional bonsai exhibit #12 at MABS 2012 Spring Festival PIE, Mid-Atlantic Bonsai Societies",
     year: "2012",
   },
   {
@@ -1749,7 +1749,7 @@ const items: GalleryItem[] = [
     caption: "Professional Invitation Exhibit at MABS 2012 — featuring works by Martin Schmalenberg (Stillwater Studio) and professional artists",
     category: "MABS",
     image: "/images/gallery/mabs-12-pie-13.jpg",
-    alt: "Professional bonsai exhibit MABS 2012 PIE",
+    alt: "Professional bonsai exhibit #13 at MABS 2012 Spring Festival PIE, Mid-Atlantic Bonsai Societies",
     year: "2012",
   },
   {
@@ -1758,7 +1758,7 @@ const items: GalleryItem[] = [
     caption: "Professional Invitation Exhibit at MABS 2012 — featuring works by Martin Schmalenberg (Stillwater Studio) and professional artists",
     category: "MABS",
     image: "/images/gallery/mabs-12-pie-14.jpg",
-    alt: "Professional bonsai exhibit MABS 2012 PIE",
+    alt: "Professional bonsai exhibit #14 at MABS 2012 Spring Festival PIE, Mid-Atlantic Bonsai Societies",
     year: "2012",
   },
   {
@@ -1767,7 +1767,7 @@ const items: GalleryItem[] = [
     caption: "Professional Invitation Exhibit at MABS 2012 — featuring works by Martin Schmalenberg (Stillwater Studio) and professional artists",
     category: "MABS",
     image: "/images/gallery/mabs-12-pie-15.jpg",
-    alt: "Professional bonsai exhibit MABS 2012 PIE",
+    alt: "Professional bonsai exhibit #15 at MABS 2012 Spring Festival PIE, Mid-Atlantic Bonsai Societies",
     year: "2012",
   },
   {
@@ -1776,7 +1776,7 @@ const items: GalleryItem[] = [
     caption: "Professional Invitation Exhibit at MABS 2012 — featuring works by Martin Schmalenberg (Stillwater Studio) and professional artists",
     category: "MABS",
     image: "/images/gallery/mabs-12-pie-16.jpg",
-    alt: "Professional bonsai exhibit MABS 2012 PIE",
+    alt: "Professional bonsai exhibit #16 at MABS 2012 Spring Festival PIE, Mid-Atlantic Bonsai Societies",
     year: "2012",
   },
   {
@@ -1785,7 +1785,7 @@ const items: GalleryItem[] = [
     caption: "Members exhibit at the 29th MABS Spring Festival — bonsai from clubs across CT, DE, NY, NJ, PA, RI and MA",
     category: "MABS",
     image: "/images/gallery/mabs-12-members-show-01.jpg",
-    alt: "Member society bonsai exhibit at MABS 2012",
+    alt: "Bonsai exhibit #1 displayed at MABS 2012 Spring Festival, Mid-Atlantic Bonsai Societies",
     tall: true,
     year: "2012",
   },
@@ -1795,7 +1795,7 @@ const items: GalleryItem[] = [
     caption: "Members exhibit at the 29th MABS Spring Festival — bonsai from clubs across CT, DE, NY, NJ, PA, RI and MA",
     category: "MABS",
     image: "/images/gallery/mabs-12-members-show-02.jpg",
-    alt: "Member society bonsai exhibit at MABS 2012",
+    alt: "Bonsai exhibit #2 displayed at MABS 2012 Spring Festival, Mid-Atlantic Bonsai Societies",
     year: "2012",
   },
   {
@@ -1804,7 +1804,7 @@ const items: GalleryItem[] = [
     caption: "Members exhibit at the 29th MABS Spring Festival — bonsai from clubs across CT, DE, NY, NJ, PA, RI and MA",
     category: "MABS",
     image: "/images/gallery/mabs-12-members-show-03.jpg",
-    alt: "Member society bonsai exhibit at MABS 2012",
+    alt: "Bonsai exhibit #3 displayed at MABS 2012 Spring Festival, Mid-Atlantic Bonsai Societies",
     year: "2012",
   },
   {
@@ -1813,7 +1813,7 @@ const items: GalleryItem[] = [
     caption: "Members exhibit at the 29th MABS Spring Festival — bonsai from clubs across CT, DE, NY, NJ, PA, RI and MA",
     category: "MABS",
     image: "/images/gallery/mabs-12-members-show-04.jpg",
-    alt: "Member society bonsai exhibit at MABS 2012",
+    alt: "Bonsai exhibit #4 displayed at MABS 2012 Spring Festival, Mid-Atlantic Bonsai Societies",
     year: "2012",
   },
   {
@@ -1822,7 +1822,7 @@ const items: GalleryItem[] = [
     caption: "Members exhibit at the 29th MABS Spring Festival — bonsai from clubs across CT, DE, NY, NJ, PA, RI and MA",
     category: "MABS",
     image: "/images/gallery/mabs-12-members-show-05.jpg",
-    alt: "Member society bonsai exhibit at MABS 2012",
+    alt: "Bonsai exhibit #5 displayed at MABS 2012 Spring Festival, Mid-Atlantic Bonsai Societies",
     year: "2012",
   },
   {
@@ -1831,7 +1831,7 @@ const items: GalleryItem[] = [
     caption: "Members exhibit at the 29th MABS Spring Festival — bonsai from clubs across CT, DE, NY, NJ, PA, RI and MA",
     category: "MABS",
     image: "/images/gallery/mabs-12-members-show-06.jpg",
-    alt: "Member society bonsai exhibit at MABS 2012",
+    alt: "Bonsai exhibit #6 displayed at MABS 2012 Spring Festival, Mid-Atlantic Bonsai Societies",
     year: "2012",
   },
   {
@@ -1840,7 +1840,7 @@ const items: GalleryItem[] = [
     caption: "Members exhibit at the 29th MABS Spring Festival — bonsai from clubs across CT, DE, NY, NJ, PA, RI and MA",
     category: "MABS",
     image: "/images/gallery/mabs-12-members-show-07.jpg",
-    alt: "Member society bonsai exhibit at MABS 2012",
+    alt: "Bonsai exhibit #7 displayed at MABS 2012 Spring Festival, Mid-Atlantic Bonsai Societies",
     year: "2012",
   },
   {
@@ -1849,7 +1849,7 @@ const items: GalleryItem[] = [
     caption: "Members exhibit at the 29th MABS Spring Festival — bonsai from clubs across CT, DE, NY, NJ, PA, RI and MA",
     category: "MABS",
     image: "/images/gallery/mabs-12-members-show-08.jpg",
-    alt: "Member society bonsai exhibit at MABS 2012",
+    alt: "Bonsai exhibit #8 displayed at MABS 2012 Spring Festival, Mid-Atlantic Bonsai Societies",
     year: "2012",
   },
   {
@@ -1858,7 +1858,7 @@ const items: GalleryItem[] = [
     caption: "Members exhibit at the 29th MABS Spring Festival — bonsai from clubs across CT, DE, NY, NJ, PA, RI and MA",
     category: "MABS",
     image: "/images/gallery/mabs-12-members-show-09.jpg",
-    alt: "Member society bonsai exhibit at MABS 2012",
+    alt: "Bonsai exhibit #9 displayed at MABS 2012 Spring Festival, Mid-Atlantic Bonsai Societies",
     year: "2012",
   },
   {
@@ -1867,7 +1867,7 @@ const items: GalleryItem[] = [
     caption: "Members exhibit at the 29th MABS Spring Festival — bonsai from clubs across CT, DE, NY, NJ, PA, RI and MA",
     category: "MABS",
     image: "/images/gallery/mabs-12-members-show-10.jpg",
-    alt: "Member society bonsai exhibit at MABS 2012",
+    alt: "Bonsai exhibit #10 displayed at MABS 2012 Spring Festival, Mid-Atlantic Bonsai Societies",
     year: "2012",
   },
   {
@@ -1876,7 +1876,7 @@ const items: GalleryItem[] = [
     caption: "Members exhibit at the 29th MABS Spring Festival — bonsai from clubs across CT, DE, NY, NJ, PA, RI and MA",
     category: "MABS",
     image: "/images/gallery/mabs-12-members-show-11.jpg",
-    alt: "Member society bonsai exhibit at MABS 2012",
+    alt: "Bonsai exhibit #11 displayed at MABS 2012 Spring Festival, Mid-Atlantic Bonsai Societies",
     year: "2012",
   },
   {
@@ -1885,7 +1885,7 @@ const items: GalleryItem[] = [
     caption: "Members exhibit at the 29th MABS Spring Festival — bonsai from clubs across CT, DE, NY, NJ, PA, RI and MA",
     category: "MABS",
     image: "/images/gallery/mabs-12-members-show-12.jpg",
-    alt: "Member society bonsai exhibit at MABS 2012",
+    alt: "Bonsai exhibit #12 displayed at MABS 2012 Spring Festival, Mid-Atlantic Bonsai Societies",
     year: "2012",
   },
   {
@@ -1894,7 +1894,7 @@ const items: GalleryItem[] = [
     caption: "Members exhibit at the 29th MABS Spring Festival — bonsai from clubs across CT, DE, NY, NJ, PA, RI and MA",
     category: "MABS",
     image: "/images/gallery/mabs-12-members-show-13.jpg",
-    alt: "Member society bonsai exhibit at MABS 2012",
+    alt: "Bonsai exhibit #13 displayed at MABS 2012 Spring Festival, Mid-Atlantic Bonsai Societies",
     year: "2012",
   },
   {
@@ -1903,7 +1903,7 @@ const items: GalleryItem[] = [
     caption: "Members exhibit at the 29th MABS Spring Festival — bonsai from clubs across CT, DE, NY, NJ, PA, RI and MA",
     category: "MABS",
     image: "/images/gallery/mabs-12-members-show-14.jpg",
-    alt: "Member society bonsai exhibit at MABS 2012",
+    alt: "Bonsai exhibit #14 displayed at MABS 2012 Spring Festival, Mid-Atlantic Bonsai Societies",
     year: "2012",
   },
   {
@@ -1912,7 +1912,7 @@ const items: GalleryItem[] = [
     caption: "Members exhibit at the 29th MABS Spring Festival — bonsai from clubs across CT, DE, NY, NJ, PA, RI and MA",
     category: "MABS",
     image: "/images/gallery/mabs-12-members-show-15.jpg",
-    alt: "Member society bonsai exhibit at MABS 2012",
+    alt: "Bonsai exhibit #15 displayed at MABS 2012 Spring Festival, Mid-Atlantic Bonsai Societies",
     year: "2012",
   },
   {
@@ -1921,7 +1921,7 @@ const items: GalleryItem[] = [
     caption: "Members exhibit at the 29th MABS Spring Festival — bonsai from clubs across CT, DE, NY, NJ, PA, RI and MA",
     category: "MABS",
     image: "/images/gallery/mabs-12-members-show-16.jpg",
-    alt: "Member society bonsai exhibit at MABS 2012",
+    alt: "Bonsai exhibit #16 displayed at MABS 2012 Spring Festival, Mid-Atlantic Bonsai Societies",
     year: "2012",
   },
   {
@@ -1930,7 +1930,7 @@ const items: GalleryItem[] = [
     caption: "Members exhibit at the 29th MABS Spring Festival — bonsai from clubs across CT, DE, NY, NJ, PA, RI and MA",
     category: "MABS",
     image: "/images/gallery/mabs-12-members-show-17.jpg",
-    alt: "Member society bonsai exhibit at MABS 2012",
+    alt: "Bonsai exhibit #17 displayed at MABS 2012 Spring Festival, Mid-Atlantic Bonsai Societies",
     year: "2012",
   },
   {
@@ -1939,7 +1939,7 @@ const items: GalleryItem[] = [
     caption: "Members exhibit at the 29th MABS Spring Festival — bonsai from clubs across CT, DE, NY, NJ, PA, RI and MA",
     category: "MABS",
     image: "/images/gallery/mabs-12-members-show-18.jpg",
-    alt: "Member society bonsai exhibit at MABS 2012",
+    alt: "Bonsai exhibit #18 displayed at MABS 2012 Spring Festival, Mid-Atlantic Bonsai Societies",
     year: "2012",
   },
   {
@@ -1948,7 +1948,7 @@ const items: GalleryItem[] = [
     caption: "Members exhibit at the 29th MABS Spring Festival — bonsai from clubs across CT, DE, NY, NJ, PA, RI and MA",
     category: "MABS",
     image: "/images/gallery/mabs-12-members-show-19.jpg",
-    alt: "Member society bonsai exhibit at MABS 2012",
+    alt: "Bonsai exhibit #19 displayed at MABS 2012 Spring Festival, Mid-Atlantic Bonsai Societies",
     year: "2012",
   },
   {
@@ -1957,7 +1957,7 @@ const items: GalleryItem[] = [
     caption: "Members exhibit at the 29th MABS Spring Festival — bonsai from clubs across CT, DE, NY, NJ, PA, RI and MA",
     category: "MABS",
     image: "/images/gallery/mabs-12-members-show-20.jpg",
-    alt: "Member society bonsai exhibit at MABS 2012",
+    alt: "Bonsai exhibit #20 displayed at MABS 2012 Spring Festival, Mid-Atlantic Bonsai Societies",
     year: "2012",
   },
   {
@@ -1966,7 +1966,7 @@ const items: GalleryItem[] = [
     caption: "Members exhibit at the 29th MABS Spring Festival — bonsai from clubs across CT, DE, NY, NJ, PA, RI and MA",
     category: "MABS",
     image: "/images/gallery/mabs-12-members-show-21.jpg",
-    alt: "Member society bonsai exhibit at MABS 2012",
+    alt: "Bonsai exhibit #21 displayed at MABS 2012 Spring Festival, Mid-Atlantic Bonsai Societies",
     year: "2012",
   },
   {
@@ -1975,7 +1975,7 @@ const items: GalleryItem[] = [
     caption: "Members exhibit at the 29th MABS Spring Festival — bonsai from clubs across CT, DE, NY, NJ, PA, RI and MA",
     category: "MABS",
     image: "/images/gallery/mabs-12-members-show-22.jpg",
-    alt: "Member society bonsai exhibit at MABS 2012",
+    alt: "Bonsai exhibit #22 displayed at MABS 2012 Spring Festival, Mid-Atlantic Bonsai Societies",
     year: "2012",
   },
   {
@@ -1984,7 +1984,7 @@ const items: GalleryItem[] = [
     caption: "Members exhibit at the 29th MABS Spring Festival — bonsai from clubs across CT, DE, NY, NJ, PA, RI and MA",
     category: "MABS",
     image: "/images/gallery/mabs-12-members-show-23.jpg",
-    alt: "Member society bonsai exhibit at MABS 2012",
+    alt: "Bonsai exhibit #23 displayed at MABS 2012 Spring Festival, Mid-Atlantic Bonsai Societies",
     year: "2012",
   },
   {
@@ -1993,7 +1993,7 @@ const items: GalleryItem[] = [
     caption: "Members exhibit at the 29th MABS Spring Festival — bonsai from clubs across CT, DE, NY, NJ, PA, RI and MA",
     category: "MABS",
     image: "/images/gallery/mabs-12-members-show-24.jpg",
-    alt: "Member society bonsai exhibit at MABS 2012",
+    alt: "Bonsai exhibit #24 displayed at MABS 2012 Spring Festival, Mid-Atlantic Bonsai Societies",
     year: "2012",
   },
   {
@@ -2002,7 +2002,7 @@ const items: GalleryItem[] = [
     caption: "Members exhibit at the 29th MABS Spring Festival — bonsai from clubs across CT, DE, NY, NJ, PA, RI and MA",
     category: "MABS",
     image: "/images/gallery/mabs-12-members-show-25.jpg",
-    alt: "Member society bonsai exhibit at MABS 2012",
+    alt: "Bonsai exhibit #25 displayed at MABS 2012 Spring Festival, Mid-Atlantic Bonsai Societies",
     year: "2012",
   },
   {
@@ -2011,7 +2011,7 @@ const items: GalleryItem[] = [
     caption: "Members exhibit at the 29th MABS Spring Festival — bonsai from clubs across CT, DE, NY, NJ, PA, RI and MA",
     category: "MABS",
     image: "/images/gallery/mabs-12-members-show-26.jpg",
-    alt: "Member society bonsai exhibit at MABS 2012",
+    alt: "Bonsai exhibit #26 displayed at MABS 2012 Spring Festival, Mid-Atlantic Bonsai Societies",
     year: "2012",
   },
   {
@@ -2020,7 +2020,7 @@ const items: GalleryItem[] = [
     caption: "Members exhibit at the 29th MABS Spring Festival — bonsai from clubs across CT, DE, NY, NJ, PA, RI and MA",
     category: "MABS",
     image: "/images/gallery/mabs-12-members-show-27.jpg",
-    alt: "Member society bonsai exhibit at MABS 2012",
+    alt: "Bonsai exhibit #27 displayed at MABS 2012 Spring Festival, Mid-Atlantic Bonsai Societies",
     year: "2012",
   },
   {
@@ -2029,7 +2029,7 @@ const items: GalleryItem[] = [
     caption: "Members exhibit at the 29th MABS Spring Festival — bonsai from clubs across CT, DE, NY, NJ, PA, RI and MA",
     category: "MABS",
     image: "/images/gallery/mabs-12-members-show-28.jpg",
-    alt: "Member society bonsai exhibit at MABS 2012",
+    alt: "Bonsai exhibit #28 displayed at MABS 2012 Spring Festival, Mid-Atlantic Bonsai Societies",
     year: "2012",
   },
   {
@@ -2038,7 +2038,7 @@ const items: GalleryItem[] = [
     caption: "Members exhibit at the 29th MABS Spring Festival — bonsai from clubs across CT, DE, NY, NJ, PA, RI and MA",
     category: "MABS",
     image: "/images/gallery/mabs-12-members-show-29.jpg",
-    alt: "Member society bonsai exhibit at MABS 2012",
+    alt: "Bonsai exhibit #29 displayed at MABS 2012 Spring Festival, Mid-Atlantic Bonsai Societies",
     year: "2012",
   },
   {
@@ -2047,7 +2047,7 @@ const items: GalleryItem[] = [
     caption: "Members exhibit at the 29th MABS Spring Festival — bonsai from clubs across CT, DE, NY, NJ, PA, RI and MA",
     category: "MABS",
     image: "/images/gallery/mabs-12-members-show-30.jpg",
-    alt: "Member society bonsai exhibit at MABS 2012",
+    alt: "Bonsai exhibit #30 displayed at MABS 2012 Spring Festival, Mid-Atlantic Bonsai Societies",
     year: "2012",
   },
   {
@@ -2056,7 +2056,7 @@ const items: GalleryItem[] = [
     caption: "Members exhibit at the 29th MABS Spring Festival — bonsai from clubs across CT, DE, NY, NJ, PA, RI and MA",
     category: "MABS",
     image: "/images/gallery/mabs-12-members-show-31.jpg",
-    alt: "Member society bonsai exhibit at MABS 2012",
+    alt: "Bonsai exhibit #31 displayed at MABS 2012 Spring Festival, Mid-Atlantic Bonsai Societies",
     year: "2012",
   },
   {
@@ -2065,7 +2065,7 @@ const items: GalleryItem[] = [
     caption: "Members exhibit at the 29th MABS Spring Festival — bonsai from clubs across CT, DE, NY, NJ, PA, RI and MA",
     category: "MABS",
     image: "/images/gallery/mabs-12-members-show-32.jpg",
-    alt: "Member society bonsai exhibit at MABS 2012",
+    alt: "Bonsai exhibit #32 displayed at MABS 2012 Spring Festival, Mid-Atlantic Bonsai Societies",
     year: "2012",
   },
   {
@@ -2074,7 +2074,7 @@ const items: GalleryItem[] = [
     caption: "Members exhibit at the 29th MABS Spring Festival — bonsai from clubs across CT, DE, NY, NJ, PA, RI and MA",
     category: "MABS",
     image: "/images/gallery/mabs-12-members-show-33.jpg",
-    alt: "Member society bonsai exhibit at MABS 2012",
+    alt: "Bonsai exhibit #33 displayed at MABS 2012 Spring Festival, Mid-Atlantic Bonsai Societies",
     year: "2012",
   },
 
@@ -2656,7 +2656,7 @@ const items: GalleryItem[] = [
     caption: "GSBS Annual Bonsai Show 2010 — member exhibits on display",
     category: "Annual Show",
     image: "/images/gallery/Show 02-10.JPG",
-    alt: "Annual Show 2010 - 2 2010",
+    alt: "GSBS Annual Bonsai Show 2010 exhibit #2, Great Swamp Bonsai Society Roseland New Jersey",
     year: "2010",
   },
   {
@@ -2665,7 +2665,7 @@ const items: GalleryItem[] = [
     caption: "GSBS Annual Bonsai Show 2010 — member exhibits on display",
     category: "Annual Show",
     image: "/images/gallery/Show 03-10.JPG",
-    alt: "Annual Show 2010 - 3 2010",
+    alt: "GSBS Annual Bonsai Show 2010 exhibit #3, Great Swamp Bonsai Society Roseland New Jersey",
     year: "2010",
   },
   {
@@ -2674,7 +2674,7 @@ const items: GalleryItem[] = [
     caption: "GSBS Annual Bonsai Show 2010 — member exhibits on display",
     category: "Annual Show",
     image: "/images/gallery/Show 04-10.JPG",
-    alt: "Annual Show 2010 - 4 2010",
+    alt: "GSBS Annual Bonsai Show 2010 exhibit #4, Great Swamp Bonsai Society Roseland New Jersey",
     year: "2010",
   },
   {
@@ -2683,7 +2683,7 @@ const items: GalleryItem[] = [
     caption: "GSBS Annual Bonsai Show 2010 — member exhibits on display",
     category: "Annual Show",
     image: "/images/gallery/Show 06-10.JPG",
-    alt: "Annual Show 2010 - 6 2010",
+    alt: "GSBS Annual Bonsai Show 2010 exhibit #6, Great Swamp Bonsai Society Roseland New Jersey",
     year: "2010",
   },
   {
@@ -2692,7 +2692,7 @@ const items: GalleryItem[] = [
     caption: "GSBS Annual Bonsai Show 2010 — member exhibits on display",
     category: "Annual Show",
     image: "/images/gallery/Show 07-10.JPG",
-    alt: "Annual Show 2010 - 7 2010",
+    alt: "GSBS Annual Bonsai Show 2010 exhibit #7, Great Swamp Bonsai Society Roseland New Jersey",
     year: "2010",
   },
   {
@@ -2701,7 +2701,7 @@ const items: GalleryItem[] = [
     caption: "GSBS Annual Bonsai Show 2010 — member exhibits on display",
     category: "Annual Show",
     image: "/images/gallery/Show 08-10.JPG",
-    alt: "Annual Show 2010 - 8 2010",
+    alt: "GSBS Annual Bonsai Show 2010 exhibit #8, Great Swamp Bonsai Society Roseland New Jersey",
     year: "2010",
   },
   {
@@ -2710,7 +2710,7 @@ const items: GalleryItem[] = [
     caption: "GSBS Annual Bonsai Show 2010 — member exhibits on display",
     category: "Annual Show",
     image: "/images/gallery/Show 09-10.JPG",
-    alt: "Annual Show 2010 - 9 2010",
+    alt: "GSBS Annual Bonsai Show 2010 exhibit #9, Great Swamp Bonsai Society Roseland New Jersey",
     year: "2010",
   },
   {
@@ -2719,7 +2719,7 @@ const items: GalleryItem[] = [
     caption: "GSBS Annual Bonsai Show 2010 — member exhibits on display",
     category: "Annual Show",
     image: "/images/gallery/Show 10-10.JPG",
-    alt: "Annual Show 2010 - 10 2010",
+    alt: "GSBS Annual Bonsai Show 2010 exhibit #10, Great Swamp Bonsai Society Roseland New Jersey",
     year: "2010",
   },
   {
@@ -2728,7 +2728,7 @@ const items: GalleryItem[] = [
     caption: "GSBS Annual Bonsai Show 2010 — member exhibits on display",
     category: "Annual Show",
     image: "/images/gallery/Show 11-10.JPG",
-    alt: "Annual Show 2010 - 11 2010",
+    alt: "GSBS Annual Bonsai Show 2010 exhibit #11, Great Swamp Bonsai Society Roseland New Jersey",
     year: "2010",
   },
   {
@@ -2737,7 +2737,7 @@ const items: GalleryItem[] = [
     caption: "GSBS Annual Bonsai Show 2010 — member exhibits on display",
     category: "Annual Show",
     image: "/images/gallery/Show 12-10.JPG",
-    alt: "Annual Show 2010 - 12 2010",
+    alt: "GSBS Annual Bonsai Show 2010 exhibit #12, Great Swamp Bonsai Society Roseland New Jersey",
     year: "2010",
   },
   {
@@ -2746,7 +2746,7 @@ const items: GalleryItem[] = [
     caption: "GSBS Annual Bonsai Show 2010 — member exhibits on display",
     category: "Annual Show",
     image: "/images/gallery/Show 13-10.JPG",
-    alt: "Annual Show 2010 - 13 2010",
+    alt: "GSBS Annual Bonsai Show 2010 exhibit #13, Great Swamp Bonsai Society Roseland New Jersey",
     year: "2010",
   },
   {
